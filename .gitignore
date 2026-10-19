@@ -7,3 +7,7 @@ data/raw/ucty/*.html
 data/raw/ucty/cj
 data/raw/ucty/kbjar
 data/raw/ucty/rb_list.json
+
+# výpisy dárců stran se jmény – nepublikovat
+data/raw/zeleni/
+data/raw/darypiratum/
