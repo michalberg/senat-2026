@@ -350,7 +350,7 @@
   }
 
   function anomCard(a) {
-    const SEV = { vysoka: "vysoká závažnost", stredni: "střední", nizka: "nízká" };
+    const SEV = { vysoka: "vysoká závažnost", stredni: "střední", nizka: "nízká", info: "poznámka" };
     return `<div class="anom ${a.zavaznost}"><h3>${esc(a.nazev)} <span class="sev">${SEV[a.zavaznost]}</span></h3><p>${esc(a.text)}</p>${a.kandidati.length ? `<div class="who">${a.kandidati.map(k => C[k]).map(c => `<a href="#/obvod/${c.obvod}#k${c.id}">${sw(c)} ${esc(c.prijmeni)} (${c.obvod})</a>`).join("")}</div>` : ""}</div>`;
   }
 

@@ -130,12 +130,6 @@
   },
   {
    "zavaznost": "nizka",
-   "nazev": "Strany jako „dárci“ koaličních účtů",
-   "kandidati": [],
-   "text": "TOP 09 figuruje v seznamech dárců 14 koalic, Piráti 8, Spolek pro podporu liberální demokracie ČR 8, KDU-ČSL, Zelení, ODS, STAN a LES u dalších. Vklady koaličních partnerů tak v přehledu dárců splývají se skutečnými sponzory. V této analýze jsou vklady stran počítány zvlášť (sekce Strany)."
-  },
-  {
-   "zavaznost": "nizka",
    "nazev": "Nesoulady v registru volebních účtů",
    "kandidati": [
     "27-4",
@@ -180,6 +174,12 @@
    "nazev": "Haléřové „vzkazy“ na darovacích účtech",
    "kandidati": [],
    "text": "Darovací účet ANO dostal od ledna do 19. 10. 2026 1 199 plateb pod 1 Kč, SPD 139 – transparentní účty slouží jako nástěnka pro posměšné vzkazy (např. po senátních volbách). V analýze dárců nejsou započteny."
+  },
+  {
+   "zavaznost": "info",
+   "nazev": "Strany v seznamech dárců koalic",
+   "kandidati": [],
+   "text": "Zákon vyžaduje, aby se vklady koaličních partnerů na koaliční volební účet vykazovaly jako dary – proto TOP 09 figuruje v seznamech dárců 14 koalic, Piráti 8, KDU-ČSL, Zelení, ODS, STAN, SLK a LES u dalších. Fakticky to nejsou dárci, ale financování kampaně stranami. V této analýze jsou proto vedeny zvlášť jako typ „politická strana“ (filtr na stránce Dárci) a jejich vklady do jednotlivých koalic jsou v sekci Strany → Kdo platil koaliční kampaně. Spolek pro podporu liberální demokracie ČR (8 subjektů) stranou není – jde o skutečného dárce."
   }
  ]
 }
