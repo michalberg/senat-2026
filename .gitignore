@@ -11,3 +11,6 @@ data/raw/ucty/rb_list.json
 # výpisy dárců stran se jmény – nepublikovat
 data/raw/zeleni/
 data/raw/darypiratum/
+scripts/zeleni_pirati.py
+scripts/pirati_darci.py
+scripts/zeleni_darci.py
