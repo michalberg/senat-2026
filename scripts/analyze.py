@@ -174,13 +174,82 @@ for c in cands:
                   'pozde': s['nazev'] in D['neoznamili_1kolo'] or any(norm(x)[:20] == norm(s['nazev'])[:20] for x in D['neoznamili_1kolo'])}
 
 multi = [{'darce': k.split('|')[0], 'po': bool(re.fullmatch(r'\d{6,8}', k.split('|')[1])) or bool(re.search(r'strana|hnuti|spolek|s\.r\.o|a\.s\.|top 09|kdu|cz\b', k)), 'subjekty': sorted(v)} for k, v in cross.items() if len(v) > 1]
-for x in multi:
-    if not x['po']: x['darce'] = 'fyzická osoba (anonymizováno)'
 # kandidáti, kteří figurují v seznamech dárců (vlastní strany)
 cand_donors = [{'id': c['id'], 'subjekt': c['darci']['subjekt']} for c in cands if c.get('darci') and c['darci']['kandidat_darcem']]
 
 subjekty_out = [{'nazev': nm, 'stav': s['stav'], 'url': s['url'], 'zaznamu': len(s['darci']), 'po': sum(d['po'] for d in s['darci']),
                  'pozde': nm in D['neoznamili_1kolo']} for nm, s in subj.items()]
+
+# ---------- dárci: souhrnná tabulka ----------
+PARTY_DONOR = re.compile(r'^stan$|strana|hnuti|top 09|kdu-csl|piratsk|starostove|obcanska demokraticka|sen 21|svobodni|trikolora|fakt brno|volt|liberalne ekologick|praha sobe|pro pravo|hlas regionu|zeleni|soukromnik', re.I)
+subj_cands = defaultdict(list)
+for c in cands:
+    if c.get('darci'): subj_cands[c['darci']['subjekt']].append(c['id'])
+acc_by_key = {a['key']: a for a in M['ucty']}
+udh_amounts = defaultdict(float)  # ze zpráv ÚDHPSH
+for f in __import__('glob').glob(os.path.join(ROOT, 'data/raw/udh/zpravy/s2026-*-penize*.json')):
+    for r in json.load(open(f, encoding='utf-8')):
+        nm = norm(r.get('company') or f"{r.get('lastName','')} {r.get('firstName','')}")
+        udh_amounts[nm] += r.get('money') or 0
+
+
+def donor_key(d):
+    ident = d['id'].strip()
+    parts = [x.strip() for x in d['dárce'].split(',')]
+    if d['po']:
+        if re.fullmatch(r'\d{6,8}', ident): return 'ico:' + ident.zfill(8)
+        return 'po:' + re.sub(r'[^a-z0-9]', '', norm(parts[0]))
+    return 'fo:' + norm(parts[0] + ' ' + (parts[1] if len(parts) > 1 else '')) + '|' + ident
+
+
+donors = {}
+for nm, s in subj.items():
+    for d in s['darci']:
+        k = donor_key(d)
+        parts = [x.strip() for x in d['dárce'].split(',')]
+        r = donors.setdefault(k, {'k': k, 'po': d['po'], 'jmeno': parts[0] if d['po'] else (parts[1] + ' ' + parts[0] if len(parts) > 1 else parts[0]),
+                                  'misto': (parts[-1] if d['po'] and len(parts) > 1 else (parts[2] if len(parts) > 2 else '')),
+                                  'ico': d['id'].zfill(8) if d['po'] and re.fullmatch(r'\d{6,8}', d['id']) else '', 'subjekty': {}, 'zaznamu': 0})
+        if d['po'] and len(parts) > 2: r['misto'] = re.sub(r'\d{3}\s?\d{2}$', '', parts[-2] if re.fullmatch(r'\d{5}|\d{3} \d{2}', parts[-1]) else parts[-1]).strip()
+        r['subjekty'][nm] = r['subjekty'].get(nm, 0) + 1
+        r['zaznamu'] += 1
+
+
+# sloučit fyzické osoby uvedené jednou s datem narození a jednou bez
+for k in [k for k in donors if k.startswith('fo:') and k.endswith('|')]:
+    base = k[:-1]
+    twins = [x for x in donors if x.startswith(base) and x != k]
+    if len(twins) == 1:
+        t = donors[twins[0]]
+        for nm, n in donors[k]['subjekty'].items(): t['subjekty'][nm] = t['subjekty'].get(nm, 0) + n
+        t['zaznamu'] += donors[k]['zaznamu']; t['misto'] = t['misto'] or donors[k]['misto']
+        del donors[k]
+
+
+def tokens(r):
+    t = [x for x in re.split(r'[^a-z0-9]+', norm(r['jmeno'])) if len(x) >= 3 and x not in ('sro', 'spol', 'cesko', 'czech', 'republika', 'cr', 'group')]
+    return t[:3]
+
+
+for r in donors.values():
+    r['typ'] = 'strana' if r['po'] and PARTY_DONOR.search(norm(r['jmeno'])) and not re.search(r's\.?\s?r\.?\s?o|a\.\s?s\.', r['jmeno'], re.I) else ('po' if r['po'] else 'fo')
+    tk = tokens(r); amt = 0.0; n = 0
+    keys = set()
+    for nm in r['subjekty']:
+        for cid in subj_cands.get(nm, []): keys.update(C[cid]['ucty'])
+    for ak in keys:
+        for t in acc_by_key[ak].get('tx', []):
+            if t['amount'] > 0 and t['druh'] in (('dar', 'kandidat') if r['typ'] == 'fo' else ('dar', 'strana', 'neurceno')) and tk:
+                txt = norm(t['counterparty'])
+                if all(x in txt for x in tk): amt += t['amount']; n += 1
+    r['na_uctech'] = round(amt); r['plateb'] = n
+    r['zprava'] = round(udh_amounts.get(norm(r['jmeno'].split(' ', 1)[-1] + ' ' + r['jmeno'].split(' ', 1)[0]) if not r['po'] else norm(r['jmeno']), 0))
+    r['kandidati'] = sorted({cid for nm in r['subjekty'] for cid in subj_cands.get(nm, [])}, key=lambda x: (int(x.split('-')[0]), int(x.split('-')[1])))
+    r['subjekty'] = [{'s': k, 'n': v} for k, v in sorted(r['subjekty'].items(), key=lambda x: -x[1])]
+    r['n_subj'] = len(r['subjekty'])
+    del r['k']
+donor_list = sorted(donors.values(), key=lambda r: (-r['n_subj'], -r['zaznamu']))
+print('darcu', len(donor_list), 'po', sum(r['typ'] == 'po' for r in donor_list), 'strany', sum(r['typ'] == 'strana' for r in donor_list), 's castkou', sum(r['na_uctech'] > 0 for r in donor_list), round(sum(r['na_uctech'] for r in donor_list)))
 
 # ---------- obvody ----------
 obvody = []
@@ -274,7 +343,7 @@ for c in cands:
 out = {'vygenerovano': '2026-10-19', 'souhrn': souhrn, 'obvody': obvody, 'kandidati': cands, 'ucty': acc_out,
        'bloky': [{'id': k, 'nazev': BLOKY[k][0], 'barva': BLOKY[k][1], **{kk: (round(vv) if isinstance(vv, float) else vv) for kk, vv in by_blok[k].items()}} for k in BLOKY if k in by_blok],
        'subjekty': [{'nazev': k, **v} for k, v in by_vs.items()], 'strany': [{'strana': k, **v} for k, v in sorted(by_party.items(), key=lambda x: -x[1]['vydaje_pomerne'])],
-       'duely': duels, 'darci': {'subjekty': subjekty_out, 'vice_subjektu': multi, 'kandidati_darci': cand_donors, 'pozde': D['neoznamili_1kolo']},
+       'duely': duels, 'darci': {'seznam': donor_list, 'subjekty': subjekty_out, 'vice_subjektu': multi, 'kandidati_darci': cand_donors, 'pozde': D['neoznamili_1kolo']},
        'priznaky': flags, 'anomalie': ANOM['polozky']}
 os.makedirs(os.path.join(ROOT, 'docs'), exist_ok=True)
 json.dump(out, open(os.path.join(ROOT, 'docs', 'data.json'), 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
