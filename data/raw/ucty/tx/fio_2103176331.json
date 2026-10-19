@@ -1,0 +1,260 @@
+{
+"bank": "fio",
+"id": "2103176331",
+"url": "https://ib.fio.cz/ib/transparent?a=2103176331",
+"owner": "Politické hnutí NEZLOMNÍ",
+"name": "NEZLOMNÍ - volby do PS PČR 2025",
+"number": "2103176331 / 2010",
+"summary": {
+"Stav k: 01.01.26": 0.0,
+"Stav k: 19.10.26": 0.0,
+"Suma příjmů": 95400.38,
+"Suma výdajů": -95400.38,
+"Suma celkem": 0.0,
+"Běžný zůstatek": 0.0
+},
+"tx": [
+{
+"date": "2026-10-05",
+"amount": -2000.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "Vrácení daru",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "Vrácení daru"
+},
+{
+"date": "2026-10-04",
+"amount": 2000.0,
+"type": "Okamžitá příchozí platba",
+"counterparty": "Ludvík Martin",
+"message": "Martin Ludvík -720430443",
+"ks": "0000",
+"vs": "",
+"ss": "",
+"note": "Ludvík Martin"
+},
+{
+"date": "2026-10-02",
+"amount": -12342.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "",
+"message": "Vrácení daru Nela Lisková ze dne 29.9.2026",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "Vrácení daru Nela Lisková ze dne 29.9.2026"
+},
+{
+"date": "2026-10-02",
+"amount": 12342.0,
+"type": "Bezhotovostní příjem",
+"counterparty": "KLEINWÄCHTER HOLDING",
+"message": "",
+"ks": "0308",
+"vs": "260800055",
+"ss": "0",
+"note": "KLEINWÄCHTER Vrácená platba faktury"
+},
+{
+"date": "2026-10-01",
+"amount": -12342.0,
+"type": "Bezhotovostní platba",
+"counterparty": "",
+"message": "",
+"ks": "0308",
+"vs": "26800055",
+"ss": "",
+"note": "Faktura - bannery + letáky"
+},
+{
+"date": "2026-10-01",
+"amount": 12342.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Politické hnutí NEZLOMNÍ",
+"message": "",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "Dar na volby Senát 2026"
+},
+{
+"date": "2026-10-01",
+"amount": -4598.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "",
+"ks": "0308",
+"vs": "260800057",
+"ss": "",
+"note": "Faktura tisk letáky"
+},
+{
+"date": "2026-10-01",
+"amount": 4598.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Politické hnutí NEZLOMNÍ",
+"message": "Dar na volby Senát 2026",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "Dar na volby Senát 2026"
+},
+{
+"date": "2026-09-29",
+"amount": -12342.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "",
+"ks": "0308",
+"vs": "260800055",
+"ss": "",
+"note": "Faktura tisk - letáky + bannery"
+},
+{
+"date": "2026-09-29",
+"amount": 12342.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Lisková, Nela",
+"message": "Dar Nela Lisková - na letáky a bannery",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "Dar Nela Lisková - na letáky a bannery"
+},
+{
+"date": "2026-09-25",
+"amount": -2299.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "",
+"ks": "0308",
+"vs": "260800053",
+"ss": "",
+"note": "Faktura - letáky"
+},
+{
+"date": "2026-09-25",
+"amount": 2299.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Politické hnutí NEZLOMNÍ",
+"message": "",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "Dar Nela Lisková - na letáky"
+},
+{
+"date": "2026-09-18",
+"amount": -10000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "",
+"message": "",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "Vrácení daru"
+},
+{
+"date": "2026-09-17",
+"amount": 10000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Ing. Malenková, Miloslava",
+"message": "Vydržte!",
+"ks": "",
+"vs": "1953",
+"ss": "",
+"note": "Vydržte!"
+},
+{
+"date": "2026-09-17",
+"amount": -17545.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "",
+"ks": "0308",
+"vs": "260103290",
+"ss": "",
+"note": "Faktura - bannery"
+},
+{
+"date": "2026-09-17",
+"amount": 17545.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Politické hnutí NEZLOMNÍ",
+"message": "",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "Dar Nela Lisková - na bannery"
+},
+{
+"date": "2026-09-14",
+"amount": -1400.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "Vrácení daru",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "Vrácení daru - Bartoška Milan"
+},
+{
+"date": "2026-09-08",
+"amount": 532.38,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Lisková, Nela",
+"message": "Vrácení platby za fakturu 6010580811",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "Vrácení platby za fakturu 6010580811"
+},
+{
+"date": "2026-09-08",
+"amount": -532.38,
+"type": "Bezhotovostní platba",
+"counterparty": "",
+"message": "ZASILKOVNA QR",
+"ks": "",
+"vs": "6010580811",
+"ss": "",
+"note": "ZASILKOVNA QR"
+},
+{
+"date": "2026-08-17",
+"amount": 1400.0,
+"type": "Okamžitá příchozí platba",
+"counterparty": "Bartoška Milan",
+"message": "Dar pro Nelu 602 513 788 Milan Bartoška",
+"ks": "0000",
+"vs": "",
+"ss": "",
+"note": "Bartoška Milan"
+},
+{
+"date": "2026-07-30",
+"amount": -20000.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "Volební obv. 69 - Nela Lisková - kauce volby Senát 2026",
+"ks": "0558",
+"vs": "7558095600",
+"ss": "",
+"note": "Volební obv. 69 - Nela Lisková - kauce volby Senát 2026"
+},
+{
+"date": "2026-07-29",
+"amount": 20000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Lisková, Nela",
+"message": "Volby 2026 - kauce - Senát",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "Volby 2026 - kauce - Senát"
+}
+]
+}

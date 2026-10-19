@@ -1,0 +1,142 @@
+{
+  "@context": ["http://www.w3.org/ns/csvw",{"@language": "cs"}],
+  "url": "serk.csv",
+  "dc:description": "Registr kandidátů", 
+  "tableSchema": { 
+    "columns": [{
+      "name": "OBVOD",
+      "titles": "OBVOD",
+      "dc:description": "Kód senátního volebního obvodu",
+      "required": false,
+      "datatype": "number"
+    },{
+      "name": "CKAND",
+      "titles": "CKAND",
+      "dc:description": "Vylosované číslo kandidáta v rámci obvodu",
+      "required": false,
+      "datatype": "number"
+    },{
+      "name": "VSTRANA",
+      "titles": "VSTRANA",
+      "dc:description": "Interní kód strany ČSÚ - volební strana",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "JMENO",
+      "titles": "JMENO",
+      "dc:description": "Jméno, příp. i další jména",
+      "required": true,
+      "datatype": "string"
+    },{
+      "name": "PRIJMENI",
+      "titles": "PRIJMENI",
+      "dc:description": "Příjmení",
+      "required": true,
+      "datatype": "string"
+    },{
+      "name": "TITULPRED",
+      "titles": "TITULPRED",
+      "dc:description": "Tituly před jménem",
+      "required": true,
+      "datatype": "string"
+    },{
+      "name": "TITULZA",
+      "titles": "TITULZA",
+      "dc:description": "Tituly za příjmením",
+      "required": true,
+      "datatype": "string"
+    },{
+      "name": "VEK",
+      "titles": "VEK",
+      "dc:description": "Věk",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "POVOLANI",
+      "titles": "POVOLANI",
+      "dc:description": "Povolání",
+      "required": true,
+      "datatype": "string"
+    },{
+      "name": "BYDLISTEN",
+      "titles": "BYDLISTEN",
+      "dc:description": "Název obce - bydliště",
+      "required": true,
+      "datatype": "string"
+    },{
+      "name": "PSTRANA",
+      "titles": "PSTRANA",
+      "dc:description": "Kód politické příslušnosti",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "NSTRANA",
+      "titles": "NSTRANA",
+      "dc:description": "Kód navrhující strany",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "PLATNOST",
+      "titles": "PLATNOST",
+      "dc:description": "Platnost (A = platný, N = neplatný. E = neregistrovaný)",
+      "required": true,
+      "datatype": "string"
+    },{
+      "name": "HLASY_K1",
+      "titles": "HLASY_K1",
+      "dc:description": "Počet hlasů v 1. kole",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "PROC_K1",
+      "titles": "PROC_K1",
+      "dc:description": "Procento hlasů uříznuté na 2 desetinná místae",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "URIZ_PR_K1",
+      "titles": "URIZ_PR_K1",
+      "dc:description": "Procento hlasů nezaokrouhlené",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "ZVOLEN_K1",
+      "titles": "ZVOLEN_K1",
+      "dc:description": "Stav po prvním kole: Stav po prvním kole: 0 = nezvolen, 1 = zvolen, 2 = kandidát 2. kola",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "HLASY_K2",
+      "titles": "HLASY_K2",
+      "dc:description": "Počet hlasů ve 2. kole",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "PROC_K2",
+      "titles": "PROC_K2",
+      "dc:description": "Procento hlasů uříznuté na 2 desetinná místa",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "URIZ_PR_K2",
+      "titles": "URIZ_PR_K2",
+      "dc:description": "Procento hlasů nezaokrouhlené",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "ZVOLEN_K2",
+      "titles": "ZVOLEN_K2",
+      "dc:description": "Stav po druhém kole: 0 = nezvolen, 1 = zvolen",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "NAZEV_VS",
+      "titles": "NAZEV_VS",
+      "dc:description": "Název volební strany",
+      "required": true,
+      "datatype": "string"
+    }
+    ],
+    "primaryKey": ["OBVOD","CKAND"]
+  }
+}

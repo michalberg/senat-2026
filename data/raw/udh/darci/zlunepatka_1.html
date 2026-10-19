@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Seznam dárců</title>
+    <meta charset="UTF-8">
+    <style>
+    body {
+        font-size: 10pt;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    h3 {
+        margin-top: 30px;
+    }
+
+    table {
+        border-collapse: collapse;
+    }
+
+    td {
+        border: 1px solid #888888;
+        padding: 3px 6px 3px 6px;
+        vertical-align: top;
+    }
+
+    .amount {
+        text-align: right;
+        white-space: nowrap;
+    }
+
+    tr.header {
+        background-color: #dddddd;
+    }
+
+    tr.header td {
+        vertical-align: middle;
+    }
+
+    #warning {
+        padding: 10px;
+        background-color: #ff704d;
+        color: white;
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    #info {
+        padding: 10px;
+        background-color: #80bfff;
+        color: white;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    @media print
+    {
+        .no-print, .no-print *
+        {
+            display: none !important;
+        }
+    }
+    </style>
+  </head>
+  <body>
+
+    <div id="info" class="no-print">Pro tisk nebo export do PDF stiskněte <b>Ctrl+P</b>. Zvolte tiskárnu nebo uložení do souboru PDF.</div>
+
+    <h1>Seznam dárců ke zveřejnění před volbami</h1>
+
+    <p>Kandidující subjekt / Kandidát: <b>ZDENĚK ŠARAPATKA - ZLU SE NEUSTUPUJE</b><br>
+    Řádné volby do senátu 2026</p>
+
+
+<table>
+<tr class="header"><td>Dárce<br><small>(jméno, příjmení, obec trvalého pobytu,<br>případně obchodní firma nebo název právnické osoby, sídlo)</small></td><td>Datum narození dárce<br>/ identifikační číslo,<br>bylo-li přiděleno</td></tr>
+<tr><td>Vicherek, Tomáš, Praha</td><td>19.02.1962</td></tr>
+<tr><td>Lanč, Radek, Zeleneč</td><td>02.07.1966</td></tr>
+<tr><td>Šteindler, Milan, Praha</td><td>12.04.1957</td></tr>
+<tr><td>Česká pirátská strana, Na Moráni 360/3, Praha, 12800</td><td>71339698</td></tr>
+<tr><td>Liberálně ekologická strana, Sněmovní 174/7, Praha, 11800</td><td>71443606</td></tr>
+</table>
+
+  </body>
+</html>

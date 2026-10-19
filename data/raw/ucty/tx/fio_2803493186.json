@@ -1,0 +1,150 @@
+{
+"bank": "fio",
+"id": "2803493186",
+"url": "https://ib.fio.cz/ib/transparent?a=2803493186",
+"owner": "STAROSTOVÉ A NEZÁVISLÍ",
+"name": "Volební účet – Senátní volby 2026 – koalice STAN, ODS, Piráti, TOP 09",
+"number": "2803493186 / 2010",
+"summary": {
+"Stav k: 01.01.26": 0.0,
+"Stav k: 19.10.26": 253174.25,
+"Suma příjmů": 600000.0,
+"Suma výdajů": -346825.75,
+"Suma celkem": 253174.25,
+"Běžný zůstatek": 253174.25
+},
+"tx": [
+{
+"date": "2026-10-15",
+"amount": 30000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Občanská demokratická strana",
+"message": "ODS_vklad na společnou kampaň_senátní volby_SEO 27_Padevět J.",
+"ks": "0378",
+"vs": "26673908",
+"ss": "",
+"note": "ODS_vklad na společnou kampaň_senátní volby_SEO 27_Padevět J."
+},
+{
+"date": "2026-10-12",
+"amount": 10000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "TOP 09",
+"message": "TOP 09, Opletalova 1603/57, 11000 Praha 1, vklad na koaliční kampaň senát obvod 27 Jiří Padevět 2.kolo",
+"ks": "",
+"vs": "71339728",
+"ss": "27",
+"note": "TOP 09, Opletalova 1603/57, 11000 Praha 1, vklad na koaliční kampaň senát obvod 27 Jiří Padevět 2.kolo"
+},
+{
+"date": "2026-10-08",
+"amount": -5018.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "",
+"ks": "0308",
+"vs": "5114213327",
+"ss": "0487",
+"note": "Česká pošta, s.p. - roznos informačních materiálů - SPOLEČNÝ VÝDAJ"
+},
+{
+"date": "2026-10-05",
+"amount": -109191.61,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "",
+"ks": "",
+"vs": "310260412",
+"ss": "66600976",
+"note": "BigBoard Media s.r.o. - pronájem reklamních ploch"
+},
+{
+"date": "2026-10-04",
+"amount": -10285.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "",
+"ks": "",
+"vs": "26211336",
+"ss": "",
+"note": "Tiskárna AZUS s.r.o. - tiskové služby"
+},
+{
+"date": "2026-10-04",
+"amount": -7084.24,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "",
+"ks": "",
+"vs": "20260529",
+"ss": "",
+"note": "NewTech Production a.s. - promo stánek, branding"
+},
+{
+"date": "2026-09-27",
+"amount": -1573.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "",
+"ks": "0308",
+"vs": "8888",
+"ss": "220064",
+"note": "Městská část Praha - Troja - inzerce"
+},
+{
+"date": "2026-09-10",
+"amount": -113437.5,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "",
+"ks": "",
+"vs": "310260368",
+"ss": "66600813",
+"note": "BigBoard Media s.r.o. - pronájem reklamních ploch, tisk"
+},
+{
+"date": "2026-08-25",
+"amount": -100236.4,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "",
+"ks": "",
+"vs": "310260318",
+"ss": "",
+"note": "BigBoard Media s.r.o. - pronájem reklamních ploch"
+},
+{
+"date": "2026-08-17",
+"amount": 200000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Česká pirátská strana",
+"message": "pp#45716 FO 1806/2026, cen:p, starostove-a-nezavisli",
+"ks": "",
+"vs": "272026",
+"ss": "",
+"note": "pp#45716 FO 1806/2026, cen:p, starostove-a-nezavisli"
+},
+{
+"date": "2026-08-06",
+"amount": 90000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "TOP 09",
+"message": "TOP 09, Opletalova 1603/57, 11000 Praha 1, vklad na koaliční kampaň senát obvod 27 Jiří Padevět",
+"ks": "",
+"vs": "71339728",
+"ss": "27",
+"note": "TOP 09, Opletalova 1603/57, 11000 Praha 1, vklad na koaliční kampaň senát obvod 27 Jiří Padevět"
+},
+{
+"date": "2026-07-31",
+"amount": 270000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Občanská demokratická strana",
+"message": "ODS_vklad na společnou kampaň_senátní volby_SEO 27_Padevět J.",
+"ks": "0378",
+"vs": "26673908",
+"ss": "",
+"note": "ODS_vklad na společnou kampaň_senátní volby_SEO 27_Padevět J."
+}
+]
+}

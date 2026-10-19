@@ -1,0 +1,205 @@
+{
+"bank": "fio",
+"id": "2903485538",
+"url": "https://ib.fio.cz/ib/transparent?a=2903485538",
+"owner": "Švýcarská demokracie",
+"name": "Volební účet Švýcarská demokracie - Volby do Senátu PČR 2026",
+"number": "2903485538 / 2010",
+"summary": {
+"Stav k: 01.01.26": 0.0,
+"Stav k: 19.10.26": 0.0,
+"Suma příjmů": 125957.48,
+"Suma výdajů": -125957.48,
+"Suma celkem": 0.0,
+"Běžný zůstatek": 0.0
+},
+"tx": [
+{
+"date": "2026-10-05",
+"amount": -17882.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "",
+"message": "",
+"ks": "",
+"vs": "20261197",
+"ss": "",
+"note": "R. Hompora - letáky"
+},
+{
+"date": "2026-10-05",
+"amount": 17882.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Švýcarská demokracie",
+"message": "převod z účtu pro přijímání darů na účet pro volby do Senátu 2026",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "převod z účtu pro přijímání darů na účet pro volby do Senátu 2026"
+},
+{
+"date": "2026-09-28",
+"amount": -3000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "",
+"message": "",
+"ks": "",
+"vs": "11113",
+"ss": "",
+"note": "R. Hompora - bannery"
+},
+{
+"date": "2026-09-28",
+"amount": 3000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Švýcarská demokracie",
+"message": "převod z účtu pro přijímání darů na účet pro volby do Senátu 2026",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "převod z účtu pro přijímání darů na účet pro volby do Senátu 2026"
+},
+{
+"date": "2026-09-19",
+"amount": -1500.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "",
+"ks": "0308",
+"vs": "202605",
+"ss": "",
+"note": "R. Hompora - fotopráce"
+},
+{
+"date": "2026-09-19",
+"amount": 1500.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Švýcarská demokracie",
+"message": "převod z účtu pro přijímání darů na účet pro volby do Senátu 2026",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "převod z účtu pro přijímání darů na účet pro volby do Senátu 2026"
+},
+{
+"date": "2026-09-07",
+"amount": -1050.28,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "",
+"ks": "0308",
+"vs": "920282026",
+"ss": "",
+"note": "R. Hompora hosting"
+},
+{
+"date": "2026-09-07",
+"amount": 1050.28,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Švýcarská demokracie",
+"message": "převod z účtu pro přijímání darů na účet pro volby do Senátu 2026",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "převod z účtu pro přijímání darů na účet pro volby do Senátu 2026"
+},
+{
+"date": "2026-09-07",
+"amount": -2399.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "",
+"message": "",
+"ks": "",
+"vs": "5693397924",
+"ss": "57",
+"note": "R. Hompora - nákup softwaru"
+},
+{
+"date": "2026-09-07",
+"amount": 2399.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Švýcarská demokracie",
+"message": "převod z účtu pro přijímání darů na účet pro volby do Senátu 2026",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "převod z účtu pro přijímání darů na účet pro volby do Senátu 2026"
+},
+{
+"date": "2026-08-27",
+"amount": -3630.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "",
+"ks": "",
+"vs": "2263103",
+"ss": "",
+"note": "RNDr. Štedroň - grafika 2"
+},
+{
+"date": "2026-08-27",
+"amount": -1694.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "",
+"ks": "",
+"vs": "2263105",
+"ss": "",
+"note": "RNDr. Štědroň - grafika 1"
+},
+{
+"date": "2026-08-27",
+"amount": 5324.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Švýcarská demokracie",
+"message": "převod z provozního účtu na účet pro volby do Senátu 2026",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "převod z provozního účtu na účet pro volby do Senátu 2026"
+},
+{
+"date": "2026-08-19",
+"amount": -74802.2,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "",
+"ks": "0308",
+"vs": "26001",
+"ss": "",
+"note": "RNDr. Štědroň - pronájem rekl. ploch + tisk"
+},
+{
+"date": "2026-08-19",
+"amount": 74802.2,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Švýcarská demokracie",
+"message": "převod z účtu pro přijímání darů na účet pro volby do Senátu 2026",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "převod z účtu pro přijímání darů na účet pro volby do Senátu 2026"
+},
+{
+"date": "2026-08-04",
+"amount": -20000.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "složení kauce za kandidáta do senátu Jiřího Pavla Peška",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "Ing. Pešek - složení kauce za kandidáta do senátu"
+},
+{
+"date": "2026-08-04",
+"amount": 20000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Švýcarská demokracie",
+"message": "převod z účtu pro přijímání darů na účet pro volby do Senátu 2026",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "převod z účtu pro přijímání darů na účet pro volby do Senátu 2026"
+}
+]
+}

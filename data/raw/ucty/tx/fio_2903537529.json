@@ -1,0 +1,293 @@
+{
+"bank": "fio",
+"id": "2903537529",
+"url": "https://ib.fio.cz/ib/transparent?a=2903537529",
+"owner": "Strana zelených",
+"name": "Transparentní účet k senátním volbám – Senátní obvod 33 – Děčín",
+"number": "2903537529 / 2010",
+"summary": {
+"Stav k: 01.01.26": 0.0,
+"Stav k: 19.10.26": 4475.88,
+"Suma příjmů": 244738.0,
+"Suma výdajů": -240262.12,
+"Suma celkem": 4475.88,
+"Běžný zůstatek": 4475.88
+},
+"tx": [
+{
+"date": "2026-10-13",
+"amount": -5798.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "",
+"message": "ZELENI MIROSLAV STROSS",
+"ks": "",
+"vs": "1260988",
+"ss": "",
+"note": "tisk letáků"
+},
+{
+"date": "2026-10-13",
+"amount": -8364.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "",
+"message": "ZELENI STROSS A1",
+"ks": "",
+"vs": "1260775",
+"ss": "",
+"note": "tisk plakátů"
+},
+{
+"date": "2026-10-13",
+"amount": -10273.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "20260565 ANDRAS MEDIA S.R.O.",
+"ks": "0308",
+"vs": "20260565",
+"ss": "",
+"note": "inzerce v časopise"
+},
+{
+"date": "2026-10-13",
+"amount": 15000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Strana zelených",
+"message": "převod finančních prostředků",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "převod finančních prostředků"
+},
+{
+"date": "2026-09-25",
+"amount": -16157.37,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "Strana zelených",
+"ks": "",
+"vs": "420260576",
+"ss": "",
+"note": "Roznos letáků"
+},
+{
+"date": "2026-09-24",
+"amount": 15000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Strana zelených",
+"message": "Podíl na senátní volby za KO Ústecký, volební obvod Děčín",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "Podíl na senátní volby za KO Ústecký, volební obvod Děčín"
+},
+{
+"date": "2026-09-24",
+"amount": 10000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Strana zelených",
+"message": "převod finančních prostředků",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "převod finančních prostředků"
+},
+{
+"date": "2026-09-21",
+"amount": -4000.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "Strana zelených",
+"ks": "",
+"vs": "2026005",
+"ss": "",
+"note": "grafické práce Lukáš Procházka"
+},
+{
+"date": "2026-09-14",
+"amount": -925.65,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "FAKTURUJEME VAM ZBOZI DLE VASI OBJEDNAVKY TISKY ARCHITEKT DO",
+"ks": "0308",
+"vs": "26200534",
+"ss": "",
+"note": "Tisk letáky, banner"
+},
+{
+"date": "2026-09-02",
+"amount": -1089.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "FAKTURUJEME VAM ZBOZI DLE VASI OBJEDNAVKY TRIKA S POTISKEM P",
+"ks": "0308",
+"vs": "26200494",
+"ss": "",
+"note": "letáky a banner"
+},
+{
+"date": "2026-08-18",
+"amount": -3115.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "20260132 EPONA OSTRAVA S.R.O.",
+"ks": "0308",
+"vs": "20260132",
+"ss": "",
+"note": "Epona - dodatečná faktura"
+},
+{
+"date": "2026-08-17",
+"amount": -4000.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "Strana zelených",
+"ks": "",
+"vs": "2026004",
+"ss": "",
+"note": "grafické práce Lukáš Procházka"
+},
+{
+"date": "2026-08-17",
+"amount": 14738.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Strana zelených",
+"message": "převod finančních prostředků",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "převod finančních prostředků"
+},
+{
+"date": "2026-08-10",
+"amount": -20546.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "20260438 ANDRAS MEDIA S.R.O.",
+"ks": "0308",
+"vs": "20260438",
+"ss": "",
+"note": "inzerce v časopise"
+},
+{
+"date": "2026-08-10",
+"amount": -8329.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "",
+"message": "ZELENI STROSS",
+"ks": "",
+"vs": "1260690",
+"ss": "",
+"note": "vizitky, letáky"
+},
+{
+"date": "2026-08-10",
+"amount": -11797.5,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "FAKTURUJEME VAM ZBOZI DLE VASI OBJEDNAVKY TRIKA S POTISKEM P",
+"ks": "0308",
+"vs": "26200436",
+"ss": "",
+"note": "trička potisk"
+},
+{
+"date": "2026-08-10",
+"amount": 35000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Strana zelených",
+"message": "převod finančních prostředků",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "převod finančních prostředků"
+},
+{
+"date": "2026-07-27",
+"amount": -59005.65,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "",
+"ks": "",
+"vs": "310260072",
+"ss": "",
+"note": "BigBoard Media"
+},
+{
+"date": "2026-07-20",
+"amount": -2500.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "",
+"message": "STRANA ZELENYCH",
+"ks": "",
+"vs": "20260702",
+"ss": "",
+"note": "fotografické práce"
+},
+{
+"date": "2026-07-20",
+"amount": -20000.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "kauce senátní volby Miroslav Štross",
+"ks": "",
+"vs": "8507202583",
+"ss": "558",
+"note": "kauce senátní volby Miroslav Štross"
+},
+{
+"date": "2026-07-13",
+"amount": -32521.0,
+"type": "Bezhotovostní platba",
+"counterparty": "",
+"message": "Platba zalohoveho listu ZLV-1155/2026",
+"ks": "0000",
+"vs": "10271155",
+"ss": "",
+"note": "Rengl"
+},
+{
+"date": "2026-07-09",
+"amount": -29840.95,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "20260116 EPONA OSTRAVA S.R.O.",
+"ks": "0308",
+"vs": "20260116",
+"ss": "",
+"note": "výlep plakátů Epona"
+},
+{
+"date": "2026-07-08",
+"amount": 130000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Strana zelených",
+"message": "převod finančních prostředků",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "převod finančních prostředků"
+},
+{
+"date": "2026-07-08",
+"amount": -2000.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "Strana zelených",
+"ks": "",
+"vs": "20260002",
+"ss": "",
+"note": "fotografické práce"
+},
+{
+"date": "2026-07-07",
+"amount": 25000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Strana zelených",
+"message": "Podíl na senátní volby za KO Ústecký, volební obvod Děčín",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "Podíl na senátní volby za KO Ústecký, volební obvod Děčín"
+}
+]
+}

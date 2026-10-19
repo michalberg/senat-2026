@@ -1,0 +1,128 @@
+{
+"bank": "fio",
+"id": "-103",
+"url": "https://ib.fio.cz/ib/transparent?a=-103",
+"owner": "Občanská demokratická strana",
+"name": "Volby do Senátu 2026_ODS, TOP09, Koruna Česká",
+"number": "",
+"summary": {
+"Stav k: 01.01.26": 0.0,
+"Stav k: 19.10.26": 0.0,
+"Suma příjmů": 731942.18,
+"Suma výdajů": -731942.18,
+"Suma celkem": 0.0,
+"Běžný zůstatek": 0.0
+},
+"tx": [
+{
+"date": "2026-10-07",
+"amount": -78837.24,
+"type": "Bezhotovostní platba",
+"counterparty": "",
+"message": "9/VLTAVA LABE MEDIA a.s., inzerce",
+"ks": "0308",
+"vs": "2617013648",
+"ss": "9",
+"note": "9/VLTAVA LABE MEDIA a.s., inzerce"
+},
+{
+"date": "2026-10-07",
+"amount": -52550.0,
+"type": "Bezhotovostní platba",
+"counterparty": "",
+"message": "9/RENGL, s.r.o., výlep plakátů",
+"ks": "0308",
+"vs": "10175295",
+"ss": "9",
+"note": "9/RENGL, s.r.o., výlep plakátů"
+},
+{
+"date": "2026-10-07",
+"amount": 131387.24,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Občanská demokratická strana",
+"message": "9/převod financí",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "9/převod financí"
+},
+{
+"date": "2026-09-25",
+"amount": -205489.94,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "9/LED MULTIMEDIA s.r.o., kampan na LED obrazovkách",
+"ks": "0308",
+"vs": "260100566",
+"ss": "9",
+"note": "9/LED MULTIMEDIA s.r.o., kampan na LED obrazovkách"
+},
+{
+"date": "2026-09-25",
+"amount": 205054.94,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Občanská demokratická strana",
+"message": "9/převod financí",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "9/převod financí"
+},
+{
+"date": "2026-09-01",
+"amount": -302500.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "9/Hookon s.r.o., konzultační služby, příprava kampaně",
+"ks": "0308",
+"vs": "20260004",
+"ss": "9",
+"note": "9/Hookon s.r.o., konzultační služby, příprava kampaně"
+},
+{
+"date": "2026-09-01",
+"amount": 202500.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Občanská demokratická strana",
+"message": "9/převod financí",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "9/převod financí"
+},
+{
+"date": "2026-08-04",
+"amount": 100000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "TOP 09",
+"message": "TOP 09, Opletalova 1603/57, 11000 Praha 1, vklad na koaliční kampaň senát obvod 9 Lumír Aschenbrenner",
+"ks": "",
+"vs": "71339728",
+"ss": "9",
+"note": "TOP 09, Opletalova 1603/57, 11000 Praha 1, vklad na koaliční kampaň senát obvod 9 Lumír Aschenbrenner"
+},
+{
+"date": "2026-07-21",
+"amount": -92565.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "9/Hookon s.r.o., příprava kampaně, konzultační služby",
+"ks": "0308",
+"vs": "20260701",
+"ss": "9",
+"note": "9/Hookon s.r.o., příprava kampaně, konzultační služby"
+},
+{
+"date": "2026-07-21",
+"amount": 93000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Občanská demokratická strana",
+"message": "9/převod financí",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "9/převod financí"
+}
+]
+}

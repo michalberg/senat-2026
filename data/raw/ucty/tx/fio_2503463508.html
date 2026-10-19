@@ -1,0 +1,8357 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><script type="text/javascript" src="./fio/resource/cz.fio.ib2.common.wicket.web.component.dropdown.AbstractBsDropDownField/AbstractBsDropDownField-ver-CD54358CD1FB9B64187B3715E51DFD50.js"></script>
+<script type="text/javascript" src="./fio/resource/cz.fio.ib2.common.wicket.web.layout.jquery.JQuery/js/jquery-3.7.1.min-ver-2C872DBE60F4BA70FB85356113D8B35E.js"></script>
+<script type="text/javascript" src="./fio/resource/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/res/js/wicket-ajax-jquery-ver-EF5CE716023AC851E8B721946431BE44.js"></script>
+<link rel="stylesheet" type="text/css" href="./fio/resource/cz.fio.ib2.common.wicket.web.layout.jqueryUI.JQueryUI/jquery-ui.min-ver-434CDC340B91918C3B575B520914A518.css" media="screen" />
+<script type="text/javascript" src="./fio/resource/cz.fio.ib2.common.wicket.web.layout.jqueryUI.JQueryUI/jquery-ui.min-ver-6DF56C01471A6C5DE0CA276AC17AE002.js"></script>
+<script type="text/javascript" src="./fio/resource/cz.fio.ib2.web.component.datePicker.DatePicker/DatePicker_cs-ver-B53E393FD0791540160DFB834FE263AD.js"></script>
+<script type="text/javascript" src="./fio/resource/cz.fio.ib2.web.component.datePicker.DatePicker/DatePickerInDropDownMenu-ver-1FE3BDD37458014DFE595AD517028979.js"></script>
+<script type="text/javascript" src="./fio/resource/cz.fio.ib2.web.component.table.Table/Table-ver-3DE080416D5FA49083F86F814855630F.js"></script>
+<script type="text/javascript" src="./fio/resource/cz.fio.ib2.web.component.quicksearch.QuickSearchField/QuickSearchField-ver-1C3BD3ACD4033EE7AB7417221D732CDC.js"></script>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="icon" sizes="16x16" type="image/x-icon" href="./fio/resource/cz.fio.ib2.common.wicket.web.layout.image.FioImage/png/favicon-ver-BED52CBBA61C3C2EFBCD2A3F722B3146.ico">
+	<title>Internetové bankovnictví | Fio banka</title>
+	
+
+<link rel="stylesheet" type="text/css" href="./fio/resource/cz.fio.ib2.common.wicket.web.layout.bootstrap.Bootstrap/css/bootstrap.min-ver-CA5A2CC85A4D1AAF8808B37630F51F16.css" media="screen, print" />
+<script type="text/javascript" src="./fio/resource/cz.fio.ib2.common.wicket.web.layout.bootstrap.Bootstrap/js/bootstrap.bundle.min-ver-D8E27CC5431148FDB4072D724AF1D628.js"></script>
+<link rel="stylesheet" type="text/css" href="./fio/resource/cz.fio.ib2.common.wicket.web.layout.fontawesome.FontAwesome/css/font-awesome.min-ver-269550530CC127B6AA5A35925A7DE6CE.css" media="screen" />
+<script type="text/javascript" src="./fio/resource/cz.fio.ib2.common.wicket.web.layout.scripts.Scripts/defaultJsFunctions-ver-8768E88476065C4AFCC8AA60F1BE5E13.js"></script>
+<script type="text/javascript" src="./fio/resource/cz.fio.ib2.common.wicket.web.layout.scripts.Scripts/defaultLocalizedJsFunctions-ver-57244FFEF2516F1B0F7E5D0F00C28E1C.js"></script>
+<script type="text/javascript" src="./fio/resource/cz.fio.ib2.common.wicket.web.layout.scripts.Scripts/bootstrapCustomBehavior-ver-E5209746E93490F49B62C42B49A1B7F5.js"></script>
+<link rel="stylesheet" type="text/css" href="./fio/resource/cz.fio.ib2.web.layout.BasePage/style-ver-FC272502FBC926E25B693D07D3EB7386.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="./fio/resource/cz.fio.ib2.web.layout.BasePage/print-ver-EFDAA39FD350BC070DD9139383CCA5BC.css" media="print" />
+<meta name="description" content="Přihlášení do internetového bankovnictví Fio banky. Kromě plateb si zde můžete založit i další účty, požádat o půjčku, kontokorent a další služby." />
+<script type="text/javascript">
+/*<![CDATA[*/
+Wicket.Event.add(window, "load", function(event) { 
+registerFioBsDropDownEvents('idd8a212118ab4155f1', true);
+$('#id404d5bce33ca92ae2').datepickerAnchored({minDate: -1096,maxDate: 0}); $('#id8115bfd038d7960d3').click(function(){$(this).prev('.datepickerInput').datepicker('show');});;
+$('#id58db9b150867035b4').datepickerAnchored({minDate: -1096,maxDate: 0}); $('#idd012539005badd5d5').click(function(){$(this).prev('.datepickerInput').datepicker('show');});;
+(function() {
+
+	var oldValFrom = null;
+	var oldValTo = null;
+	
+	function checkRadioRychlaVolba() {
+		if ($("#ida3fd9a72746d8f366 .radioTYDEN").is(':checked')) {
+			$("#ida3fd9a72746d8f366 .datepickerFrom").datepicker("setDate", "-7d");
+			$("#ida3fd9a72746d8f366 .datepickerTo").datepicker("setDate", "0");
+		}
+
+		if ($("#ida3fd9a72746d8f366 .radioMESIC").is(':checked')) {
+			$("#ida3fd9a72746d8f366 .datepickerFrom").datepicker("setDate", "-1m");
+			$("#ida3fd9a72746d8f366 .datepickerTo").datepicker("setDate", "0");
+		}
+
+		if ($("#ida3fd9a72746d8f366 .radioVLASTNI").is(':checked')) {
+			$("#ida3fd9a72746d8f366 .datepickerFrom").datepicker('enable');
+			$("#ida3fd9a72746d8f366 .datepickerTo").datepicker('enable');
+		}
+		
+		oldValFrom = $("#ida3fd9a72746d8f366 .datepickerFrom").datepicker({ dateFormat: 'yy-mm-dd' }).val();
+		oldValTo = $("#ida3fd9a72746d8f366 .datepickerTo").datepicker({ dateFormat: 'yy-mm-dd' }).val();
+	}
+	;
+
+	checkRadioRychlaVolba();
+	$("#ida3fd9a72746d8f366 .radios").change(function() {
+		checkRadioRychlaVolba();
+	});
+
+	$("#ida3fd9a72746d8f366 .datepickerFrom").on('change keypress paste focus textInput input', function() {
+		var val = ($("#ida3fd9a72746d8f366 .datepickerFrom").datepicker({dateFormat : 'yy-mm-dd'}).val());
+		if (val !== oldValFrom) {
+			oldValFrom = val;
+			$("#ida3fd9a72746d8f366 .radioVLASTNI").prop("checked", true);
+		}
+	});
+	
+	$("#ida3fd9a72746d8f366 .datepickerTo").on('change keypress paste focus textInput input', function() {
+		var val = ($("#ida3fd9a72746d8f366 .datepickerTo").datepicker({ dateFormat: 'yy-mm-dd' }).val());        
+		if (val != oldValTo) {
+        	oldValFrom = val;
+        	$("#ida3fd9a72746d8f366 .radioVLASTNI").prop("checked", true);
+        }
+	});
+})();;
+controlTableBorder('idd9c8b102091f569e7');
+registerQuickSearchFieldEvents('id0f8881a111bc8d1d8', 'idd9c8b102091f569e7');
+setMinimalContentSize();
+;});
+/*]]>*/
+</script>
+</head>
+<body>
+	
+	<div class="wrapperPage wrapperPageTrans">
+		<div class="wrapperHeader">
+			<div class="green_border"></div>
+			<div class="container" style="margin-bottom: 20px">
+				<div class="row">
+					<div class="col-md-4 col-6" style="line-height: 50px;">
+						<img class="logo_header img-fluid" src="./fio/resource/cz.fio.ib2.common.wicket.web.layout.image.FioImage/png/logo_fio-ver-894B2A39F77CABA34D70A4AC4C0FE0B6.png"/>
+					</div>
+					<div class="col-md-8 nav_header">
+						<div>
+	<form class="float-end" id="ida5e00f8318897ac89" method="post" action="./transparent?-1.-languageSelector-form&amp;a=2503463508&amp;f=01.01.2026&amp;t=19.10.2026"><div id="ida5e00f8318897ac89_hf_0" hidden="" class="hidden-fields"></div>
+		<div class="form-group languageDropDown">
+			<div class="float-end" id="idd8a212118ab4155f1">
+
+	<div class="dropdown">
+		<input type="hidden" value="CZECH" name="languageDropDown:hiddenDdSelectedItemValue"/>
+		<button class="form-select dropdown-select" type="button" data-bs-toggle="dropdown" aria-expanded="false" name="languageDropDown:dropDownButton" id="id076caafda7ebe998a">
+			<img src="./fio/resource/cz.fio.ib2.common.wicket.web.layout.image.FioImage/png/VlajkaCzMala-ver-425A2FE80A90297180F0DCC77B3F66B6.png"/>
+			<span>Česky</span>
+		</button>
+		<ul class="dropdown-menu dropdown-menu-end">
+			<li>
+				<button class="dropdown-item active" name="languageDropDown:dropDownMenu:dropDownMenuItem:0:menuItemButton" id="id506667f5f70129bab" data-fio-dd-item-value="CZECH" aria-current="true">
+						<img src="./fio/resource/cz.fio.ib2.common.wicket.web.layout.image.FioImage/png/VlajkaCzMala-ver-425A2FE80A90297180F0DCC77B3F66B6.png"/>
+						<span>Česky</span>
+				</button>
+			</li><li>
+				<button class="dropdown-item" name="languageDropDown:dropDownMenu:dropDownMenuItem:1:menuItemButton" id="id14fbc1a98a257d16c" data-fio-dd-item-value="SLOVAK">
+						<img src="./fio/resource/cz.fio.ib2.common.wicket.web.layout.image.FioImage/png/VlajkaSkMala-ver-54AA18CD9834A48A7616BB29EA79F102.png"/>
+						<span>Slovensky</span>
+				</button>
+			</li><li>
+				<button class="dropdown-item" name="languageDropDown:dropDownMenu:dropDownMenuItem:2:menuItemButton" id="id40ca5c60486cc779d" data-fio-dd-item-value="ENGLISH">
+						<img src="./fio/resource/cz.fio.ib2.common.wicket.web.layout.image.FioImage/png/VlajkaGbMala-ver-E4896565595FC22E344FD619C0ED15BB.png"/>
+						<span>English</span>
+				</button>
+			</li>
+		</ul>
+	</div>
+
+</div>
+		</div>
+	</form>
+</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container wrapperBody" style="padding-bottom: 69px">
+			<div class="row">
+				<div class="col-lg-12 content">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="page-header">
+								<h1 style="display: block; text-align: center;">
+									Pohyby na transparentním účtu
+								</h1>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6">
+							
+								<div>
+									<strong>Číslo účtu:</strong>
+									
+    2503463508 / 2010
+    
+
+								</div>
+							
+							<div>
+								<strong>Majitel účtu:</strong>
+								KDU-ČSL
+							</div>
+							<div>
+								<strong>Název účtu:</strong>
+								KDU-ČSL - Senátní volby 2026
+							</div>
+							
+						</div>
+						<div class="col-md-6 d-print-none">
+							<div>
+		<div class="input-group">
+			<span class="input-group-text inputAddonPre">
+				<i class="fa fa-search"></i>
+				<i class="fa fa-times deleteText"></i>
+			</span> 
+			<input style="border-left: medium none;" type="text" autocomplete="off" class="form-control searchInput" id="id0f8881a111bc8d1d8" placeholder="Co hledáte?"/>
+		</div>
+	</div>
+						</div>
+					</div>
+					<hr>
+					<div class="row">
+						<div class="col-md-9 pohybySum">
+							<table class="table">
+								<thead>
+									<tr>
+										<th>Stav k: <span>01.01.26</span></th>
+										<th>Stav k: <span>19.10.26</span></th>
+										<th>Suma příjmů</th>
+										<th>Suma výdajů</th>
+										<th>Suma celkem</th>
+										<th>Běžný zůstatek</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>
+		0,00&nbsp;CZK
+	</td>
+										<td>
+		1 272 854,22&nbsp;CZK
+	</td>
+										<td>
+		5 975 013,00&nbsp;CZK
+	</td>
+										<td class="negative">
+		-4 702 158,78&nbsp;CZK
+	</td>
+										<td>
+		1 272 854,22&nbsp;CZK
+	</td>
+										<td>
+		1 272 854,22&nbsp;CZK
+	</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div class="col-md-3">
+							<div class="row">
+								<div style="position: relative; top: -8px;" class="col-md-12">
+									<a class="float-end btn btn-transparent d-print-none" href="#"
+										onclick="window.print();"><i class="fa fa-print fa-lg"></i>
+									</a>
+								</div>
+							</div>
+							<div class="row">
+								<div style="position: relative; top: -6px;"
+									class="col-md-12 d-print-none">
+									<div class="btn-group float-end">
+										<button class="btn btn-default dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
+											<span>01.01.2026</span>&nbsp;-&nbsp;<span>19.10.2026</span>
+										</button>
+										<div class="dropdown-menu dropdown-menu-end pohybySelectDate">
+											<form id="ida3fd9a72746d8f366" method="post" action="./transparent?-1.-dateForm&amp;a=2503463508&amp;f=01.01.2026&amp;t=19.10.2026"><div id="ida3fd9a72746d8f366_hf_0" hidden="" class="hidden-fields"></div>
+												<div class="row text-nowrap justify-content-center pohyby-inline-radio">
+													<div class="col-auto">
+														<label><input type="radio" name="rychlaVolba"
+															class="radios radioMESIC"> <span>poslední měsíc</span></label>
+													</div>
+													<div class="col-auto">
+														<label><input type="radio" name="rychlaVolba"
+															class="radios radioTYDEN"> <span>poslední týden</span></label>
+													</div>
+													<div class="col-auto">
+														<label><input type="radio" name="rychlaVolba"
+															checked="checked" class="radios radioVLASTNI"> <span>vlastní</span></label>
+													</div>
+												</div>
+												<div class="row pohyby-panel-group">
+													<div class="col-md-6">
+														<div class="form-group">
+															<label class="form-label" for="id404d5bce33ca92ae2">Od</label>
+															<div class="input-group">
+		<input type="text" class="form-control form-control-sm datepickerInput datepickerFrom" value="01.01.2026" autocomplete="off" name="datumOd:inputField" id="id404d5bce33ca92ae2"/>
+		<span class="input-group-text pointer" id="id8115bfd038d7960d3"> <i class="fa fa-calendar"></i>
+		</span>
+	</div>
+														</div>
+													</div>
+													<div class="col-md-6">
+														<div class="form-group">
+															<label class="form-label" for="id58db9b150867035b4">Do</label>
+															<div class="input-group">
+		<input type="text" class="form-control form-control-sm datepickerInput datepickerTo" value="19.10.2026" autocomplete="off" name="datumDo:inputField" id="id58db9b150867035b4"/>
+		<span class="input-group-text pointer" id="idd012539005badd5d5"> <i class="fa fa-calendar"></i>
+		</span>
+	</div>
+														</div>
+													</div>
+												</div>
+												<hr />
+												<div class="row">
+													<div class="col-md-12">
+														<button type="submit"
+															class="btn greenBtn btn-sm float-start">
+															Zobrazit
+														</button>
+													</div>
+												</div>
+											</form>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<hr>
+					
+					
+					<table class="table" id="idd9c8b102091f569e7">
+		<thead>
+			<tr>
+		
+			<th>Datum</th>
+		
+			<th class="text-end">Částka</th>
+		
+			<th>Typ</th>
+		
+			<th>Název protiúčtu</th>
+		
+			<th>Zpráva pro příjemce</th>
+		
+			<th>KS</th>
+		
+			<th>VS</th>
+		
+			<th>SS</th>
+		
+			<th>Poznámka</th>
+		
+	</tr>
+		</thead>
+		<tbody>
+			
+				<tr>
+		
+			<td>19.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-11732.1600">
+		-11 732,16&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>VLTAVA LABE MEDIA a.s. - inzerce - senátní volby 2026 - VO 57</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0008</td>
+		
+			<td>2617015933</td>
+		
+			<td>57</td>
+		
+			<td>VLTAVA LABE MEDIA a.s. - inzerce - senátní volby 2026 - VO 57</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>16.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-405.0000">
+		-405,00&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Město Kunovice - místní poplatek za užívání veřejného prostranství - senátní volby 2026 - VO 81</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>2003001853</td>
+		
+			<td>81</td>
+		
+			<td>Město Kunovice - místní poplatek za užívání veřejného prostranství - senátní volby 2026 - VO 81</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>16.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-72919.0000">
+		-72 919,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>MAFRA, a.s.- inzerce - senátní volby 2026 - VO 66</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>2126016836</td>
+		
+			<td>66</td>
+		
+			<td>MAFRA, a.s.- inzerce - senátní volby 2026 - VO 66</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>16.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-8470.0000">
+		-8 470,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Regionální vydavatelství s.r.o. - Veselské listy - senátní volby 2026 - VO 81</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>212603028</td>
+		
+			<td>81</td>
+		
+			<td>Regionální vydavatelství s.r.o. - Veselské listy - senátní volby 2026 - VO 81</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>16.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-7018.0000">
+		-7 018,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>BigMedia, spol.s r.o. - reklamní materiály  - senátní volby 2026 - VO 81</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>4212602773</td>
+		
+			<td>81</td>
+		
+			<td>BigMedia, spol.s r.o. - reklamní materiály  - senátní volby 2026 - VO 81</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>16.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-10500.0000">
+		-10 500,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Antonín Šrejber - fotografické služby - senátní volby 2026 - VO 66</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>261001</td>
+		
+			<td>66</td>
+		
+			<td>Antonín Šrejber - fotografické služby - senátní volby 2026 - VO 66</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>16.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-22338.5200">
+		-22 338,52&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Seznam.cz, a.s. - inzerce - senátní volby 2026 - VO 51</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>5226004809</td>
+		
+			<td>51</td>
+		
+			<td>Seznam.cz, a.s. - inzerce - senátní volby 2026 - VO 51</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>16.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-33633.8600">
+		-33 633,86&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Seznam.cz, a.s. - inzerce - senátní volby 2026 - VO 66</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>5226004807</td>
+		
+			<td>66</td>
+		
+			<td>Seznam.cz, a.s. - inzerce - senátní volby 2026 - VO 66</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>16.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-16132.8800">
+		-16 132,88&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Seznam.cz, a.s. - wallpaper floating - senátní volby 2026 - VO 81</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>5226004812</td>
+		
+			<td>81</td>
+		
+			<td>Seznam.cz, a.s. - wallpaper floating - senátní volby 2026 - VO 81</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>15.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-1512.6000">
+		-1 512,60&nbsp;CZK
+	</td>
+		
+			<td>Karetní transakce</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Nákup: ORLEN CS 0579, Stare Mesto, CZ, dne 14.10.2026, částka  1512.60 CZK</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>3794</td>
+		
+			<td></td>
+		
+			<td>Nákup: ORLEN CS 0579, Stare Mesto, CZ, dne 14.10.2026, částka  1512.60 CZK</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>15.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-18029.0000">
+		-18 029,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>AB Centre s.r.o. - pronájem reklamních ploch - senátní volby 2026 - VO 66</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0008</td>
+		
+			<td>2027170</td>
+		
+			<td>66</td>
+		
+			<td>AB Centre s.r.o. - pronájem reklamních ploch - senátní volby 2026 - VO 66</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>15.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-33846.7200">
+		-33 846,72&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Česká pošta, s.p. - expediční služby a poštovné - senátní volby 2026 - VO 51</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>5190799942</td>
+		
+			<td>51</td>
+		
+			<td>Česká pošta, s.p. - expediční služby a poštovné - senátní volby 2026 - VO 51</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>15.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-13310.0000">
+		-13 310,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Regionální vydavatelství s.r.o. - Zpravodaj města UH - senátní volby 2026 - VO 81</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>212603023</td>
+		
+			<td>81</td>
+		
+			<td>Regionální vydavatelství s.r.o. - Zpravodaj města UH - senátní volby 2026 - VO 81</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>15.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-7260.0000">
+		-7 260,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Jiří Krejzl - využití plochy pro reklamu - senátní volby 2026 - VO 51</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>2601012</td>
+		
+			<td>51</td>
+		
+			<td>Jiří Krejzl - využití plochy pro reklamu - senátní volby 2026 - VO 51</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>15.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-20061.8000">
+		-20 061,80&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td></td>
+		
+			<td>
+	<div>ARES CZ  s.r.o.- pronájem reklamních ploch - senátní volby 2026 - VO 66</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>2026000813</td>
+		
+			<td>66</td>
+		
+			<td>ARES CZ  s.r.o.- pronájem reklamních ploch - senátní volby 2026 - VO 66</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>14.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-2520.0000">
+		-2 520,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Kulturní dům NMNM - výlep plakatů - senátní volby 2026 - VO 51</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>2026164</td>
+		
+			<td>51</td>
+		
+			<td>Kulturní dům NMNM - výlep plakatů - senátní volby 2026 - VO 51</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>14.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-45125.1000">
+		-45 125,10&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>VLTAVA LABE MEDIA a.s. - inzerce - senátní volby 2026 - VO 51</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0008</td>
+		
+			<td>2617015514</td>
+		
+			<td>51</td>
+		
+			<td>VLTAVA LABE MEDIA a.s. - inzerce - senátní volby 2026 - VO 51</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>14.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-26271.5400">
+		-26 271,54&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>VLTAVA LABE MEDIA a.s. - inzerce - senátní volby 2026 - VO 66</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0008</td>
+		
+			<td>2617015516</td>
+		
+			<td>66</td>
+		
+			<td>VLTAVA LABE MEDIA a.s. - inzerce - senátní volby 2026 - VO 66</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>14.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-19000.0000">
+		-19 000,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Ondřej Procházka - správa sociálních sítí - senátní volby 2026 - VO 66</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>2026004</td>
+		
+			<td>66</td>
+		
+			<td>Ondřej Procházka - správa sociálních sítí - senátní volby 2026 - VO 66</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>14.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-1352.0000">
+		-1 352,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Zábřežská kulturní, s.r.o. - výlep plakátů - senátní volby 2026 - VO 66</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>26428</td>
+		
+			<td>66</td>
+		
+			<td>Zábřežská kulturní, s.r.o. - výlep plakátů - senátní volby 2026 - VO 66</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>14.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-29979.7200">
+		-29 979,72&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>VLTAVA LABE MEDIA a.s. - inzerce - senátní volby 2026 - VO 81</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0008</td>
+		
+			<td>2617015513</td>
+		
+			<td>81</td>
+		
+			<td>VLTAVA LABE MEDIA a.s. - inzerce - senátní volby 2026 - VO 81</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>14.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-121000.0000">
+		-121 000,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Žijeme reklamou s.r.o. - tvorba videí - senátní volby 2026 - VO 57</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>2026100492</td>
+		
+			<td>57</td>
+		
+			<td>Žijeme reklamou s.r.o. - tvorba videí - senátní volby 2026 - VO 57</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>14.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-15754.2000">
+		-15 754,20&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>VLTAVA LABE MEDIA a.s. - inzerce - senátní volby 2026 - VO 57</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0008</td>
+		
+			<td>2617015705</td>
+		
+			<td>57</td>
+		
+			<td>VLTAVA LABE MEDIA a.s. - inzerce - senátní volby 2026 - VO 57</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>13.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-1846.4000">
+		-1 846,40&nbsp;CZK
+	</td>
+		
+			<td>Karetní transakce</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Nákup: ORLEN CS 0579, Stare Mesto, CZ, dne 12.10.2026, částka  1846.40 CZK</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>3794</td>
+		
+			<td></td>
+		
+			<td>Nákup: ORLEN CS 0579, Stare Mesto, CZ, dne 12.10.2026, částka  1846.40 CZK</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>13.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-499.7300">
+		-499,73&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>PRINTIMA promotion s.r.o. - banner - senátní volby 2026 - VO 66</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>2026628</td>
+		
+			<td>66</td>
+		
+			<td>PRINTIMA promotion s.r.o. - banner - senátní volby 2026 - VO 66</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>13.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-34920.6000">
+		-34 920,60&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>DOBRÝ DEN S KURÝREM, a.s. - plošná inzerce - senátní volby 2026 - VO 81</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>1122610336</td>
+		
+			<td>81</td>
+		
+			<td>DOBRÝ DEN S KURÝREM, a.s. - plošná inzerce - senátní volby 2026 - VO 81</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>13.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-2000.0000">
+		-2 000,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Lenka Šmídková - webová aplikace - senátní volby 2026 - VO 57</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>202619</td>
+		
+			<td>57</td>
+		
+			<td>Lenka Šmídková - webová aplikace - senátní volby 2026 - VO 57</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>12.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-4581.0000">
+		-4 581,00&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Ing. Jiří Pokorný - vytištění reklamy - senátní volby 2026 - VO 51</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>3112026</td>
+		
+			<td>51</td>
+		
+			<td>Ing. Jiří Pokorný - vytištění reklamy - senátní volby 2026 - VO 51</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>12.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-49953.6400">
+		-49 953,64&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>PROTISK Prchal s.r.o. - skladané letáky, grafické práce - senátní volby 2026 - VO 51</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>2026200550</td>
+		
+			<td>51</td>
+		
+			<td>PROTISK Prchal s.r.o. - skladané letáky, grafické práce - senátní volby 2026 - VO 51</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>12.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-24719.4500">
+		-24 719,45&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>PROTISK Prchal s.r.o. - letáky, grafické práce - senátní volby 2026 - VO 51</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>2026200582</td>
+		
+			<td>51</td>
+		
+			<td>PROTISK Prchal s.r.o. - letáky, grafické práce - senátní volby 2026 - VO 51</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>12.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-15000.0000">
+		-15 000,00&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Ondřej Procházka - správa sociálních sítí - senátní volby 2026 - VO 66</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>2026003</td>
+		
+			<td>66</td>
+		
+			<td>Ondřej Procházka - správa sociálních sítí - senátní volby 2026 - VO 66</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>12.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-25749.0000">
+		-25 749,00&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>AdSight, a.s - přelep 2. kola - senátní volby 2026 - VO 51</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>920260081</td>
+		
+			<td>51</td>
+		
+			<td>AdSight, a.s - přelep 2. kola - senátní volby 2026 - VO 51</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>12.10.26</td>
+		
+			<td class="text-end amount amount_value" data-value="558303.0000">
+		558 303,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td>KDU-ČSL</td>
+		
+			<td>
+	<div>vklad na senátní volby JHM z ÚK - převod darů - VO 57</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td>57</td>
+		
+			<td>vklad na senátní volby JHM z ÚK - převod darů - VO 57</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>12.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-10000.0000">
+		-10 000,00&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Middlemen Services Company s.r.o. - zajištění časti outdoorové kampaně - senátní volby 2026 - VO 66</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>20261001</td>
+		
+			<td>66</td>
+		
+			<td>Middlemen Services Company s.r.o. - zajištění časti outdoorové kampaně - senátní volby 2026 - VO 66</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>12.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-2164.2200">
+		-2 164,22&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>MAKRO Cash &amp; Carry ČR, s.r.o. - občerstvení - senátní volby 2026 - VO 51</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>1404034093</td>
+		
+			<td>51</td>
+		
+			<td>MAKRO Cash &amp; Carry ČR, s.r.o. - občerstvení - senátní volby 2026 - VO 51</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>11.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-535.1000">
+		-535,10&nbsp;CZK
+	</td>
+		
+			<td>Karetní transakce</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Nákup: ORLEN CS 0579, Stare Mesto, CZ, dne 10.10.2026, částka  535.10 CZK</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>3794</td>
+		
+			<td></td>
+		
+			<td>Nákup: ORLEN CS 0579, Stare Mesto, CZ, dne 10.10.2026, částka  535.10 CZK</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>11.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-1243.6000">
+		-1 243,60&nbsp;CZK
+	</td>
+		
+			<td>Karetní transakce</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Nákup: ALBERT VAM DEKUJE, Stare Mesto, CZ, dne 10.10.2026, částka  1243.60 CZK</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>3794</td>
+		
+			<td></td>
+		
+			<td>Nákup: ALBERT VAM DEKUJE, Stare Mesto, CZ, dne 10.10.2026, částka  1243.60 CZK</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>09.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-1713.8000">
+		-1 713,80&nbsp;CZK
+	</td>
+		
+			<td>Karetní transakce</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Nákup: ORLEN CS 0506, VEL. MEZIRICI, CZ, dne 8.10.2026, částka  1713.80 CZK</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>3908</td>
+		
+			<td></td>
+		
+			<td>Nákup: ORLEN CS 0506, VEL. MEZIRICI, CZ, dne 8.10.2026, částka  1713.80 CZK</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>09.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-1694.0000">
+		-1 694,00&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Radomír Lejska - připrava a tisk letáků A5 - senátní volby 2026 - VO 57</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>2026076</td>
+		
+			<td>57</td>
+		
+			<td>Radomír Lejska - připrava a tisk letáků A5 - senátní volby 2026 - VO 57</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>09.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-1200.0000">
+		-1 200,00&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Knihovna Karla Dvořáčka, p.o. - pronájem velkého sálu - senátní volby 2026 - VO 57</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>2022026</td>
+		
+			<td>57</td>
+		
+			<td>Knihovna Karla Dvořáčka, p.o. - pronájem velkého sálu - senátní volby 2026 - VO 57</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>09.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-1991.4200">
+		-1 991,42&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>MAKRO Cash &amp; Carry ČR, s.r.o. - občerstvení - senátní volby 2026 - VO 81</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>0204049116</td>
+		
+			<td>81</td>
+		
+			<td>MAKRO Cash &amp; Carry ČR, s.r.o. - občerstvení - senátní volby 2026 - VO 81</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>09.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-72600.0000">
+		-72 600,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>MAFRA, a.s.- inzerce - senátní volby 2026 - VO 51</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>2126016428</td>
+		
+			<td>51</td>
+		
+			<td>MAFRA, a.s.- inzerce - senátní volby 2026 - VO 51</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>09.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-15875.2000">
+		-15 875,20&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>SPORETO kpk s.r.o. - letáky A3, A5 - senátní volby 2026 - VO 12</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>26100531</td>
+		
+			<td>12</td>
+		
+			<td>SPORETO kpk s.r.o. - letáky A3, A5 - senátní volby 2026 - VO 12</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>09.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-1500.0000">
+		-1 500,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>OBČANSKÉ SDRUŽENÍ BLATENSKÉ LISTY - zveřejnění rozhovoru - senátní volby 2026 - VO 12</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>26084</td>
+		
+			<td>12</td>
+		
+			<td>OBČANSKÉ SDRUŽENÍ BLATENSKÉ LISTY - zveřejnění rozhovoru - senátní volby 2026 - VO 12</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>08.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-2989.4000">
+		-2 989,40&nbsp;CZK
+	</td>
+		
+			<td>Karetní transakce</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Nákup: SHELL 8114, OLOMOUC-VELKO, CZ, dne 7.10.2026, částka  2989.40 CZK</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>0922</td>
+		
+			<td></td>
+		
+			<td>Nákup: SHELL 8114, OLOMOUC-VELKO, CZ, dne 7.10.2026, částka  2989.40 CZK</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>08.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-465.0000">
+		-465,00&nbsp;CZK
+	</td>
+		
+			<td>Karetní transakce</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Nákup: Cukrarna Michal Budar, Uherske Hradi, CZ, dne 7.10.2026, částka  465.00 CZK</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>3794</td>
+		
+			<td></td>
+		
+			<td>Nákup: Cukrarna Michal Budar, Uherske Hradi, CZ, dne 7.10.2026, částka  465.00 CZK</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>08.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-3000.0000">
+		-3 000,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Daniel Tesař - grafické práce - senátní volby 2026 - VO 57</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>202629</td>
+		
+			<td>57</td>
+		
+			<td>Daniel Tesař - grafické práce - senátní volby 2026 - VO 57</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>07.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-30000.0000">
+		-30 000,00&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Šarlota Sedláčková - tvorba contentu na sociální sítě - senátní volby 2026 - VO 57</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>102026</td>
+		
+			<td>57</td>
+		
+			<td>Šarlota Sedláčková - tvorba contentu na sociální sítě - senátní volby 2026 - VO 57</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>07.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-653.0000">
+		-653,00&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>PROTIS, spol. s r.o. - volební letáky - senátní volby 2026 - VO 57</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>540260176</td>
+		
+			<td>57</td>
+		
+			<td>PROTIS, spol. s r.o. - volební letáky - senátní volby 2026 - VO 57</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>07.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-44452.0100">
+		-44 452,01&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Česká pošta, s.p. - zpracování a roznos informačních materiálů - senátní volby 2026 - VO 57</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>5190798779</td>
+		
+			<td>57</td>
+		
+			<td>Česká pošta, s.p. - zpracování a roznos informačních materiálů - senátní volby 2026 - VO 57</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>07.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-109390.8900">
+		-109 390,89&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Česká pošta, s.p. - tisk, expediční služby a poštovné - senátní volby 2026 - VO 81</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>5190798775</td>
+		
+			<td>81</td>
+		
+			<td>Česká pošta, s.p. - tisk, expediční služby a poštovné - senátní volby 2026 - VO 81</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>06.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-1455.5000">
+		-1 455,50&nbsp;CZK
+	</td>
+		
+			<td>Karetní transakce</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Nákup: OMV 2213, Uherske Hr, CZ, dne 5.10.2026, částka  1455.50 CZK</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>3794</td>
+		
+			<td></td>
+		
+			<td>Nákup: OMV 2213, Uherske Hr, CZ, dne 5.10.2026, částka  1455.50 CZK</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>06.10.26</td>
+		
+			<td class="text-end amount amount_value" data-value="200000.0000">
+		200 000,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td>KDU-ČSL</td>
+		
+			<td>
+	<div>vklad na senátní volby VYS - VO 51- převod daru</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td>51</td>
+		
+			<td>vklad na senátní volby VYS - VO 51- převod daru</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>06.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-51942.5700">
+		-51 942,57&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td></td>
+		
+			<td>
+	<div>CS UKLID s.r.o.- tašky žluté - senátní volby 2026 - VO 66</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>263065</td>
+		
+			<td>66</td>
+		
+			<td>CS UKLID s.r.o.- tašky žluté - senátní volby 2026 - VO 66</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>06.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-7260.0000">
+		-7 260,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>ZDAR, a.s.- umístění bigboardu - senátní volby 2026 - VO 51</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>6016150023</td>
+		
+			<td>51</td>
+		
+			<td>ZDAR, a.s.- umístění bigboardu - senátní volby 2026 - VO 51</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>06.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-56144.0000">
+		-56 144,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>ZDAR, a.s.- pronájem plochy autobusů - senátní volby 2026 - VO 51</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>6016150022</td>
+		
+			<td>51</td>
+		
+			<td>ZDAR, a.s.- pronájem plochy autobusů - senátní volby 2026 - VO 51</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>06.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-2699.5100">
+		-2 699,51&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>MAKRO Cash &amp; Carry ČR, s.r.o. - občerstvení - senátní volby 2026 - VO 81</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>0306051098</td>
+		
+			<td>81</td>
+		
+			<td>MAKRO Cash &amp; Carry ČR, s.r.o. - občerstvení - senátní volby 2026 - VO 81</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>06.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-4501.2000">
+		-4 501,20&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>SPORETO kpk s.r.o. - letáky A2 - senátní volby 2026 - VO 12</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>26100539</td>
+		
+			<td>12</td>
+		
+			<td>SPORETO kpk s.r.o. - letáky A2 - senátní volby 2026 - VO 12</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>05.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-210.0000">
+		-210,00&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>vrácení platby, prosíme o zasílání darů na transparentní darový účet, děkujeme</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td>vrácení platby, prosíme o zasílání darů na transparentní darový účet, děkujeme</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>05.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-24200.0000">
+		-24 200,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>J.D.Production, s.r.o.- inzerce - senátní volby 2026 - VO 81</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>260439</td>
+		
+			<td>81</td>
+		
+			<td>J.D.Production, s.r.o.- inzerce - senátní volby 2026 - VO 81</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>05.10.26</td>
+		
+			<td class="text-end amount amount_value" data-value="210.0000">
+		210,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní příjem</td>
+		
+			<td>MAJCHRAKOVA LUCIE</td>
+		
+			<td>
+	<div>Volby do Senátu-Grolich</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>21026</td>
+		
+			<td></td>
+		
+			<td>MAJCHRAKOVA LUCIE</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>03.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-715.6000">
+		-715,60&nbsp;CZK
+	</td>
+		
+			<td>Karetní transakce</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Nákup: ORLEN CS 0631, Uh.Hradiste, CZ, dne 2.10.2026, částka  715.60 CZK</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>3794</td>
+		
+			<td></td>
+		
+			<td>Nákup: ORLEN CS 0631, Uh.Hradiste, CZ, dne 2.10.2026, částka  715.60 CZK</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>03.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-506.9900">
+		-506,99&nbsp;CZK
+	</td>
+		
+			<td>Karetní transakce</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Nákup: PRO-DOMA Tvarozna,  U Rohlenky, Tvarozna, 66405, CZE, dne 2.10.2026, částka  506.99 CZK</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>8393</td>
+		
+			<td></td>
+		
+			<td>Nákup: PRO-DOMA Tvarozna,  U Rohlenky, Tvarozna, 66405, CZE, dne 2.10.2026, částka  506.99 CZK</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>02.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-1859.9000">
+		-1 859,90&nbsp;CZK
+	</td>
+		
+			<td>Karetní transakce</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Nákup: ORLEN CS 0506, VEL. MEZIRICI, CZ, dne 1.10.2026, částka  1859.90 CZK</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>3908</td>
+		
+			<td></td>
+		
+			<td>Nákup: ORLEN CS 0506, VEL. MEZIRICI, CZ, dne 1.10.2026, částka  1859.90 CZK</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>02.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-18392.0000">
+		-18 392,00&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Jiří Mareček - tisk letaků, plakátů, novin - Senátní volby 2026 - obv. 81</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>20260113</td>
+		
+			<td>81</td>
+		
+			<td>Jiří Mareček - tisk letaků, plakátů, novin - Senátní volby 2026 - obv. 81</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>02.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-500.0000">
+		-500,00&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Město Šlapanice - MP popl. za užívání veř. prostranství - senátní volby 2026 - VO 57</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>2008003401</td>
+		
+			<td>57</td>
+		
+			<td>Město Šlapanice - MP popl. za užívání veř. prostranství - senátní volby 2026 - VO 57</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>02.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-200.0000">
+		-200,00&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Obec Otnice - umístění reklamní stojky - senátní volby 2026 - VO 57</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>2026076</td>
+		
+			<td>57</td>
+		
+			<td>Obec Otnice - umístění reklamní stojky - senátní volby 2026 - VO 57</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>02.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-320.0000">
+		-320,00&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Obec Moutnice - popl. z místa - banner - senátní volby 2026 - VO 57</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>2026000118</td>
+		
+			<td>57</td>
+		
+			<td>Obec Moutnice - popl. z místa - banner - senátní volby 2026 - VO 57</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>02.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-660.0000">
+		-660,00&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Obec Podolí - umístění volebního reklamního zařízení - senátní volby 2026 - VO 57</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>51</td>
+		
+			<td>57</td>
+		
+			<td>Obec Podolí - umístění volebního reklamního zařízení - senátní volby 2026 - VO 57</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>02.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-11732.1600">
+		-11 732,16&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>VLTAVA LABE MEDIA a.s. - inzerce - senátní volby 2026 - VO 57</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0008</td>
+		
+			<td>2617014069</td>
+		
+			<td>57</td>
+		
+			<td>VLTAVA LABE MEDIA a.s. - inzerce - senátní volby 2026 - VO 57</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>02.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-2904.0000">
+		-2 904,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td></td>
+		
+			<td>
+	<div>R36.cz, s.r.o.- reklamní plachty - senátní volby 2026 - VO 51</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>2026156</td>
+		
+			<td>51</td>
+		
+			<td>R36.cz, s.r.o.- reklamní plachty - senátní volby 2026 - VO 51</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>02.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-2248.4200">
+		-2 248,42&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>MAKRO Cash &amp; Carry ČR, s.r.o. - občerstvení - senátní volby 2026 - VO 57</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>0703037034</td>
+		
+			<td>57</td>
+		
+			<td>MAKRO Cash &amp; Carry ČR, s.r.o. - občerstvení - senátní volby 2026 - VO 57</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>02.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-8893.5000">
+		-8 893,50&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td></td>
+		
+			<td>
+	<div>R36.cz, s.r.o.- reklamní plachty - senátní volby 2026 - VO 81</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>2026160</td>
+		
+			<td>81</td>
+		
+			<td>R36.cz, s.r.o.- reklamní plachty - senátní volby 2026 - VO 81</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>02.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-18658.2000">
+		-18 658,20&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td></td>
+		
+			<td>
+	<div>R36.cz, s.r.o.- reklamní plachty - senátní volby 2026 - VO 81</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>2026067</td>
+		
+			<td>81</td>
+		
+			<td>R36.cz, s.r.o.- reklamní plachty - senátní volby 2026 - VO 81</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>02.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-24538.0000">
+		-24 538,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>MAFRA, a.s.- inzerce - senátní volby 2026 - VO 66</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>2126015918</td>
+		
+			<td>66</td>
+		
+			<td>MAFRA, a.s.- inzerce - senátní volby 2026 - VO 66</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>01.10.26</td>
+		
+			<td class="text-end amount amount_value" data-value="50000.0000">
+		50 000,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td>KDU-ČSL</td>
+		
+			<td>
+	<div>vklad na senátní volby OLM z ÚK - VO 66 - převod daru</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td>66</td>
+		
+			<td>vklad na senátní volby OLM z ÚK - VO 66 - převod daru</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>01.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-2000.0000">
+		-2 000,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>vrácení platby, prosíme o zasílání darů na transparentní darový účet, děkujeme</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td>vrácení platby, prosíme o zasílání darů na transparentní darový účet, děkujeme</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>30.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-1688.2000">
+		-1 688,20&nbsp;CZK
+	</td>
+		
+			<td>Karetní transakce</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Nákup: ORLEN CS 0579, Stare Mesto, CZ, dne 29.9.2026, částka  1688.20 CZK</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>3794</td>
+		
+			<td></td>
+		
+			<td>Nákup: ORLEN CS 0579, Stare Mesto, CZ, dne 29.9.2026, částka  1688.20 CZK</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>30.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-53542.5000">
+		-53 542,50&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>KatMedia, s.r.o. - příloha v KT č.39 - senátní volby 2026 - VO 12, 51, 57, 66, 81</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>261600010</td>
+		
+			<td>1251576681</td>
+		
+			<td>KatMedia, s.r.o. - příloha v KT č.39 - senátní volby 2026 - VO 12, 51, 57, 66, 81</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>30.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-480.0000">
+		-480,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Město Bučovice - výlep volebních plakátů - senátní volby 2026 - VO 57</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>2091000024</td>
+		
+			<td>57</td>
+		
+			<td>Město Bučovice - výlep volebních plakátů - senátní volby 2026 - VO 57</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>30.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-39262.2000">
+		-39 262,20&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Česká pošta, s.p. - expediční služby a poštovné - senátní volby 2026 - VO 51</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>5190798693</td>
+		
+			<td>51</td>
+		
+			<td>Česká pošta, s.p. - expediční služby a poštovné - senátní volby 2026 - VO 51</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>30.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-50657.9300">
+		-50 657,93&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td></td>
+		
+			<td>
+	<div>CS UKLID s.r.o.- tašky žluté - senátní volby 2026 - VO 66</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>263064</td>
+		
+			<td>66</td>
+		
+			<td>CS UKLID s.r.o.- tašky žluté - senátní volby 2026 - VO 66</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>29.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-600.0000">
+		-600,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Obec Tvarožná - pronájem Sokolovny - senátní volby 2026 - VO 57</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>0002026051</td>
+		
+			<td>57</td>
+		
+			<td>Obec Tvarožná - pronájem Sokolovny - senátní volby 2026 - VO 57</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>27.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-3146.7000">
+		-3 146,70&nbsp;CZK
+	</td>
+		
+			<td>Karetní transakce</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Nákup: OMV 2503, Olomouc, CZ, dne 26.9.2026, částka  3146.70 CZK</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>0922</td>
+		
+			<td></td>
+		
+			<td>Nákup: OMV 2503, Olomouc, CZ, dne 26.9.2026, částka  3146.70 CZK</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>25.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-2919.6000">
+		-2 919,60&nbsp;CZK
+	</td>
+		
+			<td>Karetní transakce</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Nákup: CS EUROOIL, RADOSTIN N.O., CZ, dne 24.9.2026, částka  2919.60 CZK</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>3908</td>
+		
+			<td></td>
+		
+			<td>Nákup: CS EUROOIL, RADOSTIN N.O., CZ, dne 24.9.2026, částka  2919.60 CZK</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>25.09.26</td>
+		
+			<td class="text-end amount amount_value" data-value="2000.0000">
+		2 000,00&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá příchozí platba</td>
+		
+			<td>Zuzana Pilařová</td>
+		
+			<td>
+	<div>Volby do senatu 2026 - Jan Grolich</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>6960092381</td>
+		
+			<td></td>
+		
+			<td>Zuzana Pilařová</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>25.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-4477.0000">
+		-4 477,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td></td>
+		
+			<td>
+	<div>R36.cz, s.r.o.- reklamní plachty - senátní volby 2026 - VO 51</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>2026150</td>
+		
+			<td>51</td>
+		
+			<td>R36.cz, s.r.o.- reklamní plachty - senátní volby 2026 - VO 51</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>25.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-15374.2600">
+		-15 374,26&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>SPORETO kpk s.r.o. - letáky A6, výroba a montáž polepu vozu - senátní volby 2026 - VO 12</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>26100491</td>
+		
+			<td>12</td>
+		
+			<td>SPORETO kpk s.r.o. - letáky A6, výroba a montáž polepu vozu - senátní volby 2026 - VO 12</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>24.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-1665.2000">
+		-1 665,20&nbsp;CZK
+	</td>
+		
+			<td>Karetní transakce</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Nákup: ORLEN CS 0631, Uh.Hradiste, CZ, dne 23.9.2026, částka  1665.20 CZK</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>3794</td>
+		
+			<td></td>
+		
+			<td>Nákup: ORLEN CS 0631, Uh.Hradiste, CZ, dne 23.9.2026, částka  1665.20 CZK</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>24.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-200.0000">
+		-200,00&nbsp;CZK
+	</td>
+		
+			<td>Poplatek</td>
+		
+			<td></td>
+		
+			<td>
+	
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td></td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>24.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-39500.0000">
+		-39 500,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	
+	<div>Zircon Tree s.r.o.- RTB kampan - VS</div>
+	<div>2026517 - senatni volby 2026 - VO</div>
+	<div>66</div>
+	
+</td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td>Zircon Tree s.r.o.- RTB kampaň - VS 2026517 - senátní volby 2026 - VO 66</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>24.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-500.0000">
+		-500,00&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>vrácení platby, prosíme o zasílání darů na transparentní darový účet, děkujeme</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td>vrácení platby, prosíme o zasílání darů na transparentní darový účet, děkujeme</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>24.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-3945.8200">
+		-3 945,82&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>MAKRO Cash &amp; Carry ČR, s.r.o. - občerstvení - senátní volby 2026 - VO 12 a VO 51</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>0731068827</td>
+		
+			<td>1251</td>
+		
+			<td>MAKRO Cash &amp; Carry ČR, s.r.o. - občerstvení - senátní volby 2026 - VO 12 a VO 51</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>24.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-4032.0000">
+		-4 032,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Malostranská beseda, a.s. - občerstvení - senátní volby 2026 - VO 12, 51, 57, 66, 81</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>26200220</td>
+		
+			<td>1251576681</td>
+		
+			<td>Malostranská beseda, a.s. - občerstvení - senátní volby 2026 - VO 12, 51, 57, 66, 81</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>24.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-30553.0000">
+		-30 553,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Josef Homola - pronájem reklamní plochy - senátní volby 2026 - VO 51</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>20261009</td>
+		
+			<td>51</td>
+		
+			<td>Josef Homola - pronájem reklamní plochy - senátní volby 2026 - VO 51</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>24.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-1210.0000">
+		-1 210,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td></td>
+		
+			<td>
+	<div>R36.cz, s.r.o.- reklamní plachty - senátní volby 2026 - VO 81</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>2026147</td>
+		
+			<td>81</td>
+		
+			<td>R36.cz, s.r.o.- reklamní plachty - senátní volby 2026 - VO 81</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>24.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-677.0000">
+		-677,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>EuroSpice s.r.o.- bazalka - senátní volby 2026 - VO 81</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0008</td>
+		
+			<td>260100490</td>
+		
+			<td>81</td>
+		
+			<td>EuroSpice s.r.o.- bazalka - senátní volby 2026 - VO 81</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>23.09.26</td>
+		
+			<td class="text-end amount amount_value" data-value="500.0000">
+		500,00&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá příchozí platba</td>
+		
+			<td>ALENA POLÍVKOVÁ</td>
+		
+			<td>
+	<div>Platba</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td>ALENA POLÍVKOVÁ</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>23.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-34848.0000">
+		-34 848,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Kuráž Media s.r.o.- záloha na volební kampaň - senátní volby 2026 - VO 66</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>9261009</td>
+		
+			<td>66</td>
+		
+			<td>Kuráž Media s.r.o.- záloha na volební kampaň - senátní volby 2026 - VO 66</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>23.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-180.0000">
+		-180,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Město Rajhrad - plošná inzerce - senátní volby 2026 - VO 57</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>26100076</td>
+		
+			<td>57</td>
+		
+			<td>Město Rajhrad - plošná inzerce - senátní volby 2026 - VO 57</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>23.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-6413.0000">
+		-6 413,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Šopík Vladimír - reklamní propisky - senátní volby 2026 - VO 81</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>2026064</td>
+		
+			<td>81</td>
+		
+			<td>Šopík Vladimír - reklamní propisky - senátní volby 2026 - VO 81</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>23.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-24200.0000">
+		-24 200,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Šopík Vladimír - polep aut, propagační leták - senátní volby 2026 - VO 81</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>2026062</td>
+		
+			<td>81</td>
+		
+			<td>Šopík Vladimír - polep aut, propagační leták - senátní volby 2026 - VO 81</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>23.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-7383.4200">
+		-7 383,42&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>PROTISK Prchal s.r.o. - samolepky, skladané letáky, grafické práce - senátní volby 2026 - VO 51</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>2026200555</td>
+		
+			<td>51</td>
+		
+			<td>PROTISK Prchal s.r.o. - samolepky, skladané letáky, grafické práce - senátní volby 2026 - VO 51</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>22.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-1240.0000">
+		-1 240,00&nbsp;CZK
+	</td>
+		
+			<td>Karetní transakce</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Nákup: Mesto Velka Bites, Velka Bites, CZ, dne 21.9.2026, částka  1240.00 CZK</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>3908</td>
+		
+			<td></td>
+		
+			<td>Nákup: Mesto Velka Bites, Velka Bites, CZ, dne 21.9.2026, částka  1240.00 CZK</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>22.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-180.0000">
+		-180,00&nbsp;CZK
+	</td>
+		
+			<td>Karetní transakce</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Nákup: Mestys Merin, Merin, CZ, dne 21.9.2026, částka  180.00 CZK</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>3908</td>
+		
+			<td></td>
+		
+			<td>Nákup: Mestys Merin, Merin, CZ, dne 21.9.2026, částka  180.00 CZK</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>22.09.26</td>
+		
+			<td class="text-end amount amount_value" data-value="300000.0000">
+		300 000,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td>KDU-ČSL</td>
+		
+			<td>
+	<div>vklad na senátní volby VYS z ÚK - VO 51</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td>51</td>
+		
+			<td>vklad na senátní volby VYS z ÚK - VO 51</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>22.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-3487.2200">
+		-3 487,22&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Jakub Malchar - záloha - plakáty standard - senátní volby 2026 - VO 81</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>20263080</td>
+		
+			<td>81</td>
+		
+			<td>Jakub Malchar - záloha - plakáty standard - senátní volby 2026 - VO 81</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>22.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-114950.0000">
+		-114 950,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>ZDAR, a.s.- pronájem plochy - autobusy- senátní volby 2026 - VO 51</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>6016150016</td>
+		
+			<td>51</td>
+		
+			<td>ZDAR, a.s.- pronájem plochy - autobusy- senátní volby 2026 - VO 51</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>21.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-780.0000">
+		-780,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Obec Blažovice - umístění voleb. rekl. zařízení - senátní volby 2026 - VO 57</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>51</td>
+		
+			<td>57</td>
+		
+			<td>Obec Blažovice - umístění voleb. rekl. zařízení - senátní volby 2026 - VO 57</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>21.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-900.0000">
+		-900,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Obec Viničné Šumice - umístění rekl. plakátu na veř. prostranství - senátní volby 2026 - VO 57</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>2026000031</td>
+		
+			<td>57</td>
+		
+			<td>Obec Viničné Šumice - umístění rekl. plakátu na veř. prostranství - senátní volby 2026 - VO 57</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>21.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-5348.2000">
+		-5 348,20&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td></td>
+		
+			<td>
+	<div>ARES CZ  s.r.o.- pronájem reklamních ploch - senátní volby 2026 - VO 66</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>2026000751</td>
+		
+			<td>66</td>
+		
+			<td>ARES CZ  s.r.o.- pronájem reklamních ploch - senátní volby 2026 - VO 66</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>21.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-10696.4000">
+		-10 696,40&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td></td>
+		
+			<td>
+	<div>ARES CZ  s.r.o.- pronájem reklamních ploch - senátní volby 2026 - VO 66</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>2026000750</td>
+		
+			<td>66</td>
+		
+			<td>ARES CZ  s.r.o.- pronájem reklamních ploch - senátní volby 2026 - VO 66</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>21.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-4047.0000">
+		-4 047,00&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>JUTTY GROUP s.r.o.- samolepky - senátní volby 2026 - VO 66</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>20260646</td>
+		
+			<td>66</td>
+		
+			<td>JUTTY GROUP s.r.o.- samolepky - senátní volby 2026 - VO 66</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>21.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-17182.0000">
+		-17 182,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Reklamní studio Shift s.r.o. - pronájem reklamní plochy - senátní volby 2026 - VO 81</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>20260295</td>
+		
+			<td>81</td>
+		
+			<td>Reklamní studio Shift s.r.o. - pronájem reklamní plochy - senátní volby 2026 - VO 81</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>19.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-1017.9000">
+		-1 017,90&nbsp;CZK
+	</td>
+		
+			<td>Karetní transakce</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Nákup: ORLEN CS 0631, Uh.Hradiste, CZ, dne 18.9.2026, částka  1017.90 CZK</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>3794</td>
+		
+			<td></td>
+		
+			<td>Nákup: ORLEN CS 0631, Uh.Hradiste, CZ, dne 18.9.2026, částka  1017.90 CZK</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>18.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-3706.0000">
+		-3 706,00&nbsp;CZK
+	</td>
+		
+			<td>Karetní transakce</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Nákup: MOL 518 Zabreh, Zabreh, CZ, dne 17.9.2026, částka  3706.00 CZK</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>0922</td>
+		
+			<td></td>
+		
+			<td>Nákup: MOL 518 Zabreh, Zabreh, CZ, dne 17.9.2026, částka  3706.00 CZK</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>18.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-4477.0000">
+		-4 477,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td></td>
+		
+			<td>
+	<div>R36.cz, s.r.o.- reklamní plachty - senátní volby 2026 - VO 51</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>2026099</td>
+		
+			<td>51</td>
+		
+			<td>R36.cz, s.r.o.- reklamní plachty - senátní volby 2026 - VO 51</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>18.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-712.0000">
+		-712,00&nbsp;CZK
+	</td>
+		
+			<td>Karetní transakce</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Nákup: Potraviny Oldrich Svob,  Palackeho Namesti 76, Slavkov U Brn, 684 01, CZE, dne 17.9.2026, částka  712.00 CZK</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>8393</td>
+		
+			<td></td>
+		
+			<td>Nákup: Potraviny Oldrich Svob,  Palackeho Namesti 76, Slavkov U Brn, 684 01, CZE, dne 17.9.2026, částka  712.00 CZK</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>18.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-1071.2000">
+		-1 071,20&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Seznam.cz, a.s. - inzerce - senátní volby 2026 - VO 66</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>5326005978</td>
+		
+			<td>66</td>
+		
+			<td>Seznam.cz, a.s. - inzerce - senátní volby 2026 - VO 66</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>18.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-10000.0000">
+		-10 000,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Daniel Tavlaridis - služby k volební kampani - senátní volby 2026 - VO 66</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>202609</td>
+		
+			<td>66</td>
+		
+			<td>Daniel Tavlaridis - služby k volební kampani - senátní volby 2026 - VO 66</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>17.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-3348.4000">
+		-3 348,40&nbsp;CZK
+	</td>
+		
+			<td>Karetní transakce</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Nákup: CS EUROOIL, RADOSTIN N.O., CZ, dne 16.9.2026, částka  3348.40 CZK</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>3908</td>
+		
+			<td></td>
+		
+			<td>Nákup: CS EUROOIL, RADOSTIN N.O., CZ, dne 16.9.2026, částka  3348.40 CZK</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>17.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-13189.0000">
+		-13 189,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>YASHICA s.r.o. - pronájem BB+ tisk - senátní volby 2026 - VO 51</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>35270196</td>
+		
+			<td>51</td>
+		
+			<td>YASHICA s.r.o. - pronájem BB+ tisk - senátní volby 2026 - VO 51</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>17.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-19421.0000">
+		-19 421,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>RENGL, s.r.o. - plakátovací kampaň - senátní volby 2026 - VO 51</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0000</td>
+		
+			<td>10175645</td>
+		
+			<td>51</td>
+		
+			<td>RENGL, s.r.o. - plakátovací kampaň - senátní volby 2026 - VO 51</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>16.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-3117.0000">
+		-3 117,00&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>RENGL s.r.o. - záloha za kampaň - senátní volby 2026 - VO 57</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0000</td>
+		
+			<td>10271848</td>
+		
+			<td>57</td>
+		
+			<td>RENGL s.r.o. - záloha za kampaň - senátní volby 2026 - VO 57</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>16.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-29911.2000">
+		-29 911,20&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>MACRO PLUS s.r.o.- výroba polepů auta - senátní volby 2026 - VO 51</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0008</td>
+		
+			<td>601000333</td>
+		
+			<td>51</td>
+		
+			<td>MACRO PLUS s.r.o.- výroba polepů auta - senátní volby 2026 - VO 51</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>16.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-1687.9600">
+		-1 687,96&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>MAKRO Cash &amp; Carry ČR, s.r.o. - občerstvení - senátní volby 2026 - VO 66</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>0705013913</td>
+		
+			<td>66</td>
+		
+			<td>MAKRO Cash &amp; Carry ČR, s.r.o. - občerstvení - senátní volby 2026 - VO 66</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>15.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-1742.6000">
+		-1 742,60&nbsp;CZK
+	</td>
+		
+			<td>Karetní transakce</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Nákup: ORLEN CS 0631, Uh.Hradiste, CZ, dne 14.9.2026, částka  1742.60 CZK</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>3794</td>
+		
+			<td></td>
+		
+			<td>Nákup: ORLEN CS 0631, Uh.Hradiste, CZ, dne 14.9.2026, částka  1742.60 CZK</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>15.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-23595.0000">
+		-23 595,00&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Auto Kubíček s.r.o. - zapůjčení vozidla - senátní volby 2026 - VO 66</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>26102194</td>
+		
+			<td>66</td>
+		
+			<td>Auto Kubíček s.r.o. - zapůjčení vozidla - senátní volby 2026 - VO 66</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>15.09.26</td>
+		
+			<td class="text-end amount amount_value" data-value="90000.0000">
+		90 000,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td>KDU-ČSL</td>
+		
+			<td>
+	<div>vklad na senátní volby JHM z ÚK - převod darů - VO 57</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td>57</td>
+		
+			<td>vklad na senátní volby JHM z ÚK - převod darů - VO 57</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>15.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-2178.0000">
+		-2 178,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td></td>
+		
+			<td>
+	<div>R36.cz, s.r.o.- reklamní plachta - senátní volby 2026 - VO 51</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>2026113</td>
+		
+			<td>51</td>
+		
+			<td>R36.cz, s.r.o.- reklamní plachta - senátní volby 2026 - VO 51</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>15.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-6971.0000">
+		-6 971,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Zábřežská kulturní, s.r.o. - zveřejnění inzerce - senátní volby 2026 - VO 66</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>26373</td>
+		
+			<td>66</td>
+		
+			<td>Zábřežská kulturní, s.r.o. - zveřejnění inzerce - senátní volby 2026 - VO 66</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>15.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-44452.0100">
+		-44 452,01&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Česká pošta, s.p. - zpracování a roznos inf. materiálů - senátní volby 2026 - VO 57</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>5190795401</td>
+		
+			<td>57</td>
+		
+			<td>Česká pošta, s.p. - zpracování a roznos inf. materiálů - senátní volby 2026 - VO 57</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>15.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-8082.0000">
+		-8 082,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Gastro Újezd s.r.o. - pronájem areálu Gauč na Výstavišti - senátní volby 2026 - VO 12, 51, 57, 66, 81</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>260100169</td>
+		
+			<td>1251576681</td>
+		
+			<td>Gastro Újezd s.r.o. - pronájem areálu Gauč na Výstavišti - senátní volby 2026 - VO 12, 51, 57, 66, 81</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>14.09.26</td>
+		
+			<td class="text-end amount amount_value" data-value="600000.0000">
+		600 000,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td>KDU-ČSL</td>
+		
+			<td>
+	<div>vklad na senátní volby OLM z ÚK  - převod daru - VO 66</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td>66</td>
+		
+			<td>vklad na senátní volby OLM z ÚK  - převod daru - VO 66</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>14.09.26</td>
+		
+			<td class="text-end amount amount_value" data-value="50000.0000">
+		50 000,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td>KDU-ČSL</td>
+		
+			<td>
+	<div>vklad na senátní volby OLM z ÚK  - převod daru - VO 66</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td>66</td>
+		
+			<td>vklad na senátní volby OLM z ÚK  - převod daru - VO 66</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>14.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-22869.0000">
+		-22 869,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>IMAGE UP, s.r.o. - brand zadních oken autobusů - senátní volby 2026 - VO 81</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>260101055</td>
+		
+			<td>81</td>
+		
+			<td>IMAGE UP, s.r.o. - brand zadních oken autobusů - senátní volby 2026 - VO 81</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>14.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-1652.8600">
+		-1 652,86&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>SPORETO kpk s.r.o. - letáky A6 a samolepky - senátní volby 2026 - VO 12</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>26100458</td>
+		
+			<td>12</td>
+		
+			<td>SPORETO kpk s.r.o. - letáky A6 a samolepky - senátní volby 2026 - VO 12</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>14.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-14989.4800">
+		-14 989,48&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>DOBRÝ DEN S KURÝREM, a.s. - plošná inzerce - senátní volby 2026 - VO 81</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>1122610299</td>
+		
+			<td>81</td>
+		
+			<td>DOBRÝ DEN S KURÝREM, a.s. - plošná inzerce - senátní volby 2026 - VO 81</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>14.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-1694.0000">
+		-1 694,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>JUTTY GROUP s.r.o. - plakáty A2 - senátní volby 2026 - VO 57</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>20260614</td>
+		
+			<td>57</td>
+		
+			<td>JUTTY GROUP s.r.o. - plakáty A2 - senátní volby 2026 - VO 57</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>11.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-1764.0000">
+		-1 764,00&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Informační centrum a Klub kultury - výlep plakátů A2 - senátní volby 2026 - VO 51</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>14726</td>
+		
+			<td>51</td>
+		
+			<td>Informační centrum a Klub kultury - výlep plakátů A2 - senátní volby 2026 - VO 51</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>11.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-41360.0000">
+		-41 360,00&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>AUTO DOBROVOLNÝ V. M. s.r.o.- záloha na pronájem vozu - senátní volby 2026 - VO 51</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>226010130</td>
+		
+			<td>51</td>
+		
+			<td>AUTO DOBROVOLNÝ V. M. s.r.o.- záloha na pronájem vozu - senátní volby 2026 - VO 51</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>11.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-2541.0000">
+		-2 541,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td></td>
+		
+			<td>
+	<div>R36.cz, s.r.o.- reklamní plachty - senátní volby 2026 - VO 51</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>2026056</td>
+		
+			<td>51</td>
+		
+			<td>R36.cz, s.r.o.- reklamní plachty - senátní volby 2026 - VO 51</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>11.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-18500.0000">
+		-18 500,00&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Antonín Šrejber - fotografické služby - senátní volby 2026 - VO 66</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>260901</td>
+		
+			<td>66</td>
+		
+			<td>Antonín Šrejber - fotografické služby - senátní volby 2026 - VO 66</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>11.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-20328.0000">
+		-20 328,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td></td>
+		
+			<td>
+	<div>R36.cz, s.r.o.- reklamní plachty - senátní volby 2026 - VO 66</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>2026052</td>
+		
+			<td>66</td>
+		
+			<td>R36.cz, s.r.o.- reklamní plachty - senátní volby 2026 - VO 66</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>11.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-55284.9000">
+		-55 284,90&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td></td>
+		
+			<td>
+	<div>R36.cz, s.r.o.- reklamní plachty - senátní volby 2026 - VO 81</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>2026067</td>
+		
+			<td>81</td>
+		
+			<td>R36.cz, s.r.o.- reklamní plachty - senátní volby 2026 - VO 81</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>11.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-8712.0000">
+		-8 712,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>TISKÁRNA KRÁL s.r.o. - plakát A2 volby - senátní volby 2026 - VO 57</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>20261135</td>
+		
+			<td>57</td>
+		
+			<td>TISKÁRNA KRÁL s.r.o. - plakát A2 volby - senátní volby 2026 - VO 57</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>11.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-345.1000">
+		-345,10&nbsp;CZK
+	</td>
+		
+			<td>Karetní transakce</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Nákup: Potraviny Merhautova,  Merhautova 1066/216, Brno, 61300, CZE, dne 10.9.2026, částka  345.10 CZK</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>8393</td>
+		
+			<td></td>
+		
+			<td>Nákup: Potraviny Merhautova,  Merhautova 1066/216, Brno, 61300, CZE, dne 10.9.2026, částka  345.10 CZK</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>10.09.26</td>
+		
+			<td class="text-end amount amount_value" data-value="600000.0000">
+		600 000,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td>KDU-ČSL</td>
+		
+			<td>
+	<div>vklad na senátní volby ZLN z ÚK  - převod darů - VO 81</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td>81</td>
+		
+			<td>vklad na senátní volby ZLN z ÚK  - převod darů - VO 81</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>10.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-154880.0000">
+		-154 880,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Regionální vydavatelství s.r.o. - zpracování, tisk a distribuce - senátní volby 2026 - VO 81</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>261200198</td>
+		
+			<td>81</td>
+		
+			<td>Regionální vydavatelství s.r.o. - zpracování, tisk a distribuce - senátní volby 2026 - VO 81</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>10.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-40656.0000">
+		-40 656,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>ČSAD Bus Uherské Hradiště a.s. - pronájem reklamní plochy na autobusech - senátní volby 2026 - VO 81</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>89060217</td>
+		
+			<td>81</td>
+		
+			<td>ČSAD Bus Uherské Hradiště a.s. - pronájem reklamní plochy na autobusech - senátní volby 2026 - VO 81</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>09.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-3384.6000">
+		-3 384,60&nbsp;CZK
+	</td>
+		
+			<td>Karetní transakce</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Nákup: SHELL 8054, SUMPERK, CZ, dne 8.9.2026, částka  3384.60 CZK</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>0922</td>
+		
+			<td></td>
+		
+			<td>Nákup: SHELL 8054, SUMPERK, CZ, dne 8.9.2026, částka  3384.60 CZK</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>09.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-7260.0000">
+		-7 260,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Regionální vydavatelství s.r.o. Zpravodaj města UH - senátní volby 2026 - VO 81</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>212602369</td>
+		
+			<td>81</td>
+		
+			<td>Regionální vydavatelství s.r.o. Zpravodaj města UH - senátní volby 2026 - VO 81</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>09.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-4840.0000">
+		-4 840,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Regionální vydavatelství s.r.o. - Veselské listy - senátní volby 2026 - VO 81</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>212602400</td>
+		
+			<td>81</td>
+		
+			<td>Regionální vydavatelství s.r.o. - Veselské listy - senátní volby 2026 - VO 81</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>08.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-1532.5000">
+		-1 532,50&nbsp;CZK
+	</td>
+		
+			<td>Karetní transakce</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Nákup: ORLEN CS 0579, Stare Mesto, CZ, dne 7.9.2026, částka  1532.50 CZK</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>3794</td>
+		
+			<td></td>
+		
+			<td>Nákup: ORLEN CS 0579, Stare Mesto, CZ, dne 7.9.2026, částka  1532.50 CZK</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>08.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-3400.0000">
+		-3 400,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Obec Bílovice nad Svitavou - místní poplatek za užívání veřejného prostranství - senátní volby 2026 - VO 57</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>1343</td>
+		
+			<td>57</td>
+		
+			<td>Obec Bílovice nad Svitavou - místní poplatek za užívání veřejného prostranství - senátní volby 2026 - VO 57</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>08.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-23232.0000">
+		-23 232,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td></td>
+		
+			<td>
+	<div>R36.cz, s.r.o.- reklamní plachty - senátní volby 2026 - VO 12</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>2026055</td>
+		
+			<td>12</td>
+		
+			<td>R36.cz, s.r.o.- reklamní plachty - senátní volby 2026 - VO 12</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>08.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-11267.5200">
+		-11 267,52&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>PROTISK Prchal s.r.o. - plakáty A2, A3 - senátní volby 2026 - VO 51</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>2026200511</td>
+		
+			<td>51</td>
+		
+			<td>PROTISK Prchal s.r.o. - plakáty A2, A3 - senátní volby 2026 - VO 51</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>08.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-3025.0000">
+		-3 025,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>PROTISK Prchal s.r.o. - grafické práce - senátní volby 2026 - VO 51</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>2026210012</td>
+		
+			<td>51</td>
+		
+			<td>PROTISK Prchal s.r.o. - grafické práce - senátní volby 2026 - VO 51</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>07.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-14823.0000">
+		-14 823,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Šopík Vladimír - grafická úprava letáku a tisk - senátní volby 2026 - VO 81</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>2026059</td>
+		
+			<td>81</td>
+		
+			<td>Šopík Vladimír - grafická úprava letáku a tisk - senátní volby 2026 - VO 81</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>06.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-651.9000">
+		-651,90&nbsp;CZK
+	</td>
+		
+			<td>Karetní transakce</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Nákup: KAUFLAND CZ  5210,  Cukrovarska 492/4, VYSKOV, 68201, CZE, dne 5.9.2026, částka  651.90 CZK</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>8393</td>
+		
+			<td></td>
+		
+			<td>Nákup: KAUFLAND CZ  5210,  Cukrovarska 492/4, VYSKOV, 68201, CZE, dne 5.9.2026, částka  651.90 CZK</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>05.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-3475.1000">
+		-3 475,10&nbsp;CZK
+	</td>
+		
+			<td>Karetní transakce</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Nákup: SHELL 8114, OLOMOUC-VELKO, CZ, dne 4.9.2026, částka  3475.10 CZK</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>0922</td>
+		
+			<td></td>
+		
+			<td>Nákup: SHELL 8114, OLOMOUC-VELKO, CZ, dne 4.9.2026, částka  3475.10 CZK</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>04.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-1760.0000">
+		-1 760,00&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>COPY GENERAL - skládané letáky - senátní volby 2026 - VO 12, 51, 57, 66, 81</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>2613024286</td>
+		
+			<td>1251576681</td>
+		
+			<td>COPY GENERAL - skládané letáky - senátní volby 2026 - VO 12, 51, 57, 66, 81</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>04.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-14520.0000">
+		-14 520,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Reklamní studio Shift s.r.o. - pronájem reklamní plochy - senátní volby 2026 - VO 81</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>20260276</td>
+		
+			<td>81</td>
+		
+			<td>Reklamní studio Shift s.r.o. - pronájem reklamní plochy - senátní volby 2026 - VO 81</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>04.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-9311.0000">
+		-9 311,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Ing. Jiří Pokorný - vytištění reklamy v měsíčníku - senátní volby 2026 - VO 51</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>2842026</td>
+		
+			<td>51</td>
+		
+			<td>Ing. Jiří Pokorný - vytištění reklamy v měsíčníku - senátní volby 2026 - VO 51</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>04.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-9600.0000">
+		-9 600,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Jiří Holub - podnájem místa pro reklamní banner - senátní volby 2026 - VO 51</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>20260001</td>
+		
+			<td>51</td>
+		
+			<td>Jiří Holub - podnájem místa pro reklamní banner - senátní volby 2026 - VO 51</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>04.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-31036.5000">
+		-31 036,50&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>REKLAMA TOMEK s.r.o. - reklamní polepy autobusů - senátní volby 2026 - VO 51</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>260100323</td>
+		
+			<td>51</td>
+		
+			<td>REKLAMA TOMEK s.r.o. - reklamní polepy autobusů - senátní volby 2026 - VO 51</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>01.09.26</td>
+		
+			<td class="text-end amount amount_value" data-value="300000.0000">
+		300 000,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td>KDU-ČSL</td>
+		
+			<td>
+	<div>vklad na senátní volby JHM z ÚK - VO 57</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td>57</td>
+		
+			<td>vklad na senátní volby JHM z ÚK - VO 57</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>01.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-3520.0000">
+		-3 520,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Městský úřad Vyškov - místní poplatek za užívání veřejného prostranství - senátní volby 2026 - VO 57</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>134310</td>
+		
+			<td>57</td>
+		
+			<td>Městský úřad Vyškov - místní poplatek za užívání veřejného prostranství - senátní volby 2026 - VO 57</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>01.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-22800.0000">
+		-22 800,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Daniel Tesař - grafické práce - senátní volby 2026 - VO 57</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>202626</td>
+		
+			<td>57</td>
+		
+			<td>Daniel Tesař - grafické práce - senátní volby 2026 - VO 57</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>01.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-127050.0000">
+		-127 050,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>STEM/MARK, a.s. - provedení průzkumu veřejného mínění - senátní volby 2026 - VO 66</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>20260306</td>
+		
+			<td>66</td>
+		
+			<td>STEM/MARK, a.s. - provedení průzkumu veřejného mínění - senátní volby 2026 - VO 66</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>31.08.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-2057.0000">
+		-2 057,00&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>ČSAD Uherské Hradiště a.s. - pronájem plochy pro umístění reklamy včetně instalace - senátní volby 2026 - VO 81</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>2610008907</td>
+		
+			<td>81</td>
+		
+			<td>ČSAD Uherské Hradiště a.s. - pronájem plochy pro umístění reklamy včetně instalace - senátní volby 2026 - VO 81</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>31.08.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-27000.0000">
+		-27 000,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Michaela Kasalová - zajištění plakátové kampaně - senátní volby 2026 - VO 51</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>260100032</td>
+		
+			<td>51</td>
+		
+			<td>Michaela Kasalová - zajištění plakátové kampaně - senátní volby 2026 - VO 51</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>31.08.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-8349.0000">
+		-8 349,00&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>REKLAMA TOMEK s.r.o. - reklamní polepy autobusů - senátní volby 2026 - VO 51</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>260100308</td>
+		
+			<td>51</td>
+		
+			<td>REKLAMA TOMEK s.r.o. - reklamní polepy autobusů - senátní volby 2026 - VO 51</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>31.08.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-15000.0000">
+		-15 000,00&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Ondřej Procházka - správa sociálních sítí - senátní volby 2026 - VO 66</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>2026001</td>
+		
+			<td>66</td>
+		
+			<td>Ondřej Procházka - správa sociálních sítí - senátní volby 2026 - VO 66</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>28.08.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-72500.0000">
+		-72 500,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Martin Kubeš - služby ke kampani - senátní volby 2026 - VO 66</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0000</td>
+		
+			<td>20260803</td>
+		
+			<td>66</td>
+		
+			<td>Martin Kubeš - služby ke kampani - senátní volby 2026 - VO 66</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>28.08.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-150161.0000">
+		-150 161,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>MAFRA, a.s. - inzerce - senátní volby 2026 - VO 57</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>2126013738</td>
+		
+			<td>57</td>
+		
+			<td>MAFRA, a.s. - inzerce - senátní volby 2026 - VO 57</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>26.08.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-3266.2000">
+		-3 266,20&nbsp;CZK
+	</td>
+		
+			<td>Karetní transakce</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Nákup: SHELL 8054, SUMPERK, CZ, dne 25.8.2026, částka  3266.20 CZK</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>0922</td>
+		
+			<td></td>
+		
+			<td>Nákup: SHELL 8054, SUMPERK, CZ, dne 25.8.2026, částka  3266.20 CZK</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>25.08.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-4477.0000">
+		-4 477,00&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>PROTISK Prchal s.r.o. - samolepky + letáčky - senátní volby 2026 - VO 51</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>2026200490</td>
+		
+			<td>51</td>
+		
+			<td>PROTISK Prchal s.r.o. - samolepky + letáčky - senátní volby 2026 - VO 51</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>25.08.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-9092.4200">
+		-9 092,42&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>VLTAVA LABE MEDIA a.s. - inzerce - senátní volby 2026 - VO 51</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0008</td>
+		
+			<td>2617012388</td>
+		
+			<td>51</td>
+		
+			<td>VLTAVA LABE MEDIA a.s. - inzerce - senátní volby 2026 - VO 51</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>25.08.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-7425.1700">
+		-7 425,17&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>SPORETO kpk s.r.o. - letáky A3, A2 - senátní volby 2026 - VO 12</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>26100426</td>
+		
+			<td>12</td>
+		
+			<td>SPORETO kpk s.r.o. - letáky A3, A2 - senátní volby 2026 - VO 12</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>25.08.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-193116.0000">
+		-193 116,00&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>AdSight a.s. - OOH kampaň - senátní volby 2026 - VO 12</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>920260063</td>
+		
+			<td>12</td>
+		
+			<td>AdSight a.s. - OOH kampaň - senátní volby 2026 - VO 12</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>25.08.26</td>
+		
+			<td class="text-end amount amount_value" data-value="200000.0000">
+		200 000,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td>KDU-ČSL</td>
+		
+			<td>
+	<div>vklad na senátní volby JHČ z ÚK - VO 12</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td>12</td>
+		
+			<td>vklad na senátní volby JHČ z ÚK - VO 12</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>24.08.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-11205.0000">
+		-11 205,00&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>RENGL, s.r.o. - záloha za kampaň - senátní volby 2026 - VO 66</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0000</td>
+		
+			<td>10271559</td>
+		
+			<td>66</td>
+		
+			<td>RENGL, s.r.o. - záloha za kampaň - senátní volby 2026 - VO 66</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>24.08.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-18041.1000">
+		-18 041,10&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>BigBoard Media s.r.o. - záloha - senátní volby 2026 - VO 51</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>310260294</td>
+		
+			<td>51</td>
+		
+			<td>BigBoard Media s.r.o. - záloha - senátní volby 2026 - VO 51</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>24.08.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-193702.8500">
+		-193 702,85&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>BigBoard Media s.r.o. - pronájem rekl.ploch a tisk rekl.materiálu - senátní volby 2026 - VO 66</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>120260109</td>
+		
+			<td>66</td>
+		
+			<td>BigBoard Media s.r.o. - pronájem rekl.ploch a tisk rekl.materiálu - senátní volby 2026 - VO 66</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>24.08.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-3327.0000">
+		-3 327,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>JUTTY GROUP s.r.o.- letáky - senátní volby 2026 - VO 66</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>20260552</td>
+		
+			<td>66</td>
+		
+			<td>JUTTY GROUP s.r.o.- letáky - senátní volby 2026 - VO 66</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>20.08.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-27588.0000">
+		-27 588,00&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Quo - SB, spol. s r.o. - pronájem reklamní plochy - senátní volby 2026 - VO 57</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>1260256</td>
+		
+			<td>57</td>
+		
+			<td>Quo - SB, spol. s r.o. - pronájem reklamní plochy - senátní volby 2026 - VO 57</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>18.08.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-25200.0000">
+		-25 200,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Jan Dlouhý - výlep a tisk plakatů A2 - senátní volby 2026 - VO 66</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>202613</td>
+		
+			<td>66</td>
+		
+			<td>Jan Dlouhý - výlep a tisk plakatů A2 - senátní volby 2026 - VO 66</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>17.08.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-10000.0000">
+		-10 000,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Daniel Tavlaridis - služby k volební kampani - senátní volby 2026 - VO 66</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>202606</td>
+		
+			<td>66</td>
+		
+			<td>Daniel Tavlaridis - služby k volební kampani - senátní volby 2026 - VO 66</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>14.08.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-35174.7000">
+		-35 174,70&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>BigBoard Media s.r.o. - záloha - senátní volby 2026 - VO 51</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>310260202</td>
+		
+			<td>51</td>
+		
+			<td>BigBoard Media s.r.o. - záloha - senátní volby 2026 - VO 51</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>14.08.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-14520.0000">
+		-14 520,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>PAROLA spol. s r.o. - plošná inzerce - senátní volby 2026 - VO 51</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>114190</td>
+		
+			<td>51</td>
+		
+			<td>PAROLA spol. s r.o. - plošná inzerce - senátní volby 2026 - VO 51</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>14.08.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-42168.5000">
+		-42 168,50&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>REKLAMA TOMEK s.r.o. - reklamní polepy autobusů - senátní volby 2026 - VO 81</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>260100292</td>
+		
+			<td>51</td>
+		
+			<td>REKLAMA TOMEK s.r.o. - reklamní polepy autobusů - senátní volby 2026 - VO 51</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>14.08.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-23595.0000">
+		-23 595,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Auto Kubíček s.r.o.- zapůjčení vozidla - senátní volby 2026 - VO 66</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>26101935</td>
+		
+			<td>66</td>
+		
+			<td>Auto Kubíček s.r.o.- zapůjčení vozidla - senátní volby 2026 - VO 66</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>13.08.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-2000.0000">
+		-2 000,00&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td>vrácení platby, prosíme o zasílání darů na transparentní darový účet, děkujeme</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>12.08.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-5974.0000">
+		-5 974,00&nbsp;CZK
+	</td>
+		
+			<td>Karetní transakce</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Nákup: Ceska posta  77006, Olomouc, CZ, dne 11.8.2026, částka  5974.00 CZK</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>0922</td>
+		
+			<td></td>
+		
+			<td>Nákup: Ceska posta  77006, Olomouc, CZ, dne 11.8.2026, částka  5974.00 CZK</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>12.08.26</td>
+		
+			<td class="text-end amount amount_value" data-value="2000.0000">
+		2 000,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní příjem</td>
+		
+			<td>KUTIKOVA MIROSLAVA</td>
+		
+			<td>
+	<div>kdu čsl</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>0</td>
+		
+			<td></td>
+		
+			<td>KUTIKOVA MIROSLAVA</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>12.08.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-17061.0000">
+		-17 061,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>MOBILBOARD s.r.o. - city board - senátní volby 2026 - VO 81</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>262900101</td>
+		
+			<td>81</td>
+		
+			<td>MOBILBOARD s.r.o. - city board - senátní volby 2026 - VO 81</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>12.08.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-33517.0000">
+		-33 517,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td></td>
+		
+			<td>
+	<div>R36.cz, s.r.o.- reklamní plachty - senátní volby 2026 - VO 51</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>2026038</td>
+		
+			<td>51</td>
+		
+			<td>R36.cz, s.r.o.- reklamní plachty - senátní volby 2026 - VO 51</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>12.08.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-14520.0000">
+		-14 520,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td></td>
+		
+			<td>
+	<div>R36.cz, s.r.o.- reklamní plachty - senátní volby 2026 - VO 66</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>2026039</td>
+		
+			<td>66</td>
+		
+			<td>R36.cz, s.r.o.- reklamní plachty - senátní volby 2026 - VO 66</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>10.08.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-3024.0000">
+		-3 024,00&nbsp;CZK
+	</td>
+		
+			<td>Karetní transakce</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Nákup: CS EUROOIL, SUMPERK, CZ, dne 9.8.2026, částka  3024.00 CZK</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>0922</td>
+		
+			<td></td>
+		
+			<td>Nákup: CS EUROOIL, SUMPERK, CZ, dne 9.8.2026, částka  3024.00 CZK</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>10.08.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-64614.0000">
+		-64 614,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>PRINTIMA promotion s.r.o.- polep vozidla - senátní volby 2026 - VO 66</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>2026448</td>
+		
+			<td>66</td>
+		
+			<td>PRINTIMA promotion s.r.o.- polep vozidla - senátní volby 2026 - VO 66</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>05.08.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-10500.5000">
+		-10 500,50&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>RENGL, s.r.o. - záloha za kampaň - senátní volby 2026 - VO 57</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0000</td>
+		
+			<td>10271421</td>
+		
+			<td>57</td>
+		
+			<td>RENGL, s.r.o. - záloha za kampaň - senátní volby 2026 - VO 57</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>05.08.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-13434.0000">
+		-13 434,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Reklamnidarky.cz, s.r.o.- reklamní předměty - senátní volby 2026 - VO 57</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>202600266</td>
+		
+			<td>57</td>
+		
+			<td>Reklamnidarky.cz, s.r.o.- reklamní předměty - senátní volby 2026 - VO 57</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>04.08.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-148734.0000">
+		-148 734,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>AdSight, a.s - OOH kampaň - senátní volby 2026 - VO 51</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>920260038</td>
+		
+			<td>51</td>
+		
+			<td>AdSight, a.s - OOH kampaň - senátní volby 2026 - VO 51</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>04.08.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-48787.0000">
+		-48 787,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>AdSight, a.s - OOH kampaň - senátní volby 2026 - VO 81</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>920260040</td>
+		
+			<td>81</td>
+		
+			<td>AdSight, a.s - OOH kampaň - senátní volby 2026 - VO 81</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>03.08.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-4679.0200">
+		-4 679,02&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Promo Direct s.r.o.- reklamní předměty - senátní volby 2026 - VO 81</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>260625</td>
+		
+			<td>81</td>
+		
+			<td>Promo Direct s.r.o.- reklamní předměty - senátní volby 2026 - VO 81</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>03.08.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-4888.4000">
+		-4 888,40&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>DOBRÝ DEN S KURÝREM, a.s - plošná inzerce - senátní volby 2026 - VO 81</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>1122610250</td>
+		
+			<td>81</td>
+		
+			<td>DOBRÝ DEN S KURÝREM, a.s - plošná inzerce - senátní volby 2026 - VO 81</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>31.07.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-7502.0000">
+		-7 502,00&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>RISORIA plus s.r.o.- reklamní předměty - senátní volby 2026 - VO 66</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>260100548</td>
+		
+			<td>66</td>
+		
+			<td>RISORIA plus s.r.o.- reklamní předměty - senátní volby 2026 - VO 66</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>29.07.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-8477.0000">
+		-8 477,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Reklamnidarky.cz, s.r.o.- reklamní předměty - senátní volby 2026 - VO 12</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>202600249</td>
+		
+			<td>12</td>
+		
+			<td>Reklamnidarky.cz, s.r.o.- reklamní předměty - senátní volby 2026 - VO 12</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>27.07.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-9400.0000">
+		-9 400,00&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Markéta Zelenková - fotografie pro volební kampaň - senátní volby 2026 - VO 57</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>202618</td>
+		
+			<td>57</td>
+		
+			<td>Markéta Zelenková - fotografie pro volební kampaň - senátní volby 2026 - VO 57</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>27.07.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-8400.0000">
+		-8 400,00&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Vojtěch Čižmář - příprava grafiky - senátní volby 2026 - VO 57</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>20260017</td>
+		
+			<td>57</td>
+		
+			<td>Vojtěch Čižmář - příprava grafiky - senátní volby 2026 - VO 57</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>24.07.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-5654.0000">
+		-5 654,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>LEKIN s.r.o  - náplasti - senátní volby 2026 - VO 51</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>2026173</td>
+		
+			<td>51</td>
+		
+			<td>LEKIN s.r.o  - náplasti - senátní volby 2026 - VO 51</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>23.07.26</td>
+		
+			<td class="text-end amount amount_value" data-value="250000.0000">
+		250 000,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td>KDU-ČSL</td>
+		
+			<td>
+	<div>převod na senátní volby OLM - VO 66</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td>66</td>
+		
+			<td>převod na senátní volby OLM - VO 66</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>23.07.26</td>
+		
+			<td class="text-end amount amount_value" data-value="250000.0000">
+		250 000,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td>KDU-ČSL</td>
+		
+			<td>
+	<div>převod na senátní volby OLM - VO 66</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td>66</td>
+		
+			<td>převod na senátní volby OLM - VO 66</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>23.07.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-20000.0000">
+		-20 000,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Reklamnidarky.cz, s.r.o.- reklamní předměty - senátní volby 2026 - VO 66</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>1012601094</td>
+		
+			<td>66</td>
+		
+			<td>Reklamnidarky.cz, s.r.o.- reklamní předměty - senátní volby 2026 - VO 66</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>22.07.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-1500.0000">
+		-1 500,00&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Město Kunovice - místní poplatek za užívání veřejného prostranství - senátní volby 2026 - VO 81</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>2003001832</td>
+		
+			<td>81</td>
+		
+			<td>Město Kunovice - místní poplatek za užívání veřejného prostranství - senátní volby 2026 - VO 81</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>22.07.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-12390.0000">
+		-12 390,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Milan Daněk - přelepky a promostolek tisk - senátní volby 2026 - VO 81</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>260208</td>
+		
+			<td>81</td>
+		
+			<td>Milan Daněk - přelepky a promostolek tisk - senátní volby 2026 - VO 81</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>21.07.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-10000.0000">
+		-10 000,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Ondřej Procházka - správa sociálních sítí - senátní volby 2026 - VO 66</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>001</td>
+		
+			<td>66</td>
+		
+			<td>Ondřej Procházka - správa sociálních sítí - senátní volby 2026 - VO 66</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>21.07.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-13500.0000">
+		-13 500,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Antonín Šrejber - fotografické služby - senátní volby 2026 - VO 66</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>260701</td>
+		
+			<td>66</td>
+		
+			<td>Antonín Šrejber - fotografické služby - senátní volby 2026 - VO 66</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>17.07.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-245.4000">
+		-245,40&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Město Uherské Hradiště - pronájem el. sloupků a spotř. el. energie - senátní volby 2026 - VO 81</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>9350406569</td>
+		
+			<td>81</td>
+		
+			<td>Město Uherské Hradiště - pronájem el. sloupků a spotř. el. energie - senátní volby 2026 - VO 81</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>17.07.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-56488.0000">
+		-56 488,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td></td>
+		
+			<td>
+	<div>DENY MEDIA s.r.o. - bannery - senátní volby 2026 - VO 57</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>2601044</td>
+		
+			<td>57</td>
+		
+			<td>DENY MEDIA s.r.o. - bannery - senátní volby 2026 - VO 57</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>15.07.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-600.0000">
+		-600,00&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Město Staré Město - správní poplatek za umístění rekl.zařízení - senátní volby 2026 - VO 81</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>1343032</td>
+		
+			<td>81</td>
+		
+			<td>Město Staré Město - správní poplatek za umístění rekl.zařízení - senátní volby 2026 - VO 81</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>15.07.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-10000.0000">
+		-10 000,00&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Daniel Tavlaridis - služby k volební kampani - senátní volby 2026 - VO 66</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>202605</td>
+		
+			<td>66</td>
+		
+			<td>Daniel Tavlaridis - služby k volební kampani - senátní volby 2026 - VO 66</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>15.07.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-96000.0000">
+		-96 000,00&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Martin Kubeš - služby ke kampani - vizuální identita, výzkum, web - senátní volby 2026 - VO 66</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>20260701</td>
+		
+			<td>66</td>
+		
+			<td>Martin Kubeš - služby ke kampani - vizuální identita, výzkum, web - senátní volby 2026 - VO 66</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>14.07.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-6050.0000">
+		-6 050,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Luboš Sacher - fotografování a zpracování fotografií - senátní volby 2026 - VO 12</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>2026010</td>
+		
+			<td>12</td>
+		
+			<td>Luboš Sacher - fotografování a zpracování fotografií - senátní volby 2026 - VO 12</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>13.07.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-11552.0000">
+		-11 552,00&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>RENGL, s.r.o. - záloha na kampaň - senátní volby 2026 - VO 51</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0000</td>
+		
+			<td>10271238</td>
+		
+			<td>51</td>
+		
+			<td>RENGL, s.r.o. - záloha na kampaň - senátní volby 2026 - VO 51</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>13.07.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-875.0000">
+		-875,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td></td>
+		
+			<td>
+	<div>BEL 55 s.r.o. - vylepení plakátů - senátní volby 2026 - VO 81</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>2026116</td>
+		
+			<td>81</td>
+		
+			<td>BEL 55 s.r.o. - vylepení plakátů - senátní volby 2026 - VO 81</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>10.07.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-99.0000">
+		-99,00&nbsp;CZK
+	</td>
+		
+			<td>Poplatek - platební karta</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Založení karty, číslo bylo přiděleno</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>0922</td>
+		
+			<td></td>
+		
+			<td>Založení karty, číslo bylo přiděleno</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>10.07.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-99.0000">
+		-99,00&nbsp;CZK
+	</td>
+		
+			<td>Poplatek - platební karta</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Založení karty, číslo bylo přiděleno</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>3908</td>
+		
+			<td></td>
+		
+			<td>Založení karty, číslo bylo přiděleno</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>10.07.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-99.0000">
+		-99,00&nbsp;CZK
+	</td>
+		
+			<td>Poplatek - platební karta</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Založení karty, číslo bylo přiděleno</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>0695</td>
+		
+			<td></td>
+		
+			<td>Založení karty, číslo bylo přiděleno</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>10.07.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-9002.4000">
+		-9 002,40&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>KON-KYS s.r.o. - poutače - senátní volby 2026 - VO 81</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0008</td>
+		
+			<td>260867</td>
+		
+			<td>81</td>
+		
+			<td>KON-KYS s.r.o. - poutače - senátní volby 2026 - VO 81</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>08.07.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-618.5500">
+		-618,55&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>HRATES a.s. - zpřístupnění el.energie pro akci - senátní volby 2026 - VO 81</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0008</td>
+		
+			<td>6641000327</td>
+		
+			<td>81</td>
+		
+			<td>HRATES a.s. - zpřístupnění el.energie pro akci - senátní volby 2026 - VO 81</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>07.07.26</td>
+		
+			<td class="text-end amount amount_value" data-value="200000.0000">
+		200 000,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td>KDU-ČSL</td>
+		
+			<td>
+	<div>vklad na senátní volby JHČ z ÚK - VO 12</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td>12</td>
+		
+			<td>vklad na senátní volby JHČ z ÚK - VO 12</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>07.07.26</td>
+		
+			<td class="text-end amount amount_value" data-value="300000.0000">
+		300 000,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td>KDU-ČSL</td>
+		
+			<td>
+	<div>vklad na senátní volby VYS z ÚK - VO 51</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td>51</td>
+		
+			<td>vklad na senátní volby VYS z ÚK - VO 51</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>07.07.26</td>
+		
+			<td class="text-end amount amount_value" data-value="300000.0000">
+		300 000,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td>KDU-ČSL</td>
+		
+			<td>
+	<div>vklad na senátní volby JHM z ÚK</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td>57</td>
+		
+			<td>vklad na senátní volby JHM z ÚK</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>07.07.26</td>
+		
+			<td class="text-end amount amount_value" data-value="200000.0000">
+		200 000,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td>KDU-ČSL</td>
+		
+			<td>
+	<div>vklad na senátní volby OLM z ÚK</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td>66</td>
+		
+			<td>vklad na senátní volby OLM z ÚK</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>07.07.26</td>
+		
+			<td class="text-end amount amount_value" data-value="300000.0000">
+		300 000,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td>KDU-ČSL</td>
+		
+			<td>
+	<div>vklad na senátní volby ZLN z ÚK</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td>81</td>
+		
+			<td>vklad na senátní volby ZLN z ÚK</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>07.07.26</td>
+		
+			<td class="text-end amount amount_value" data-value="150000.0000">
+		150 000,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td>KDU-ČSL</td>
+		
+			<td>
+	<div>vklad na senátní volby VYS - VO 51</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td>51</td>
+		
+			<td>vklad na senátní volby VYS - VO 51</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>05.07.26</td>
+		
+			<td class="text-end amount amount_value" data-value="200000.0000">
+		200 000,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td>KDU-ČSL</td>
+		
+			<td>
+	<div>Vklad na volby do Senátu z OK ZR VO 51</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td>51</td>
+		
+			<td>Vklad na volby do Senátu z OK ZR VO 51</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>02.07.26</td>
+		
+			<td class="text-end amount amount_value" data-value="200000.0000">
+		200 000,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td>KDU-ČSL</td>
+		
+			<td>
+	<div>Vklad na volby do Senátu z KK OLK - VO 66</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td>Vklad na volby do Senátu z KK OLK - VO 66</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>02.07.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-36562.5700">
+		-36 562,57&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Quo - SB, spol. s r.o. - pronájem reklamní kostky - senátní volby 2026 - VO 57</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>1260209</td>
+		
+			<td>57</td>
+		
+			<td>Quo - SB, spol. s r.o. - pronájem reklamní kostky - senátní volby 2026 - VO 57</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>02.07.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-44407.0000">
+		-44 407,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Šopík Vladimír - grafické práce na reklamní propagaci - senátní volby 2026 - VO 81</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0008</td>
+		
+			<td>2026044</td>
+		
+			<td>81</td>
+		
+			<td>Šopík Vladimír - grafické práce na reklamní propagaci - senátní volby 2026 - VO 81</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>30.06.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-24200.0000">
+		-24 200,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>J.D. Production, s.r.o. - inzerce - senátní volby 2026 - VO 81</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0008</td>
+		
+			<td>260261</td>
+		
+			<td>81</td>
+		
+			<td>J.D. Production, s.r.o. - inzerce - senátní volby 2026 - VO 81</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>22.06.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-11365.5300">
+		-11 365,53&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>VLTAVA LABE MEDIA a.s. - inzerce - senátní volby 2026 - VO 81</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0008</td>
+		
+			<td>2617009081</td>
+		
+			<td>81</td>
+		
+			<td>VLTAVA LABE MEDIA a.s. - inzerce - senátní volby 2026 - VO 81</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>15.06.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-8499.0400">
+		-8 499,04&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Měšťanský pivovar Havlíčkův Brod a.s. - občerstvení  - senátní volby 2026 - VO 51</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>261102951</td>
+		
+			<td>51</td>
+		
+			<td>Měšťanský pivovar Havlíčkův Brod a.s. - občerstvení  - senátní volby 2026 - VO 51</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>02.06.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-2232.0000">
+		-2 232,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Integral - CZ s.r.o. - sáčky - senátní volby 2026 - VO 81</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0008</td>
+		
+			<td>005726</td>
+		
+			<td>81</td>
+		
+			<td>Integral - CZ s.r.o. - sáčky - senátní volby 2026 - VO 81</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>29.05.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-21886.1400">
+		-21 886,14&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>REDA a.s - reklamní předměty  - senátní volby 2026 - VO 51</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>1260400089</td>
+		
+			<td>51</td>
+		
+			<td>REDA a.s - reklamní předměty  - senátní volby 2026 - VO 51</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>28.05.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-2258.0000">
+		-2 258,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>EuroSpice s.r.o.- bazalka - senátní volby 2026 - VO 81</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0008</td>
+		
+			<td>260100248</td>
+		
+			<td>81</td>
+		
+			<td>EuroSpice s.r.o.- bazalka - senátní volby 2026 - VO 81</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>28.05.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-14048.1000">
+		-14 048,10&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>INET Solutions s.r.o.- záloha - senátní volby 2026 - VO 81</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>192603273</td>
+		
+			<td>81</td>
+		
+			<td>INET Solutions s.r.o.- záloha - senátní volby 2026 - VO 81</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>19.05.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-169.0000">
+		-169,00&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Městský úřad Uherské Hradiště - místní poplatek UH - senátní volby 2026 - VO 81</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>9830002007</td>
+		
+			<td>81</td>
+		
+			<td>Městský úřad Uherské Hradiště - místní poplatek UH - senátní volby 2026 - VO 81</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>19.05.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-100.0000">
+		-100,00&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Městský úřad Uherské Hradiště - správní poplatek UH - senátní volby 2026 - VO 81</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>8122613493</td>
+		
+			<td>81</td>
+		
+			<td>Městský úřad Uherské Hradiště - správní poplatek UH - senátní volby 2026 - VO 81</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>13.05.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-12280.0000">
+		-12 280,00&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Městský úřad Uherské Hradiště - místní poplatek za zábor UH - senátní volby 2026 - VO 81</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>9830002007</td>
+		
+			<td>81</td>
+		
+			<td>Městský úřad Uherské Hradiště - místní poplatek za zábor UH - senátní volby 2026 - VO 81</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>07.05.26</td>
+		
+			<td class="text-end amount amount_value" data-value="200000.0000">
+		200 000,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td>KDU-ČSL</td>
+		
+			<td>
+	<div>vklad na senátní volby ZLN z ÚK</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td>81</td>
+		
+			<td>vklad na senátní volby ZLN z ÚK</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>04.05.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-5855.0000">
+		-5 855,00&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>RENGL s.r.o. - senátní kampaň - senátní volby 2026 - VO 57</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0000</td>
+		
+			<td>1027368</td>
+		
+			<td>57</td>
+		
+			<td>RENGL s.r.o. - senátní kampaň - senátní volby 2026 - VO 57</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>29.04.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-1948.0000">
+		-1 948,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td></td>
+		
+			<td>
+	<div>DENY MEDIA s.r.o. - tisk letáků - senátní volby 2026 - VO 57</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>2601012</td>
+		
+			<td>57</td>
+		
+			<td>DENY MEDIA s.r.o. - tisk letáků - senátní volby 2026 - VO 57</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>16.04.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-3630.0000">
+		-3 630,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Regionální vydavatelství s.r.o. - Veselské listy - senátní volby 2026 - VO 81</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>212601031</td>
+		
+			<td>81</td>
+		
+			<td>Regionální vydavatelství s.r.o. - Veselské listy - senátní volby 2026 - VO 81</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>14.04.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-20231.2000">
+		-20 231,20&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>BigMedia, spol. s r.o. - pronájem rekl. panelů - senátní volby 2026 - VO 81</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>4202602412</td>
+		
+			<td>81</td>
+		
+			<td>BigMedia, spol.s r.o. - pronájem rekl. panelů  - senátní volby 2026 - VO 81</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>14.04.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-13884.7500">
+		-13 884,75&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>BigMedia, spol. s r.o. - pronájem rekl. panelů - senátní volby 2026 - VO 81</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>4202602409</td>
+		
+			<td>81</td>
+		
+			<td>BigMedia, spol.s r.o. - pronájem rekl. panelů  - senátní volby 2026 - VO 81</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>14.04.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-13884.7500">
+		-13 884,75&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>BigMedia, spol. s r.o. - pronájem rekl. panelů - senátní volby 2026 - VO 81</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>4202602414</td>
+		
+			<td>81</td>
+		
+			<td>BigMedia, spol.s r.o. - pronájem rekl. panelů  - senátní volby 2026 - VO 81</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>08.04.26</td>
+		
+			<td class="text-end amount amount_value" data-value="2000.0000">
+		2 000,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní příjem</td>
+		
+			<td>KDU-CSL</td>
+		
+			<td>
+	<div>převod na volby ZLN</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>0</td>
+		
+			<td>81</td>
+		
+			<td>KDU-CSL</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>08.04.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-6050.0000">
+		-6 050,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td></td>
+		
+			<td>
+	<div>Regionální vydavatelství s.r.o. Zpravodaj města UH - senátní volby 2026 - VO 81</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>212600826</td>
+		
+			<td>81</td>
+		
+			<td>Regionální vydavatelství s.r.o. - Zpravodaj města UH - senátní volby 2026 - VO 81</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>31.03.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-115434.0000">
+		-115 434,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>BigMedia, spol. s r.o. - pronájem rekl. panelů - senátní volby 2026 - VO 81</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>4202602407</td>
+		
+			<td>81</td>
+		
+			<td>BigMedia, spol.s r.o. - pronájem rekl. panelů  - senátní volby 2026 - VO 81</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>30.03.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-48787.0000">
+		-48 787,00&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>AdSight a.s. - OOH kampaň - senátní volby 2026 - VO 81</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>920260010</td>
+		
+			<td>81</td>
+		
+			<td>AdSight a.s - OOH kampaň  - senátní volby 2026 - VO 81</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>26.03.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-148734.0000">
+		-148 734,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>AdSight a.s. - OOH kampaň - senátní volby 2026 - VO 51</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>920260011</td>
+		
+			<td>51</td>
+		
+			<td>AdSight a.s - OOH kampaň  - senátní volby 2026 - VO 51</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>24.03.26</td>
+		
+			<td class="text-end amount amount_value" data-value="200000.0000">
+		200 000,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td>KDU-ČSL</td>
+		
+			<td>
+	<div>vklad KK Vysočina</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td>51</td>
+		
+			<td>vklad KK Vysočina</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>24.03.26</td>
+		
+			<td class="text-end amount amount_value" data-value="220000.0000">
+		220 000,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní příjem</td>
+		
+			<td>KDU-CSL</td>
+		
+			<td>
+	<div>převod na volby ZLN</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>0</td>
+		
+			<td>81</td>
+		
+			<td>KDU-CSL</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>19.03.26</td>
+		
+			<td class="text-end amount amount_value" data-value="50000.0000">
+		50 000,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td>KDU-ČSL</td>
+		
+			<td>
+	<div>vklad Brno - venkov</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td>57</td>
+		
+			<td>vklad Brno - venkov</td>
+		
+	</tr>
+			
+		</tbody>
+		
+	</table>
+					
+
+
+				</div>
+				
+			</div>
+		</div>
+		<div class="wrapperFooter" style="height: 69px;">
+			<div class="green_border"
+				style="margin-top: 25px; margin-bottom: 0px;"></div>
+			<div class="grey_footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-6 gfBox"></div>
+						<div class="col-sm-6 text-end gfBox">
+							<span>&copy;</span> <span>2026</span> <span
+								style="margin-right: 10px">Fio banka</span> <span><a target="_blank" href="https://www.fio.cz/spolecnost_dokumenty_ostatni_pravniProhlaseni.php">Právní prohlášení</a></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

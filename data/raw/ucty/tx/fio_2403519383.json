@@ -1,0 +1,51 @@
+{
+"bank": "fio",
+"id": "2403519383",
+"url": "https://ib.fio.cz/ib/transparent?a=2403519383",
+"owner": "Občansko-politické hnutí ReMeK pro zrušení SENÁTU",
+"name": "Volební účet Senátní volby 2026",
+"number": "2403519383 / 2010",
+"summary": {
+"Stav k: 01.01.26": 0.0,
+"Stav k: 19.10.26": 5802.0,
+"Suma příjmů": 24000.0,
+"Suma výdajů": -18198.0,
+"Suma celkem": 5802.0,
+"Běžný zůstatek": 5802.0
+},
+"tx": [
+{
+"date": "2026-09-16",
+"amount": -16698.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "",
+"ks": "",
+"vs": "11152026",
+"ss": "",
+"note": "tisk kontaktních letáků Senát 2026"
+},
+{
+"date": "2026-09-12",
+"amount": -1500.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "oprava platby",
+"ks": "0308",
+"vs": "260929",
+"ss": "",
+"note": "výroba trička kampaň Senát 2026"
+},
+{
+"date": "2026-09-07",
+"amount": 24000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Občansko-politické hnutí ReMeK pro zrušení SENÁTU",
+"message": "Na volební kampaň Senát 2026",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "Na volební kampaň Senát 2026"
+}
+]
+}

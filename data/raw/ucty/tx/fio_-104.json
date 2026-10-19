@@ -1,0 +1,293 @@
+{
+"bank": "fio",
+"id": "-104",
+"url": "https://ib.fio.cz/ib/transparent?a=-104",
+"owner": "Občanská demokratická strana",
+"name": "Volby do Senátu 2026_ODS, Strana soukromníků ČR",
+"number": "",
+"summary": {
+"Stav k: 01.01.26": 0.0,
+"Stav k: 19.10.26": 0.0,
+"Suma příjmů": 269480.0,
+"Suma výdajů": -269480.0,
+"Suma celkem": 0.0,
+"Běžný zůstatek": 0.0
+},
+"tx": [
+{
+"date": "2026-10-09",
+"amount": -9559.0,
+"type": "Bezhotovostní platba",
+"counterparty": "",
+"message": "75/Radim Rudzinski, inzerce",
+"ks": "0308",
+"vs": "2026394",
+"ss": "75",
+"note": "75/Radim Rudzinski, inzerce"
+},
+{
+"date": "2026-10-09",
+"amount": -12813.9,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "",
+"message": "75/REKTIS - reklama a tisk s.r.o., tisk visaček",
+"ks": "0308",
+"vs": "202600268",
+"ss": "75",
+"note": "75/REKTIS - reklama a tisk s.r.o., tisk visaček"
+},
+{
+"date": "2026-10-09",
+"amount": 22372.9,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Občanská demokratická strana",
+"message": "75/převod financí",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "75/převod financí"
+},
+{
+"date": "2026-09-29",
+"amount": -15185.5,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "",
+"message": "75/REKTIS - reklama a tisk s.r.o., potisk triček, roll-up, grafické práce",
+"ks": "0308",
+"vs": "202600258",
+"ss": "75",
+"note": "75/REKTIS - reklama a tisk s.r.o., potisk triček, roll-up, grafické práce"
+},
+{
+"date": "2026-09-29",
+"amount": 15185.5,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Občanská demokratická strana",
+"message": "75/převod financí",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "75/převod financí"
+},
+{
+"date": "2026-09-17",
+"amount": -31339.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "",
+"message": "75/REKTIS - reklama a tisk s.r.o., tisk bannerů",
+"ks": "0308",
+"vs": "202600249",
+"ss": "75",
+"note": "75/REKTIS - reklama a tisk s.r.o., tisk bannerů"
+},
+{
+"date": "2026-09-17",
+"amount": 31339.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Občanská demokratická strana",
+"message": "75/převod financí",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "75/převod financí"
+},
+{
+"date": "2026-09-14",
+"amount": -955.9,
+"type": "Bezhotovostní platba",
+"counterparty": "",
+"message": "75/euroAWK s.r.o., tisk BB",
+"ks": "0308",
+"vs": "707",
+"ss": "75",
+"note": "75/euroAWK s.r.o., tisk BB"
+},
+{
+"date": "2026-09-14",
+"amount": -12087.9,
+"type": "Bezhotovostní platba",
+"counterparty": "",
+"message": "75/euroAWK s.r.o. /pronájem ploch BB",
+"ks": "0308",
+"vs": "701",
+"ss": "75",
+"note": "75/euroAWK s.r.o. /pronájem ploch BB"
+},
+{
+"date": "2026-09-14",
+"amount": 13043.8,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Občanská demokratická strana",
+"message": "75/převod financí",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "75/převod financí"
+},
+{
+"date": "2026-09-10",
+"amount": -9600.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "75/Michal Štefan Bajcar, programování webu",
+"ks": "0308",
+"vs": "20260885",
+"ss": "75",
+"note": "75/Michal Štefan Bajcar, programování webu"
+},
+{
+"date": "2026-09-10",
+"amount": 9600.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Občanská demokratická strana",
+"message": "75/převod financí",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "75/převod financí"
+},
+{
+"date": "2026-09-04",
+"amount": -9559.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "75/Radim Rudzinski, inzerce Karvinský info měsíčník",
+"ks": "0308",
+"vs": "2026329",
+"ss": "75",
+"note": "75/Radim Rudzinski, inzerce Karvinský info měsíčník"
+},
+{
+"date": "2026-09-04",
+"amount": 9559.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Občanská demokratická strana",
+"message": "75/převod financí",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "75/převod financí"
+},
+{
+"date": "2026-08-31",
+"amount": -5711.2,
+"type": "Bezhotovostní platba",
+"counterparty": "",
+"message": "75/euroAWK s.r.o., BB kampaň",
+"ks": "",
+"vs": "588",
+"ss": "75",
+"note": "75/euroAWK s.r.o., BB kampaň"
+},
+{
+"date": "2026-08-31",
+"amount": -48400.0,
+"type": "Bezhotovostní platba",
+"counterparty": "",
+"message": "75/euroAWK s.r.o., BB kampaň",
+"ks": "",
+"vs": "587",
+"ss": "75",
+"note": "75/euroAWK s.r.o., BB kampaň"
+},
+{
+"date": "2026-08-31",
+"amount": -37219.6,
+"type": "Bezhotovostní platba",
+"counterparty": "",
+"message": "75/CONFIDENCE MEDIA, s.r.o., pronájem reklamních ploch",
+"ks": "",
+"vs": "2620161",
+"ss": "75",
+"note": "75/CONFIDENCE MEDIA, s.r.o., pronájem reklamních ploch"
+},
+{
+"date": "2026-08-31",
+"amount": 91330.8,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Občanská demokratická strana",
+"message": "75/převod financí",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "75/převod financí"
+},
+{
+"date": "2026-08-25",
+"amount": -22990.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "",
+"message": "75/REKTIS - reklama a tisk s.r.o., tisk letáků, grafické práce",
+"ks": "0308",
+"vs": "202600230",
+"ss": "75",
+"note": "75/REKTIS - reklama a tisk s.r.o., tisk letáků, grafické práce"
+},
+{
+"date": "2026-08-25",
+"amount": 22990.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Občanská demokratická strana",
+"message": "75/převod financí",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "75/převod financí"
+},
+{
+"date": "2026-08-25",
+"amount": -16500.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "75/Pavel Pluhař, marketingové zpracování kampaně",
+"ks": "0308",
+"vs": "2026075",
+"ss": "75",
+"note": "75/Pavel Pluhař, marketingové zpracování kampaně"
+},
+{
+"date": "2026-08-25",
+"amount": 16500.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Občanská demokratická strana",
+"message": "75/převod financí",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "75/převod financí"
+},
+{
+"date": "2026-07-29",
+"amount": -28000.0,
+"type": "Bezhotovostní platba",
+"counterparty": "",
+"message": "75/Michal Štefan Bajcar, tvorba webu",
+"ks": "0308",
+"vs": "20260685",
+"ss": "75",
+"note": "75/Michal Štefan Bajcar, tvorba webu"
+},
+{
+"date": "2026-07-29",
+"amount": -9559.0,
+"type": "Bezhotovostní platba",
+"counterparty": "",
+"message": "75/Radim Rudzinski, inzerce v tisku",
+"ks": "0308",
+"vs": "2026289",
+"ss": "75",
+"note": "75/Radim Rudzinski, inzerce v tisku"
+},
+{
+"date": "2026-07-29",
+"amount": 37559.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Občanská demokratická strana",
+"message": "75/převod financí",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "75/převod financí"
+}
+]
+}

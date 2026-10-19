@@ -1,0 +1,95 @@
+{
+"bank": "fio",
+"id": "2503545829",
+"url": "https://ib.fio.cz/ib/transparent?a=2503545829",
+"owner": "Jasný Signál Nezávislých",
+"name": "Volební účet Jasný Signál Nezávislých – volby do Senátu PČR 2026",
+"number": "2503545829 / 2010",
+"summary": {
+"Stav k: 01.01.26": 0.0,
+"Stav k: 19.10.26": 0.0,
+"Suma příjmů": 22506.0,
+"Suma výdajů": -22506.0,
+"Suma celkem": 0.0,
+"Běžný zůstatek": 0.0
+},
+"tx": [
+{
+"date": "2026-09-24",
+"amount": -6050.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "Ozvučení akce - Polešovice 19.9.2026",
+"ks": "",
+"vs": "00042026",
+"ss": "",
+"note": "Ozvučení akce - Polešovice 19.9.2026"
+},
+{
+"date": "2026-09-24",
+"amount": 1000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Jasný Signál Nezávislých",
+"message": "převod volby - senát",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "převod volby - senát"
+},
+{
+"date": "2026-09-24",
+"amount": 5050.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Jasný Signál Nezávislých",
+"message": "převod volby- senát",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "převod volby- senát"
+},
+{
+"date": "2026-09-21",
+"amount": -7744.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "Letáky A5 4/4 130g",
+"ks": "",
+"vs": "260100353",
+"ss": "",
+"note": "Letáky A5 4/4 130g"
+},
+{
+"date": "2026-09-21",
+"amount": 7744.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Jasný Signál Nezávislých",
+"message": "Letáky A5 4/4 130g",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "Letáky A5 4/4 130g"
+},
+{
+"date": "2026-08-21",
+"amount": -8712.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "Tisk letáků A5 - Polešovice",
+"ks": "0308",
+"vs": "142261036",
+"ss": "",
+"note": "Tisk letáků A5 - Polešovice"
+},
+{
+"date": "2026-08-21",
+"amount": 8712.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Jasný Signál Nezávislých",
+"message": "Tisk letáků A5 - Polešovice 2026",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "Tisk letáků A5 - Polešovice 2026"
+}
+]
+}

@@ -1,0 +1,9 @@
+.DS_Store
+__pycache__/
+data/raw/*.zip
+data/raw/ucty/*.js
+data/raw/ucty/rbjs/
+data/raw/ucty/*.html
+data/raw/ucty/cj
+data/raw/ucty/kbjar
+data/raw/ucty/rb_list.json

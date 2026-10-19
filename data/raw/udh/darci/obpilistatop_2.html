@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Seznam dárců</title>
+    <meta charset="UTF-8">
+    <style>
+    body {
+        font-size: 10pt;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    h3 {
+        margin-top: 30px;
+    }
+
+    table {
+        border-collapse: collapse;
+    }
+
+    td {
+        border: 1px solid #888888;
+        padding: 3px 6px 3px 6px;
+        vertical-align: top;
+    }
+
+    .amount {
+        text-align: right;
+        white-space: nowrap;
+    }
+
+    tr.header {
+        background-color: #dddddd;
+    }
+
+    tr.header td {
+        vertical-align: middle;
+    }
+
+    #warning {
+        padding: 10px;
+        background-color: #ff704d;
+        color: white;
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    #info {
+        padding: 10px;
+        background-color: #80bfff;
+        color: white;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    @media print
+    {
+        .no-print, .no-print *
+        {
+            display: none !important;
+        }
+    }
+    </style>
+  </head>
+  <body>
+
+    <div id="info" class="no-print">Pro tisk nebo export do PDF stiskněte <b>Ctrl+P</b>. Zvolte tiskárnu nebo uložení do souboru PDF.</div>
+
+    <h1>Seznam dárců pro 2. kolo</h1>
+
+    <p>Kandidující subjekt / Kandidát: <b>Šimetka do Senátu</b><br>
+    Řádné volby do senátu 2026</p>
+
+
+<table>
+<tr class="header"><td>Dárce<br><small>(jméno, příjmení, obec trvalého pobytu,<br>případně obchodní firma nebo název právnické osoby, sídlo)</small></td><td>Datum narození dárce<br>/ identifikační číslo,<br>bylo-li přiděleno</td></tr>
+<tr><td>Šimetka, Ondřej Doc. MUDr. Ph.D., MBA, Háj ve Slezsku</td><td>29.09.1970</td></tr>
+<tr><td>Dekický, Jan, Ostrava</td><td>29.10.1980</td></tr>
+<tr><td>Valenta, Miroslav, Brno</td><td>01.12.1992</td></tr>
+<tr><td>Průšová, Lenka Ing., Praha</td><td>18.03.1986</td></tr>
+<tr><td>BRAINMARKET s.r.o., Vítkovice 3053, Ostrava, 70300</td><td>03488578</td></tr>
+<tr><td>Spolek pro podporu liberální demokracie ČR, Žatecká 55/14, Praha, 11000</td><td>09509071</td></tr>
+<tr><td>TOP 09, Opletalova 1603/57, Praha, 11000</td><td>71339728</td></tr>
+</table>
+
+  </body>
+</html>

@@ -1,0 +1,106 @@
+{
+"bank": "fio",
+"id": "2903556551",
+"url": "https://ib.fio.cz/ib/transparent?a=2903556551",
+"owner": "Svobodní",
+"name": "Volební účet Svobodní+SPD+Trikolora Senát 2026",
+"number": "2903556551 / 2010",
+"summary": {
+"Stav k: 01.01.26": 0.0,
+"Stav k: 19.10.26": 171729.7,
+"Suma příjmů": 300000.0,
+"Suma výdajů": -128270.3,
+"Suma celkem": 171729.7,
+"Běžný zůstatek": 171729.7
+},
+"tx": [
+{
+"date": "2026-10-05",
+"amount": -1306.8,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "Ušatý inzerce Písek",
+"ks": "",
+"vs": "12600760",
+"ss": "",
+"note": "Ušatý inzerce Písek"
+},
+{
+"date": "2026-09-18",
+"amount": -8000.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "Ušatý tisk",
+"ks": "",
+"vs": "711260060",
+"ss": "",
+"note": "Ušatý tisk"
+},
+{
+"date": "2026-09-16",
+"amount": -22095.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "",
+"message": "plachty kampaň Ušatý",
+"ks": "",
+"vs": "103106",
+"ss": "",
+"note": "plachty kampaň Ušatý"
+},
+{
+"date": "2026-09-09",
+"amount": -29100.5,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "noviny kampaň Ušatý",
+"ks": "",
+"vs": "2621000342",
+"ss": "",
+"note": "noviny kampaň Ušatý"
+},
+{
+"date": "2026-09-09",
+"amount": -8000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "",
+"message": "kampaň Ušatý inzerce",
+"ks": "",
+"vs": "202601",
+"ss": "",
+"note": "kampaň Ušatý inzerce"
+},
+{
+"date": "2026-09-09",
+"amount": -44740.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "",
+"message": "Ušatý kampaň",
+"ks": "",
+"vs": "103098",
+"ss": "",
+"note": "Ušatý kampaň"
+},
+{
+"date": "2026-09-09",
+"amount": -15028.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "",
+"message": "Ušatý kampaň",
+"ks": "",
+"vs": "103100",
+"ss": "",
+"note": "Ušatý kampaň"
+},
+{
+"date": "2026-08-16",
+"amount": 300000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Svobodní",
+"message": "senatni volby strakonice",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "senatni volby strakonice"
+}
+]
+}

@@ -1,0 +1,41 @@
+[
+    {
+        "date": "2026-10-06",
+        "money": 3000,
+        "lastName": "Gutmann",
+        "firstName": "Dana",
+        "titleBefore": "",
+        "titleAfter": "",
+        "birthDate": "1961-02-27",
+        "addrCity": "Praha 6"
+    },
+    {
+        "date": "2026-10-06",
+        "money": 5000,
+        "lastName": "Gutmann",
+        "firstName": "Dana",
+        "titleBefore": "",
+        "titleAfter": "",
+        "birthDate": "1961-02-27",
+        "addrCity": "Praha 6"
+    },
+    {
+        "date": "2026-10-05",
+        "money": 3000,
+        "lastName": "Kůs",
+        "firstName": "Václav",
+        "titleBefore": "",
+        "titleAfter": "",
+        "birthDate": "1976-11-13",
+        "addrCity": "Praha 5"
+    },
+    {
+        "date": "2026-10-06",
+        "money": 200,
+        "lastName": "Mánek",
+        "firstName": "Jan",
+        "titleBefore": "",
+        "titleAfter": "",
+        "birthDate": "14.10.2026"
+    }
+]

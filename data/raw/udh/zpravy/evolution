@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Zpráva o financování volební kampaně</title>
+    <meta charset="UTF-8">
+    <style>
+    body {
+        font-size: 10pt;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    table {
+        border-collapse: collapse;
+    }
+
+    td {
+        border: 1px solid #888888;
+        padding: 3px 6px 3px 6px;
+        vertical-align: top;
+    }
+
+    .amount {
+        text-align: right;
+        white-space: nowrap;
+    }
+
+    tr.header {
+        background-color: #dddddd;
+    }
+
+    #warning {
+        padding: 10px;
+        background-color: #ff704d;
+        color: white;
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    #info {
+        padding: 10px;
+        background-color: #80bfff;
+        color: white;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    @media print
+    {
+        body {
+            font-size: 8pt;
+        }
+
+        .no-print, .no-print *
+        {
+            display: none !important;
+        }
+    }
+    </style>
+  </head>
+  <body>
+
+
+
+    <h1>Zpráva o financování volební kampaně</h1>
+<p style="text-align: center;"><i>dle § 10 odst. 4 zákona č. 234/2025 Sb.</i></p>
+
+    <p style="text-align: center; font-weight: bold; font-size: 13pt;">Řádné volby do senátu 2026</p>
+
+<table style="width: 100%;">
+<tr>
+<td colspan="2" style="border: 1px solid black; padding: 15px;">
+Kandidující subjekt / Kandidát:<br>
+<b>rEvoluce</b><br>
+<br>
+Identifikační číslo politické strany / politického hnutí:<br>
+<b>29480931</b><br>
+<br>
+</td>
+</tr>
+<tr>
+<td style="border: 1px solid black; padding: 15px; width: 40%;">
+<br>
+Identifikátor zprávy: <b>Z28455-20261008113641</b><br>
+Datum předložení zprávy: <b>08.10.2026</b><br>
+Datum a čas poslední úpravy: <b>08.10.2026 09:36:41</b><br>
+<br><br><br>
+</td>
+<td style="border: 1px solid black; padding: 15px; width: 60%;">
+<img src="https://zpravy.udh.gov.cz/podpis/726-1791452167.png">
+<br> &nbsp; &nbsp; <b>Ing. Zdeněk Navrátil, předseda</b>
+<br>
+<p>Podpis: ....................................................................................................<br>
+<small>Podepíše se kandidát na prezidenta/nezávislý kandidát na senátora/osoba oprávněná jednat jménem
+    politické strany/politického hnutí, nebo, jde-li o koalici, osoby oprávněné jednat jménem všech
+    politických stran a politických hnutí zastoupených v koalici. Podepisující osoba uvede k podpisu
+své jméno, příjmení a postavení.</small></p>
+</td>
+<tr>
+</table>
+<h2 style="page-break-before: always;">Část I. Peněžité dary poskytnuté kandidujícímu subjektu / kandidátovi</h2>
+<p>Počet stran .......... v části I.<br>Celkem <b>233 332,00</b> Kč v části I.</p>
+<table>
+<tr class="header"><td>Dárce<br><small>(jméno, příjmení, obec trvalého pobytu,<br>případně obchodní firma nebo název právnické osoby, sídlo)</small></td><td>Datum narození dárce<br>/ identifikační číslo,<br>bylo-li přiděleno</td><td>Výše peněžitého<br>daru v Kč</td></tr>
+<tr><td>rEvoluce, K Basketpointu 3866, Frýdek-Místek, 73801</td><td>29480931</td><td class="amount">111 111,00</td></tr>
+<tr><td>rEvoluce, K Basketpointu 3866, Frýdek-Místek, 73801</td><td>29480931</td><td class="amount">66 666,00</td></tr>
+<tr><td>rEvoluce, K Basketpointu 3866, Frýdek-Místek, 73801</td><td>29480931</td><td class="amount">55 555,00</td></tr>
+</table><h2 style="page-break-before: always;">Část II. Jiná bezúplatná plnění poskytnutá kandidujícímu subjektu / kandidátovi</h2>
+<p>Počet stran .......... v části II.<br>Celkem <b>20 000,00</b> Kč v části II.</p>
+<table>
+<tr class="header"><td>Dárce<br><small>(jméno, příjmení, obec trvalého pobytu,<br>případně obchodní firma nebo název právnické osoby, sídlo)</small></td><td>Datum narození dárce<br>/ identifikační číslo,<br>bylo-li přiděleno</td><td>Obvyklá cena<br>v Kč</td><td>Bezúplatné plnění</td></tr>
+<tr><td>GEPAS Group, s.r.o.,, tř. T. G. Masaryka 496, Frýdek-Místek, 73801</td><td>29455901</td><td class="amount">20 000,00</td><td>Plocha pro billboard</td></tr>
+</table><h2 style="page-break-before: always;">Část III. Výdaje hrazené kandidáty</h2>
+<p>Počet stran .......... v části III.<br>Celkem <b>0,00</b> Kč v části III.</p>
+<table>
+<tr class="header"><td>Kandidát<br><small>(jméno, příjmení, datum narození)</small></td><td>Výše výdajů v Kč</td></tr>
+<tr><td colspan="2">Žádné údaje</td></tr>
+</table><h2 style="page-break-before: always;">Část IV. Výdaje na volební kampaň</h2>
+<p>Počet stran .......... v části IV.<br>Celkem <b>279 096,54</b> Kč v části IV.</p>
+<table>
+<tr class="header"><td>Částka v Kč</td><td>Účel, na který byla použita</td><td><small>Je-li plnění poskytnuto za cenu nižší než obvyklou, uvede<br>se jméno, příjmení, datum narození a obec trvalého pobytu<br>poskytovatele, případně obchodní firma nebo název právnické<br>osoby, sídlo a identifikační číslo, bylo-li přiděleno.</small></td></tr>
+<tr><td class="amount">20 000,00</td><td>A6 - PR články - Články v médiích, výdaj dne 12.08.2026</td><td></td></tr>
+<tr><td class="amount">3 000,00</td><td>B2 - Nákup služeb - PR služby/marketing - Videa, výdaj dne 12.08.2026</td><td></td></tr>
+<tr><td class="amount">2 500,00</td><td>B2 - Nákup služeb - PR služby/marketing - Videa, výdaj dne 12.08.2026</td><td></td></tr>
+<tr><td class="amount">20 000,00</td><td>B2 - Nákup služeb - PR služby/marketing - Videa, výdaj dne 12.08.2026</td><td></td></tr>
+<tr><td class="amount">20 000,00</td><td>Záloha na smlouvu o marketingu, výdaj dne 12.08.2026</td><td></td></tr>
+<tr><td class="amount">10 000,00</td><td>A1 - Inzerce v tisku - Patriot měsíčník, výdaj dne 12.08.2026</td><td></td></tr>
+<tr><td class="amount">1 000,00</td><td>B2 - Nákup služeb - PR služby/marketing - Reportáž, výdaj dne 20.08.2026</td><td></td></tr>
+<tr><td class="amount">6 414,95</td><td>A16 - Propagační předměty a zboží (výroba, tisk atp.) - Propagační předměty, výdaj dne 20.08.2026</td><td></td></tr>
+<tr><td class="amount">2 000,00</td><td>B2 - Nákup služeb - PR služby/marketing - Video, výdaj dne 21.08.2026</td><td></td></tr>
+<tr><td class="amount">11 111,00</td><td>B2 - Nákup služeb - PR služby/marketing - Webové stránky, výdaj dne 27.08.2026</td><td></td></tr>
+<tr><td class="amount">6 000,00</td><td>A7 - Pronájem  reklamních ploch - billboard, bigboard, citylight - Billboard, výdaj dne 11.09.2026, transakce z účtu dne 11.08.2026</td><td></td></tr>
+<tr><td class="amount">48 400,00</td><td>A1 - Inzerce v tisku - Měsíčník Patriot, výdaj dne 11.09.2026</td><td></td></tr>
+<tr><td class="amount">12 100,00</td><td>A1 - Inzerce v tisku - Měsíčník Patriot, výdaj dne 11.09.2026</td><td></td></tr>
+<tr><td class="amount">44 187,99</td><td>A17 - Výroba, tisk nosičů pro reklamní plochy mimo letáků - Billboardy, výdaj dne 11.09.2026</td><td></td></tr>
+<tr><td class="amount">666,00</td><td>B2 - Nákup služeb - PR služby/marketing - Video, výdaj dne 22.09.2026</td><td></td></tr>
+<tr><td class="amount">14 842,00</td><td>A11 - Pronájem reklamních ploch - ostatní - Volební trojnožky, výdaj dne 22.09.2026</td><td></td></tr>
+<tr><td class="amount">36 874,60</td><td>B2 - Nákup služeb - PR služby/marketing - Marketing, výdaj dne 30.09.2026</td><td></td></tr>
+<tr><td class="amount">20 000,00</td><td>A7 - Pronájem  reklamních ploch - billboard, bigboard, citylight - Billboard</td><td>GEPAS Group, s.r.o.,, tř. T. G. Masaryka 496, Frýdek-Místek, 73801, 29455901</td></tr>
+</table><h2 style="page-break-before: always;">Část V. Peněžité dluhy, k jejichž splnění se kandidující subjekt / kandidát v souvislosti s financováním volební kampaně zavázal</h2>
+<p>Počet stran .......... v části V.<br>Celkem <b>0,00</b> Kč v části V.</p>
+<table>
+<tr class="header"><td>Plnění, které bylo kandidujícímu subjektu / kandidátovi věřitelem<br>poskytnuto, nebo k němuž se věřitel zavázal</td><td>Výše dluhu<br>v Kč</td><td><small>Je-li plnění poskytnuto za cenu nižší než obvyklou, uvede<br>se jméno, příjmení, datum narození a obec trvalého pobytu<br>poskytovatele, případně obchodní firma nebo název právnické<br>osoby, sídlo a identifikační číslo, bylo-li přiděleno.</small></td></tr>
+<tr><td colspan="3">Žádné údaje</td></tr>
+</table>
+
+
+  </body>
+</html>

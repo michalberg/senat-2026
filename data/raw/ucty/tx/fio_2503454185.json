@@ -1,0 +1,238 @@
+{
+"bank": "fio",
+"id": "2503454185",
+"url": "https://ib.fio.cz/ib/transparent?a=2503454185",
+"owner": "Pražská městská strana PRAHA SOBĚ",
+"name": "Volební účet Jan Čižinský volby do Senátu PČR 2026",
+"number": "2503454185 / 2010",
+"summary": {
+"Stav k: 01.01.26": 0.0,
+"Stav k: 19.10.26": 39199.42,
+"Suma příjmů": 950522.0,
+"Suma výdajů": -911322.58,
+"Suma celkem": 39199.42,
+"Běžný zůstatek": 39199.42
+},
+"tx": [
+{
+"date": "2026-10-08",
+"amount": -13552.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "",
+"ks": "0308",
+"vs": "27980053",
+"ss": "",
+"note": "Zálohová faktura Tiskap s. r. o . - tisk letáků pro 2. kolo senátních voleb"
+},
+{
+"date": "2026-10-08",
+"amount": -7149.65,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "",
+"message": "",
+"ks": "0008",
+"vs": "12602518",
+"ss": "",
+"note": "Faktura POTISK.COM s.r.o. - trička pro kampaň 2. kolo senátních voleb"
+},
+{
+"date": "2026-10-08",
+"amount": -232297.01,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "",
+"ks": "",
+"vs": "310260413",
+"ss": "66600982",
+"note": "Faktura BigBoard Media s.r.o. - záloha OOH 2. kolo senátních voleb"
+},
+{
+"date": "2026-10-01",
+"amount": -47365.0,
+"type": "Bezhotovostní platba",
+"counterparty": "",
+"message": "",
+"ks": "",
+"vs": "202601790",
+"ss": "",
+"note": "Faktura Tygr U Stromovky s. r. o. – tisk materiálů k senátním volbám"
+},
+{
+"date": "2026-09-29",
+"amount": -1573.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "",
+"ks": "0308",
+"vs": "8888",
+"ss": "",
+"note": "Zálohová faktura MČ Praha - Troja - inzerce v časopisu MČ pro senát. volby"
+},
+{
+"date": "2026-09-26",
+"amount": 222.0,
+"type": "Okamžitá příchozí platba",
+"counterparty": "Tomáš Holub",
+"message": "Senát JČ Praha 2 volby",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "Tomáš Holub"
+},
+{
+"date": "2026-09-21",
+"amount": -3166.57,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "",
+"ks": "0308",
+"vs": "26129",
+"ss": "",
+"note": "Zálohová faktura MATRIX Media s. r. o. – bannery Jan Čižinský do Senátu"
+},
+{
+"date": "2026-09-20",
+"amount": -21778.49,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "",
+"ks": "",
+"vs": "420260513",
+"ss": "",
+"note": "Zálohová faktura Česká distribuční k.s. - roznos letáků (senátní kampaň)"
+},
+{
+"date": "2026-09-15",
+"amount": -90750.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "",
+"ks": "0308",
+"vs": "27980047",
+"ss": "",
+"note": "Zálohová faktura Tiskap s. r. o . - dopis voličům"
+},
+{
+"date": "2026-09-10",
+"amount": -5335.86,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "",
+"message": "",
+"ks": "0008",
+"vs": "12602219",
+"ss": "",
+"note": "Faktura POTISK.COM s. r. o. – potisk triček pro senátní kampaň"
+},
+{
+"date": "2026-09-08",
+"amount": -10890.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "",
+"ks": "0308",
+"vs": "27980042",
+"ss": "",
+"note": "Zálohová faktura Tiskap s. r. o . - tisk letáčků Jan Čižinský do Senátu"
+},
+{
+"date": "2026-08-14",
+"amount": 400000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Pražská městská strana PRAHA SOBĚ",
+"message": "převod prostředků na transparentní účet pro senátní volby",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "převod prostředků na transparentní účet pro senátní volby"
+},
+{
+"date": "2026-08-13",
+"amount": -447337.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "",
+"ks": "",
+"vs": "310260237",
+"ss": "",
+"note": "Zálohová platba BigBoard Media s. r. o. – reklamní plochy pro volební kampaň"
+},
+{
+"date": "2026-08-11",
+"amount": -6327.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "",
+"ks": "0308",
+"vs": "260100021",
+"ss": "",
+"note": "Faktura ScioŠkola Praha Holešovice - střední škola, s.r.o. – pronájem prostor na mítink"
+},
+{
+"date": "2026-08-11",
+"amount": 100000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Pražská městská strana PRAHA SOBĚ",
+"message": "převod prostředků na transparentní účet pro senátní volby",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "převod prostředků na transparentní účet pro senátní volby"
+},
+{
+"date": "2026-08-06",
+"amount": -1005.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "",
+"message": "",
+"ks": "",
+"vs": "1260703",
+"ss": "",
+"note": "Faktura Studio STKI s.r.o. - tisk plakátů (poměrná část z celkové faktury)"
+},
+{
+"date": "2026-08-06",
+"amount": -2796.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "",
+"ks": "",
+"vs": "20260208",
+"ss": "",
+"note": "Faktura MF reklama Praha, s.r.o. – výlep plakátů (poměrná část z celkové faktury)"
+},
+{
+"date": "2026-07-21",
+"amount": -20000.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "",
+"ks": "0558",
+"vs": "7804220105",
+"ss": "",
+"note": "kauce pro senátní volby v senátním obvodu 27, kandidát Jan Čižinský"
+},
+{
+"date": "2026-07-21",
+"amount": 250300.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Pražská městská strana PRAHA SOBĚ",
+"message": "převod prostředků na transparentní účet pro senátní volby",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "převod prostředků na transparentní účet pro senátní volby"
+},
+{
+"date": "2026-07-20",
+"amount": 200000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Strana zelených",
+"message": "vklad do kampaně Jan Čižinský",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "vklad do kampaně Jan Čižinský"
+}
+]
+}

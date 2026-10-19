@@ -1,0 +1,32 @@
+[
+    {
+        "expenseDate": "2026-08-22",
+        "usualPrice": 147000,
+        "money": 0,
+        "noMoney": 147000,
+        "code": "X",
+        "description": "Nájem obytného automobilu Ford",
+        "donorType": "F",
+        "lastName": "Válková",
+        "firstName": "Dita",
+        "titleBefore": "",
+        "titleAfter": "",
+        "birthDate": "1969-03-19",
+        "addrCity": "Rataje nad Sázavou"
+    },
+    {
+        "expenseDate": "2026-08-22",
+        "usualPrice": 2640,
+        "money": 0,
+        "noMoney": 2640,
+        "code": "C4",
+        "description": "C4 - Pohonné hmoty - Nafta v nádrži obytného automobilu Ford",
+        "donorType": "F",
+        "lastName": "Válková",
+        "firstName": "Dita",
+        "titleBefore": "",
+        "titleAfter": "",
+        "birthDate": "1969-03-19",
+        "addrCity": "Rataje nad Sázavou"
+    }
+]

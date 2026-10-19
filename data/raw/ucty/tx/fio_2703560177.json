@@ -1,0 +1,51 @@
+{
+"bank": "fio",
+"id": "2703560177",
+"url": "https://ib.fio.cz/ib/transparent?a=2703560177",
+"owner": "Sdružení pro Místní Správu",
+"name": "Volební účet Sdružení pro Místní Správu pro senátní volby 2026",
+"number": "2703560177 / 2010",
+"summary": {
+"Stav k: 01.01.26": 0.0,
+"Stav k: 19.10.26": 120.0,
+"Suma příjmů": 9800.0,
+"Suma výdajů": -9680.0,
+"Suma celkem": 120.0,
+"Běžný zůstatek": 120.0
+},
+"tx": [
+{
+"date": "2026-10-02",
+"amount": -9680.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "SMS - inzerce Pavel Vermach",
+"ks": "",
+"vs": "2026058",
+"ss": "",
+"note": "SMS - inzerce Pavel Vermach"
+},
+{
+"date": "2026-10-02",
+"amount": 4800.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Sdružení pro Místní Správu",
+"message": "převod na volební účet",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "převod na volební účet"
+},
+{
+"date": "2026-09-09",
+"amount": 5000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Sdružení pro Místní Správu",
+"message": "převod na volební účet",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "převod na volební účet"
+}
+]
+}

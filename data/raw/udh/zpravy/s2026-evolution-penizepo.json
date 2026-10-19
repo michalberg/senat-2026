@@ -1,0 +1,37 @@
+[
+    {
+        "money": 0,
+        "companyId": 29455901,
+        "company": "GEPAS Group, s.r.o.,",
+        "addrStreet": "tř. T. G. Masaryka 496",
+        "addrCity": "Frýdek-Místek",
+        "addrZip": 73801
+    },
+    {
+        "date": "2026-08-12",
+        "money": 111111,
+        "companyId": 29480931,
+        "company": "rEvoluce",
+        "addrStreet": "K Basketpointu 3866",
+        "addrCity": "Frýdek-Místek",
+        "addrZip": 73801
+    },
+    {
+        "date": "2026-09-09",
+        "money": 66666,
+        "companyId": 29480931,
+        "company": "rEvoluce",
+        "addrStreet": "K Basketpointu 3866",
+        "addrCity": "Frýdek-Místek",
+        "addrZip": 73801
+    },
+    {
+        "date": "2026-09-11",
+        "money": 55555,
+        "companyId": 29480931,
+        "company": "rEvoluce",
+        "addrStreet": "K Basketpointu 3866",
+        "addrCity": "Frýdek-Místek",
+        "addrZip": 73801
+    }
+]

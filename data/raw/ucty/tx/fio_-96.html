@@ -1,0 +1,3674 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><script type="text/javascript" src="./fio/resource/cz.fio.ib2.common.wicket.web.component.dropdown.AbstractBsDropDownField/AbstractBsDropDownField-ver-CD54358CD1FB9B64187B3715E51DFD50.js"></script>
+<script type="text/javascript" src="./fio/resource/cz.fio.ib2.common.wicket.web.layout.jquery.JQuery/js/jquery-3.7.1.min-ver-2C872DBE60F4BA70FB85356113D8B35E.js"></script>
+<script type="text/javascript" src="./fio/resource/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/res/js/wicket-ajax-jquery-ver-EF5CE716023AC851E8B721946431BE44.js"></script>
+<link rel="stylesheet" type="text/css" href="./fio/resource/cz.fio.ib2.common.wicket.web.layout.jqueryUI.JQueryUI/jquery-ui.min-ver-434CDC340B91918C3B575B520914A518.css" media="screen" />
+<script type="text/javascript" src="./fio/resource/cz.fio.ib2.common.wicket.web.layout.jqueryUI.JQueryUI/jquery-ui.min-ver-6DF56C01471A6C5DE0CA276AC17AE002.js"></script>
+<script type="text/javascript" src="./fio/resource/cz.fio.ib2.web.component.datePicker.DatePicker/DatePicker_cs-ver-B53E393FD0791540160DFB834FE263AD.js"></script>
+<script type="text/javascript" src="./fio/resource/cz.fio.ib2.web.component.datePicker.DatePicker/DatePickerInDropDownMenu-ver-1FE3BDD37458014DFE595AD517028979.js"></script>
+<script type="text/javascript" src="./fio/resource/cz.fio.ib2.web.component.table.Table/Table-ver-3DE080416D5FA49083F86F814855630F.js"></script>
+<script type="text/javascript" src="./fio/resource/cz.fio.ib2.web.component.quicksearch.QuickSearchField/QuickSearchField-ver-1C3BD3ACD4033EE7AB7417221D732CDC.js"></script>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="icon" sizes="16x16" type="image/x-icon" href="./fio/resource/cz.fio.ib2.common.wicket.web.layout.image.FioImage/png/favicon-ver-BED52CBBA61C3C2EFBCD2A3F722B3146.ico">
+	<title>Internetové bankovnictví | Fio banka</title>
+	
+
+<link rel="stylesheet" type="text/css" href="./fio/resource/cz.fio.ib2.common.wicket.web.layout.bootstrap.Bootstrap/css/bootstrap.min-ver-CA5A2CC85A4D1AAF8808B37630F51F16.css" media="screen, print" />
+<script type="text/javascript" src="./fio/resource/cz.fio.ib2.common.wicket.web.layout.bootstrap.Bootstrap/js/bootstrap.bundle.min-ver-D8E27CC5431148FDB4072D724AF1D628.js"></script>
+<link rel="stylesheet" type="text/css" href="./fio/resource/cz.fio.ib2.common.wicket.web.layout.fontawesome.FontAwesome/css/font-awesome.min-ver-269550530CC127B6AA5A35925A7DE6CE.css" media="screen" />
+<script type="text/javascript" src="./fio/resource/cz.fio.ib2.common.wicket.web.layout.scripts.Scripts/defaultJsFunctions-ver-8768E88476065C4AFCC8AA60F1BE5E13.js"></script>
+<script type="text/javascript" src="./fio/resource/cz.fio.ib2.common.wicket.web.layout.scripts.Scripts/defaultLocalizedJsFunctions-ver-57244FFEF2516F1B0F7E5D0F00C28E1C.js"></script>
+<script type="text/javascript" src="./fio/resource/cz.fio.ib2.common.wicket.web.layout.scripts.Scripts/bootstrapCustomBehavior-ver-E5209746E93490F49B62C42B49A1B7F5.js"></script>
+<link rel="stylesheet" type="text/css" href="./fio/resource/cz.fio.ib2.web.layout.BasePage/style-ver-FC272502FBC926E25B693D07D3EB7386.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="./fio/resource/cz.fio.ib2.web.layout.BasePage/print-ver-EFDAA39FD350BC070DD9139383CCA5BC.css" media="print" />
+<meta name="description" content="Přihlášení do internetového bankovnictví Fio banky. Kromě plateb si zde můžete založit i další účty, požádat o půjčku, kontokorent a další služby." />
+<script type="text/javascript">
+/*<![CDATA[*/
+Wicket.Event.add(window, "load", function(event) { 
+registerFioBsDropDownEvents('idbb8cbf22400c72731', true);
+$('#id7e27f24342b09f9b2').datepickerAnchored({minDate: -1096,maxDate: 0}); $('#id8d853692d5fc39373').click(function(){$(this).prev('.datepickerInput').datepicker('show');});;
+$('#id39b9eca19ad3df074').datepickerAnchored({minDate: -1096,maxDate: 0}); $('#id909b69399340317b5').click(function(){$(this).prev('.datepickerInput').datepicker('show');});;
+(function() {
+
+	var oldValFrom = null;
+	var oldValTo = null;
+	
+	function checkRadioRychlaVolba() {
+		if ($("#id195176dadb8ae47b6 .radioTYDEN").is(':checked')) {
+			$("#id195176dadb8ae47b6 .datepickerFrom").datepicker("setDate", "-7d");
+			$("#id195176dadb8ae47b6 .datepickerTo").datepicker("setDate", "0");
+		}
+
+		if ($("#id195176dadb8ae47b6 .radioMESIC").is(':checked')) {
+			$("#id195176dadb8ae47b6 .datepickerFrom").datepicker("setDate", "-1m");
+			$("#id195176dadb8ae47b6 .datepickerTo").datepicker("setDate", "0");
+		}
+
+		if ($("#id195176dadb8ae47b6 .radioVLASTNI").is(':checked')) {
+			$("#id195176dadb8ae47b6 .datepickerFrom").datepicker('enable');
+			$("#id195176dadb8ae47b6 .datepickerTo").datepicker('enable');
+		}
+		
+		oldValFrom = $("#id195176dadb8ae47b6 .datepickerFrom").datepicker({ dateFormat: 'yy-mm-dd' }).val();
+		oldValTo = $("#id195176dadb8ae47b6 .datepickerTo").datepicker({ dateFormat: 'yy-mm-dd' }).val();
+	}
+	;
+
+	checkRadioRychlaVolba();
+	$("#id195176dadb8ae47b6 .radios").change(function() {
+		checkRadioRychlaVolba();
+	});
+
+	$("#id195176dadb8ae47b6 .datepickerFrom").on('change keypress paste focus textInput input', function() {
+		var val = ($("#id195176dadb8ae47b6 .datepickerFrom").datepicker({dateFormat : 'yy-mm-dd'}).val());
+		if (val !== oldValFrom) {
+			oldValFrom = val;
+			$("#id195176dadb8ae47b6 .radioVLASTNI").prop("checked", true);
+		}
+	});
+	
+	$("#id195176dadb8ae47b6 .datepickerTo").on('change keypress paste focus textInput input', function() {
+		var val = ($("#id195176dadb8ae47b6 .datepickerTo").datepicker({ dateFormat: 'yy-mm-dd' }).val());        
+		if (val != oldValTo) {
+        	oldValFrom = val;
+        	$("#id195176dadb8ae47b6 .radioVLASTNI").prop("checked", true);
+        }
+	});
+})();;
+controlTableBorder('idbbd4c9946d40eaa97');
+registerQuickSearchFieldEvents('id2cf2e65d3a7d95f98', 'idbbd4c9946d40eaa97');
+setMinimalContentSize();
+;});
+/*]]>*/
+</script>
+</head>
+<body>
+	
+	<div class="wrapperPage wrapperPageTrans">
+		<div class="wrapperHeader">
+			<div class="green_border"></div>
+			<div class="container" style="margin-bottom: 20px">
+				<div class="row">
+					<div class="col-md-4 col-6" style="line-height: 50px;">
+						<img class="logo_header img-fluid" src="./fio/resource/cz.fio.ib2.common.wicket.web.layout.image.FioImage/png/logo_fio-ver-894B2A39F77CABA34D70A4AC4C0FE0B6.png"/>
+					</div>
+					<div class="col-md-8 nav_header">
+						<div>
+	<form class="float-end" id="id87c8bfa2f4c2d8219" method="post" action="./transparent?-1.-languageSelector-form&amp;a=-96&amp;f=01.01.2026&amp;t=19.10.2026"><div id="id87c8bfa2f4c2d8219_hf_0" hidden="" class="hidden-fields"></div>
+		<div class="form-group languageDropDown">
+			<div class="float-end" id="idbb8cbf22400c72731">
+
+	<div class="dropdown">
+		<input type="hidden" value="CZECH" name="languageDropDown:hiddenDdSelectedItemValue"/>
+		<button class="form-select dropdown-select" type="button" data-bs-toggle="dropdown" aria-expanded="false" name="languageDropDown:dropDownButton" id="id878714067772132ea">
+			<img src="./fio/resource/cz.fio.ib2.common.wicket.web.layout.image.FioImage/png/VlajkaCzMala-ver-425A2FE80A90297180F0DCC77B3F66B6.png"/>
+			<span>Česky</span>
+		</button>
+		<ul class="dropdown-menu dropdown-menu-end">
+			<li>
+				<button class="dropdown-item active" name="languageDropDown:dropDownMenu:dropDownMenuItem:0:menuItemButton" id="id58a25d756c2d53fdb" data-fio-dd-item-value="CZECH" aria-current="true">
+						<img src="./fio/resource/cz.fio.ib2.common.wicket.web.layout.image.FioImage/png/VlajkaCzMala-ver-425A2FE80A90297180F0DCC77B3F66B6.png"/>
+						<span>Česky</span>
+				</button>
+			</li><li>
+				<button class="dropdown-item" name="languageDropDown:dropDownMenu:dropDownMenuItem:1:menuItemButton" id="id9df2fb58c8e591dcc" data-fio-dd-item-value="SLOVAK">
+						<img src="./fio/resource/cz.fio.ib2.common.wicket.web.layout.image.FioImage/png/VlajkaSkMala-ver-54AA18CD9834A48A7616BB29EA79F102.png"/>
+						<span>Slovensky</span>
+				</button>
+			</li><li>
+				<button class="dropdown-item" name="languageDropDown:dropDownMenu:dropDownMenuItem:2:menuItemButton" id="idf430b2dc0a6dc0bfd" data-fio-dd-item-value="ENGLISH">
+						<img src="./fio/resource/cz.fio.ib2.common.wicket.web.layout.image.FioImage/png/VlajkaGbMala-ver-E4896565595FC22E344FD619C0ED15BB.png"/>
+						<span>English</span>
+				</button>
+			</li>
+		</ul>
+	</div>
+
+</div>
+		</div>
+	</form>
+</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container wrapperBody" style="padding-bottom: 69px">
+			<div class="row">
+				<div class="col-lg-12 content">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="page-header">
+								<h1 style="display: block; text-align: center;">
+									Pohyby na transparentním účtu
+								</h1>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6">
+							
+							<div>
+								<strong>Majitel účtu:</strong>
+								Občanská demokratická strana
+							</div>
+							<div>
+								<strong>Název účtu:</strong>
+								Volby do Senátu 2026_ODS
+							</div>
+							
+								<div>
+									<strong>Měna účtu:</strong>
+									CZK
+								</div>
+							
+						</div>
+						<div class="col-md-6 d-print-none">
+							<div>
+		<div class="input-group">
+			<span class="input-group-text inputAddonPre">
+				<i class="fa fa-search"></i>
+				<i class="fa fa-times deleteText"></i>
+			</span> 
+			<input style="border-left: medium none;" type="text" autocomplete="off" class="form-control searchInput" id="id2cf2e65d3a7d95f98" placeholder="Co hledáte?"/>
+		</div>
+	</div>
+						</div>
+					</div>
+					<hr>
+					<div class="row">
+						<div class="col-md-9 pohybySum">
+							<table class="table">
+								<thead>
+									<tr>
+										<th>Stav k: <span>01.01.26</span></th>
+										<th>Stav k: <span>19.10.26</span></th>
+										<th>Suma příjmů</th>
+										<th>Suma výdajů</th>
+										<th>Suma celkem</th>
+										<th>Běžný zůstatek</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>
+		0,00&nbsp;CZK
+	</td>
+										<td>
+		190 871,84&nbsp;CZK
+	</td>
+										<td>
+		3 939 175,03&nbsp;CZK
+	</td>
+										<td class="negative">
+		-3 748 303,19&nbsp;CZK
+	</td>
+										<td>
+		190 871,84&nbsp;CZK
+	</td>
+										<td>
+		190 871,84&nbsp;CZK
+	</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div class="col-md-3">
+							<div class="row">
+								<div style="position: relative; top: -8px;" class="col-md-12">
+									<a class="float-end btn btn-transparent d-print-none" href="#"
+										onclick="window.print();"><i class="fa fa-print fa-lg"></i>
+									</a>
+								</div>
+							</div>
+							<div class="row">
+								<div style="position: relative; top: -6px;"
+									class="col-md-12 d-print-none">
+									<div class="btn-group float-end">
+										<button class="btn btn-default dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
+											<span>01.01.2026</span>&nbsp;-&nbsp;<span>19.10.2026</span>
+										</button>
+										<div class="dropdown-menu dropdown-menu-end pohybySelectDate">
+											<form id="id195176dadb8ae47b6" method="post" action="./transparent?-1.-dateForm&amp;a=-96&amp;f=01.01.2026&amp;t=19.10.2026"><div id="id195176dadb8ae47b6_hf_0" hidden="" class="hidden-fields"></div>
+												<div class="row text-nowrap justify-content-center pohyby-inline-radio">
+													<div class="col-auto">
+														<label><input type="radio" name="rychlaVolba"
+															class="radios radioMESIC"> <span>poslední měsíc</span></label>
+													</div>
+													<div class="col-auto">
+														<label><input type="radio" name="rychlaVolba"
+															class="radios radioTYDEN"> <span>poslední týden</span></label>
+													</div>
+													<div class="col-auto">
+														<label><input type="radio" name="rychlaVolba"
+															checked="checked" class="radios radioVLASTNI"> <span>vlastní</span></label>
+													</div>
+												</div>
+												<div class="row pohyby-panel-group">
+													<div class="col-md-6">
+														<div class="form-group">
+															<label class="form-label" for="id7e27f24342b09f9b2">Od</label>
+															<div class="input-group">
+		<input type="text" class="form-control form-control-sm datepickerInput datepickerFrom" value="01.01.2026" autocomplete="off" name="datumOd:inputField" id="id7e27f24342b09f9b2"/>
+		<span class="input-group-text pointer" id="id8d853692d5fc39373"> <i class="fa fa-calendar"></i>
+		</span>
+	</div>
+														</div>
+													</div>
+													<div class="col-md-6">
+														<div class="form-group">
+															<label class="form-label" for="id39b9eca19ad3df074">Do</label>
+															<div class="input-group">
+		<input type="text" class="form-control form-control-sm datepickerInput datepickerTo" value="19.10.2026" autocomplete="off" name="datumDo:inputField" id="id39b9eca19ad3df074"/>
+		<span class="input-group-text pointer" id="id909b69399340317b5"> <i class="fa fa-calendar"></i>
+		</span>
+	</div>
+														</div>
+													</div>
+												</div>
+												<hr />
+												<div class="row">
+													<div class="col-md-12">
+														<button type="submit"
+															class="btn greenBtn btn-sm float-start">
+															Zobrazit
+														</button>
+													</div>
+												</div>
+											</form>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<hr>
+					
+					
+					<table class="table" id="idbbd4c9946d40eaa97">
+		<thead>
+			<tr>
+		
+			<th>Datum</th>
+		
+			<th class="text-end">Částka</th>
+		
+			<th>Typ</th>
+		
+			<th>Název protiúčtu</th>
+		
+			<th>Zpráva pro příjemce</th>
+		
+			<th>KS</th>
+		
+			<th>VS</th>
+		
+			<th>SS</th>
+		
+			<th>Poznámka</th>
+		
+	</tr>
+		</thead>
+		<tbody>
+			
+				<tr>
+		
+			<td>16.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-28500.0000">
+		-28 500,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td></td>
+		
+			<td>
+	<div>36/Jablonec 2010, z.s., roznos letáků, výjezdy</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>202614</td>
+		
+			<td>36</td>
+		
+			<td>36/Jablonec 2010, z.s., roznos letáků, výjezdy</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>16.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-28232.0000">
+		-28 232,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>36/RENGL, s.r.o., tisk a výlep plakátů</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>101176670</td>
+		
+			<td>36</td>
+		
+			<td>36/RENGL, s.r.o., tisk a výlep plakátů</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>16.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-12750.0000">
+		-12 750,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>36/David Hruda, grafické práce</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>152026</td>
+		
+			<td>36</td>
+		
+			<td>36/David Hruda, grafické práce</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>16.10.26</td>
+		
+			<td class="text-end amount amount_value" data-value="69482.0000">
+		69 482,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td>Občanská demokratická strana</td>
+		
+			<td>
+	<div>36/převod financí</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td>36/převod financí</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>15.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-7000.0000">
+		-7 000,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td></td>
+		
+			<td>
+	<div>30/Jan Dlouhý, výlep plakátů</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>202623</td>
+		
+			<td>30</td>
+		
+			<td>30/Jan Dlouhý, výlep plakátů</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>15.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-1000.0000">
+		-1 000,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>30/Střední odborná škola a Střední, pečivo na akce</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>202614</td>
+		
+			<td>30</td>
+		
+			<td>30/Střední odborná škola a Střední, pečivo na akce</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>12.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-101640.0000">
+		-101 640,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>24/ AdSight, a.s.,OOH kampaň 9,10/2026</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>20260081</td>
+		
+			<td>24</td>
+		
+			<td>24/ AdSight, a.s.,OOH kampaň 9,10/2026</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>12.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-13975.5000">
+		-13 975,50&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td></td>
+		
+			<td>
+	<div>24/ Regionální vydavatelství s.r.o. ,inzerce v tisku</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>212603005</td>
+		
+			<td>24</td>
+		
+			<td>24/ Regionální vydavatelství s.r.o. ,inzerce v tisku</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>12.10.26</td>
+		
+			<td class="text-end amount amount_value" data-value="115615.5000">
+		115 615,50&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td>Občanská demokratická strana</td>
+		
+			<td>
+	<div>24/převod financí</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td>24/převod financí</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>09.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-22731.0600">
+		-22 731,06&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>36/VLTAVA LABE MEDIA a.s., inzerce</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>2617016017</td>
+		
+			<td>36</td>
+		
+			<td>36/VLTAVA LABE MEDIA a.s., inzerce</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>09.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-5000.0000">
+		-5 000,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>36/Tomáš Hoskovec, ozvučení akce</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>1426</td>
+		
+			<td>36</td>
+		
+			<td>36/Tomáš Hoskovec, ozvučení akce</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>09.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-665.0000">
+		-665,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>36/, Kultura Mimoň, příspěvková org., výlep plakátů</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>196</td>
+		
+			<td>36</td>
+		
+			<td>36/, Kultura Mimoň, příspěvková org., výlep plakátů</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>09.10.26</td>
+		
+			<td class="text-end amount amount_value" data-value="28396.0600">
+		28 396,06&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td>Občanská demokratická strana</td>
+		
+			<td>
+	<div>36/převod financí</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td>36/převod financí</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>08.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-6641.0000">
+		-6 641,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>30/AdSight, a.s. - OOH kampaň-Kladno</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>20260115</td>
+		
+			<td>30</td>
+		
+			<td>30/AdSight, a.s. - OOH kampaň-Kladno</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>08.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-29115.0200">
+		-29 115,02&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>30/KoPe PRODUCE s.r.o.- letáky, plakáty, buttony</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>126078</td>
+		
+			<td>30</td>
+		
+			<td>30/KoPe PRODUCE s.r.o.- letáky, plakáty, buttony</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>08.10.26</td>
+		
+			<td class="text-end amount amount_value" data-value="35756.0000">
+		35 756,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td>Občanská demokratická strana</td>
+		
+			<td>
+	<div>30/převod financí</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td>30/převod financí</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>06.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-31944.0000">
+		-31 944,00&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>45/TN Média s.r.o., inzerce</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>260100259</td>
+		
+			<td>45</td>
+		
+			<td>45/TN Média s.r.o., inzerce</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>06.10.26</td>
+		
+			<td class="text-end amount amount_value" data-value="31944.0000">
+		31 944,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td>Občanská demokratická strana</td>
+		
+			<td>
+	<div>45/převod financí</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td>45/převod financí</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>01.10.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-7199.5000">
+		-7 199,50&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>36/VLTAVA LABE MEDIA a.s., inzerce</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>2617014871</td>
+		
+			<td>36</td>
+		
+			<td>36/VLTAVA LABE MEDIA a.s., inzerce</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>01.10.26</td>
+		
+			<td class="text-end amount amount_value" data-value="7199.5000">
+		7 199,50&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td>Občanská demokratická strana</td>
+		
+			<td>
+	<div>36/převod financí</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td>36/převod financí</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>30.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-42735.2200">
+		-42 735,22&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>24/Česká pošta s.p., roznáška pozvánky</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>5118756434</td>
+		
+			<td>24</td>
+		
+			<td>24/Česká pošta s.p., roznáška pozvánky</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>30.09.26</td>
+		
+			<td class="text-end amount amount_value" data-value="42740.0000">
+		42 740,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td>Občanská demokratická strana</td>
+		
+			<td>
+	<div>24/převod financí</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td>24/převod financí</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>25.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-280115.0000">
+		-280 115,00&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>24/ INDIGOPRINT s.r.o. , zajištění kampaně-agenturní práce</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>2604850</td>
+		
+			<td>24</td>
+		
+			<td>24/ INDIGOPRINT s.r.o. , zajištění kampaně-agenturní práce</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>25.09.26</td>
+		
+			<td class="text-end amount amount_value" data-value="280100.0000">
+		280 100,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td>Občanská demokratická strana</td>
+		
+			<td>
+	<div>24/převod financí</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td>24/převod financí</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>25.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-10890.0000">
+		-10 890,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>30/Tabmont s.r.o., bannery - montáž</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>26091</td>
+		
+			<td>30</td>
+		
+			<td>30/Tabmont s.r.o., bannery - montáž</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>25.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-10229.0000">
+		-10 229,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>30/BAJO RESTO s.r.o., občerstvení</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>2260010</td>
+		
+			<td>30</td>
+		
+			<td>30/BAJO RESTO s.r.o., občerstvení</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>25.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-4162.4000">
+		-4 162,40&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>36/JIWELL s.r.o., plakáty</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>226099</td>
+		
+			<td>36</td>
+		
+			<td>36/JIWELL s.r.o., plakáty</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>25.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-56279.5200">
+		-56 279,52&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>36/GEOPRINT s.r.o., letáky</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>270203</td>
+		
+			<td>36</td>
+		
+			<td>36/GEOPRINT s.r.o., letáky</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>25.09.26</td>
+		
+			<td class="text-end amount amount_value" data-value="60441.9200">
+		60 441,92&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td>Občanská demokratická strana</td>
+		
+			<td>
+	<div>36/převod financí</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td>36/převod financí</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>24.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-29040.0000">
+		-29 040,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td></td>
+		
+			<td>
+	<div>99/Kuráž Media s.r.o., online kampaň</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0558</td>
+		
+			<td>9261008</td>
+		
+			<td></td>
+		
+			<td>99/Kuráž Media s.r.o., online kampaň</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>24.09.26</td>
+		
+			<td class="text-end amount amount_value" data-value="29040.0000">
+		29 040,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td>Občanská demokratická strana</td>
+		
+			<td>
+	<div>99/převod financí</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td>99/převod financí</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>24.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-36838.0000">
+		-36 838,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td></td>
+		
+			<td>
+	<div>36/Jablonec 2010, z.s., zajištění BB, výlep plakátů</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>202613</td>
+		
+			<td>36</td>
+		
+			<td>36/Jablonec 2010, z.s., zajištění BB, výlep plakátů</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>24.09.26</td>
+		
+			<td class="text-end amount amount_value" data-value="36838.0000">
+		36 838,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td>Občanská demokratická strana</td>
+		
+			<td>
+	<div>36/převod financí</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td>36/převod financí</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>21.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-13975.5000">
+		-13 975,50&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td></td>
+		
+			<td>
+	<div>24/ Regionální vydavatelství s.r.o., inzerce</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>212602580</td>
+		
+			<td>24</td>
+		
+			<td>24/ Regionální vydavatelství s.r.o., inzerce</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>21.09.26</td>
+		
+			<td class="text-end amount amount_value" data-value="13976.0000">
+		13 976,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td>Občanská demokratická strana</td>
+		
+			<td>
+	<div>24/převod financí</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td>24/převod financí</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>17.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-500.0000">
+		-500,00&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>24/ Tělovýchovná jednota Sokol Horní Počernice-pronájem plochy</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>16192656</td>
+		
+			<td>24</td>
+		
+			<td>24/ Tělovýchovná jednota Sokol Horní Počernice-pronájem plochy</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>17.09.26</td>
+		
+			<td class="text-end amount amount_value" data-value="500.0000">
+		500,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td>Občanská demokratická strana</td>
+		
+			<td>
+	<div>24/převod financí</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td>24/převod financí</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>16.09.26</td>
+		
+			<td class="text-end amount amount_value" data-value="220000.0000">
+		220 000,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td>Občanská demokratická strana</td>
+		
+			<td>
+	<div>24/převod financí</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td>24/převod financí</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>16.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-1550.0000">
+		-1 550,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>30/Město Stochov, výlep plakátů</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>266161</td>
+		
+			<td>30</td>
+		
+			<td>30/Město Stochov, výlep plakátů</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>16.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-2710.0000">
+		-2 710,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>30/Město Stochov, inzerce</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>266153</td>
+		
+			<td>30</td>
+		
+			<td>30/Město Stochov, inzerce</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>16.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-3630.0000">
+		-3 630,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>30/TEN MEDIA s.r.o., správa sociálních sítí</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>2026305</td>
+		
+			<td>30</td>
+		
+			<td>30/TEN MEDIA s.r.o., správa sociálních sítí</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>16.09.26</td>
+		
+			<td class="text-end amount amount_value" data-value="4943.0000">
+		4 943,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td>Občanská demokratická strana</td>
+		
+			<td>
+	<div>30/převod financí</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td>30/převod financí</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>15.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-28435.0000">
+		-28 435,00&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>99/Dream Pro s.r.o., propagační materiál</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>2600176</td>
+		
+			<td></td>
+		
+			<td>99/Dream Pro s.r.o., propagační materiál</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>15.09.26</td>
+		
+			<td class="text-end amount amount_value" data-value="28500.0000">
+		28 500,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td>Občanská demokratická strana</td>
+		
+			<td>
+	<div>99/převod financí</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td>99/převod financí</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>15.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-45500.0000">
+		-45 500,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>30/Ing. Martin Kovařík, pronájem a polep autobusu</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>26026</td>
+		
+			<td>30</td>
+		
+			<td>30/Ing. Martin Kovařík, pronájem a polep autobusu</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>15.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-510.0000">
+		-510,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>30/Obec Tuchlovice, zábor prostranství</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>2600122</td>
+		
+			<td>30</td>
+		
+			<td>30/Obec Tuchlovice, zábor prostranství</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>15.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-43679.7900">
+		-43 679,79&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>30/KoPe PRODUCE s.r.o., bannery</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>126063</td>
+		
+			<td>30</td>
+		
+			<td>30/KoPe PRODUCE s.r.o., bannery</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>15.09.26</td>
+		
+			<td class="text-end amount amount_value" data-value="89689.7900">
+		89 689,79&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td>Občanská demokratická strana</td>
+		
+			<td>
+	<div>30/převod financí</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td>30/převod financí</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>11.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-78008.7000">
+		-78 008,70&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>45 HATcom s.r.o., reklamní předměty, grafické práce</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>20260106</td>
+		
+			<td>45</td>
+		
+			<td>45/ATcom s.r.o., reklamní předměty, grafické práce</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>11.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-500.0000">
+		-500,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td></td>
+		
+			<td>
+	<div>45/Tělocvičná jednota Sokol Hradec, pronájem místa na plachtu</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>260100182</td>
+		
+			<td>45</td>
+		
+			<td>45/Tělocvičná jednota Sokol Hradec, pronájem místa na plachtu</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>11.09.26</td>
+		
+			<td class="text-end amount amount_value" data-value="78508.7000">
+		78 508,70&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td>Občanská demokratická strana</td>
+		
+			<td>
+	<div>45/převod financí</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td>45/převod financí</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>11.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-17250.0000">
+		-17 250,00&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>36/David Hruda, grafické práce</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>132026</td>
+		
+			<td>36</td>
+		
+			<td>36/David Hruda, grafické práce</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>11.09.26</td>
+		
+			<td class="text-end amount amount_value" data-value="17250.0000">
+		17 250,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td>Občanská demokratická strana</td>
+		
+			<td>
+	<div>36/převod financí</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td>36/převod financí</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>10.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-5445.0000">
+		-5 445,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>30/Radek Žežulka firma Atypic, pronájem reklamní plochy</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>20260130</td>
+		
+			<td>30</td>
+		
+			<td>30/Radek Žežulka firma Atypic, pronájem reklamní plochy</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>10.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-8900.0000">
+		-8 900,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>30/Ing. Martin Kovařík, polep auta</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>26012</td>
+		
+			<td>30</td>
+		
+			<td>30/Ing. Martin Kovařík, polep auta</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>10.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-3812.0000">
+		-3 812,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>30/Obec Horoměřice, inzerce</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>2600200420</td>
+		
+			<td>30</td>
+		
+			<td>30/Obec Horoměřice, inzerce</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>10.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-41400.0000">
+		-41 400,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>30/Ing. Martin Kovařík, polep autobusů</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>26022</td>
+		
+			<td>30</td>
+		
+			<td>30/Ing. Martin Kovařík, polep autobusů</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>10.09.26</td>
+		
+			<td class="text-end amount amount_value" data-value="59557.0000">
+		59 557,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td>Občanská demokratická strana</td>
+		
+			<td>
+	<div>30/převod financí</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td>30/převod financí</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>04.09.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-49699.5400">
+		-49 699,54&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>30/KoPe PRODUCE s.r.o., bannery, pera, žetony</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>126045</td>
+		
+			<td>30</td>
+		
+			<td>30/KoPe PRODUCE s.r.o., bannery, pera, žetony</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>04.09.26</td>
+		
+			<td class="text-end amount amount_value" data-value="49700.0000">
+		49 700,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td>Občanská demokratická strana</td>
+		
+			<td>
+	<div>30/převod financí</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td>30/převod financí</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>02.09.26</td>
+		
+			<td class="text-end amount amount_value" data-value="640.0000">
+		640,00&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá příchozí platba</td>
+		
+			<td>Město Velvary</td>
+		
+			<td>
+	<div>vratka za nerealizovaný zábor pro ODS</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0000</td>
+		
+			<td>1343</td>
+		
+			<td></td>
+		
+			<td>Město Velvary</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>31.08.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-118773.6000">
+		-118 773,60&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>30/VLTAVA LABE MEDIA a.s.,tisk letáků, distribuce</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>2697002917</td>
+		
+			<td>30</td>
+		
+			<td>30/VLTAVA LABE MEDIA a.s.,tisk letáků, distribuce</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>31.08.26</td>
+		
+			<td class="text-end amount amount_value" data-value="118773.6000">
+		118 773,60&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td>Občanská demokratická strana</td>
+		
+			<td>
+	<div>30/převod financí</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td>30/převod financí</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>28.08.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-15000.0000">
+		-15 000,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td></td>
+		
+			<td>
+	<div>30/Jan Dlouhý, výlep a tisk plakátů</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>202613</td>
+		
+			<td>30</td>
+		
+			<td>30/Jan Dlouhý, výlep a tisk plakátů</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>28.08.26</td>
+		
+			<td class="text-end amount amount_value" data-value="15000.0000">
+		15 000,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td>Občanská demokratická strana</td>
+		
+			<td>
+	<div>30/převod financí</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td>30/převod financí</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>27.08.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-58274.0000">
+		-58 274,00&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>36/AdSight, a.s., OOH kampaň 09/2026</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>920260068</td>
+		
+			<td>36</td>
+		
+			<td>36/AdSight, a.s., OOH kampaň 09/2026</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>27.08.26</td>
+		
+			<td class="text-end amount amount_value" data-value="58274.0000">
+		58 274,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td>Občanská demokratická strana</td>
+		
+			<td>
+	<div>36/převod financí</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td>36/převod financí</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>25.08.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-1374.0000">
+		-1 374,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>24/ Ing. Janák Jiří, spotřební materiál</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>260507348</td>
+		
+			<td>24</td>
+		
+			<td>24/ Ing. Janák Jiří, spotřební materiál</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>25.08.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-242000.0000">
+		-242 000,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>24/INDIGOPRINT s.r.o. , zajištění kampaně</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>260044</td>
+		
+			<td>24</td>
+		
+			<td>24/INDIGOPRINT s.r.o. , zajištění kampaně</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>25.08.26</td>
+		
+			<td class="text-end amount amount_value" data-value="240000.0000">
+		240 000,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td>Občanská demokratická strana</td>
+		
+			<td>
+	<div>24/převod financí</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td>24/převod financí</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>25.08.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-640.0000">
+		-640,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>30/Město Velvary, zábor</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>1343</td>
+		
+			<td>30</td>
+		
+			<td>30/Město Velvary, zábor</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>25.08.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-1500.0000">
+		-1 500,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>30/Město Stochov, zábor</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>43202026</td>
+		
+			<td>31190</td>
+		
+			<td>30/Město Stochov, zábor</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>25.08.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-1000.0000">
+		-1 000,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>30/Obec Knovíz, zábor</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>260011</td>
+		
+			<td>30</td>
+		
+			<td>30/Obec Knovíz, zábor</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>25.08.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-305.0000">
+		-305,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>30/Obec Horoměřice, zábor</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>2600200386</td>
+		
+			<td>30</td>
+		
+			<td>30/Obec Horoměřice, zábor</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>25.08.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-1450.0000">
+		-1 450,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td></td>
+		
+			<td>
+	<div>30/Město Unhošť, zábor</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>26200404</td>
+		
+			<td>30</td>
+		
+			<td>30/Město Unhošť, zábor</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>25.08.26</td>
+		
+			<td class="text-end amount amount_value" data-value="4895.0000">
+		4 895,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td>Občanská demokratická strana</td>
+		
+			<td>
+	<div>30/převod financí</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td>30/převod financí</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>21.08.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-22627.0000">
+		-22 627,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>24/BigBoard Media s.r.o., záloha na tisk BB</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>310260285</td>
+		
+			<td>24</td>
+		
+			<td>24/BigBoard Media s.r.o., záloha na tisk BB</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>21.08.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-617384.3500">
+		-617 384,35&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>24/BigBoard Media s.r.o., záloha na pronájem BB</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>310260284</td>
+		
+			<td>24</td>
+		
+			<td>24/BigBoard Media s.r.o., záloha na pronájem BB</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>21.08.26</td>
+		
+			<td class="text-end amount amount_value" data-value="500000.0000">
+		500 000,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td>Občanská demokratická strana</td>
+		
+			<td>
+	<div>99/ převod financí</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td>24/ převod financí</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>19.08.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-3932.5000">
+		-3 932,50&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>24/BigBoard Media s.r.o, záloha na tisk CLV</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>310260283</td>
+		
+			<td>24</td>
+		
+			<td>24/BigBoard Media s.r.o, záloha na tisk CLV</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>19.08.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-73471.2000">
+		-73 471,20&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>24/BigBoard Media s.r.o., záloha na pronájem CLV</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td>310260282</td>
+		
+			<td>24</td>
+		
+			<td>24/BigBoard Media s.r.o., záloha na pronájem CLV</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>19.08.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-17218.3000">
+		-17 218,30&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>45/BigBoard Media s.r.o., CLV reklama</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>310260226</td>
+		
+			<td>45</td>
+		
+			<td>45/BigBoard Media s.r.o., CLV reklama</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>19.08.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-96096.6600">
+		-96 096,66&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>45/HATcom s.r.o., tisk letáků, grafické práce</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>20260092</td>
+		
+			<td>45</td>
+		
+			<td>45/HATcom s.r.o., tisk letáků, grafické práce</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>19.08.26</td>
+		
+			<td class="text-end amount amount_value" data-value="113314.9600">
+		113 314,96&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td>Občanská demokratická strana</td>
+		
+			<td>
+	<div>45/převod financí</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td>45/převod financí</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>11.08.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-268710.0000">
+		-268 710,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td></td>
+		
+			<td>
+	<div>99/převod financí</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td>99/převod financí</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>11.08.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-203280.0000">
+		-203 280,00&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>99/ IPSOS s.r.o./výzkum_senátní volby</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>26001834</td>
+		
+			<td>99</td>
+		
+			<td>99/ IPSOS s.r.o./výzkum_senátní volby</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>11.08.26</td>
+		
+			<td class="text-end amount amount_value" data-value="474400.0000">
+		474 400,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td>Občanská demokratická strana</td>
+		
+			<td>
+	<div>99/převod financí</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td>99/převod financí</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>10.08.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-4392.3000">
+		-4 392,30&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>30/Město Roztoky, inzerce v měsíčníku Odraz</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0378</td>
+		
+			<td>2026230054</td>
+		
+			<td>30</td>
+		
+			<td>30/Město Roztoky, inzerce v měsíčníku Odraz</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>10.08.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-1240.0000">
+		-1 240,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>30/Město Roztoky, zábor veř.prostranství</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0378</td>
+		
+			<td>2026210213</td>
+		
+			<td>30</td>
+		
+			<td>30/Město Roztoky, zábor veř.prostranství</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>10.08.26</td>
+		
+			<td class="text-end amount amount_value" data-value="5700.0000">
+		5 700,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td>Občanská demokratická strana</td>
+		
+			<td>
+	<div>30/převod financí</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td>30/převod financí</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>06.08.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-24200.0000">
+		-24 200,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>45/PETROF s.r.o., pronájem reklamní plochy</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>1128118</td>
+		
+			<td>45</td>
+		
+			<td>45/PETROF s.r.o., pronájem reklamní plochy</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>06.08.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-4537.5000">
+		-4 537,50&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>45/VLTAVA LABE MEDIA, PR článek</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>2617010430</td>
+		
+			<td>45</td>
+		
+			<td>45/VLTAVA LABE MEDIA, PR článek</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>06.08.26</td>
+		
+			<td class="text-end amount amount_value" data-value="29000.0000">
+		29 000,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td>Občanská demokratická strana</td>
+		
+			<td>
+	<div>45/převod financí</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td>45/převod financí</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>30.07.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-27782.0000">
+		-27 782,00&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>30/ AdSight, a.s., OOH kampaň</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>920260057</td>
+		
+			<td>30</td>
+		
+			<td>30/ AdSight, a.s., OOH kampaň</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>23.07.26</td>
+		
+			<td class="text-end amount amount_value" data-value="195000.0000">
+		195 000,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td>Občanská demokratická strana</td>
+		
+			<td>
+	<div>99/ převod financí</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td>99/ převod financí</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>23.07.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-264990.0000">
+		-264 990,00&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>99/ Ondřej Pýcha - fotografické služby vč. postprodukce</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>2026027</td>
+		
+			<td>99</td>
+		
+			<td>99/ Ondřej Pýcha - fotografické služby vč. postprodukce</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>23.07.26</td>
+		
+			<td class="text-end amount amount_value" data-value="265000.0000">
+		265 000,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td>Občanská demokratická strana</td>
+		
+			<td>
+	<div>99 /převod financí</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td>99 /převod financí</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>22.07.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-2178.0000">
+		-2 178,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>45/RENGL, s.r.o., tisk plakátů</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>10173681</td>
+		
+			<td>45</td>
+		
+			<td>45/RENGL, s.r.o., tisk plakátů</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>22.07.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-119014.5500">
+		-119 014,55&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>45/HATcom s.r.o., tisk letáků, plakátů</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>20260068</td>
+		
+			<td>45</td>
+		
+			<td>45/HATcom s.r.o., tisk letáků, plakátů</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>22.07.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-22869.0000">
+		-22 869,00&nbsp;CZK
+	</td>
+		
+			<td>Bezhotovostní platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>45/RENGL, s.r.o., výlep plakátů</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>10173896</td>
+		
+			<td>45</td>
+		
+			<td>45/RENGL, s.r.o., výlep plakátů</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>22.07.26</td>
+		
+			<td class="text-end amount amount_value" data-value="144000.0000">
+		144 000,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td>Občanská demokratická strana</td>
+		
+			<td>
+	<div>45/převod financí</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td>45/převod financí</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>15.07.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-2420.0000">
+		-2 420,00&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>99/ Martin Malý - fotodokumentace - zahájení kampaně</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>26042</td>
+		
+			<td>99</td>
+		
+			<td>99/ Martin Malý - fotodokumentace - zahájení kampaně</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>13.07.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-130138.0000">
+		-130 138,00&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>30/Lubor Chvojka, pronájem reklamních ploch</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>260500</td>
+		
+			<td>30</td>
+		
+			<td>30/Lubor Chvojka, pronájem reklamních ploch</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>13.07.26</td>
+		
+			<td class="text-end amount amount_value" data-value="130000.0000">
+		130 000,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td>Občanská demokratická strana</td>
+		
+			<td>
+	<div>30/převod financí</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td>30/převod financí</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>10.07.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-24200.0000">
+		-24 200,00&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>30/MEDIA TEN s.r.o., správa sociálních sítí</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>2026224</td>
+		
+			<td>30</td>
+		
+			<td>30/MEDIA TEN s.r.o., správa sociálních sítí</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>10.07.26</td>
+		
+			<td class="text-end amount amount_value" data-value="25000.0000">
+		25 000,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td>Občanská demokratická strana</td>
+		
+			<td>
+	<div>30/převod financí</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td>30/převod financí</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>08.07.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-195000.0000">
+		-195 000,00&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>99/Dream Pro Event s.r.o., technické zabezpečení zahájení senátní  kampaně</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>2600008</td>
+		
+			<td></td>
+		
+			<td>99/Dream Pro Event s.r.o., technické zabezpečení zahájení senátní  kampaně</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>18.06.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-27782.0000">
+		-27 782,00&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>30/AdSight, a.s., OOH kampaň</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>920260033</td>
+		
+			<td>30</td>
+		
+			<td>30/AdSight, a.s., OOH kampaň</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>18.06.26</td>
+		
+			<td class="text-end amount amount_value" data-value="275000.0000">
+		275 000,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td>Občanská demokratická strana</td>
+		
+			<td>
+	<div>30/převod financí</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td>30/převod financí</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>16.06.26</td>
+		
+			<td class="negative text-end amount amount_value" data-value="-42335.4800">
+		-42 335,48&nbsp;CZK
+	</td>
+		
+			<td>Okamžitá odchozí platba</td>
+		
+			<td></td>
+		
+			<td>
+	<div>30/ KoPe PRODUKCE s.r.o., propagační předměty, grafické práce</div>
+	
+	
+	
+	
+</td>
+		
+			<td>0308</td>
+		
+			<td>126030</td>
+		
+			<td>30</td>
+		
+			<td>30/ KoPe PRODUKCE s.r.o., propagační předměty, grafické práce</td>
+		
+	</tr>
+			
+				<tr>
+		
+			<td>16.06.26</td>
+		
+			<td class="text-end amount amount_value" data-value="45000.0000">
+		45 000,00&nbsp;CZK
+	</td>
+		
+			<td>Platba převodem uvnitř banky</td>
+		
+			<td>Občanská demokratická strana</td>
+		
+			<td>
+	<div>30/převod financí</div>
+	
+	
+	
+	
+</td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td></td>
+		
+			<td>30/převod financí</td>
+		
+	</tr>
+			
+		</tbody>
+		
+	</table>
+					
+
+
+				</div>
+				
+			</div>
+		</div>
+		<div class="wrapperFooter" style="height: 69px;">
+			<div class="green_border"
+				style="margin-top: 25px; margin-bottom: 0px;"></div>
+			<div class="grey_footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-6 gfBox"></div>
+						<div class="col-sm-6 text-end gfBox">
+							<span>&copy;</span> <span>2026</span> <span
+								style="margin-right: 10px">Fio banka</span> <span><a target="_blank" href="https://www.fio.cz/spolecnost_dokumenty_ostatni_pravniProhlaseni.php">Právní prohlášení</a></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

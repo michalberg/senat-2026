@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Zpráva o financování volební kampaně</title>
+    <meta charset="UTF-8">
+    <style>
+    body {
+        font-size: 10pt;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    table {
+        border-collapse: collapse;
+    }
+
+    td {
+        border: 1px solid #888888;
+        padding: 3px 6px 3px 6px;
+        vertical-align: top;
+    }
+
+    .amount {
+        text-align: right;
+        white-space: nowrap;
+    }
+
+    tr.header {
+        background-color: #dddddd;
+    }
+
+    #warning {
+        padding: 10px;
+        background-color: #ff704d;
+        color: white;
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    #info {
+        padding: 10px;
+        background-color: #80bfff;
+        color: white;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    @media print
+    {
+        body {
+            font-size: 8pt;
+        }
+
+        .no-print, .no-print *
+        {
+            display: none !important;
+        }
+    }
+    </style>
+  </head>
+  <body>
+
+
+
+    <h1>Zpráva o financování volební kampaně</h1>
+<p style="text-align: center;"><i>dle § 10 odst. 4 zákona č. 234/2025 Sb.</i></p>
+
+    <p style="text-align: center; font-weight: bold; font-size: 13pt;">Řádné volby do senátu 2026</p>
+
+<table style="width: 100%;">
+<tr>
+<td colspan="2" style="border: 1px solid black; padding: 15px;">
+Kandidující subjekt / Kandidát:<br>
+<b>Osobnosti pro kraj</b><br>
+<br>
+Identifikační číslo politické strany / politického hnutí:<br>
+<b>21311188</b><br>
+<br>
+</td>
+</tr>
+<tr>
+<td style="border: 1px solid black; padding: 15px; width: 40%;">
+<br>
+Identifikátor zprávy: <b>Z28467-20261005140410</b><br>
+Datum předložení zprávy: <b>05.10.2026</b><br>
+Datum a čas poslední úpravy: <b>05.10.2026 12:04:10</b><br>
+<br><br><br>
+</td>
+<td style="border: 1px solid black; padding: 15px; width: 60%;">
+<img src="https://zpravy.udh.gov.cz/podpis/582-1721119797.jpg">
+<br> &nbsp; &nbsp; <b>Prof. Ing. Ivo Vondrák, CSc., Krajská výkonná rada, za kterou jedná samostatně předseda. Dále může jednat místopředseda hnutí, avšak pouze v rozsahu a na základě písemného pověření uděleného předsedou nebo krajskou výkonnou radou.</b>
+<br>
+<p>Podpis: ....................................................................................................<br>
+<small>Podepíše se kandidát na prezidenta/nezávislý kandidát na senátora/osoba oprávněná jednat jménem
+    politické strany/politického hnutí, nebo, jde-li o koalici, osoby oprávněné jednat jménem všech
+    politických stran a politických hnutí zastoupených v koalici. Podepisující osoba uvede k podpisu
+své jméno, příjmení a postavení.</small></p>
+</td>
+<tr>
+</table>
+<h2 style="page-break-before: always;">Část I. Peněžité dary poskytnuté kandidujícímu subjektu / kandidátovi</h2>
+<p>Počet stran .......... v části I.<br>Celkem <b>183 000,00</b> Kč v části I.</p>
+<table>
+<tr class="header"><td>Dárce<br><small>(jméno, příjmení, obec trvalého pobytu,<br>případně obchodní firma nebo název právnické osoby, sídlo)</small></td><td>Datum narození dárce<br>/ identifikační číslo,<br>bylo-li přiděleno</td><td>Výše peněžitého<br>daru v Kč</td></tr>
+<tr><td>Gregořica, Rudolf, Štěpánkovice</td><td>13.11.1958</td><td class="amount">10 000,00</td></tr>
+<tr><td>Eva, Šeinerová, Karviná</td><td>01.08.1942</td><td class="amount">100 000,00</td></tr>
+<tr><td>Magnus, Martin, Třebom</td><td>25.08.1981</td><td class="amount">13 000,00</td></tr>
+<tr><td>Kazík, Petr, Karviná</td><td>30.07.1964</td><td class="amount">30 000,00</td></tr>
+<tr><td>Skopal, Petr, Karviná</td><td>14.10.1967</td><td class="amount">20 000,00</td></tr>
+<tr><td>SSKA-stavební společnost Karviná,a.s., Bohumínská 1878, Karviná - Nové město, 73506</td><td>48393835</td><td class="amount">10 000,00</td></tr>
+</table><h2 style="page-break-before: always;">Část II. Jiná bezúplatná plnění poskytnutá kandidujícímu subjektu / kandidátovi</h2>
+<p>Počet stran .......... v části II.<br>Celkem <b>0,00</b> Kč v části II.</p>
+<table>
+<tr class="header"><td>Dárce<br><small>(jméno, příjmení, obec trvalého pobytu,<br>případně obchodní firma nebo název právnické osoby, sídlo)</small></td><td>Datum narození dárce<br>/ identifikační číslo,<br>bylo-li přiděleno</td><td>Obvyklá cena<br>v Kč</td><td>Bezúplatné plnění</td></tr>
+<tr><td colspan="4">Žádné údaje</td></tr>
+</table><h2 style="page-break-before: always;">Část III. Výdaje hrazené kandidáty</h2>
+<p>Počet stran .......... v části III.<br>Celkem <b>0,00</b> Kč v části III.</p>
+<table>
+<tr class="header"><td>Kandidát<br><small>(jméno, příjmení, datum narození)</small></td><td>Výše výdajů v Kč</td></tr>
+<tr><td colspan="2">Žádné údaje</td></tr>
+</table><h2 style="page-break-before: always;">Část IV. Výdaje na volební kampaň</h2>
+<p>Počet stran .......... v části IV.<br>Celkem <b>0,00</b> Kč v části IV.</p>
+<table>
+<tr class="header"><td>Částka v Kč</td><td>Účel, na který byla použita</td><td><small>Je-li plnění poskytnuto za cenu nižší než obvyklou, uvede<br>se jméno, příjmení, datum narození a obec trvalého pobytu<br>poskytovatele, případně obchodní firma nebo název právnické<br>osoby, sídlo a identifikační číslo, bylo-li přiděleno.</small></td></tr>
+<tr><td colspan="3">Žádné údaje</td></tr>
+</table><h2 style="page-break-before: always;">Část V. Peněžité dluhy, k jejichž splnění se kandidující subjekt / kandidát v souvislosti s financováním volební kampaně zavázal</h2>
+<p>Počet stran .......... v části V.<br>Celkem <b>0,00</b> Kč v části V.</p>
+<table>
+<tr class="header"><td>Plnění, které bylo kandidujícímu subjektu / kandidátovi věřitelem<br>poskytnuto, nebo k němuž se věřitel zavázal</td><td>Výše dluhu<br>v Kč</td><td><small>Je-li plnění poskytnuto za cenu nižší než obvyklou, uvede<br>se jméno, příjmení, datum narození a obec trvalého pobytu<br>poskytovatele, případně obchodní firma nebo název právnické<br>osoby, sídlo a identifikační číslo, bylo-li přiděleno.</small></td></tr>
+<tr><td colspan="3">Žádné údaje</td></tr>
+</table>
+
+
+  </body>
+</html>

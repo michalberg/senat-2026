@@ -1,0 +1,172 @@
+{
+"bank": "fio",
+"id": "2903540605",
+"url": "https://ib.fio.cz/ib/transparent?a=2903540605",
+"owner": "TOP 09",
+"name": "Volební účet TOP 09 pro volby do Senátu 2026",
+"number": "2903540605 / 2010",
+"summary": {
+"Stav k: 01.01.26": 0.0,
+"Stav k: 19.10.26": 3.64,
+"Suma příjmů": 275780.0,
+"Suma výdajů": -275776.36,
+"Suma celkem": 3.64,
+"Běžný zůstatek": 3.64
+},
+"tx": [
+{
+"date": "2026-10-16",
+"amount": -55000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "",
+"message": "TOP09,marketing||| NP:Vít",
+"ks": "0308",
+"vs": "0002026010",
+"ss": "0000000099",
+"note": "TOP09,marketing||| NP:Vít"
+},
+{
+"date": "2026-10-16",
+"amount": 54780.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "TOP 09",
+"message": "TOP 09, převod na účet pro senátní volby 2026 obecné výdaje",
+"ks": "",
+"vs": "71339728",
+"ss": "99",
+"note": "TOP 09, převod na účet pro senátní volby 2026 obecné výdaje"
+},
+{
+"date": "2026-10-09",
+"amount": -20000.0,
+"type": "Bezhotovostní platba",
+"counterparty": "",
+"message": "TOP09,videa||| NP:Verner",
+"ks": "0308",
+"vs": "0020260024",
+"ss": "0000000099",
+"note": "TOP09,videa||| NP:Verner"
+},
+{
+"date": "2026-10-09",
+"amount": -10000.0,
+"type": "Bezhotovostní platba",
+"counterparty": "",
+"message": "TOP09,videa||| NP:Pražák",
+"ks": "0308",
+"vs": "2026100002",
+"ss": "0000000099",
+"note": "TOP09,videa||| NP:Pražák"
+},
+{
+"date": "2026-10-09",
+"amount": -70000.0,
+"type": "Bezhotovostní platba",
+"counterparty": "",
+"message": "TOP09,mediální servis||| NP:Václav",
+"ks": "0308",
+"vs": "0000202609",
+"ss": "0000000099",
+"note": "TOP09,mediální servis||| NP:Václav"
+},
+{
+"date": "2026-10-09",
+"amount": -10000.0,
+"type": "Bezhotovostní platba",
+"counterparty": "",
+"message": "TOP09,správa sociálních sítí||| NP:Táborský",
+"ks": "0308",
+"vs": "0020260010",
+"ss": "0000000099",
+"note": "TOP09,správa sociálních sítí||| NP:Táborský"
+},
+{
+"date": "2026-10-09",
+"amount": -20000.0,
+"type": "Bezhotovostní platba",
+"counterparty": "",
+"message": "TOP09,copywriting||| NP:Radek",
+"ks": "0308",
+"vs": "0020260026",
+"ss": "0000000099",
+"note": "TOP09,copywriting||| NP:Radek"
+},
+{
+"date": "2026-10-09",
+"amount": -10000.0,
+"type": "Bezhotovostní platba",
+"counterparty": "",
+"message": "TOP09,správa sociálních sítí||| NP:Starčenko",
+"ks": "0308",
+"vs": "0020260017",
+"ss": "0000000099",
+"note": "TOP09,správa sociálních sítí||| NP:Starčenko"
+},
+{
+"date": "2026-10-09",
+"amount": 121000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "TOP 09",
+"message": "TOP 09, převod na účet pro senátní volby 2026 obecné výdaje",
+"ks": "",
+"vs": "71339728",
+"ss": "99",
+"note": "TOP 09, převod na účet pro senátní volby 2026 obecné výdaje"
+},
+{
+"date": "2026-10-08",
+"amount": -50000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "",
+"message": "TOP09,organizace kampaně||| NP:Galuška",
+"ks": "0308",
+"vs": "0000001526",
+"ss": "0000000099",
+"note": "TOP09,organizace kampaně||| NP:Galuška"
+},
+{
+"date": "2026-09-25",
+"amount": -5301.02,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "TOP09,tisk|program(S:5301,02+K:5301,01)|| NP:INDIGOPRINT",
+"ks": "0308",
+"vs": "0002604743",
+"ss": "0000000099",
+"note": "TOP09,tisk|program(S:5301,02+K:5301,01)|| NP:INDIGOPRINT"
+},
+{
+"date": "2026-08-13",
+"amount": -11319.55,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "TOP09,dárkové předměty textil|(S:11319,55+K:11319,55)|| NP:T-SHIRTS 4U",
+"ks": "0308",
+"vs": "0002600546",
+"ss": "0000000099",
+"note": "TOP09,dárkové předměty textil|(S:11319,55+K:11319,55)|| NP:T-SHIRTS 4U"
+},
+{
+"date": "2026-08-07",
+"amount": -14155.79,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "TOP09,dárkové předměty|(S:14155+K:14155)|| NP:SPEED PRESS Plus",
+"ks": "0308",
+"vs": "0260104207",
+"ss": "0000000099",
+"note": "TOP09,dárkové předměty|(S:14155+K:14155)|| NP:SPEED PRESS Plus"
+},
+{
+"date": "2026-08-07",
+"amount": 100000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "TOP 09",
+"message": "TOP 09, převod na účet pro senátní volby 2026 obecné výdaje",
+"ks": "",
+"vs": "71339728",
+"ss": "99",
+"note": "TOP 09, převod na účet pro senátní volby 2026 obecné výdaje"
+}
+]
+}

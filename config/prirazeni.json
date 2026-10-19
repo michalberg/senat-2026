@@ -1,0 +1,6 @@
+{
+ "_popis": "Ruční přiřazení transakcí k obvodu nebo změna druhu. Klíč: soubor účtu → 'datum|částka'.",
+ "kb_131-4207510217": {"2026-08-13|-102307.0": {"obvod": 60}},
+ "fio_2503455583": {"2026-10-05|-8104.0": {"obvod": 24}, "2026-09-25|-3500.0": {"obvod": 24}},
+ "fio_2903549861": {"2026-08-17|-10000.0": {"druh": "vraceni_daru"}}
+}

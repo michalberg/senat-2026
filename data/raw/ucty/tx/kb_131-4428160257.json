@@ -1,0 +1,123 @@
+{
+"bank": "kb",
+"id": "131-4428160257",
+"url": "https://www.kb.cz/cs/transparentni-ucty/131-4428160257",
+"owner": "VOK – Volba pro kraj",
+"name": "",
+"number": "131-4428160257/0100",
+"summary": {
+"Běžný zůstatek": 12816.0
+},
+"tx": [
+{
+"date": "2026-10-02",
+"amount": -726.0,
+"type": "Odchozí platba",
+"counterparty": "",
+"message": "1260269",
+"ks": "",
+"vs": "1260269",
+"ss": "",
+"note": ""
+},
+{
+"date": "2026-09-30",
+"amount": -99.0,
+"type": "Poplatek",
+"counterparty": "",
+"message": "",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": ""
+},
+{
+"date": "2026-09-02",
+"amount": -1167.0,
+"type": "Odchozí platba",
+"counterparty": "",
+"message": "Doplatek - Platba zalohoveho listu ZLV-1017/2026",
+"ks": "",
+"vs": "10271017",
+"ss": "",
+"note": ""
+},
+{
+"date": "2026-08-31",
+"amount": -99.0,
+"type": "Poplatek",
+"counterparty": "",
+"message": "",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": ""
+},
+{
+"date": "2026-08-10",
+"amount": 20000.0,
+"type": "VOK - VOLBA PRO KRAJ<br />Příchozí platba",
+"counterparty": "",
+"message": "VOK senát",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": ""
+},
+{
+"date": "2026-08-10",
+"amount": -8800.0,
+"type": "Odchozí platba",
+"counterparty": "",
+"message": "QR Faktura 20260067 - foceni",
+"ks": "",
+"vs": "20260067",
+"ss": "",
+"note": ""
+},
+{
+"date": "2026-07-31",
+"amount": -99.0,
+"type": "Poplatek",
+"counterparty": "",
+"message": "",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": ""
+},
+{
+"date": "2026-07-27",
+"amount": -26194.0,
+"type": "Odchozí platba",
+"counterparty": "",
+"message": "Platba zalohoveho listu ZLV-357/2026",
+"ks": "",
+"vs": "1027357",
+"ss": "",
+"note": ""
+},
+{
+"date": "2026-07-23",
+"amount": 50000.0,
+"type": "VOK - VOLBA PRO KRAJ<br />Příchozí platba",
+"counterparty": "",
+"message": "",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": ""
+},
+{
+"date": "2026-07-23",
+"amount": -20000.0,
+"type": "Odchozí platba",
+"counterparty": "",
+"message": "VOK - Volba pro kraj, Štěpánka Černá",
+"ks": "558",
+"vs": "7761221820",
+"ss": "",
+"note": ""
+}
+]
+}

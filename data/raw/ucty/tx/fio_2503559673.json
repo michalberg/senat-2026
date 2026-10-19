@@ -1,0 +1,139 @@
+{
+"bank": "fio",
+"id": "2503559673",
+"url": "https://ib.fio.cz/ib/transparent?a=2503559673",
+"owner": "Česká zemědělská strana",
+"name": "Senátní volby",
+"number": "2503559673 / 2010",
+"summary": {
+"Stav k: 01.01.26": 0.0,
+"Stav k: 19.10.26": 14549.4,
+"Suma příjmů": 65500.0,
+"Suma výdajů": -50950.6,
+"Suma celkem": 14549.4,
+"Běžný zůstatek": 14549.4
+},
+"tx": [
+{
+"date": "2026-10-12",
+"amount": -2250.6,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "Polep auta na senátní kampaň",
+"ks": "",
+"vs": "260100178",
+"ss": "",
+"note": "Polep auta na senátní kampaň"
+},
+{
+"date": "2026-10-12",
+"amount": -10700.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "",
+"message": "Letáky, plakáty, vizitky a roznes do schránek",
+"ks": "",
+"vs": "261002",
+"ss": "",
+"note": "Letáky, plakáty, vizitky a roznes do schránek"
+},
+{
+"date": "2026-10-12",
+"amount": -20000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "",
+"message": "Faktura za webové stránky a správu sociálních sítí TPT Funding",
+"ks": "",
+"vs": "261001",
+"ss": "",
+"note": "Faktura za webové stránky a správu sociálních sítí TPT Funding"
+},
+{
+"date": "2026-10-06",
+"amount": 24500.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Česká zemědělská strana",
+"message": "DAR na kampaň Senátor F.T. Podstatzky-Lichtenstein, F.T.Podstatzky-Lichtenstein,4.9.1966, Čisovice Bojov",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "DAR na kampaň Senátor F.T. Podstatzky-Lichtenstein, F.T.Podstatzky-Lichtenstein,4.9.1966, Čisovice Bojov"
+},
+{
+"date": "2026-10-06",
+"amount": 3000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Česká zemědělská strana",
+"message": "DAR, Václav Kůs, 13.11.1976 Praha 5",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "DAR, Václav Kůs, 13.11.1976 Praha 5"
+},
+{
+"date": "2026-10-06",
+"amount": 5000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Česká zemědělská strana",
+"message": "Dar, Dana Gutmann, 27.2.1961, Praha 6",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "Dar, Dana Gutmann, 27.2.1961, Praha 6"
+},
+{
+"date": "2026-10-06",
+"amount": 15000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Česká zemědělská strana",
+"message": "DAR TPT Funding s.r.o. ICO 19067640 Praha 5",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "DAR TPT Funding s.r.o. ICO 19067640 Praha 5"
+},
+{
+"date": "2026-10-06",
+"amount": -15000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "",
+"message": "Omylem zaslaný DAR na volební senátorský účet, který bude převeden z provozního na senátorský převeden správně",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "Omylem zaslaný DAR na volební senátorský účet, který bude převeden z provozního na senátorský převeden správně"
+},
+{
+"date": "2026-10-06",
+"amount": 3000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Gutmann, Dana",
+"message": "DAR Dana Gutmann 27021961 Praha 6",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "DAR Dana Gutmann 27021961 Praha 6"
+},
+{
+"date": "2026-09-09",
+"amount": -3000.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "portrétní fotografie",
+"ks": "",
+"vs": "2026042",
+"ss": "",
+"note": "portrétní fotografie"
+},
+{
+"date": "2026-09-09",
+"amount": 15000.0,
+"type": "Okamžitá příchozí platba",
+"counterparty": "TPT funding s.r.o.",
+"message": "DAR dle dar. smlouvy TPT funding s.r.o.",
+"ks": "0000",
+"vs": "",
+"ss": "",
+"note": "TPT funding s.r.o."
+}
+]
+}

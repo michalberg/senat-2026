@@ -1,0 +1,238 @@
+{
+"bank": "fio",
+"id": "-100",
+"url": "https://ib.fio.cz/ib/transparent?a=-100",
+"owner": "Občanská demokratická strana",
+"name": "Volby do Senátu 2026_ODS, KDU-ČSL, TOP 09, Piráti, Fakt Brno",
+"number": "",
+"summary": {
+"Stav k: 01.01.26": 0.0,
+"Stav k: 19.10.26": 267161.4,
+"Suma příjmů": 1228000.0,
+"Suma výdajů": -960838.6,
+"Suma celkem": 267161.4,
+"Běžný zůstatek": 267161.4
+},
+"tx": [
+{
+"date": "2026-10-12",
+"amount": -10890.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "60/HAVCOM, s.r.o., dotisk novin",
+"ks": "",
+"vs": "202618",
+"ss": "60",
+"note": "60/HAVCOM, s.r.o., dotisk novin"
+},
+{
+"date": "2026-10-09",
+"amount": -91113.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "60/Psanci s.r.o., grafické práce",
+"ks": "0308",
+"vs": "20260023",
+"ss": "60",
+"note": "60/Psanci s.r.o., grafické práce"
+},
+{
+"date": "2026-10-02",
+"amount": -80707.0,
+"type": "Bezhotovostní platba",
+"counterparty": "",
+"message": "60/HAVCOM, s.r.o., distribuce volebních novin",
+"ks": "",
+"vs": "202616",
+"ss": "60",
+"note": "60/HAVCOM, s.r.o., distribuce volebních novin"
+},
+{
+"date": "2026-10-02",
+"amount": -218042.0,
+"type": "Bezhotovostní platba",
+"counterparty": "",
+"message": "60/HAVCOM, s.r.o, tisk letáků",
+"ks": "",
+"vs": "202617",
+"ss": "60",
+"note": "60/HAVCOM, s.r.o., tisk letáků"
+},
+{
+"date": "2026-10-01",
+"amount": -26000.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "60/Mgr. Josef Valenta, organizační zajištění kampaně",
+"ks": "0308",
+"vs": "202693",
+"ss": "60",
+"note": "60/Mgr. Josef Valenta, organizační zajištění kampaně"
+},
+{
+"date": "2026-09-17",
+"amount": -91476.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "",
+"message": "60/Denkmann, s.r.o., pronájem billboardů",
+"ks": "0308",
+"vs": "260100006",
+"ss": "60",
+"note": "60/Denkmann, s.r.o., pronájem billboardů"
+},
+{
+"date": "2026-09-14",
+"amount": -34132.0,
+"type": "Bezhotovostní platba",
+"counterparty": "",
+"message": "60/Roggi, s.r.o., bonbony, želatinoví medvídci",
+"ks": "0308",
+"vs": "260101000",
+"ss": "60",
+"note": "60/Roggi, s.r.o., bonbony, želatinoví medvídci"
+},
+{
+"date": "2026-09-14",
+"amount": -16000.0,
+"type": "Bezhotovostní platba",
+"counterparty": "",
+"message": "60/Filip Kotek, placka - kov",
+"ks": "0308",
+"vs": "20260015",
+"ss": "60",
+"note": "60/Filip Kotek, placka - kov"
+},
+{
+"date": "2026-09-11",
+"amount": -17757.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "60/RENGL s.r.o, tisk a výlep plakátů",
+"ks": "0308",
+"vs": "10175552",
+"ss": "",
+"note": "60/RENGL s.r.o, tisk a výlep plakátů"
+},
+{
+"date": "2026-09-03",
+"amount": -78638.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "60/RENGL, s.r.o., výlep plakátů",
+"ks": "0308",
+"vs": "10175292",
+"ss": "60",
+"note": "60/RENGL, s.r.o., výlep plakátů"
+},
+{
+"date": "2026-09-01",
+"amount": -2307.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "60/Monika Švaříčková, ponožky",
+"ks": "",
+"vs": "022026",
+"ss": "60",
+"note": "60/Monika Švaříčková, ponožky"
+},
+{
+"date": "2026-08-26",
+"amount": -5540.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "",
+"message": "60/LEMICOM spol. s r.o., výroba vlajek",
+"ks": "",
+"vs": "2009896",
+"ss": "60",
+"note": "60/LEMICOM spol. s r.o., výroba vlajek"
+},
+{
+"date": "2026-08-25",
+"amount": -36000.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "60/Matěj Vybíral, produkce a střih videí",
+"ks": "0308",
+"vs": "202633",
+"ss": "60",
+"note": "60/Matěj Vybíral, produkce a střih videí"
+},
+{
+"date": "2026-08-25",
+"amount": 525000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "KDU-ČSL",
+"message": "KDU-ČSL - vklad na společnou kampaň senátní obvod 60 - Zdeněk Papoušek",
+"ks": "",
+"vs": "",
+"ss": "60",
+"note": "60/KDU-ČSL - vklad na společnou kampaň senátní obvod 60 - Zdeněk Papoušek"
+},
+{
+"date": "2026-08-24",
+"amount": 150000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Česká pirátská strana",
+"message": "pp#45715 FO 1805/2026, cen:p, obcanska-demokraticka-strana",
+"ks": "",
+"vs": "602026",
+"ss": "",
+"note": "60/vklad na kampaň_česká pirátská strana_Papoušek SEO 60"
+},
+{
+"date": "2026-08-20",
+"amount": 150000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Fakt Brno",
+"message": "Příspěvek na senátní kampaň - Zdeněk Papoušek",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "Příspěvek na senátní kampaň - Zdeněk Papoušek"
+},
+{
+"date": "2026-08-04",
+"amount": 150000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "TOP 09",
+"message": "TOP 09, Opletalova 1603/57, 11000 Praha 1, vklad na koaliční kampaň senát obvod 60 Zdeněk Papoušek",
+"ks": "",
+"vs": "71339728",
+"ss": "60",
+"note": "60/TOP 09, Opletalova 1603/57, 11000 Praha 1, vklad na koaliční kampaň senát obvod 60 Zdeněk Papoušek"
+},
+{
+"date": "2026-07-14",
+"amount": -143990.0,
+"type": "Bezhotovostní platba",
+"counterparty": "",
+"message": "60/Psanci s.r.o., koncept kampaně",
+"ks": "0308",
+"vs": "20260015",
+"ss": "60",
+"note": "60/Psanci s.r.o., koncept kampaně"
+},
+{
+"date": "2026-07-14",
+"amount": -108246.6,
+"type": "Bezhotovostní platba",
+"counterparty": "",
+"message": "60/X Production s.r.o.,kampaň v MHD",
+"ks": "0308",
+"vs": "260100752",
+"ss": "60",
+"note": "60/X Production s.r.o.,kampaň v MHD"
+},
+{
+"date": "2026-07-14",
+"amount": 253000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Občanská demokratická strana",
+"message": "60/převod financí",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "60/převod financí"
+}
+]
+}

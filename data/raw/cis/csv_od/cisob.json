@@ -1,0 +1,22 @@
+{
+  "@context": ["http://www.w3.org/ns/csvw",{"@language": "cs"}],
+  "url": "cisob.csv",
+  "dc:description": "Číselník obcí pro prezentaci", 
+  "tableSchema": { 
+    "columns": [{
+      "name": "OBEC_PREZ",
+      "titles": "OBEC_PREZ",
+      "dc:description": "Kód obce (ZUJ)",
+      "required": false,
+      "datatype": "number"
+    },{
+      "name": "NAZEVOBCE",
+      "titles": "NAZEVOBCE",
+      "dc:description": "Název obce",
+      "required": true,
+      "datatype": "string"
+    }
+    ],
+    "primaryKey": "OBEC_PREZ"
+  }
+}

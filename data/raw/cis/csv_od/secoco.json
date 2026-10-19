@@ -1,0 +1,178 @@
+{
+  "@context": ["http://www.w3.org/ns/csvw",{"@language": "cs"}],
+  "url": "secoco.csv",
+  "dc:description": "Číselník obcí, městských částí, městských obvodů a volebních okrsků", 
+  "tableSchema": { 
+    "columns": [{
+      "name": "KRAJ",
+      "titles": "KRAJ",
+      "dc:description": "Kód kraje dle CNUMNUTS, kam OBEC patří",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "OKRES",
+      "titles": "OKRES",
+      "dc:description": "Kód okresu dle CNUMNUTS, kam OBEC patří",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "CPOU",
+      "titles": "CPOU",
+      "dc:description": "Kód přebíracího místa dle CISPM, kam OBEC patří",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "ORP",
+      "titles": "ORP",
+      "dc:description": "Kód obce s rozšířenou působností, kam OBEC patří",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "OBEC",
+      "titles": "OBEC",
+      "dc:description": "Kód obce, MČ, MO, kde se volí - dle identifikace okrsku v RUIAN",
+      "required": false,
+      "datatype": "number"
+    },{
+      "name": "NAZEVOBCE",
+      "titles": "NAZEVOBCE",
+      "dc:description": "Název obce, MČ, MO",
+      "required": true,
+      "datatype": "string"
+    },{
+      "name": "OBVOD",
+      "titles": "OBVOD",
+      "dc:description": "Kód senátního volebního obvodu",
+      "required": false,
+      "datatype": "number"
+    },{
+      "name": "MINOKRSEK1",
+      "titles": "MINOKRSEK1",
+      "dc:description": "Nejnižší číslo okrsku v rámci OBEC dle RUIAN - 1. řada",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "MAXOKRSEK1",
+      "titles": "MAXOKRSEK1",
+      "dc:description": "Nejvyšší číslo okrsku v rámci OBEC dle RUIAN - 1. řada",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "MINOKRSEK2",
+      "titles": "MINOKRSEK2",
+      "dc:description": "Nejnižší číslo okrsku v rámci OBEC dle RUIAN - 2. řada",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "MAXOKRSEK2",
+      "titles": "MAXOKRSEK2",
+      "dc:description": "Nejvyšší číslo okrsku v rámci OBEC dle RUIAN - 2. řada",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "MINOKRSEK3",
+      "titles": "MINOKRSEK3",
+      "dc:description": "Nejnižší číslo okrsku v rámci OBEC dle RUIAN - 3. řada",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "MAXOKRSEK3",
+      "titles": "MAXOKRSEK3",
+      "dc:description": "Nejvyšší číslo okrsku v rámci OBEC dle RUIAN - 3. řada",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "MINOKRSEK4",
+      "titles": "MINOKRSEK4",
+      "dc:description": "Nejnižší číslo okrsku v rámci OBEC dle RUIAN - 4. řada",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "MAXOKRSEK4",
+      "titles": "MAXOKRSEK4",
+      "dc:description": "Nejvyšší číslo okrsku v rámci OBEC dle RUIAN - 4. řada",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "MINOKRSEK5",
+      "titles": "MINOKRSEK5",
+      "dc:description": "Nejnižší číslo okrsku v rámci OBEC dle RUIAN - 5. řada",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "MAXOKRSEK5",
+      "titles": "MAXOKRSEK5",
+      "dc:description": "Nejvyšší číslo okrsku v rámci OBEC dle RUIAN - 5. řada",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "MINOKRSEK6",
+      "titles": "MINOKRSEK6",
+      "dc:description": "Nejnižší číslo okrsku v rámci OBEC dle RUIAN - 6. řada",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "MAXOKRSEK6",
+      "titles": "MAXOKRSEK6",
+      "dc:description": "Nejvyšší číslo okrsku v rámci OBEC dle RUIAN - 6. řada",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "MINOKRSEK7",
+      "titles": "MINOKRSEK7",
+      "dc:description": "Nejnižší číslo okrsku v rámci OBEC dle RUIAN - 7. řada",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "MAXOKRSEK7",
+      "titles": "MAXOKRSEK7",
+      "dc:description": "Nejvyšší číslo okrsku v rámci OBEC dle RUIAN - 7. řada",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "MINOKRSEK8",
+      "titles": "MINOKRSEK8",
+      "dc:description": "Nejnižší číslo okrsku v rámci OBEC dle RUIAN - 8. řada",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "MAXOKRSEK8",
+      "titles": "MAXOKRSEK8",
+      "dc:description": "Nejvyšší číslo okrsku v rámci OBEC dle RUIAN - 8. řada",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "MINOKRSEK9",
+      "titles": "MINOKRSEK9",
+      "dc:description": "Nejnižší číslo okrsku v rámci OBEC dle RUIAN - 9. řada",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "MAXOKRSEK9",
+      "titles": "MAXOKRSEK9",
+      "dc:description": "Nejvyšší číslo okrsku v rámci OBEC dle RUIAN - 9. řada",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "MINOKRSE10",
+      "titles": "MINOKRSE10",
+      "dc:description": "Nejnižší číslo okrsku v rámci OBEC dle RUIAN - 10. řada",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "MAXOKRSE10",
+      "titles": "MAXOKRSE10",
+      "dc:description": "Nejvyšší číslo okrsku v rámci OBEC dle RUIAN - 10. řada",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "OBEC_PREZ",
+      "titles": "OBEC_PREZ",
+      "dc:description": "Kód obce pro prezentaci (odkaz na číselník obcí)",
+      "required": true,
+      "datatype": "number"
+    }
+    ],
+    "primaryKey": ["OBEC","OBVOD"]
+  }
+}

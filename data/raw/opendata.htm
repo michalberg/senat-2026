@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="cs-CZ">
+<head>
+    <!-- --- global settings --- -->
+    <meta name="version" content="6.0.0">
+
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+
+    <!-- gov-design config -->
+    <script type="application/javascript" src="/js/gov-design-config.js"></script>
+
+    <!-- gov-design component script -->
+    <script type="module" src="/lib/gov-design/components/core/core.esm.js"></script>
+    <!-- backwards compatibility with older browsers, but I have no idea if this is the correct file -->
+    <script nomodule src="/lib/gov-design/components/esm/core.js"></script>
+
+    <!-- gov-design styles -->
+    <link rel="stylesheet" href="/css/gov-design.css">
+
+    <!-- gov-design fonts -->
+    <link rel="stylesheet" href="/lib/gov-design/fonts/roboto.css">
+
+    <link rel="stylesheet" href="/css/template-util.css">
+
+    <link rel="stylesheet" type="text/css" href="/css/volby2025odata.css" media="screen,presentation,tv">  
+
+    <!-- --- page specific settings --- -->
+    <title>Volby.gov.cz - Otevřená data pro volby do Senátu Parlamentu ČR 2026 - Český statistický úřad | ČSÚ</title>
+    <meta name="description"
+          content="ČSÚ je ústředním orgánem státní správy ČR. Podle zákona o státní statistické službě získává a vytváří statistické informace o sociálním, ekonomickém, demografickém a ekologickém vývoji ČR a tyto údaje poskytuje a zveřejňuje.">
+</head>
+<body>
+<div class="min-h-100v d-flex flex-column">
+    <div class="csu-skip-to-content">
+        <a href="#main-content">Přejít k obsahu</a>
+    </div>
+    <header class="csu-header">
+        <div class="csu-header__navbar">
+            <div class="csu-container">
+                <div class="csu-row align-items-center">
+                    <div class="csu-col-auto">
+                        <a href="https://csu.gov.cz/" class="csu-header-logo"
+                           aria-label="Přejít na web Českého statistického úřadu">
+                            <img src="/assets/logo/csu-logo-jvs-cz.svg" alt="Český statistický úřad" width="124"
+                                 height="80"/>
+                        </a>
+                    </div>
+                    <div class="csu-col-auto">
+                        <a href="/index.htm" class="csu-header-logo secondary-logo"
+                           aria-label="Přejít na web volby.gov.cz">
+                            <img src="/assets/logo/volby-gov-logo.svg" alt="Volby.gov.cz" width="212" height="29"/>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="csu-container mb-24 mb-md-48 csu-container--py csu-container--py-md-m">
+        <gov-breadcrumbs wcag-label="Cesta k současné stránce" role="navigation">
+            <ul>
+                <li>
+                    <a href="/index.htm">Domů</a>
+                </li>
+                <li>
+                    <gov-icon name="chevron-right"></gov-icon>
+                    <a href="../opendata.htm">Otevřená data pro volby</a>
+                </li>
+                <li>
+                    <gov-icon name="chevron-right"></gov-icon>
+                    <strong>Otevřená data pro volby do Senátu Parlamentu ČR 2026</strong>
+                </li>
+            </ul>
+        </gov-breadcrumbs>
+    </div>
+
+    <main id="main-content">
+        <div class="csu-container mb-56 mb-lg-96">
+            <div class="mb-32 mb-md-40">
+                <div class="csu-row">
+                    <div class=" csu-col-lg-10 csu-offset-lg-1">
+                        <h1 class="h3 mb-0 fw-500 fw-md-600">Otevřená data pro volby do Senátu Parlamentu ČR 2026</h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="csu-section csu-section--bg-secondary csu-section--container-expand csu-section--p-xl csu-section--text-l csu-section--outer mb-32">
+                <div class="csu-row">
+                    <div class="csu-col-lg-10 csu-offset-lg-1 last-child-no-margin">
+                        <p class="mb-40">
+                          Český statistický úřad na základě usnesení vlády ze dne 4. dubna 2012 č. 243, kterým vláda schválila Akční plán České republiky "Partnerství pro otevřené vládnutí", 
+                          zveřejňuje dostupná data z výsledků hlasování do Senátu Parlamentu ČR v otevřených formátech zároveň s textovým popisem obsahu zveřejněných dat. 
+                        </p>
+                        
+                        <h3 class="h6 mb-16">XML - průběžné plnění při zpracování</h3> 
+                        <p class="mb-20">	
+                          Popis XML souborů pro volby do Senátu Parlementu ČR 2026:&nbsp;  
+                          <a href="SENAT_XML.pdf">PDF</a>&nbsp;/&nbsp;<a href="SENAT_XML.htm">HTML</a>&nbsp; 
+                          (verze 1.0 - 14.09.2026)
+                        </p>			
+
+                        <ul class="opendata-list mb-40">	
+                          <li>
+                            <a href="/appdata/senat/20261009/odata/vysledky.xml">Senát - XML data - výsledky za jednotlivé senátní obvody</a>
+                            &nbsp;-&nbsp;<a href="se_vysledky.xsd">XSD popis</a><br>
+                          </li>  
+                          <li>
+                            <a href="/appdata/senat/20261009/odata/obvody/vysledky_obce_obvod_XX.xml">Senát - XML data - výsledky za obce v senátním obvodu</a>
+                            &nbsp;-&nbsp;<a href="se_vysledky_obce_obvod.xsd">XSD popis</a>&nbsp;
+                            <br>
+                            parametr XX=číslo obvodu 
+                          </li>  
+                          <li>
+                            <a href="/appdata/senat/aktual/odata/vysledky_celk.xml">Senát - XML data - aktuální složení Senátu Parlamentu ČR</a>
+                            &nbsp;-&nbsp;<a href="se_vysledky_celk.xsd">XSD popis</a>&nbsp;
+                          </li>  
+                          <li>
+                            <a href="/appdata/senat/20261009/odata/okrsky/K1/vysledky_okrsky_00000.xml">Senát - XML data - výsledky za okrsky (dávky) - 1. kolo</a>
+                            <br>
+                            <a href="/appdata/senat/20261009/odata/okrsky/K2/vysledky_okrsky_00000.xml">Senát - XML data - výsledky za okrsky (dávky) - 2. kolo</a>
+                            &nbsp;-&nbsp;<a href="se_vysledky_okrsky.xsd">XSD popis</a>
+                            <br>
+                            NNNNN je číslo (pořadí) dávky (vedoucí nuly), vysledky_okrsky.xml vrací poslední dávku
+                          </li>  
+                          <li>
+                            <a href="/appdata/senat/20261009/odata/obce_d/K1/vysledky_obce_00000.xml">Senát - XML data - výsledky za obce (dávky) - 1. kolo</a>
+                            <br>
+                            <a href="/appdata/senat/20261009/odata/obce_d/K2/vysledky_obce_00000.xml">Senát - XML data - výsledky za obce (dávky) - 2. kolo</a>
+                            &nbsp;-&nbsp;<a href="se_vysledky_obce.xsd">XSD popis</a>
+                            <br>
+                            NNNNN je číslo (pořadí) dávky (vedoucí nuly), vysledky_obce.xml vrací poslední dávku
+                          </li>  
+                        </ul>
+                        
+                        <div class="csu-link-row__wrap mb-40" data-parent-groups="false" style="width: 60em">
+                          <ul class="gov-list">
+                            <li>
+                              <div class="csu-link-row csu-link-row--desc csu-link-row--new">
+                                <a href="se2026_opendata_seznam.htm" class="csu-link-row__name text-break" aria-label="Registry, číselníky a okrsková data - jednotlivé soubory ke stažení">
+                                  Registry, číselníky a okrsková data - jednotlivé soubory ke stažení
+                                </a>
+                                <span class="csu-link-row__badge">
+                                  <gov-chip variant="primary" focusable="false" size="xs" wcag-label="stav k 17.10.2026 po zpracovaní 2. kola" class="gov-chip hydrated" type="solid">stav k 17.10.2026 po zpracovaní 2. kola</gov-chip>
+                                </span>
+                              </div>
+                           </li>
+                          </ul>
+                        </div>  
+                        
+                        <h3 class="h6 mb-16">Registry - zip balíky</h3> 
+                        <ul class="mb-40">			
+                          <li>
+                            <a href="SE2026reg20261017_xml.zip">XML soubory</a>&nbsp;/&nbsp;
+                            <a href="SE2026reg20261017_xlsx.zip">Excel</a>&nbsp;/&nbsp;
+                            <a href="SE2026reg20261017_csv.zip">CSV (CSVW)</a>&nbsp;/&nbsp;
+                            <a href="SE2026reg20261017_json.zip">JSON</a>
+                            <span class="opendata-badge">
+                              <gov-chip variant="primary" focusable="false" size="xs" wcag-label="stav k 17.10.2026 po zpracovaní 2. kola" class="gov-chip hydrated" type="solid">stav k 17.10.2026 po zpracovaní 2. kola</gov-chip>
+                            </span>
+                          </li>
+                          <li>
+                            Popis registrů: <a href="SENATregPopis.pdf">PDF</a>&nbsp;/&nbsp;<a href="SENATregPopis.htm">HTML</a>&nbsp;/&nbsp;<a href="SENATregPopis_xsd.zip">XSD</a>
+                          </li>
+                        </ul>			
+
+                        <h3 class="h6 mb-16">Číselníky - zip balíky</h3> 
+                        <ul class="mb-40">			
+                          <li>                       
+                            <a href="SE2026ciselniky20261017_xml.zip">XML soubory</a>&nbsp;/&nbsp;
+                            <a href="SE2026ciselniky20261017_xlsx.zip">Excel</a>&nbsp;/&nbsp;
+                            <a href="SE2026ciselniky20261017_csv.zip">CSV (CSVW)</a> &nbsp;/&nbsp;
+                            <a href="SE2026ciselniky20261017_json.zip">JSON</a>
+                            <span class="opendata-badge ml-10">
+                              <gov-chip variant="primary" focusable="false" size="xs" wcag-label="stav k 17.10.2026 po zpracovaní 2. kola" class="gov-chip hydrated" type="solid">stav k 17.10.2026 po zpracovaní 2. kola</gov-chip>
+                            </span>
+                          </li>
+                          <li>
+                            Popis použitých číselníků: <a href="SENATciselnikyPopis.pdf">PDF</a>&nbsp;/&nbsp;<a href="SENATciselnikyPopis.htm">HTML</a>&nbsp;/&nbsp;<a href="SENATciselnikyPopis_xsd.zip">XSD</a>
+                          </li>
+                        </ul>
+
+                        <h3 class="h6 mb-16">Data za volební okrsky - zip balíky</h3> 
+                        <ul class="mb-40">			
+                          <li>
+                            <a href="SE2026data20261017_xml.zip">Senát - okrsková data - XML</a>&nbsp;/&nbsp;
+                            <a href="SE2026data20261017_xlsx.zip">Excel</a>&nbsp;/&nbsp;
+                            <a href="SE2026data20261017_csv.zip">CSV (CSVW)</a>&nbsp;/&nbsp;
+                            <a href="SE2026data20261017_json.zip">JSON</a>
+                            (stav k 17.10.2026 po zpracovaní 2. kola)
+                            <span class="opendata-badge">
+                              <gov-chip variant="primary" focusable="false" size="xs" wcag-label="stav k 17.10.2026 po zpracovaní 2. kola" class="gov-chip hydrated" type="solid">stav k 17.10.2026 po zpracovaní 2. kola</gov-chip>
+                            </span>
+                          </li>
+                          <li>
+                            Popis okrskových dat: <a href="SENAT_datovaveta.pdf">PDF</a>&nbsp;/&nbsp;<a href="SENAT_datovaveta.htm">HTML</a>&nbsp;/&nbsp;<a href="SENATdataPopis_xsd.zip">XSD</a>  
+                          </li>
+                        </ul>			
+                        
+                        
+                        <h3 class="h6 mb-16">Hranice volebních okrsků 2026</h3> 
+                        <div class="csu-link-row__wrap mb-40" data-parent-groups="false" style="width: 60em">
+                          <ul class="gov-list">
+                            <li>
+                              <div class="csu-link-row csu-link-row--desc csu-link-row--new">
+                                <a href="https://geodata.csu.gov.cz/as/dp-gis/?sort=name&sortType=asc&tab=ds&col=dataSet&locale=cs&csuTh=%5B%2231%22%5D" class="csu-link-row__name text-break" aria-label="Hranice volebních okrsků 2026 - Datový portál GIS">
+                                  Datový portál GIS (GeoJSON, Esri Shape, GeoPackage, Esri File Geodatabase)
+                                </a>
+                              </div>
+                           </li>
+                          </ul>
+                        </div>  
+
+                        <h3 class="h6 mb-16">Hranice senátních obvodů 2026</h3> 
+                        <div class="csu-link-row__wrap mb-40" data-parent-groups="false" style="width: 60em">
+                          <ul class="gov-list">
+                            <li>
+                              <div class="csu-link-row csu-link-row--desc csu-link-row--new">
+                                <a href="https://geodata.csu.gov.cz/as/dp-gis/?sort=name&sortType=asc&tab=ds&col=dataSet&locale=cs&csuTh=%5B%2226%22%5D" class="csu-link-row__name text-break" aria-label="Hranice senátních obvodů 2026 - Datový portál GIS">
+                                  Datový portál GIS (GeoJSON, Esri Shape, GeoPackage, Esri File Geodatabase)
+                                </a>
+                              </div>
+                           </li>
+                          </ul>
+                        </div>  
+
+                        <a href="https://csu.gov.cz/podminky_pro_vyuzivani_a_dalsi_zverejnovani_statistickych_udaju_csu" class="csu-link-icon w-fit mb-40"
+                           aria-label="Podmínky pro využívání a další zveřejňování statistických údajů ČSÚ">
+                            <span class="csu-link-icon__icon">
+                                <gov-icon type="csu-basic" name="circle-arrow-right"></gov-icon>
+                            </span>
+                            <span class="csu-link-icon__text">Podmínky pro využívání a další zveřejňování statistických údajů ČSÚ</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="csu-footer">
+        <div class="csu-container d-flex justify-content-center">
+            <div class="csu-footer_section w-fit">
+                <div class="csu-footer_box row-gap-12 align-items-start">
+                    <div class="footer-links row-gap-12">
+                        <div class="csu-footer_text white-space-no-wrap">© Český statistický úřad, 2026</div>
+                    </div>
+
+                    <div class="footer-links row-gap-12">
+                        <div class="csu-footer_text">
+                            <a class="csu-link-icon" aria-label="Přejít na web volby.gov.cz otevřená data"
+                               href="/opendata/opendata.htm">
+                                <span class="csu-link-icon__text fw-400 fs-14">Otevřená data</span>
+                            </a>
+                        </div>
+
+                        <div class="csu-footer_text">
+                            <a class="csu-link-icon" aria-label="Zobrazit prohlášení o přístupnosti webu volby.gov.cz"
+                               href="/cz/prohlaseni_o_pristupnosti.htm">
+                                <span class="csu-link-icon__text fw-400 fs-14">Prohlášení o přístupnosti</span>
+                            </a>
+                        </div>
+
+                        <div class="csu-footer_text">
+                            <a class="csu-link-icon" aria-label="Přejít na web Ministerstva vnitra"
+                               href="https://mv.gov.cz/volby/">
+                                <span class="csu-link-icon__text fw-400 fs-14">Ministerstvo vnitra</span>
+                            </a>
+                        </div>
+
+                        <div class="csu-footer_text">
+                            <a class="csu-link-icon" aria-label="Přejít na web Ministerstva zahraničních věcí"
+                               href="https://mzv.gov.cz/">
+                                <span class="csu-link-icon__text fw-400 fs-14">Ministerstvo zahraničních věcí</span>
+                            </a>
+                        </div>
+
+                        <div class="csu-footer_text">
+                            <a class="csu-link-icon csu-link-icon--gap-8"
+                               aria-label="Přejít na profil Českého statistického úřadu na sociální platformě X"
+                               href="https://x.com/czstatistika/">
+                            <span class="csu-link-icon__icon w-16 h-16">
+                                <gov-icon type="basic" name="x-network"></gov-icon>
+                            </span>
+                                <span class="csu-link-icon__text fw-400 fs-14">@czstatistika</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+</body>
+</html>

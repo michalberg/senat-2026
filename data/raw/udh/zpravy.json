@@ -1,0 +1,273 @@
+{
+    "election": {
+        "key": "s2026",
+        "shortName": "Senát 2026",
+        "longName": "Řádné volby do senátu 2026"
+    },
+    "parties": [
+        {
+            "ic": "21899011",
+            "shortName": "ČZS",
+            "longName": "Česká zemědělská strana",
+            "files": [
+                {
+                    "description": "Senát 2026 - ČZS - Peněžní dary fyzické osoby",
+                    "url": "https://zpravy.udh.gov.cz/export/s2026-decimezle-penizefo.json",
+                    "subject": "penizefo",
+                    "format": "json"
+                },
+                {
+                    "description": "Senát 2026 - ČZS - Bezúplatná plnění fyzické osoby",
+                    "url": "https://zpravy.udh.gov.cz/export/s2026-decimezle-bupfo.json",
+                    "subject": "bupfo",
+                    "format": "json"
+                },
+                {
+                    "description": "Senát 2026 - ČZS - Peněžní dary právnické osoby",
+                    "url": "https://zpravy.udh.gov.cz/export/s2026-decimezle-penizepo.json",
+                    "subject": "penizepo",
+                    "format": "json"
+                },
+                {
+                    "description": "Senát 2026 - ČZS - Bezúplatná plnění právnické osoby",
+                    "url": "https://zpravy.udh.gov.cz/export/s2026-decimezle-buppo.json",
+                    "subject": "buppo",
+                    "format": "json"
+                },
+                {
+                    "description": "Senát 2026 - ČZS - Výdaje",
+                    "url": "https://zpravy.udh.gov.cz/export/s2026-decimezle-vydaje.json",
+                    "subject": "vydaje",
+                    "format": "json"
+                },
+                {
+                    "description": "Senát 2026 - ČZS - Peněžité dluhy",
+                    "url": "https://zpravy.udh.gov.cz/export/s2026-decimezle-dluhy.json",
+                    "subject": "dluhy",
+                    "format": "json"
+                }
+            ]
+        },
+        {
+            "ic": "29480931",
+            "shortName": "Evo",
+            "longName": "rEvoluce",
+            "files": [
+                {
+                    "description": "Senát 2026 - Evo - Peněžní dary fyzické osoby",
+                    "url": "https://zpravy.udh.gov.cz/export/s2026-evolution-penizefo.json",
+                    "subject": "penizefo",
+                    "format": "json"
+                },
+                {
+                    "description": "Senát 2026 - Evo - Bezúplatná plnění fyzické osoby",
+                    "url": "https://zpravy.udh.gov.cz/export/s2026-evolution-bupfo.json",
+                    "subject": "bupfo",
+                    "format": "json"
+                },
+                {
+                    "description": "Senát 2026 - Evo - Peněžní dary právnické osoby",
+                    "url": "https://zpravy.udh.gov.cz/export/s2026-evolution-penizepo.json",
+                    "subject": "penizepo",
+                    "format": "json"
+                },
+                {
+                    "description": "Senát 2026 - Evo - Bezúplatná plnění právnické osoby",
+                    "url": "https://zpravy.udh.gov.cz/export/s2026-evolution-buppo.json",
+                    "subject": "buppo",
+                    "format": "json"
+                },
+                {
+                    "description": "Senát 2026 - Evo - Výdaje",
+                    "url": "https://zpravy.udh.gov.cz/export/s2026-evolution-vydaje.json",
+                    "subject": "vydaje",
+                    "format": "json"
+                },
+                {
+                    "description": "Senát 2026 - Evo - Peněžité dluhy",
+                    "url": "https://zpravy.udh.gov.cz/export/s2026-evolution-dluhy.json",
+                    "subject": "dluhy",
+                    "format": "json"
+                }
+            ]
+        },
+        {
+            "ic": "44266740",
+            "shortName": "Monarchiste.CZ",
+            "longName": "Koruna Česká (monarchistická strana Čech, Moravy a Slezska)",
+            "files": [
+                {
+                    "description": "Senát 2026 - Monarchiste.CZ - Peněžní dary fyzické osoby",
+                    "url": "https://zpravy.udh.gov.cz/export/s2026-korunaceska-penizefo.json",
+                    "subject": "penizefo",
+                    "format": "json"
+                },
+                {
+                    "description": "Senát 2026 - Monarchiste.CZ - Bezúplatná plnění fyzické osoby",
+                    "url": "https://zpravy.udh.gov.cz/export/s2026-korunaceska-bupfo.json",
+                    "subject": "bupfo",
+                    "format": "json"
+                },
+                {
+                    "description": "Senát 2026 - Monarchiste.CZ - Peněžní dary právnické osoby",
+                    "url": "https://zpravy.udh.gov.cz/export/s2026-korunaceska-penizepo.json",
+                    "subject": "penizepo",
+                    "format": "json"
+                },
+                {
+                    "description": "Senát 2026 - Monarchiste.CZ - Bezúplatná plnění právnické osoby",
+                    "url": "https://zpravy.udh.gov.cz/export/s2026-korunaceska-buppo.json",
+                    "subject": "buppo",
+                    "format": "json"
+                },
+                {
+                    "description": "Senát 2026 - Monarchiste.CZ - Výdaje",
+                    "url": "https://zpravy.udh.gov.cz/export/s2026-korunaceska-vydaje.json",
+                    "subject": "vydaje",
+                    "format": "json"
+                },
+                {
+                    "description": "Senát 2026 - Monarchiste.CZ - Peněžité dluhy",
+                    "url": "https://zpravy.udh.gov.cz/export/s2026-korunaceska-dluhy.json",
+                    "subject": "dluhy",
+                    "format": "json"
+                },
+                {
+                    "description": "Senát 2026 - Monarchiste.CZ - dodatek",
+                    "url": "https://zpravy.udh.gov.cz/export/s2026-korunaceska-dodatek.txt",
+                    "subject": "dodatek",
+                    "format": "text"
+                }
+            ]
+        },
+        {
+            "ic": "21311188",
+            "shortName": "OK",
+            "longName": "Osobnosti pro kraj",
+            "files": [
+                {
+                    "description": "Senát 2026 - OK - Peněžní dary fyzické osoby",
+                    "url": "https://zpravy.udh.gov.cz/export/s2026-obtisonos-penizefo.json",
+                    "subject": "penizefo",
+                    "format": "json"
+                },
+                {
+                    "description": "Senát 2026 - OK - Bezúplatná plnění fyzické osoby",
+                    "url": "https://zpravy.udh.gov.cz/export/s2026-obtisonos-bupfo.json",
+                    "subject": "bupfo",
+                    "format": "json"
+                },
+                {
+                    "description": "Senát 2026 - OK - Peněžní dary právnické osoby",
+                    "url": "https://zpravy.udh.gov.cz/export/s2026-obtisonos-penizepo.json",
+                    "subject": "penizepo",
+                    "format": "json"
+                },
+                {
+                    "description": "Senát 2026 - OK - Bezúplatná plnění právnické osoby",
+                    "url": "https://zpravy.udh.gov.cz/export/s2026-obtisonos-buppo.json",
+                    "subject": "buppo",
+                    "format": "json"
+                },
+                {
+                    "description": "Senát 2026 - OK - Výdaje",
+                    "url": "https://zpravy.udh.gov.cz/export/s2026-obtisonos-vydaje.json",
+                    "subject": "vydaje",
+                    "format": "json"
+                },
+                {
+                    "description": "Senát 2026 - OK - Peněžité dluhy",
+                    "url": "https://zpravy.udh.gov.cz/export/s2026-obtisonos-dluhy.json",
+                    "subject": "dluhy",
+                    "format": "json"
+                }
+            ]
+        },
+        {
+            "ic": "07218443",
+            "shortName": "SMS",
+            "longName": "Sdružení pro Místní Správu",
+            "files": [
+                {
+                    "description": "Senát 2026 - SMS - Peněžní dary fyzické osoby",
+                    "url": "https://zpravy.udh.gov.cz/export/s2026-sms-penizefo.json",
+                    "subject": "penizefo",
+                    "format": "json"
+                },
+                {
+                    "description": "Senát 2026 - SMS - Bezúplatná plnění fyzické osoby",
+                    "url": "https://zpravy.udh.gov.cz/export/s2026-sms-bupfo.json",
+                    "subject": "bupfo",
+                    "format": "json"
+                },
+                {
+                    "description": "Senát 2026 - SMS - Peněžní dary právnické osoby",
+                    "url": "https://zpravy.udh.gov.cz/export/s2026-sms-penizepo.json",
+                    "subject": "penizepo",
+                    "format": "json"
+                },
+                {
+                    "description": "Senát 2026 - SMS - Bezúplatná plnění právnické osoby",
+                    "url": "https://zpravy.udh.gov.cz/export/s2026-sms-buppo.json",
+                    "subject": "buppo",
+                    "format": "json"
+                },
+                {
+                    "description": "Senát 2026 - SMS - Výdaje",
+                    "url": "https://zpravy.udh.gov.cz/export/s2026-sms-vydaje.json",
+                    "subject": "vydaje",
+                    "format": "json"
+                },
+                {
+                    "description": "Senát 2026 - SMS - Peněžité dluhy",
+                    "url": "https://zpravy.udh.gov.cz/export/s2026-sms-dluhy.json",
+                    "subject": "dluhy",
+                    "format": "json"
+                }
+            ]
+        },
+        {
+            "ic": "20262052",
+            "shortName": "SVSPDTPRO",
+            "longName": "Svobodní s podporou Svoboda a přímá demokracie (SPD), Trikolora, PRO Právo Respekt Odbornost",
+            "files": [
+                {
+                    "description": "Senát 2026 - SVSPDTPRO - Peněžní dary fyzické osoby",
+                    "url": "https://zpravy.udh.gov.cz/export/s2026-trosvosp-penizefo.json",
+                    "subject": "penizefo",
+                    "format": "json"
+                },
+                {
+                    "description": "Senát 2026 - SVSPDTPRO - Bezúplatná plnění fyzické osoby",
+                    "url": "https://zpravy.udh.gov.cz/export/s2026-trosvosp-bupfo.json",
+                    "subject": "bupfo",
+                    "format": "json"
+                },
+                {
+                    "description": "Senát 2026 - SVSPDTPRO - Peněžní dary právnické osoby",
+                    "url": "https://zpravy.udh.gov.cz/export/s2026-trosvosp-penizepo.json",
+                    "subject": "penizepo",
+                    "format": "json"
+                },
+                {
+                    "description": "Senát 2026 - SVSPDTPRO - Bezúplatná plnění právnické osoby",
+                    "url": "https://zpravy.udh.gov.cz/export/s2026-trosvosp-buppo.json",
+                    "subject": "buppo",
+                    "format": "json"
+                },
+                {
+                    "description": "Senát 2026 - SVSPDTPRO - Výdaje",
+                    "url": "https://zpravy.udh.gov.cz/export/s2026-trosvosp-vydaje.json",
+                    "subject": "vydaje",
+                    "format": "json"
+                },
+                {
+                    "description": "Senát 2026 - SVSPDTPRO - Peněžité dluhy",
+                    "url": "https://zpravy.udh.gov.cz/export/s2026-trosvosp-dluhy.json",
+                    "subject": "dluhy",
+                    "format": "json"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,159 @@
+[
+    {
+        "date": "2026-09-27",
+        "money": 1000,
+        "lastName": "Blaha",
+        "firstName": "Martin",
+        "titleBefore": "",
+        "titleAfter": "",
+        "birthDate": "14.10.2026"
+    },
+    {
+        "date": "2026-10-06",
+        "money": 500,
+        "lastName": "Buriánová",
+        "firstName": "Eva",
+        "titleBefore": "",
+        "titleAfter": "",
+        "birthDate": "14.10.2026"
+    },
+    {
+        "date": "2026-09-27",
+        "money": 100,
+        "lastName": "Burianová",
+        "firstName": "Zdena",
+        "titleBefore": "",
+        "titleAfter": "",
+        "birthDate": "14.10.2026"
+    },
+    {
+        "date": "2026-10-02",
+        "money": 200,
+        "lastName": "Čámský",
+        "firstName": "Pavel",
+        "titleBefore": "",
+        "titleAfter": "",
+        "birthDate": "14.10.2026",
+        "addrCity": ""
+    },
+    {
+        "date": "2026-09-16",
+        "money": 100,
+        "lastName": "Čihák",
+        "firstName": "Stanislav",
+        "titleBefore": "",
+        "titleAfter": "",
+        "birthDate": "14.10.2026"
+    },
+    {
+        "date": "2026-09-27",
+        "money": 250,
+        "lastName": "Hartman",
+        "firstName": "Michael",
+        "titleBefore": "",
+        "titleAfter": "",
+        "birthDate": "14.10.2026"
+    },
+    {
+        "date": "2026-09-24",
+        "money": 500,
+        "lastName": "Janoch",
+        "firstName": "Karel",
+        "titleBefore": "",
+        "titleAfter": "",
+        "birthDate": "14.10.2026"
+    },
+    {
+        "date": "2026-10-04",
+        "money": 100,
+        "lastName": "Kučera",
+        "firstName": "Roman",
+        "titleBefore": "",
+        "titleAfter": "",
+        "birthDate": "14.10.2026"
+    },
+    {
+        "date": "2026-09-13",
+        "money": 900,
+        "lastName": "Kymlová",
+        "firstName": "Hana",
+        "titleBefore": "",
+        "titleAfter": "",
+        "birthDate": "1957-11-28",
+        "addrCity": "Bohutín"
+    },
+    {
+        "date": "2026-09-13",
+        "money": 700,
+        "lastName": "Kymlová",
+        "firstName": "Hana",
+        "titleBefore": "",
+        "titleAfter": "",
+        "birthDate": "1957-11-28",
+        "addrCity": "Bohutín"
+    },
+    {
+        "date": "2026-09-10",
+        "money": 100,
+        "lastName": "Kyncl",
+        "firstName": "Martin",
+        "titleBefore": "",
+        "titleAfter": "",
+        "birthDate": "14.10.2026"
+    },
+    {
+        "date": "2026-09-11",
+        "money": 100,
+        "lastName": "Matějková",
+        "firstName": "Daniela",
+        "titleBefore": "",
+        "titleAfter": "",
+        "birthDate": "14.10.2026"
+    },
+    {
+        "date": "2026-09-25",
+        "money": 99,
+        "lastName": "Prošek",
+        "firstName": "Josef",
+        "titleBefore": "",
+        "titleAfter": "",
+        "birthDate": "14.10.2026"
+    },
+    {
+        "date": "2026-08-06",
+        "money": 5000,
+        "lastName": "Sedláček",
+        "firstName": "Vojtěch",
+        "titleBefore": "",
+        "titleAfter": "",
+        "birthDate": "1947-03-03",
+        "addrCity": "Roztoky u Prahy"
+    },
+    {
+        "date": "2026-10-01",
+        "money": 300,
+        "lastName": "Vermach",
+        "firstName": "Pavel",
+        "titleBefore": "",
+        "titleAfter": "",
+        "birthDate": "14.10.2026"
+    },
+    {
+        "date": "2026-09-20",
+        "money": 100,
+        "lastName": "Vermach",
+        "firstName": "Petr",
+        "titleBefore": "",
+        "titleAfter": "",
+        "birthDate": "14.10.2026"
+    },
+    {
+        "date": "2026-09-21",
+        "money": 500,
+        "lastName": "Zemanová",
+        "firstName": "Kristýna",
+        "titleBefore": "",
+        "titleAfter": "",
+        "birthDate": "14.10.2026"
+    }
+]

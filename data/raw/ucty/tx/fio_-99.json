@@ -1,0 +1,271 @@
+{
+"bank": "fio",
+"id": "-99",
+"url": "https://ib.fio.cz/ib/transparent?a=-99",
+"owner": "Občanská demokratická strana",
+"name": "Volby do Senátu 2026_ODS, TOP 09",
+"number": "",
+"summary": {
+"Stav k: 01.01.26": 0.0,
+"Stav k: 19.10.26": 0.45,
+"Suma příjmů": 606496.4,
+"Suma výdajů": -606495.95,
+"Suma celkem": 0.45,
+"Běžný zůstatek": 0.45
+},
+"tx": [
+{
+"date": "2026-10-15",
+"amount": -5000.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "42/Alice Šmídová, správa sociálních sítí",
+"ks": "",
+"vs": "2026033",
+"ss": "42",
+"note": "42/Alice Šmídová, správa sociálních sítí"
+},
+{
+"date": "2026-10-15",
+"amount": 5000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Občanská demokratická strana",
+"message": "42/převod financí",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "42/převod financí"
+},
+{
+"date": "2026-09-24",
+"amount": -5000.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "42/Alice Šmídová, správa sociálních sítí",
+"ks": "0308",
+"vs": "2026031",
+"ss": "42",
+"note": "42/Alice Šmídová, správa sociálních sítí"
+},
+{
+"date": "2026-09-24",
+"amount": 5000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Občanská demokratická strana",
+"message": "42/převod financí",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "42/převod financí"
+},
+{
+"date": "2026-09-14",
+"amount": -20636.55,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "42/KoPe PRODUCE s.r.o., kuličková pera, pastelky",
+"ks": "",
+"vs": "126060",
+"ss": "42",
+"note": "42/KoPe PRODUCE s.r.o., kuličková pera, pastelky"
+},
+{
+"date": "2026-09-14",
+"amount": 11037.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Občanská demokratická strana",
+"message": "42/převod financí",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "42/převod financí"
+},
+{
+"date": "2026-09-10",
+"amount": 9600.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Občanská demokratická strana",
+"message": "75/převod financí",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "42/převod financí"
+},
+{
+"date": "2026-09-09",
+"amount": -5681.0,
+"type": "Bezhotovostní platba",
+"counterparty": "",
+"message": "42/KON Mělník, s.r.o., reklamní polep vozu",
+"ks": "0308",
+"vs": "20260461",
+"ss": "42",
+"note": "42/KON Mělník, s.r.o., reklamní polep vozu"
+},
+{
+"date": "2026-09-09",
+"amount": -13721.4,
+"type": "Bezhotovostní platba",
+"counterparty": "",
+"message": "42/KoPe PRODUCE s.r.o., bannery výroba",
+"ks": "0308",
+"vs": "126062",
+"ss": "42",
+"note": "42/KoPe PRODUCE s.r.o., bannery výroba"
+},
+{
+"date": "2026-09-09",
+"amount": -17908.0,
+"type": "Bezhotovostní platba",
+"counterparty": "",
+"message": "42/RENGL, s.r.o., výlep plakátů",
+"ks": "0308",
+"vs": "10175299",
+"ss": "42",
+"note": "42/RENGL, s.r.o., výlep plakátů"
+},
+{
+"date": "2026-09-09",
+"amount": 37310.4,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Občanská demokratická strana",
+"message": "42/převod financí",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "42/převod financí"
+},
+{
+"date": "2026-08-31",
+"amount": -20933.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "42/Tomáš Sedláček, trička s potiskem",
+"ks": "",
+"vs": "2026342",
+"ss": "42",
+"note": "42/Tomáš Sedláček, trička s potiskem"
+},
+{
+"date": "2026-08-31",
+"amount": -5000.0,
+"type": "Bezhotovostní platba",
+"counterparty": "",
+"message": "42/Alice Šmídová, správa soc.sítí",
+"ks": "",
+"vs": "2026030",
+"ss": "42",
+"note": "42/Alice Šmídová, správa soc.sítí"
+},
+{
+"date": "2026-08-31",
+"amount": 22241.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Občanská demokratická strana",
+"message": "42/převod financí",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "42/převod financí"
+},
+{
+"date": "2026-08-06",
+"amount": -246308.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "42/AdSight a.s., záloha OOH kampaň",
+"ks": "0308",
+"vs": "920260059",
+"ss": "42",
+"note": "42/AdSight a.s., záloha OOH kampaň"
+},
+{
+"date": "2026-08-04",
+"amount": 200000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Občanská demokratická strana",
+"message": "42/převod financí",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "42/převod financí"
+},
+{
+"date": "2026-07-29",
+"amount": 50000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "TOP 09",
+"message": "TOP 09, Opletalova 1603/57, 11000 Praha 1, IČ 71339728, vklad na koaliční kampaň senát obvod 42 Roman Schulz",
+"ks": "",
+"vs": "42",
+"ss": "",
+"note": "TOP 09, Opletalova 1603/57, 11000 Praha 1, IČ 71339728, vklad na koaliční kampaň senát obvod 42 Roman Schulz"
+},
+{
+"date": "2026-07-23",
+"amount": -5000.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "42/Alice Šmídová, sociální sítě, příprava, monitoring",
+"ks": "0308",
+"vs": "2026026",
+"ss": "42",
+"note": "42/Alice Šmídová, sociální sítě, příprava, monitoring"
+},
+{
+"date": "2026-07-23",
+"amount": 5000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Občanská demokratická strana",
+"message": "42/převod financí",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "42/převod financí"
+},
+{
+"date": "2026-06-18",
+"amount": -246308.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "42/AdSight, a.s., OOH kampaň",
+"ks": "0308",
+"vs": "920260032",
+"ss": "42",
+"note": "42/AdSight, a.s., OOH kampaň"
+},
+{
+"date": "2026-06-18",
+"amount": 246308.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Občanská demokratická strana",
+"message": "42/převod financí",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "42/převod financí"
+},
+{
+"date": "2026-06-11",
+"amount": -15000.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "42/Šmídová Alice, správa sociálních sítí, mediální služby",
+"ks": "0308",
+"vs": "2026018",
+"ss": "",
+"note": "42/Šmídová Alice, správa sociálních sítí, mediální služby"
+},
+{
+"date": "2026-06-11",
+"amount": 15000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Občanská demokratická strana",
+"message": "42/převod financí",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "42/převod financí"
+}
+]
+}

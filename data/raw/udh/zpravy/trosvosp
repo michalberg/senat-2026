@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Zpráva o financování volební kampaně</title>
+    <meta charset="UTF-8">
+    <style>
+    body {
+        font-size: 10pt;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    table {
+        border-collapse: collapse;
+    }
+
+    td {
+        border: 1px solid #888888;
+        padding: 3px 6px 3px 6px;
+        vertical-align: top;
+    }
+
+    .amount {
+        text-align: right;
+        white-space: nowrap;
+    }
+
+    tr.header {
+        background-color: #dddddd;
+    }
+
+    #warning {
+        padding: 10px;
+        background-color: #ff704d;
+        color: white;
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    #info {
+        padding: 10px;
+        background-color: #80bfff;
+        color: white;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    @media print
+    {
+        body {
+            font-size: 8pt;
+        }
+
+        .no-print, .no-print *
+        {
+            display: none !important;
+        }
+    }
+    </style>
+  </head>
+  <body>
+
+
+
+    <h1>Zpráva o financování volební kampaně</h1>
+<p style="text-align: center;"><i>dle § 10 odst. 4 zákona č. 234/2025 Sb.</i></p>
+
+    <p style="text-align: center; font-weight: bold; font-size: 13pt;">Řádné volby do senátu 2026</p>
+
+<table style="width: 100%;">
+<tr>
+<td colspan="2" style="border: 1px solid black; padding: 15px;">
+Kandidující subjekt / Kandidát:<br>
+<b>Svobodní s podporou Svoboda a přímá demokracie (SPD), Trikolora, PRO Právo Respekt Odbornost</b><br>
+<br>
+</td>
+</tr>
+<tr>
+<td style="border: 1px solid black; padding: 15px; width: 40%;">
+<br>
+Identifikátor zprávy: <b>Z29264-20261006235248</b><br>
+Datum předložení zprávy: <b>06.10.2026</b><br>
+Datum a čas poslední úpravy: <b>06.10.2026 21:52:48</b><br>
+<br><br><br>
+</td>
+<td style="border: 1px solid black; padding: 15px; width: 60%;">
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
+<p>Podpis: ....................................................................................................<br>
+<small>Podepíše se kandidát na prezidenta/nezávislý kandidát na senátora/osoba oprávněná jednat jménem
+    politické strany/politického hnutí, nebo, jde-li o koalici, osoby oprávněné jednat jménem všech
+    politických stran a politických hnutí zastoupených v koalici. Podepisující osoba uvede k podpisu
+své jméno, příjmení a postavení.</small></p>
+</td>
+<tr>
+</table>
+<h2 style="page-break-before: always;">Část I. Peněžité dary poskytnuté kandidujícímu subjektu / kandidátovi</h2>
+<p>Počet stran .......... v části I.<br>Celkem <b>0,00</b> Kč v části I.</p>
+<table>
+<tr class="header"><td>Dárce<br><small>(jméno, příjmení, obec trvalého pobytu,<br>případně obchodní firma nebo název právnické osoby, sídlo)</small></td><td>Datum narození dárce<br>/ identifikační číslo,<br>bylo-li přiděleno</td><td>Výše peněžitého<br>daru v Kč</td></tr>
+<tr><td colspan="3">Žádné údaje</td></tr>
+</table><h2 style="page-break-before: always;">Část II. Jiná bezúplatná plnění poskytnutá kandidujícímu subjektu / kandidátovi</h2>
+<p>Počet stran .......... v části II.<br>Celkem <b>0,00</b> Kč v části II.</p>
+<table>
+<tr class="header"><td>Dárce<br><small>(jméno, příjmení, obec trvalého pobytu,<br>případně obchodní firma nebo název právnické osoby, sídlo)</small></td><td>Datum narození dárce<br>/ identifikační číslo,<br>bylo-li přiděleno</td><td>Obvyklá cena<br>v Kč</td><td>Bezúplatné plnění</td></tr>
+<tr><td colspan="4">Žádné údaje</td></tr>
+</table><h2 style="page-break-before: always;">Část III. Výdaje hrazené kandidáty</h2>
+<p>Počet stran .......... v části III.<br>Celkem <b>0,00</b> Kč v části III.</p>
+<table>
+<tr class="header"><td>Kandidát<br><small>(jméno, příjmení, datum narození)</small></td><td>Výše výdajů v Kč</td></tr>
+<tr><td colspan="2">Žádné údaje</td></tr>
+</table><h2 style="page-break-before: always;">Část IV. Výdaje na volební kampaň</h2>
+<p>Počet stran .......... v části IV.<br>Celkem <b>0,00</b> Kč v části IV.</p>
+<table>
+<tr class="header"><td>Částka v Kč</td><td>Účel, na který byla použita</td><td><small>Je-li plnění poskytnuto za cenu nižší než obvyklou, uvede<br>se jméno, příjmení, datum narození a obec trvalého pobytu<br>poskytovatele, případně obchodní firma nebo název právnické<br>osoby, sídlo a identifikační číslo, bylo-li přiděleno.</small></td></tr>
+<tr><td colspan="3">Žádné údaje</td></tr>
+</table><h2 style="page-break-before: always;">Část V. Peněžité dluhy, k jejichž splnění se kandidující subjekt / kandidát v souvislosti s financováním volební kampaně zavázal</h2>
+<p>Počet stran .......... v části V.<br>Celkem <b>0,00</b> Kč v části V.</p>
+<table>
+<tr class="header"><td>Plnění, které bylo kandidujícímu subjektu / kandidátovi věřitelem<br>poskytnuto, nebo k němuž se věřitel zavázal</td><td>Výše dluhu<br>v Kč</td><td><small>Je-li plnění poskytnuto za cenu nižší než obvyklou, uvede<br>se jméno, příjmení, datum narození a obec trvalého pobytu<br>poskytovatele, případně obchodní firma nebo název právnické<br>osoby, sídlo a identifikační číslo, bylo-li přiděleno.</small></td></tr>
+<tr><td colspan="3">Žádné údaje</td></tr>
+</table>
+
+
+  </body>
+</html>

@@ -1,0 +1,194 @@
+{
+"bank": "fio",
+"id": "2703540600",
+"url": "https://ib.fio.cz/ib/transparent?a=2703540600",
+"owner": "TOP 09",
+"name": "Volební účet koalice TOP 09, ODS, KDU-ČSL, STAN, Piráti pro volby do Senátu 2026",
+"number": "2703540600 / 2010",
+"summary": {
+"Stav k: 01.01.26": 0.0,
+"Stav k: 19.10.26": 0.0,
+"Suma příjmů": 1921432.96,
+"Suma výdajů": -1921432.96,
+"Suma celkem": 0.0,
+"Běžný zůstatek": 0.0
+},
+"tx": [
+{
+"date": "2026-10-12",
+"amount": -48400.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "",
+"message": "TOP09,konatktní kampaň|| NP:PRodukujeme",
+"ks": "0308",
+"vs": "0000026149",
+"ss": "0000000054",
+"note": "TOP09,konatktní kampaň|| NP:PRodukujeme"
+},
+{
+"date": "2026-10-12",
+"amount": -87072.81,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "",
+"message": "TOP09,inzerce|| NP:PRodukujeme",
+"ks": "0308",
+"vs": "0000026148",
+"ss": "0000000054",
+"note": "TOP09,inzerce|| NP:PRodukujeme"
+},
+{
+"date": "2026-10-12",
+"amount": 134432.96,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "TOP 09",
+"message": "TOP 09, vklad na koaliční kampaň senát obvod 54 Tomáš Třetina",
+"ks": "",
+"vs": "71339728",
+"ss": "54",
+"note": "TOP 09, vklad na koaliční kampaň senát obvod 54 Tomáš Třetina"
+},
+{
+"date": "2026-10-06",
+"amount": -544500.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "",
+"message": "TOP09,roznos letáků, konatktní|kampaň, 2. kolo|| NP:PRodukujeme",
+"ks": "0308",
+"vs": "0000026142",
+"ss": "0000000054",
+"note": "TOP09,roznos letáků, konatktní|kampaň, 2. kolo|| NP:PRodukujeme"
+},
+{
+"date": "2026-10-06",
+"amount": 544000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "TOP 09",
+"message": "TOP 09, vklad na koaliční kampaň senát obvod 54 Tomáš Třetina",
+"ks": "",
+"vs": "71339728",
+"ss": "54",
+"note": "TOP 09, vklad na koaliční kampaň senát obvod 54 Tomáš Třetina"
+},
+{
+"date": "2026-09-23",
+"amount": -24200.11,
+"type": "Bezhotovostní platba",
+"counterparty": "",
+"message": "TOP09,online reklama||| NP:Seznam.cz",
+"ks": "0308",
+"vs": "5299375187",
+"ss": "0000000054",
+"note": "TOP09,online reklama||| NP:Seznam.cz"
+},
+{
+"date": "2026-09-23",
+"amount": -249260.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "",
+"message": "TOP09,nájem reklamních ploch,|inzerce, průzkum|| NP:PRodukujeme",
+"ks": "0308",
+"vs": "0000026137",
+"ss": "0000000054",
+"note": "TOP09,nájem reklamních ploch,|inzerce, průzkum|| NP:PRodukujeme"
+},
+{
+"date": "2026-09-23",
+"amount": 193000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "TOP 09",
+"message": "TOP 09, vklad na koaliční kampaň senát obvod 54 Tomáš Třetina",
+"ks": "",
+"vs": "71339728",
+"ss": "54",
+"note": "TOP 09, vklad na koaliční kampaň senát obvod 54 Tomáš Třetina"
+},
+{
+"date": "2026-09-07",
+"amount": -121000.04,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "TOP09,online reklama||| NP:Seznam.cz",
+"ks": "",
+"vs": "5299375186",
+"ss": "54",
+"note": "TOP09,online reklama||| NP:Seznam.cz"
+},
+{
+"date": "2026-09-07",
+"amount": 95000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "TOP 09",
+"message": "TOP 09, vklad na koaliční kampaň senát obvod 54 Tomáš Třetina",
+"ks": "",
+"vs": "71339728",
+"ss": "54",
+"note": "TOP 09, vklad na koaliční kampaň senát obvod 54 Tomáš Třetina"
+},
+{
+"date": "2026-08-27",
+"amount": -242000.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "TOP09,realizace kampaně, tisk, event, foto|||NP: Mikulenka assets",
+"ks": "",
+"vs": "20260004",
+"ss": "54",
+"note": "TOP09,realizace kampaně, tisk, event, foto|||NP: Mikulenka assets"
+},
+{
+"date": "2026-08-25",
+"amount": 200000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "KDU-ČSL",
+"message": "KDU-ČSL - vklad na společnou kampaň senátní obvod 54 - Tomáš Třetina",
+"ks": "",
+"vs": "",
+"ss": "54",
+"note": "KDU-ČSL - vklad na společnou kampaň senátní obvod 54 - Tomáš Třetina"
+},
+{
+"date": "2026-07-31",
+"amount": 150000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Občanská demokratická strana",
+"message": "ODS_vklad na společnou kampaň_senátní volby_SEO 54_Třetina T.",
+"ks": "0378",
+"vs": "71339728",
+"ss": "",
+"note": "ODS_vklad na společnou kampaň_senátní volby_SEO 54_Třetina T."
+},
+{
+"date": "2026-07-30",
+"amount": -605000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "",
+"message": "TOP09,příprava|kampaně-strategie,nákup|OOH,PRodukujeme s.r.o.| NP:PRodukujeme",
+"ks": "0308",
+"vs": "0000026107",
+"ss": "0000000054",
+"note": "TOP09,příprava|kampaně-strategie,nákup|OOH,PRodukujeme s.r.o.| NP:PRodukujeme"
+},
+{
+"date": "2026-07-30",
+"amount": 205000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "TOP 09",
+"message": "TOP 09, vklad na koaliční kampaň senát obvod 54 Tomáš Třetina",
+"ks": "",
+"vs": "71339728",
+"ss": "54",
+"note": "TOP 09, vklad na koaliční kampaň senát obvod 54 Tomáš Třetina"
+},
+{
+"date": "2026-07-30",
+"amount": 400000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "TOP 09",
+"message": "TOP 09, vklad na koaliční kampaň senát obvod 54 Tomáš Třetina",
+"ks": "",
+"vs": "71339728",
+"ss": "54",
+"note": "TOP 09, vklad na koaliční kampaň senát obvod 54 Tomáš Třetina"
+}
+]
+}

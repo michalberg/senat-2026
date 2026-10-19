@@ -1,0 +1,40 @@
+{
+  "@context": ["http://www.w3.org/ns/csvw",{"@language": "cs"}],
+  "url": "secobv.csv",
+  "dc:description": "Číselník senátních volebních obvodů", 
+  "tableSchema": { 
+    "columns": [{
+      "name": "OBVOD",
+      "titles": "OBVOD",
+      "dc:description": "Kód senátního volebního obvodu",
+      "required": false,
+      "datatype": "number"
+    },{
+      "name": "NAZEV_OBV",
+      "titles": "NAZEV_OBV",
+      "dc:description": "Název obvodu",
+      "required": true,
+      "datatype": "string"
+    },{
+      "name": "OKRES",
+      "titles": "OKRES",
+      "dc:description": "Kód okresu dle CNUMNUTS, kam patří obec sídla senátního obvodu",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "PRVNI_VO",
+      "titles": "PRVNI_VO",
+      "dc:description": "Délka prvního volebního období senátora",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "PLATNOST",
+      "titles": "PLATNOST",
+      "dc:description": "Platnost mandátu senátora - A/N",
+      "required": true,
+      "datatype": "string"
+    }
+    ],
+    "primaryKey": "OBVOD"
+  }
+}

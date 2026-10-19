@@ -1,0 +1,51 @@
+{
+"bank": "fio",
+"id": "2603529156",
+"url": "https://ib.fio.cz/ib/transparent?a=2603529156",
+"owner": "Česká strana národně sociální",
+"name": "Volební účet - ČSNS, Senátní volební okrsek č.63 - Přerov",
+"number": "2603529156 / 2010",
+"summary": {
+"Stav k: 01.01.26": 0.0,
+"Stav k: 19.10.26": 0.0,
+"Suma příjmů": 86000.0,
+"Suma výdajů": -86000.0,
+"Suma celkem": 0.0,
+"Běžný zůstatek": 0.0
+},
+"tx": [
+{
+"date": "2026-08-24",
+"amount": -27.08,
+"type": "Poplatek",
+"counterparty": "",
+"message": "Poskytnutí bankovní informace - částečné účtování",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "Poskytnutí bankovní informace - částečné účtování"
+},
+{
+"date": "2026-06-25",
+"amount": -85972.92,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "",
+"ks": "",
+"vs": "26042",
+"ss": "",
+"note": "Reklamní předměty"
+},
+{
+"date": "2026-06-25",
+"amount": 86000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Česká strana národně sociální",
+"message": "",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "převod z vlastního účtu"
+}
+]
+}

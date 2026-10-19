@@ -1,0 +1,168 @@
+[
+    {
+        "expenseDate": "2026-08-12",
+        "movementDate": "2026-08-12",
+        "usualPrice": 20000,
+        "money": 20000,
+        "noMoney": 0,
+        "code": "A6",
+        "description": "A6 - PR články - Články v médiích"
+    },
+    {
+        "expenseDate": "2026-08-12",
+        "movementDate": "2026-08-12",
+        "usualPrice": 3000,
+        "money": 3000,
+        "noMoney": 0,
+        "code": "B2",
+        "description": "B2 - Nákup služeb - PR služby\/marketing - Videa"
+    },
+    {
+        "expenseDate": "2026-08-12",
+        "movementDate": "2026-08-12",
+        "usualPrice": 2500,
+        "money": 2500,
+        "noMoney": 0,
+        "code": "B2",
+        "description": "B2 - Nákup služeb - PR služby\/marketing - Videa"
+    },
+    {
+        "expenseDate": "2026-08-12",
+        "movementDate": "2026-08-12",
+        "usualPrice": 20000,
+        "money": 20000,
+        "noMoney": 0,
+        "code": "B2",
+        "description": "B2 - Nákup služeb - PR služby\/marketing - Videa"
+    },
+    {
+        "expenseDate": "2026-08-12",
+        "movementDate": "2026-08-12",
+        "usualPrice": 20000,
+        "money": 20000,
+        "noMoney": 0,
+        "code": "X",
+        "description": "Záloha na smlouvu o marketingu"
+    },
+    {
+        "expenseDate": "2026-08-12",
+        "movementDate": "2026-08-12",
+        "usualPrice": 10000,
+        "money": 10000,
+        "noMoney": 0,
+        "code": "A1",
+        "description": "A1 - Inzerce v tisku - Patriot měsíčník"
+    },
+    {
+        "expenseDate": "2026-08-20",
+        "movementDate": "2026-08-20",
+        "usualPrice": 1000,
+        "money": 1000,
+        "noMoney": 0,
+        "code": "B2",
+        "description": "B2 - Nákup služeb - PR služby\/marketing - Reportáž"
+    },
+    {
+        "expenseDate": "2026-08-20",
+        "movementDate": "2026-08-20",
+        "usualPrice": 6414.95,
+        "money": 6414.95,
+        "noMoney": 0,
+        "code": "A16",
+        "description": "A16 - Propagační předměty a zboží (výroba, tisk atp.) - Propagační předměty"
+    },
+    {
+        "expenseDate": "2026-08-21",
+        "movementDate": "2026-08-21",
+        "usualPrice": 2000,
+        "money": 2000,
+        "noMoney": 0,
+        "code": "B2",
+        "description": "B2 - Nákup služeb - PR služby\/marketing - Video"
+    },
+    {
+        "expenseDate": "2026-08-27",
+        "movementDate": "2026-08-27",
+        "usualPrice": 11111,
+        "money": 11111,
+        "noMoney": 0,
+        "code": "B2",
+        "description": "B2 - Nákup služeb - PR služby\/marketing - Webové stránky"
+    },
+    {
+        "expenseDate": "2026-09-11",
+        "movementDate": "2026-08-11",
+        "usualPrice": 6000,
+        "money": 6000,
+        "noMoney": 0,
+        "code": "A7",
+        "description": "A7 - Pronájem  reklamních ploch - billboard, bigboard, citylight - Billboard"
+    },
+    {
+        "expenseDate": "2026-09-11",
+        "movementDate": "2026-09-11",
+        "usualPrice": 48400,
+        "money": 48400,
+        "noMoney": 0,
+        "code": "A1",
+        "description": "A1 - Inzerce v tisku - Měsíčník Patriot"
+    },
+    {
+        "expenseDate": "2026-09-11",
+        "movementDate": "2026-09-11",
+        "usualPrice": 12100,
+        "money": 12100,
+        "noMoney": 0,
+        "code": "A1",
+        "description": "A1 - Inzerce v tisku - Měsíčník Patriot"
+    },
+    {
+        "expenseDate": "2026-09-11",
+        "movementDate": "2026-09-11",
+        "usualPrice": 44187.99,
+        "money": 44187.99,
+        "noMoney": 0,
+        "code": "A17",
+        "description": "A17 - Výroba, tisk nosičů pro reklamní plochy mimo letáků - Billboardy"
+    },
+    {
+        "expenseDate": "2026-09-22",
+        "movementDate": "2026-09-22",
+        "usualPrice": 666,
+        "money": 666,
+        "noMoney": 0,
+        "code": "B2",
+        "description": "B2 - Nákup služeb - PR služby\/marketing - Video"
+    },
+    {
+        "expenseDate": "2026-09-22",
+        "movementDate": "2026-09-22",
+        "usualPrice": 14842,
+        "money": 14842,
+        "noMoney": 0,
+        "code": "A11",
+        "description": "A11 - Pronájem reklamních ploch - ostatní - Volební trojnožky"
+    },
+    {
+        "expenseDate": "2026-09-30",
+        "movementDate": "2026-09-30",
+        "usualPrice": 36874.6,
+        "money": 36874.6,
+        "noMoney": 0,
+        "code": "B2",
+        "description": "B2 - Nákup služeb - PR služby\/marketing - Marketing"
+    },
+    {
+        "usualPrice": 20000,
+        "money": 0,
+        "noMoney": 20000,
+        "code": "A7",
+        "description": "A7 - Pronájem  reklamních ploch - billboard, bigboard, citylight - Billboard",
+        "donorType": "P",
+        "companyId": 29455901,
+        "company": "GEPAS Group, s.r.o.,",
+        "addrStreet": "tř. T. G. Masaryka 496",
+        "addrCity": "Frýdek-Místek",
+        "addrZip": 73801
+    }
+]

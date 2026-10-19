@@ -1,0 +1,172 @@
+{
+"bank": "fio",
+"id": "2503455583",
+"url": "https://ib.fio.cz/ib/transparent?a=2503455583",
+"owner": "Hnutí Kruh",
+"name": "Senátní volby",
+"number": "2503455583 / 2010",
+"summary": {
+"Stav k: 01.01.26": 0.0,
+"Stav k: 19.10.26": 672.39,
+"Suma příjmů": 78000.0,
+"Suma výdajů": -77327.61,
+"Suma celkem": 672.39,
+"Běžný zůstatek": 672.39
+},
+"tx": [
+{
+"date": "2026-10-12",
+"amount": -3000.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "FA Kourek - foto kandidátek do Senátu Kruh",
+"ks": "",
+"vs": "132026",
+"ss": "",
+"note": "FA Kourek - foto kandidátek do Senátu Kruh"
+},
+{
+"date": "2026-10-05",
+"amount": -1893.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "",
+"message": "FA Studio STKI branding stanku - Senat Darina Batyiova",
+"ks": "",
+"vs": "1260999",
+"ss": "202626",
+"note": "FA Studio STKI branding stanku - Senat Darina Batyiova"
+},
+{
+"date": "2026-10-05",
+"amount": -8104.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "",
+"message": "FA Studio STKI bannery - Senat Darina Batiyova",
+"ks": "",
+"vs": "1260998",
+"ss": "202626",
+"note": "FA Studio STKI bannery - Senat Darina Batiyova"
+},
+{
+"date": "2026-09-30",
+"amount": -193.6,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "",
+"message": "WEDOS doména neprehlednito.cz, do 03.09.2027",
+"ks": "",
+"vs": "3126339550",
+"ss": "",
+"note": "WEDOS doména neprehlednito.cz, do 03.09.2027"
+},
+{
+"date": "2026-09-29",
+"amount": -18005.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "ZFA Rengl CZ315112 Veronika Holcnerová - kandidátka do Senátu (04.10.2026 - 11.10.2026) - Senát Veronika Holcnerová",
+"ks": "",
+"vs": "10272017",
+"ss": "202660",
+"note": "ZFA Rengl CZ315112 Veronika Holcnerová - kandidátka do Senátu (04.10.2026 - 11.10.2026) - Senát Veronika Holcnerová"
+},
+{
+"date": "2026-09-25",
+"amount": -3500.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "",
+"message": "FA Produkce videa pro sociální sítě - natáčení, střih a postprodukce - Senát Darina Batiyová",
+"ks": "0308",
+"vs": "20260019",
+"ss": "202626",
+"note": "FA Produkce videa pro sociální sítě – natáčení, střih a postprodukce - Senát Darina Batiyová"
+},
+{
+"date": "2026-09-25",
+"amount": -26340.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "FA výlep plakátů, pronájem plakátovacích ploch, produkční, tiskové a distribuční služby - Senát Veronika Holcnerová",
+"ks": "0308",
+"vs": "20260182",
+"ss": "202660",
+"note": "FA výlep plakátů, pronájem plakátovacích ploch, produkční, tiskové a distribuční služby - Senát Veronika Holcnerová"
+},
+{
+"date": "2026-09-25",
+"amount": 58000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Hnutí Kruh",
+"message": "Převod prostředků na volební účet Senát 2026 2503455583",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "Převod prostředků na volební účet Senát 2026 2503455583"
+},
+{
+"date": "2026-09-06",
+"amount": -5600.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "",
+"message": "Kurz herectví Darina Batyiová Hnutí Kruh",
+"ks": "0308",
+"vs": "",
+"ss": "202626",
+"note": "Kurz herectví Senát 2026 Darina Batyiová"
+},
+{
+"date": "2026-08-20",
+"amount": -7744.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "ZF - PR clanky brnensky.denik.cz - Veronika Holcnerova Senat 2026",
+"ks": "",
+"vs": "2697002818",
+"ss": "202660",
+"note": "ZF - PR clanky brnensky.denik.cz - Veronika Holcnerova Senat 2026"
+},
+{
+"date": "2026-08-20",
+"amount": 10000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Hnutí Kruh",
+"message": "Převod prostředků na volební účet Senát 2026 2503455583",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "Převod prostředků na volební účet Senát 2026 2503455583"
+},
+{
+"date": "2026-08-07",
+"amount": -1980.01,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "Tisk letáků Senát 2026 Darina Batyiová Hnutí Kruh",
+"ks": "0308",
+"vs": "20260602",
+"ss": "202626",
+"note": "Tisk letáků Senát 2026 Darina Batyiová"
+},
+{
+"date": "2026-08-07",
+"amount": -968.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "Plachta na petiční stánek Senát 2026 Veronika Holcnerová",
+"ks": "0308",
+"vs": "2026072",
+"ss": "202660",
+"note": "Plachta na petiční stánek Senát 2026 Veronika Holcnerová"
+},
+{
+"date": "2026-08-07",
+"amount": 10000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Hnutí Kruh",
+"message": "Převod prostředků na volební účet Senát 2026 2503455583",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "Převod prostředků na volební účet Senát 2026 2503455583"
+}
+]
+}

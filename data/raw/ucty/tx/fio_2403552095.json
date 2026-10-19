@@ -1,0 +1,161 @@
+{
+"bank": "fio",
+"id": "2403552095",
+"url": "https://ib.fio.cz/ib/transparent?a=2403552095",
+"owner": "Levice",
+"name": "Volební účet pro volby do Senátu 2026",
+"number": "2403552095 / 2010",
+"summary": {
+"Stav k: 01.01.26": 0.0,
+"Stav k: 19.10.26": 4250.0,
+"Suma příjmů": 56684.5,
+"Suma výdajů": -52434.5,
+"Suma celkem": 4250.0,
+"Běžný zůstatek": 4250.0
+},
+"tx": [
+{
+"date": "2026-10-11",
+"amount": 3000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Levice",
+"message": "prevod prostredku na volebni ucet",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "prevod prostredku na volebni ucet"
+},
+{
+"date": "2026-10-11",
+"amount": 1250.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Levice",
+"message": "převod prostredku na volebni ucet",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "převod prostredku na volebni ucet"
+},
+{
+"date": "2026-09-29",
+"amount": -7199.5,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "UHRADA FAKTURY 26302",
+"ks": "0308",
+"vs": "26302",
+"ss": "",
+"note": "Tisk propagačních materiálů Zdeněk Beil"
+},
+{
+"date": "2026-09-29",
+"amount": -1742.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "ZVEREJNENI INZERCE - VOLBY",
+"ks": "0308",
+"vs": "26409",
+"ss": "",
+"note": "Inzerce Zdeněk Beil"
+},
+{
+"date": "2026-09-28",
+"amount": 7199.5,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Levice",
+"message": "Převod prostředků na volební účet",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "Převod prostředků na volební účet"
+},
+{
+"date": "2026-09-28",
+"amount": 1742.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Levice",
+"message": "Převod prostředků na volební účet",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "Převod prostředků na volební účet"
+},
+{
+"date": "2026-09-20",
+"amount": -2493.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "Platba zalohoveho listu ZLV-1924/2026",
+"ks": "0000",
+"vs": "10271924",
+"ss": "",
+"note": "Plakáty propagace Zdeněk Beil, Rengl"
+},
+{
+"date": "2026-09-19",
+"amount": 2493.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Levice",
+"message": "Plakáty senátní kampaň Zdeněk Beil",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "Plakáty senátní kampaň Zdeněk Beil"
+},
+{
+"date": "2026-09-15",
+"amount": -1000.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "Propagace Zdeněk Beil",
+"ks": "0308",
+"vs": "263100138",
+"ss": "",
+"note": "Propagace Zdeněk Beil"
+},
+{
+"date": "2026-09-15",
+"amount": 1000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Levice",
+"message": "Převod prostředků na volební účet",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "Převod prostředků na volební účet"
+},
+{
+"date": "2026-08-02",
+"amount": -20000.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "Volební kauce Zdeněk Beil",
+"ks": "0558",
+"vs": "530819168",
+"ss": "",
+"note": "Volební kauce Zdeněk Beil"
+},
+{
+"date": "2026-08-02",
+"amount": -20000.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "Volební kauce Pavel Čižinský",
+"ks": "0558",
+"vs": "7612030030",
+"ss": "",
+"note": "Volební kauce Pavel Čižinský"
+},
+{
+"date": "2026-08-02",
+"amount": 40000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Levice",
+"message": "Převod prostredku na volebni ucet",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "Převod prostredku na volebni ucet"
+}
+]
+}

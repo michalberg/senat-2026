@@ -1,0 +1,255 @@
+{
+"bank": "kb",
+"id": "131-4392050207",
+"url": "https://www.kb.cz/en/transparent-accounts/131-4392050207",
+"owner": "VÝZVA 2025",
+"name": "",
+"number": "131-4392050207/0100",
+"summary": {
+"Běžný zůstatek": 185.34
+},
+"tx": [
+{
+"date": "2026-10-09",
+"amount": 1000.0,
+"type": "VÝZVA 2025<br />Příchozí platba",
+"counterparty": "",
+"message": "Převod darů na senátní účet",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": ""
+},
+{
+"date": "2026-10-09",
+"amount": -47649.0,
+"type": "Odchozí platba",
+"counterparty": "",
+"message": "Visibrand",
+"ks": "",
+"vs": "26341",
+"ss": "",
+"note": ""
+},
+{
+"date": "2026-10-06",
+"amount": -14308.25,
+"type": "Odchozí platba",
+"counterparty": "",
+"message": "NEON Petr Růžička",
+"ks": "",
+"vs": "20260426",
+"ss": "",
+"note": ""
+},
+{
+"date": "2026-10-05",
+"amount": 60000.0,
+"type": "VÝZVA 2025<br />Příchozí platba",
+"counterparty": "",
+"message": "Převod darů na senátní účet",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": ""
+},
+{
+"date": "2026-09-21",
+"amount": -35816.0,
+"type": "Odchozí platba",
+"counterparty": "",
+"message": "Outdoorspace",
+"ks": "",
+"vs": "260031",
+"ss": "",
+"note": ""
+},
+{
+"date": "2026-09-16",
+"amount": 180000.0,
+"type": "VÝZVA 2025<br />Příchozí platba",
+"counterparty": "",
+"message": "Převod darů na senátní účet",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": ""
+},
+{
+"date": "2026-09-16",
+"amount": -180000.0,
+"type": "Odchozí platba",
+"counterparty": "",
+"message": "",
+"ks": "",
+"vs": "26100426",
+"ss": "",
+"note": ""
+},
+{
+"date": "2026-09-16",
+"amount": 150000.0,
+"type": "VÝZVA 2025<br />Příchozí platba",
+"counterparty": "",
+"message": "Převod darů na senátní účet",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": ""
+},
+{
+"date": "2026-09-16",
+"amount": -114390.3,
+"type": "Odchozí platba",
+"counterparty": "",
+"message": "Ceska Posta",
+"ks": "",
+"vs": "2026020008",
+"ss": "",
+"note": ""
+},
+{
+"date": "2026-09-14",
+"amount": 20000.0,
+"type": "VÝZVA 2025<br />Příchozí platba",
+"counterparty": "",
+"message": "Převod darů na senátní účet",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": ""
+},
+{
+"date": "2026-09-14",
+"amount": -21762.0,
+"type": "Odchozí platba",
+"counterparty": "",
+"message": "NEON Petr Růžička",
+"ks": "",
+"vs": "20260385",
+"ss": "",
+"note": ""
+},
+{
+"date": "2026-09-03",
+"amount": 20000.0,
+"type": "VÝZVA 2025<br />Příchozí platba",
+"counterparty": "",
+"message": "Převod darů na senátní účet",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": ""
+},
+{
+"date": "2026-09-03",
+"amount": -24000.0,
+"type": "Odchozí platba",
+"counterparty": "",
+"message": "Michaela Kasalová",
+"ks": "",
+"vs": "260100035",
+"ss": "",
+"note": ""
+},
+{
+"date": "2026-08-19",
+"amount": 150000.0,
+"type": "VÝZVA 2025<br />Příchozí platba",
+"counterparty": "",
+"message": "Převod darů na senátní účet",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": ""
+},
+{
+"date": "2026-08-19",
+"amount": -184252.99,
+"type": "Odchozí platba",
+"counterparty": "",
+"message": "VLTAVA LABE MEDIA a.s",
+"ks": "",
+"vs": "2697002813",
+"ss": "",
+"note": ""
+},
+{
+"date": "2026-08-13",
+"amount": 50000.0,
+"type": "VÝZVA 2025<br />Příchozí platba",
+"counterparty": "",
+"message": "Převod darů na senátní účet",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": ""
+},
+{
+"date": "2026-08-13",
+"amount": -9452.52,
+"type": "Odchozí platba",
+"counterparty": "",
+"message": "Vltava Labe Media",
+"ks": "",
+"vs": "2697002735",
+"ss": "",
+"note": ""
+},
+{
+"date": "2026-08-05",
+"amount": 120000.0,
+"type": "VÝZVA 2025<br />Příchozí platba",
+"counterparty": "",
+"message": "Převod darů na senátní účet",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": ""
+},
+{
+"date": "2026-08-05",
+"amount": -144183.6,
+"type": "Odchozí platba",
+"counterparty": "",
+"message": "BigBoard Media - billboardy",
+"ks": "",
+"vs": "310260199",
+"ss": "",
+"note": ""
+},
+{
+"date": "2026-07-31",
+"amount": 25000.0,
+"type": "VÝZVA 2025<br />Příchozí platba",
+"counterparty": "",
+"message": "Převod darů na senátní účet",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": ""
+},
+{
+"date": "2026-07-17",
+"amount": 20000.0,
+"type": "VÝZVA 2025<br />Příchozí platba",
+"counterparty": "",
+"message": "převod na účet pro senátní volby",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": ""
+},
+{
+"date": "2026-07-17",
+"amount": -20000.0,
+"type": "Odchozí platba",
+"counterparty": "",
+"message": "Volební kauce",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": ""
+}
+]
+}

@@ -1,0 +1,238 @@
+{
+"bank": "fio",
+"id": "2003520473",
+"url": "https://ib.fio.cz/ib/transparent?a=2003520473",
+"owner": "PRO PLZEŇ",
+"name": "Volební účet PRO PLZEŇ - Senátní volby 2026",
+"number": "2003520473 / 2010",
+"summary": {
+"Stav k: 01.01.26": 0.0,
+"Stav k: 19.10.26": 467.79,
+"Suma příjmů": 130000.0,
+"Suma výdajů": -129532.21,
+"Suma celkem": 467.79,
+"Běžný zůstatek": 467.79
+},
+"tx": [
+{
+"date": "2026-10-14",
+"amount": -5000.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "2026-0070 - PRO PLZEN",
+"ks": "",
+"vs": "20260070",
+"ss": "",
+"note": "2026-0070 - PRO PLZEN"
+},
+{
+"date": "2026-10-14",
+"amount": 5000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "PRO PLZEŇ",
+"message": "převod na provozní účet senátní volby",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "převod na provozní účet senátní volby"
+},
+{
+"date": "2026-10-07",
+"amount": -2178.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "FAKTURUJEME VAM VYROBU A DODANI:",
+"ks": "0008",
+"vs": "20261001",
+"ss": "",
+"note": "FAKTURUJEME VAM VYROBU A DODANI:"
+},
+{
+"date": "2026-10-07",
+"amount": 1000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "PRO PLZEŇ",
+"message": "převod na provozní účet senátní volby",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "převod na provozní účet senátní volby"
+},
+{
+"date": "2026-09-25",
+"amount": -12100.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "",
+"ks": "",
+"vs": "010260198",
+"ss": "",
+"note": ""
+},
+{
+"date": "2026-09-25",
+"amount": 9000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "PRO PLZEŇ",
+"message": "převod na provozní účet senátní volby",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "převod na provozní účet senátní volby"
+},
+{
+"date": "2026-09-18",
+"amount": -5000.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "2026-0069 - PRO PLZEN",
+"ks": "",
+"vs": "20260069",
+"ss": "",
+"note": "2026-0069 - PRO PLZEN"
+},
+{
+"date": "2026-09-18",
+"amount": 5000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "PRO PLZEŇ",
+"message": "převod na provozní účet senátní volby",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "převod na provozní účet senátní volby"
+},
+{
+"date": "2026-09-04",
+"amount": -9438.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "20261151 TISKARNA KRAL S.R.O.",
+"ks": "0308",
+"vs": "20261151",
+"ss": "",
+"note": "20261151 TISKARNA KRAL S.R.O."
+},
+{
+"date": "2026-09-04",
+"amount": 10000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "PRO PLZEŇ",
+"message": "převod na provozní účet senátní volby",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "převod na provozní účet senátní volby"
+},
+{
+"date": "2026-08-18",
+"amount": -60500.03,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "Faktura",
+"ks": "",
+"vs": "5199564795",
+"ss": "",
+"note": "seznam.cz"
+},
+{
+"date": "2026-08-18",
+"amount": 40000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "PRO PLZEŇ",
+"message": "převod na provozní účet senátní volby",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "převod na provozní účet senátní volby"
+},
+{
+"date": "2026-08-05",
+"amount": -2611.18,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "FAKTURUJEME VAM VYROBU A DODANI:",
+"ks": "0008",
+"vs": "20260775",
+"ss": "",
+"note": "FAKTURUJEME VAM VYROBU A DODANI:"
+},
+{
+"date": "2026-07-29",
+"amount": 20000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "PRO PLZEŇ",
+"message": "převod na provozní účet senátní volby",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "převod na provozní účet senátní volby"
+},
+{
+"date": "2026-07-23",
+"amount": -20000.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "MUDr. Daniela Pousková - kauce senátní volby",
+"ks": "0558",
+"vs": "5754050434",
+"ss": "",
+"note": "MUDr. Daniela Pousková - kauce senátní volby"
+},
+{
+"date": "2026-07-23",
+"amount": 20000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "PRO PLZEŇ",
+"message": "převod na provozní účet senátní volby",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "převod na provozní účet senátní volby"
+},
+{
+"date": "2026-06-26",
+"amount": -7260.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "",
+"ks": "",
+"vs": "2026095",
+"ss": "",
+"note": ""
+},
+{
+"date": "2026-06-26",
+"amount": 10000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "PRO PLZEŇ",
+"message": "převod na provozní účet senátní volby",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "převod na provozní účet senátní volby"
+},
+{
+"date": "2026-06-03",
+"amount": -5445.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "",
+"ks": "",
+"vs": "13072026",
+"ss": "",
+"note": "foto"
+},
+{
+"date": "2026-06-03",
+"amount": 10000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "PRO PLZEŇ",
+"message": "převod na provozní účet senátní volby",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "převod na provozní účet senátní volby"
+}
+]
+}

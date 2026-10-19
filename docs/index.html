@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="cs" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Senát 2026: kolik stály kampaně</title>
+<meta name="description" content="Výsledky senátních voleb 2026 a analýza výdajů kandidátů z transparentních volebních účtů, seznamů dárců a zpráv ÚDHPSH.">
+<script>
+  try { document.documentElement.dataset.theme = localStorage.getItem("s26-theme") || "light"; } catch (e) {}
+</script>
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<header class="top">
+  <div class="top-in">
+    <div class="top-row">
+      <a class="brand" href="#/">Senát 2026 <span>Kolik stály kampaně</span></a>
+      <div class="top-r"><button id="themeBtn" class="lnk" type="button">tmavý režim</button></div>
+    </div>
+    <nav class="nav" aria-label="Sekce">
+      <a class="tab" data-k="prehled" href="#/">Přehled</a>
+      <label class="tab tab-sel" data-k="obvod"><span>Obvod</span><select id="navObv" aria-label="Senátní obvod"></select></label>
+      <a class="tab" data-k="strany" href="#/strany">Strany a koalice</a>
+      <a class="tab" data-k="kandidati" href="#/kandidati">Kandidáti</a>
+      <a class="tab" data-k="anomalie" href="#/anomalie">Anomálie</a>
+      <a class="tab" data-k="metodika" href="#/metodika">Metodika</a>
+    </nav>
+  </div>
+</header>
+<main id="app" class="app" aria-live="polite"><p class="loading">Načítám data…</p></main>
+<footer class="foot">
+  <p>Zdroje: otevřená data <a href="https://volby.gov.cz/opendata/se2026/se2026_opendata.htm">volby.gov.cz</a> (SE 2026),
+  seznamy dárců a registr volebních účtů <a href="https://zpravy.udh.gov.cz/zpravy/s2026">ÚDHPSH</a>, transparentní účty bank. Stav k 19. 10. 2026.
+  Výdaje sdílených stranických účtů jsou odhad – viz <a href="#/metodika">metodika</a>.</p>
+</footer>
+<div id="tip" class="tip" role="tooltip" hidden></div>
+<script src="app.js"></script>
+</body>
+</html>

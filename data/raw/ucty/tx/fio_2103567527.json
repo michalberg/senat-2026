@@ -1,0 +1,51 @@
+{
+"bank": "fio",
+"id": "2103567527",
+"url": "https://ib.fio.cz/ib/transparent?a=2103567527",
+"owner": "ZVUK 12",
+"name": "Volební účet ZVUK 12 -  Ing. Kristýna Zelienková Senát 2026",
+"number": "2103567527 / 2010",
+"summary": {
+"Stav k: 01.01.26": 0.0,
+"Stav k: 19.10.26": 5000.0,
+"Suma příjmů": 150000.0,
+"Suma výdajů": -145000.0,
+"Suma celkem": 5000.0,
+"Běžný zůstatek": 5000.0
+},
+"tx": [
+{
+"date": "2026-10-18",
+"amount": -67800.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "",
+"message": "",
+"ks": "",
+"vs": "2601013",
+"ss": "",
+"note": ""
+},
+{
+"date": "2026-10-18",
+"amount": -77200.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "",
+"message": "",
+"ks": "",
+"vs": "2601014",
+"ss": "",
+"note": ""
+},
+{
+"date": "2026-09-17",
+"amount": 150000.0,
+"type": "Okamžitá příchozí platba",
+"counterparty": "Kristýna Zelienková",
+"message": "",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "Kristýna Zelienková"
+}
+]
+}

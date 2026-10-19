@@ -1,0 +1,238 @@
+{
+"bank": "fio",
+"id": "2903549861",
+"url": "https://ib.fio.cz/ib/transparent?a=2903549861",
+"owner": "Stačilo!",
+"name": "Stačilo! – Transparentní Senát",
+"number": "2903549861 / 2010",
+"summary": {
+"Stav k: 01.01.26": 0.0,
+"Stav k: 19.10.26": 37086.26,
+"Suma příjmů": 360000.0,
+"Suma výdajů": -322913.74,
+"Suma celkem": 37086.26,
+"Běžný zůstatek": 37086.26
+},
+"tx": [
+{
+"date": "2026-10-18",
+"amount": -42350.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "Stačilo!",
+"ks": "",
+"vs": "200260092",
+"ss": "",
+"note": "Mediální prostor Jiří Kobza"
+},
+{
+"date": "2026-10-12",
+"amount": -18150.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "",
+"message": "ZVEREJNENI INZERCE VE ZNOJEMSKU DNE 5.10.2026",
+"ks": "0308",
+"vs": "26200331",
+"ss": "",
+"note": "Rédová inzerce Znojemsko"
+},
+{
+"date": "2026-10-12",
+"amount": -18639.47,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "Politická inzerce Stačilo!",
+"ks": "",
+"vs": "2617016061",
+"ss": "",
+"note": "Rédová politická inzerce"
+},
+{
+"date": "2026-09-21",
+"amount": -48400.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "",
+"message": "20260934 A 11 S.R.O.",
+"ks": "0308",
+"vs": "20260934",
+"ss": "",
+"note": "A11 s.r.o. - Jiří Kobza"
+},
+{
+"date": "2026-09-21",
+"amount": -15000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "",
+"message": "Předvolební propagace - Jiří Kobza",
+"ks": "",
+"vs": "22026",
+"ss": "",
+"note": "Spolek Svobodné rádio - Jiří Kobza"
+},
+{
+"date": "2026-09-21",
+"amount": 100000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Stačilo!",
+"message": "Převod na transparentní účet Senát",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "Převod na transparentní účet Senát"
+},
+{
+"date": "2026-09-18",
+"amount": -9572.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "Platba zalohoveho listu ZLV-1894/2026",
+"ks": "0000",
+"vs": "10271894",
+"ss": "",
+"note": "Plakátovací kampaň Kobza"
+},
+{
+"date": "2026-09-16",
+"amount": -7000.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "Stačilo!",
+"ks": "",
+"vs": "021",
+"ss": "",
+"note": "INV24.CZ - Kobza P.R služby"
+},
+{
+"date": "2026-09-13",
+"amount": -37594.7,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "UCTUJEME VAM REKLAMNI SLUZBY:",
+"ks": "0308",
+"vs": "26078",
+"ss": "",
+"note": "Honey Bunny s.r.o. reklamní služby"
+},
+{
+"date": "2026-09-13",
+"amount": -35905.54,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "Stačilo!",
+"ks": "0308",
+"vs": "20260120",
+"ss": "",
+"note": "Senát Kobza plakáty, letáky"
+},
+{
+"date": "2026-09-13",
+"amount": 100000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Stačilo!",
+"message": "Převod na transparentní účet Senát",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "Převod na transparentní účet Senát"
+},
+{
+"date": "2026-09-09",
+"amount": -4628.08,
+"type": "Bezhotovostní platba",
+"counterparty": "",
+"message": "Stačilo! letáky",
+"ks": "",
+"vs": "2026011608",
+"ss": "",
+"note": "Letáky Senát Samková"
+},
+{
+"date": "2026-09-01",
+"amount": -14000.0,
+"type": "Bezhotovostní platba",
+"counterparty": "",
+"message": "Stačilo! Jiří Kobza",
+"ks": "",
+"vs": "322026",
+"ss": "",
+"note": "Podpora při kampani Jiřího Kobzy - Zblízka redakce"
+},
+{
+"date": "2026-08-26",
+"amount": -2151.53,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "Stačilo! Senát bannery",
+"ks": "",
+"vs": "2026010551",
+"ss": "",
+"note": "Bannery Senát Rédová"
+},
+{
+"date": "2026-08-19",
+"amount": -17148.66,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "Stačilo! letáky Senát",
+"ks": "0308",
+"vs": "2026010195",
+"ss": "",
+"note": "Justprint.cz s.r.o. letáky - Rédová senátní volby"
+},
+{
+"date": "2026-08-19",
+"amount": 100000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Stačilo!",
+"message": "Převod na transparentní účet Senát",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "Převod na transparentní účet Senát"
+},
+{
+"date": "2026-08-17",
+"amount": -42373.76,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "",
+"message": "Vyvoj vizualniho konceptu volby Senat 2026 Stacilo?",
+"ks": "",
+"vs": "20260014",
+"ss": "",
+"note": "Vývoj vizuálního konceptu volby Senát 2026 Stačilo!"
+},
+{
+"date": "2026-08-17",
+"amount": -10000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "",
+"message": "Vratka platby",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "Účet je určen jen pro Senátní volby"
+},
+{
+"date": "2026-08-17",
+"amount": 50000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Stačilo!",
+"message": "Převod na transparentní účet Senát",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "Převod na transparentní účet Senát"
+},
+{
+"date": "2026-07-28",
+"amount": 10000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Mička, Jan",
+"message": "Jan Mička.....\"potřebujeme DEMOKRACII namísto dosavadní dementokracie.....\"",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "Jan Mička.....\"potřebujeme DEMOKRACII namísto dosavadní dementokracie.....\""
+}
+]
+}

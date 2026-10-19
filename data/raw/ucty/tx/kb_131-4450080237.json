@@ -1,0 +1,24 @@
+{
+"bank": "kb",
+"id": "131-4450080237",
+"url": "https://www.kb.cz/cs/transparentni-ucty/131-4450080237",
+"owner": "Ostravak",
+"name": "",
+"number": "131-4450080237/0100",
+"summary": {
+"Běžný zůstatek": 50000.0
+},
+"tx": [
+{
+"date": "2026-09-16",
+"amount": 50000.0,
+"type": "OSTRAVAK<br />Příchozí platba",
+"counterparty": "",
+"message": "",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": ""
+}
+]
+}

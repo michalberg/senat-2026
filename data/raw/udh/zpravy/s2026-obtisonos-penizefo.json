@@ -1,0 +1,47 @@
+[
+    {
+        "money": 100000,
+        "lastName": "Eva",
+        "firstName": "Šeinerová",
+        "titleBefore": "",
+        "titleAfter": "",
+        "birthDate": "1942-08-01",
+        "addrCity": "Karviná"
+    },
+    {
+        "money": 10000,
+        "lastName": "Gregořica",
+        "firstName": "Rudolf",
+        "titleBefore": "",
+        "titleAfter": "",
+        "birthDate": "1958-11-13",
+        "addrCity": "Štěpánkovice"
+    },
+    {
+        "money": 30000,
+        "lastName": "Kazík",
+        "firstName": "Petr",
+        "titleBefore": "",
+        "titleAfter": "",
+        "birthDate": "1964-07-30",
+        "addrCity": "Karviná"
+    },
+    {
+        "money": 13000,
+        "lastName": "Magnus",
+        "firstName": "Martin",
+        "titleBefore": "",
+        "titleAfter": "",
+        "birthDate": "1981-08-25",
+        "addrCity": "Třebom"
+    },
+    {
+        "money": 20000,
+        "lastName": "Skopal",
+        "firstName": "Petr",
+        "titleBefore": "",
+        "titleAfter": "",
+        "birthDate": "1967-10-14",
+        "addrCity": "Karviná"
+    }
+]

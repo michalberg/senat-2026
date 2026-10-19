@@ -1,0 +1,345 @@
+<style>
+    /* Moderní vzhled tabulky */
+    .modern-table {
+        width: 100%;
+        border-collapse: separate;
+        border-spacing: 0;
+        margin: 20px 0;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        font-size: 15px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        border-radius: 8px;
+        overflow: hidden;
+        border: 1px solid #e0e0e0;
+    }
+
+    .modern-table th {
+        background-color: #f8f9fa;
+        color: #333333;
+        font-weight: 600;
+        text-align: left;
+        padding: 14px 16px;
+        border-bottom: 2px solid #e0e0e0;
+    }
+
+    .modern-table td {
+        padding: 14px 16px;
+        border-bottom: 1px solid #eeeeee;
+        vertical-align: middle;
+        color: #4a4a4a;
+    }
+
+    /* Efekt při najetí myší na řádek */
+    .modern-table tr:hover td {
+        background-color: #fdfdfd;
+    }
+
+    /* Odstranění spodního okraje u posledního řádku */
+    .modern-table tr:last-child td {
+        border-bottom: none;
+    }
+
+    /* Stylování odkazů */
+    .modern-table a {
+        color: #0066cc;
+        text-decoration: none;
+        font-weight: 500;
+    }
+    .modern-table a:hover {
+        text-decoration: underline;
+    }
+
+    /* Specifické stavy pro přehled */
+    .status-no-donors {
+        color: #666666;
+        font-style: italic;
+    }
+    
+    .status-missing {
+        color: #d32f2f;
+        background-color: #ffebee;
+        font-weight: 500;
+    }
+
+    /* Elegantní Info Box pod tabulkou */
+    .info-box {
+        display: flex;
+        align-items: flex-start;
+        background-color: #f4f7fa;
+        border-left: 4px solid #0066cc;
+        border-top: 1px solid #e2e8f0;
+        border-right: 1px solid #e2e8f0;
+        border-bottom: 1px solid #e2e8f0;
+        padding: 16px;
+        margin: 25px 0;
+        border-radius: 0 8px 8px 0;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        line-height: 1.6;
+        color: #4a5568;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
+    }
+
+    /* Ikona uvnitř info boxu */
+    .info-box-icon {
+        margin-right: 12px;
+        color: #0066cc;
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 1;
+        background-color: #e6f0fa;
+        width: 26px;
+        height: 26px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+    }
+    
+    .info-box-content {
+        margin: 0;
+        width: 100%;
+    }
+
+    .info-box-content p {
+        margin: 0 0 12px 0;
+    }
+
+    .info-box-content p:last-child {
+        margin-bottom: 0;
+    }
+
+    /* Stylování seznamu s odrážkami uvnitř boxu */
+    .info-box-list {
+        margin: 8px 0 0 0;
+        padding-left: 20px;
+        list-style-type: square;
+    }
+
+    .info-box-list li {
+        margin-bottom: 4px;
+        color: #2d3748;
+    }
+</style>
+
+<div style="text-align:center;"><img src="/content/logo2.png"></div>
+<h1 style="text-align:center;">Přehled sponzorů kampaně</h1>
+<h3 style="text-align:center;">Senát 2026 (2. kolo)</h3>
+<hr />
+
+<table class="modern-table">
+    <thead>
+        <tr>
+            <th>Strana / hnutí / nezávislý kandidát</th>
+            <th>Přehled dárců</th>
+        </tr>
+    </thead>
+    <tbody>
+                <tr>
+            <td><strong>24/7</strong></td>
+            
+                            <td class="status-no-donors">Strana oznámila, že sponzory kampaně nemá</td>
+                    </tr>
+                <tr>
+            <td><strong>Adéla do Senátu</strong></td>
+            
+                            <td>
+                    <a href="https://zpravy.udh.gov.cz/darci/s2026/adeladosenatu/2">
+                        Přehled dárců (Adéla)
+                    </a>
+                </td>
+                    </tr>
+                <tr>
+            <td><strong>ANO 2011</strong></td>
+            
+                            <td>
+                    <a href="https://zpravy.udh.gov.cz/darci/s2026/ano/2">
+                        Přehled dárců (ANO)
+                    </a>
+                </td>
+                    </tr>
+                <tr>
+            <td><strong>David Smoljak je náš senátor!</strong></td>
+            
+                            <td>
+                    <a href="https://zpravy.udh.gov.cz/darci/s2026/dsmstan/2">
+                        Přehled dárců (Smoljak)
+                    </a>
+                </td>
+                    </tr>
+                <tr>
+            <td><strong>Demokraté pro Hradecko (koalice STAROSTOVÉ A NEZÁVISLÍ, Česká pirátská strana, TOP 09, Strana zelených, Hradecký demokratický klub</strong></td>
+            
+                            <td>
+                    <a href="https://zpravy.udh.gov.cz/darci/s2026/mdvstan/2">
+                        Přehled dárců (Dvořák)
+                    </a>
+                </td>
+                    </tr>
+                <tr>
+            <td><strong>HELENA PEŠATOVÁ</strong></td>
+            
+                            <td>
+                    <a href="https://zpravy.udh.gov.cz/darci/s2026/hpestan/2">
+                        Přehled dárců (Pešatová)
+                    </a>
+                </td>
+                    </tr>
+                <tr>
+            <td><strong>Hlas Zlínska</strong></td>
+            
+                            <td>
+                    <a href="https://zpravy.udh.gov.cz/darci/s2026/zahnlikslas/2">
+                        Přehled dárců (Hlas Zlínska)
+                    </a>
+                </td>
+                    </tr>
+                <tr>
+            <td><strong>KDU-ČSL</strong></td>
+            
+                            <td>
+                    <a href="https://zpravy.udh.gov.cz/darci/s2026/kducsl/2">
+                        Přehled dárců (KDU-ČSL)
+                    </a>
+                </td>
+                    </tr>
+                <tr>
+            <td><strong>Kluk od vedle do Senátu</strong></td>
+            
+                            <td>
+                    <a href="https://zpravy.udh.gov.cz/darci/s2026/obtolista/2">
+                        Přehled dárců (Kluk od vedle do Senátu)
+                    </a>
+                </td>
+                    </tr>
+                <tr>
+            <td><strong>Koalice hnutí STAROSTOVÉ A NEZÁVISLÍ, Občanské demokratické strany, TOP 09 a České pirátské strany</strong></td>
+            
+                            <td>
+                    <a href="https://zpravy.udh.gov.cz/darci/s2026/jpadstan/2">
+                        Přehled dárců (Padevet)
+                    </a>
+                </td>
+                    </tr>
+                <tr>
+            <td><strong>Naše Město F-M</strong></td>
+            
+                            <td class="status-no-donors">Strana oznámila, že sponzory kampaně nemá</td>
+                    </tr>
+                <tr>
+            <td><strong>Občanská demokratická strana</strong></td>
+            
+                            <td>
+                    <a href="https://zpravy.udh.gov.cz/darci/s2026/ods/2">
+                        Přehled dárců (ODS)
+                    </a>
+                </td>
+                    </tr>
+                <tr>
+            <td><strong>Osobnosti pro kraj</strong></td>
+            
+                            <td>
+                    <a href="https://zpravy.udh.gov.cz/darci/s2026/obtisonos/2">
+                        Přehled dárců (OK)
+                    </a>
+                </td>
+                    </tr>
+                <tr>
+            <td><strong>PRAHA SOBĚ</strong></td>
+            
+                            <td>
+                    <a href="https://zpravy.udh.gov.cz/darci/s2026/pahosopra/2">
+                        Přehled dárců (PRAHA)
+                    </a>
+                </td>
+                    </tr>
+                <tr>
+            <td><strong>Sáblík do Senátu</strong></td>
+            
+                            <td>
+                    <a href="https://zpravy.udh.gov.cz/darci/s2026/oblista/2">
+                        Přehled dárců (Sáblík do Senátu)
+                    </a>
+                </td>
+                    </tr>
+                <tr>
+            <td><strong>SEN 21</strong></td>
+            
+                            <td>
+                    <a href="https://zpravy.udh.gov.cz/darci/s2026/sen21/2">
+                        Přehled dárců (SEN 21)
+                    </a>
+                </td>
+                    </tr>
+                <tr>
+            <td><strong>Starosta Šmarda - hlas regionu</strong></td>
+            
+                            <td>
+                    <a href="https://zpravy.udh.gov.cz/darci/s2026/restahls/2">
+                        Přehled dárců (Starosta Šmarda)
+                    </a>
+                </td>
+                    </tr>
+                <tr>
+            <td><strong>STAROSTOVÉ A NEZÁVISLÍ</strong></td>
+            
+                            <td>
+                    <a href="https://zpravy.udh.gov.cz/darci/s2026/stan/2">
+                        Přehled dárců (STAN)
+                    </a>
+                </td>
+                    </tr>
+                <tr>
+            <td><strong>Starostové pro Liberecký kraj</strong></td>
+            
+                            <td>
+                    <a href="https://zpravy.udh.gov.cz/darci/s2026/slk/2">
+                        Přehled dárců (SLK)
+                    </a>
+                </td>
+                    </tr>
+                <tr>
+            <td><strong>Šimetka do Senátu</strong></td>
+            
+                            <td>
+                    <a href="https://zpravy.udh.gov.cz/darci/s2026/obpilistatop/2">
+                        Přehled dárců (Šimetka do Senátu)
+                    </a>
+                </td>
+                    </tr>
+                <tr>
+            <td><strong>Za demokracii</strong></td>
+            
+                            <td>
+                    <a href="https://zpravy.udh.gov.cz/darci/s2026/dormaekiziac/2">
+                        Přehled dárců (Za demokracii)
+                    </a>
+                </td>
+                    </tr>
+                <tr>
+            <td><strong>Zdenál do Senátu</strong></td>
+            
+                            <td>
+                    <a href="https://zpravy.udh.gov.cz/darci/s2026/zdendos/2">
+                        Přehled dárců (Zdenál)
+                    </a>
+                </td>
+                    </tr>
+                <tr>
+            <td><strong>Znojemsko pohromadě: TOP 09, ODS, KDU-ĆSL, STAN, Piráti</strong></td>
+            
+                            <td>
+                    <a href="https://zpravy.udh.gov.cz/darci/s2026/znojhrom/2">
+                        Přehled dárců (Znojemsko pohromadě)
+                    </a>
+                </td>
+                    </tr>
+            </tbody>
+</table>
+<div class="info-box">
+    <div class="info-box-icon">i</div>
+    <div class="info-box-content">
+        <p>Povinnost oznámit seznam dárců před druhým kolem voleb do Senátu Parlamentu České republiky se vztahuje pouze na kandidující volební strany, jejichž kandidáti postoupili do druhého kola. U ostatních volebních stran absence oznámení pro druhé kolo neznamená nesplnění zákonné povinnosti. Povinnost oznámit seznam dárců měla být splněna do půlnoci z 13. na 14. října. Zveřejnění opožděně dodaných oznámeních proběhne 14. 10. 2026 v 10 hodin a 15 hodin.</p>
+           </div>
+</div>

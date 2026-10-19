@@ -1,0 +1,209 @@
+{
+"bank": "rb",
+"id": "1288753005",
+"url": "https://www.rb.cz/povinne-zverejnovane-informace/transparentni-ucty?path=transactions&accountNumber=1288753005",
+"owner": "PRO Právo Respekt Odbornost",
+"name": "",
+"number": "1288753005/5500",
+"summary": {},
+"tx": [
+{
+"date": "2026-10-15",
+"amount": -3630.0,
+"type": "Odchozí okamžitá úhrada",
+"counterparty": "",
+"message": "Pronájem sálu- volby Senát 2026- Hynek Beran- volební obvod 39",
+"ks": "0308",
+"vs": "260616",
+"ss": "",
+"note": ""
+},
+{
+"date": "2026-10-09",
+"amount": -52562.4,
+"type": "Odchozí okamžitá úhrada",
+"counterparty": "",
+"message": "Tisk novin A4, volby do Senátu 2026  - Jan Skalický- 33",
+"ks": "",
+"vs": "2610000633",
+"ss": "",
+"note": ""
+},
+{
+"date": "2026-10-09",
+"amount": 10000.0,
+"type": "Převod",
+"counterparty": "PRO Právo Respekt Od",
+"message": "Převod finančních prostředků na volební účet",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": ""
+},
+{
+"date": "2026-10-05",
+"amount": -48.0,
+"type": "Odchozí okamžitá úhrada",
+"counterparty": "",
+"message": "Společný výdaj - pronájem pozemku pro Hyperkostku - Hynek Beran - Senátní volby 2026  - volební obvod 39",
+"ks": "",
+"vs": "1014260140",
+"ss": "",
+"note": ""
+},
+{
+"date": "2026-10-04",
+"amount": -750.0,
+"type": "Odchozí okamžitá úhrada",
+"counterparty": "",
+"message": "foto materiály - Volby Senát 2026 - Hynek Beran - volební obvod 39",
+"ks": "",
+"vs": "2026054",
+"ss": "",
+"note": ""
+},
+{
+"date": "2026-10-04",
+"amount": -4320.0,
+"type": "Odchozí okamžitá úhrada",
+"counterparty": "",
+"message": "Reklamní bannery - výroba, doprava - Volby do Senátu 2026 - Hynek Beran  - volební obvod - 39",
+"ks": "",
+"vs": "26114154",
+"ss": "103378",
+"note": ""
+},
+{
+"date": "2026-09-25",
+"amount": -49950.96,
+"type": "Převod",
+"counterparty": "",
+"message": "Distribuci letáků - Volby do Senátu 2026 - obvod 33 Děčín - Jan Skalický",
+"ks": "",
+"vs": "260800062",
+"ss": "",
+"note": ""
+},
+{
+"date": "2026-09-25",
+"amount": 110000.0,
+"type": "Převod",
+"counterparty": "PRO Právo Respekt Od",
+"message": "Převod finančních prostředků na volební účet",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": ""
+},
+{
+"date": "2026-08-26",
+"amount": -200.0,
+"type": "Splátka poplatku po splatnosti",
+"counterparty": "PRO Právo Respekt Od",
+"message": "Poplatek za právo k importu úhrad a stažení výpisů|0 CZK|PRO Právo Respekt Od|1288753005/5500",
+"ks": "898",
+"vs": "",
+"ss": "",
+"note": ""
+},
+{
+"date": "2026-09-17",
+"amount": 200.0,
+"type": "Převod",
+"counterparty": "PRO Právo Respekt Od",
+"message": "Převod finančních prostředků na volební účet",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": ""
+},
+{
+"date": "2026-08-26",
+"amount": 200.0,
+"type": "Zaevidování poplatku po splatnosti",
+"counterparty": "PRO Právo Respekt Od",
+"message": "Poplatek za právo k importu úhrad a stažení výpisů|0 CZK|PRO Právo Respekt Od|1288753005/5500",
+"ks": "298",
+"vs": "",
+"ss": "",
+"note": ""
+},
+{
+"date": "2026-08-26",
+"amount": -200.0,
+"type": "Poplatek za transakci",
+"counterparty": "Poplatek za přístup",
+"message": "Poplatek za právo k importu úhrad a stažení výpisů|0 CZK|PRO Právo Respekt Od|1288753005/5500",
+"ks": "898",
+"vs": "",
+"ss": "",
+"note": ""
+},
+{
+"date": "2026-08-24",
+"amount": -10000.0,
+"type": "Převod",
+"counterparty": "Jitka Velhartická",
+"message": "Vrácení platby - mylná platba-Jitka Velhartická",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": ""
+},
+{
+"date": "2026-08-19",
+"amount": 10000.0,
+"type": "Převod",
+"counterparty": "Jitka Velhartická",
+"message": "Dar - volby do Senátu v 2026 PRO",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": ""
+},
+{
+"date": "2026-08-13",
+"amount": -500.0,
+"type": "Odchozí okamžitá úhrada",
+"counterparty": "",
+"message": "Vrácení platby - mylná platba-Ing. Hana Bartošová",
+"ks": "0",
+"vs": "",
+"ss": "",
+"note": ""
+},
+{
+"date": "2026-08-13",
+"amount": -1000.0,
+"type": "Odchozí okamžitá úhrada",
+"counterparty": "",
+"message": "Vrácení platby - mylná platba-Buchtová Milada",
+"ks": "0",
+"vs": "",
+"ss": "",
+"note": ""
+},
+{
+"date": "2026-08-12",
+"amount": 500.0,
+"type": "Příchozí okamžitá úhrada",
+"counterparty": "Ing.Bartošová Hana",
+"message": "Bartošová H.",
+"ks": "0",
+"vs": "",
+"ss": "",
+"note": ""
+},
+{
+"date": "2026-08-12",
+"amount": 1000.0,
+"type": "Příchozí okamžitá úhrada",
+"counterparty": "Buchtová Milada",
+"message": "Buchtová Milada",
+"ks": "0",
+"vs": "",
+"ss": "",
+"note": ""
+}
+]
+}

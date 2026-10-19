@@ -1,0 +1,282 @@
+{
+"bank": "fio",
+"id": "2003537515",
+"url": "https://ib.fio.cz/ib/transparent?a=2003537515",
+"owner": "Strana zelených",
+"name": "Transparentní účet k senátním volbám – Senátní obvod 6 – Louny",
+"number": "2003537515 / 2010",
+"summary": {
+"Stav k: 01.01.26": 0.0,
+"Stav k: 19.10.26": 16717.65,
+"Suma příjmů": 205000.0,
+"Suma výdajů": -188282.35,
+"Suma celkem": 16717.65,
+"Běžný zůstatek": 16717.65
+},
+"tx": [
+{
+"date": "2026-10-12",
+"amount": -5000.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "STRANA ZELENYCH",
+"ks": "",
+"vs": "20260902",
+"ss": "",
+"note": "Štěpán Žůrek - grafika"
+},
+{
+"date": "2026-10-07",
+"amount": -8997.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "",
+"message": "ZELENI IVA HLUSTIKOVA",
+"ks": "",
+"vs": "1260989",
+"ss": "",
+"note": "tisk letáků"
+},
+{
+"date": "2026-09-24",
+"amount": 15000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Strana zelených",
+"message": "Podíl na senátní volby za KO Ústecký, volební obvod Louny",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "Podíl na senátní volby za KO Ústecký, volební obvod Louny"
+},
+{
+"date": "2026-09-24",
+"amount": -26160.97,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "Strana zelených",
+"ks": "",
+"vs": "420260583",
+"ss": "",
+"note": "roznos letáků"
+},
+{
+"date": "2026-09-21",
+"amount": -4000.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "Strana zelených",
+"ks": "",
+"vs": "2026005",
+"ss": "",
+"note": "grafické práce Lukáš Procházka"
+},
+{
+"date": "2026-09-21",
+"amount": -10000.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "Strana zelených",
+"ks": "",
+"vs": "2026005",
+"ss": "",
+"note": "volební manažer"
+},
+{
+"date": "2026-09-17",
+"amount": -21215.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "20260139 EPONA OSTRAVA S.R.O.",
+"ks": "0308",
+"vs": "20260139",
+"ss": "",
+"note": "vylep plakátů"
+},
+{
+"date": "2026-09-15",
+"amount": -2524.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "",
+"message": "ZELENI HLUSTIKOVA A2",
+"ks": "",
+"vs": "1260787",
+"ss": "",
+"note": "plakáty dotisk"
+},
+{
+"date": "2026-09-15",
+"amount": -3993.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "",
+"message": "ZELENI HLUSTIKOVA A2",
+"ks": "",
+"vs": "1260776",
+"ss": "",
+"note": "plakáty"
+},
+{
+"date": "2026-09-15",
+"amount": -5609.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "",
+"message": "ZELENI POHLEDNICE IVANA",
+"ks": "",
+"vs": "1260842",
+"ss": "",
+"note": "pohlednice"
+},
+{
+"date": "2026-09-14",
+"amount": -200.0,
+"type": "Poplatek",
+"counterparty": "",
+"message": "",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": ""
+},
+{
+"date": "2026-09-14",
+"amount": -25000.0,
+"type": "Bezhotovostní platba",
+"counterparty": "",
+"message": "2026514 - STRANA ZELENYCH",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "Online reklama"
+},
+{
+"date": "2026-08-17",
+"amount": -10000.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "Strana zelených",
+"ks": "",
+"vs": "2026004",
+"ss": "",
+"note": "volební manažer"
+},
+{
+"date": "2026-08-17",
+"amount": -4000.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "Strana zelených",
+"ks": "",
+"vs": "2026004",
+"ss": "",
+"note": "grafické práce Lukáš Procházka"
+},
+{
+"date": "2026-08-17",
+"amount": -8329.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "",
+"message": "ZELENI HLUSTIKOVA",
+"ks": "",
+"vs": "1260715",
+"ss": "",
+"note": "letáky, vizitky"
+},
+{
+"date": "2026-08-03",
+"amount": -200.0,
+"type": "Poplatek",
+"counterparty": "",
+"message": "",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": ""
+},
+{
+"date": "2026-08-03",
+"amount": -5262.38,
+"type": "Platba cizoměnová či zahraniční",
+"counterparty": "",
+"message": "Strana zelenych",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "tricka"
+},
+{
+"date": "2026-07-20",
+"amount": -2500.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "",
+"message": "STRANA ZELENYCH",
+"ks": "",
+"vs": "20260702",
+"ss": "",
+"note": "fotografické práce"
+},
+{
+"date": "2026-07-20",
+"amount": -20000.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "kauce senátní volby Ivana Hluštíková",
+"ks": "0558",
+"vs": "7353122755",
+"ss": "",
+"note": "kauce senátní volby Ivana Hluštíková"
+},
+{
+"date": "2026-07-13",
+"amount": -19662.0,
+"type": "Bezhotovostní platba",
+"counterparty": "",
+"message": "Platba zalohoveho listu ZLV-1154/2026",
+"ks": "0000",
+"vs": "10271154",
+"ss": "",
+"note": "Rengl"
+},
+{
+"date": "2026-07-08",
+"amount": -3630.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "Strana zelených",
+"ks": "",
+"vs": "2650052",
+"ss": "",
+"note": "pronájem - zahájení kampaně"
+},
+{
+"date": "2026-07-08",
+"amount": 165000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Strana zelených",
+"message": "převod finančních prostředků",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "převod finančních prostředků"
+},
+{
+"date": "2026-07-08",
+"amount": -2000.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "Strana zelených",
+"ks": "",
+"vs": "20260002",
+"ss": "",
+"note": "fotografické práce"
+},
+{
+"date": "2026-07-07",
+"amount": 25000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Strana zelených",
+"message": "Podíl na senátní volby za KO Ústecký, volební obvod Louny",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "Podíl na senátní volby za KO Ústecký, volební obvod Louny"
+}
+]
+}

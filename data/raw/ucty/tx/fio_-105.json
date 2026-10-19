@@ -1,0 +1,139 @@
+{
+"bank": "fio",
+"id": "-105",
+"url": "https://ib.fio.cz/ib/transparent?a=-105",
+"owner": "Občanská demokratická strana",
+"name": "Volby do Senátu 2026_ODS, TOP09, KDU-ČSL",
+"number": "",
+"summary": {
+"Stav k: 01.01.26": 0.0,
+"Stav k: 19.10.26": 0.0,
+"Suma příjmů": 1324997.0,
+"Suma výdajů": -1324997.0,
+"Suma celkem": 0.0,
+"Běžný zůstatek": 0.0
+},
+"tx": [
+{
+"date": "2026-10-05",
+"amount": -352207.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "78/Media TEN s.r.o., tisk a distribuce Goláňoviny, tisk BB",
+"ks": "0308",
+"vs": "20260028",
+"ss": "78",
+"note": "78/Media TEN s.r.o., tisk a distribuce Goláňoviny, tisk BB"
+},
+{
+"date": "2026-10-05",
+"amount": 352207.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Občanská demokratická strana",
+"message": "78/převod financí",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "78/převod financí"
+},
+{
+"date": "2026-09-23",
+"amount": -125459.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "78/Media TEN s.r.o., inzerce",
+"ks": "0308",
+"vs": "20260034",
+"ss": "78",
+"note": "78/Media TEN s.r.o., inzerce"
+},
+{
+"date": "2026-09-23",
+"amount": 125459.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Občanská demokratická strana",
+"message": "78/převod financí",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "78/převod financí"
+},
+{
+"date": "2026-09-22",
+"amount": -154880.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "78/Media TEN s.r.o., outdoorové plochy, tisk",
+"ks": "0308",
+"vs": "20260033",
+"ss": "78",
+"note": "78/Media TEN s.r.o., outdoorové plochy, tisk"
+},
+{
+"date": "2026-09-22",
+"amount": 154331.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Občanská demokratická strana",
+"message": "78/převod financí",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "78/převod financí"
+},
+{
+"date": "2026-09-04",
+"amount": -195413.0,
+"type": "Bezhotovostní platba",
+"counterparty": "",
+"message": "78/Media TEN s.r.o., tiska a distribuce novin",
+"ks": "",
+"vs": "20260024",
+"ss": "78",
+"note": "78/Media TEN s.r.o., tiska a distribuce novin"
+},
+{
+"date": "2026-09-04",
+"amount": -200588.0,
+"type": "Bezhotovostní platba",
+"counterparty": "",
+"message": "78/Media TEN s.r.o., pronájem rekl.ploch",
+"ks": "0308",
+"vs": "20260023",
+"ss": "78",
+"note": "78/Media TEN s.r.o., pronájem rekl.ploch"
+},
+{
+"date": "2026-09-04",
+"amount": 396000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Občanská demokratická strana",
+"message": "78/převod financí",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "78/převod financí"
+},
+{
+"date": "2026-07-24",
+"amount": -296450.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "78/Media TEN s.r.o., pronájem outdoorových ploch",
+"ks": "0308",
+"vs": "920260009",
+"ss": "78",
+"note": "78/Media TEN s.r.o., pronájem outdoorových ploch"
+},
+{
+"date": "2026-07-24",
+"amount": 297000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Občanská demokratická strana",
+"message": "78/převod financí",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "78/převod financí"
+}
+]
+}

@@ -1,0 +1,128 @@
+{
+"bank": "fio",
+"id": "2603510471",
+"url": "https://ib.fio.cz/ib/transparent?a=2603510471",
+"owner": "„JSME TEAM“",
+"name": "Volební účet volby do senátu 2026",
+"number": "2603510471 / 2010",
+"summary": {
+"Stav k: 01.01.26": 0.0,
+"Stav k: 19.10.26": 0.0,
+"Suma příjmů": 66628.21,
+"Suma výdajů": -66628.21,
+"Suma celkem": 0.0,
+"Běžný zůstatek": 0.0
+},
+"tx": [
+{
+"date": "2026-10-09",
+"amount": -11657.19,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "",
+"ks": "",
+"vs": "20260361",
+"ss": "",
+"note": "Roznos novin - Senát"
+},
+{
+"date": "2026-10-09",
+"amount": 11657.19,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "„JSME TEAM“",
+"message": "",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": ""
+},
+{
+"date": "2026-09-30",
+"amount": -8772.5,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "FAKTURUJEME VAM PRONAJEM HYPERKOSTKY V TERMINU 8.9. - 10.10.",
+"ks": "0308",
+"vs": "260100092",
+"ss": "",
+"note": "SEN - 1/4 kostky na P6"
+},
+{
+"date": "2026-09-30",
+"amount": 8772.5,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "„JSME TEAM“",
+"message": "převod na senátní kampaň",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "převod na senátní kampaň"
+},
+{
+"date": "2026-09-22",
+"amount": -19785.52,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "",
+"ks": "",
+"vs": "20260319",
+"ss": "",
+"note": "Senat - noviny"
+},
+{
+"date": "2026-09-22",
+"amount": 6198.52,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "„JSME TEAM“",
+"message": "",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": ""
+},
+{
+"date": "2026-09-05",
+"amount": -6413.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "Petiční stánek Senát",
+"ks": "",
+"vs": "135",
+"ss": "",
+"note": "Petiční stánek Senát"
+},
+{
+"date": "2026-09-05",
+"amount": 20000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "„JSME TEAM“",
+"message": "Převod na účet - senátní volby",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "Převod na účet - senátní volby"
+},
+{
+"date": "2026-07-22",
+"amount": -20000.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "Kauce - senátní volby - Jan Štern",
+"ks": "0558",
+"vs": "530612082",
+"ss": "",
+"note": "Kauce - Senát"
+},
+{
+"date": "2026-07-22",
+"amount": 20000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "„JSME TEAM“",
+"message": "Převod na senátní kampaň",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "Převod na senátní kampaň"
+}
+]
+}

@@ -1,0 +1,227 @@
+{
+"bank": "fio",
+"id": "2503540040",
+"url": "https://ib.fio.cz/ib/transparent?a=2503540040",
+"owner": "Spojení demokraté - Sdružení nezávislých",
+"name": "Volební účet Senátní volby 2026",
+"number": "2503540040 / 2010",
+"summary": {
+"Stav k: 01.01.26": 0.0,
+"Stav k: 19.10.26": 31105.51,
+"Suma příjmů": 300000.0,
+"Suma výdajů": -268894.49,
+"Suma celkem": 31105.51,
+"Běžný zůstatek": 31105.51
+},
+"tx": [
+{
+"date": "2026-10-12",
+"amount": -5445.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "",
+"ks": "",
+"vs": "1141123",
+"ss": "",
+"note": "inzerce Zdarske noviny - senatni obvod 51"
+},
+{
+"date": "2026-10-06",
+"amount": -4114.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "",
+"message": "",
+"ks": "",
+"vs": "20261011",
+"ss": "",
+"note": "volební dárky - samolepky, odznaky"
+},
+{
+"date": "2026-09-30",
+"amount": -15000.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "",
+"ks": "",
+"vs": "266028",
+"ss": "",
+"note": "organizační zajištění, struktura kampaně -. senát obvod 51 + 81"
+},
+{
+"date": "2026-09-28",
+"amount": -23989.94,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "",
+"ks": "",
+"vs": "420260574",
+"ss": "",
+"note": "distribuce letaku - senatni obvod 51"
+},
+{
+"date": "2026-09-28",
+"amount": -30270.93,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "",
+"ks": "",
+"vs": "420260573",
+"ss": "",
+"note": "distribuce letaku - senatni obvod 81"
+},
+{
+"date": "2026-09-25",
+"amount": 100000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Spojení demokraté - Sdružení nezávislých",
+"message": "prevod na volebni ucet Senat 2026",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "prevod na volebni ucet Senat 2026"
+},
+{
+"date": "2026-09-22",
+"amount": -6837.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "",
+"message": "",
+"ks": "",
+"vs": "20261010",
+"ss": "",
+"note": "volební dárky - samolepky, placky, odznaky"
+},
+{
+"date": "2026-09-18",
+"amount": -27529.92,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "",
+"ks": "",
+"vs": "262261",
+"ss": "",
+"note": "volebni darky - samolepky, propisky - senatni obvod 51+81"
+},
+{
+"date": "2026-09-18",
+"amount": -30911.87,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "",
+"ks": "",
+"vs": "420260517",
+"ss": "",
+"note": "tisk letaky - distribuce - senatni obvod 81"
+},
+{
+"date": "2026-09-18",
+"amount": -26405.83,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "",
+"ks": "",
+"vs": "420260516",
+"ss": "",
+"note": "tisk letaky - distribuce - senatni obvod 51"
+},
+{
+"date": "2026-09-16",
+"amount": 100000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Spojení demokraté - Sdružení nezávislých",
+"message": "prevod na provozni ucet",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "prevod na volebni ucet Senat 2026"
+},
+{
+"date": "2026-09-12",
+"amount": -14278.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "",
+"message": "",
+"ks": "",
+"vs": "20261008",
+"ss": "",
+"note": "volební dárky - samolepky, placky, odznaky"
+},
+{
+"date": "2026-09-11",
+"amount": -15052.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "",
+"ks": "",
+"vs": "20260163",
+"ss": "",
+"note": "tisk + vylepy plakatu - senatni obvod 81"
+},
+{
+"date": "2026-09-11",
+"amount": -17766.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "",
+"ks": "",
+"vs": "20260158",
+"ss": "",
+"note": "tisk + vylepy plakatu - senatni obvod 51"
+},
+{
+"date": "2026-09-10",
+"amount": -5400.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "",
+"message": "",
+"ks": "",
+"vs": "2026083",
+"ss": "",
+"note": "graficke prace - senat obvod 51+81; web OB - senat obvod 81"
+},
+{
+"date": "2026-09-08",
+"amount": -6897.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "",
+"ks": "",
+"vs": "262175",
+"ss": "",
+"note": "tisky - volebni karticky, letaky - obvod 51 + 81"
+},
+{
+"date": "2026-09-02",
+"amount": -15000.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "",
+"ks": "",
+"vs": "266025",
+"ss": "",
+"note": "organizační zajištění, struktura kampaně -. senát obvod 51 + 81"
+},
+{
+"date": "2026-09-02",
+"amount": -23997.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "",
+"message": "",
+"ks": "",
+"vs": "102386",
+"ss": "",
+"note": "reklamni bannery 1x2m - senat obvod 51 + 81"
+},
+{
+"date": "2026-08-27",
+"amount": 100000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "Spojení demokraté - Sdružení nezávislých",
+"message": "prevod na volebni ucet Senat 2026",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "prevod na volebni ucet Senat 2026"
+}
+]
+}

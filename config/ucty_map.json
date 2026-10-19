@@ -1,0 +1,25 @@
+{
+ "_popis": "Mapování volebních účtů (klíč = soubor v data/raw/ucty/tx) na volební strany (VSTRANA). Obvody bere z registru ÚDHPSH, u koalic a nezávislých je obvod jen jeden.",
+ "strany": {
+  "SEN 21": [1187], "ANO 2011": [768], "VÝZVA 2025": [1704], "STAROSTOVÉ A NEZÁVISLÍ": [166], "Švýcarská demokracie": [752],
+  "PRO PLZEŇ": [1014], "Občanská demokratická strana": [53], "Občansko-politické hnutí ReMeK pro zrušení SENÁTU": [1293],
+  "Naše Česko": [1722], "Česká strana národně sociální": [2], "Osobnosti pro kraj": [1287], "Hnutí Kruh": [1707],
+  "Jsme TEAM": [1194], "Starostové pro Liberecký kraj": [703], "Svoboda a přímá demokracie (SPD)": [1114], "KDU-ČSL": [1],
+  "TOP 09": [], "JsmePRO!": [1126], "Spojení demokraté - Sdružení nezávislých": [143], "PŘÍSAHA občanské hnutí": [1245],
+  "Koruna Česká (monarchistická strana Čech, Moravy a Slezska)": [], "Komunistická strana Čech a Moravy": [47], "STAČILO!": [1298],
+  "Sociální demokracie": [7], "JaSaN Jasný Signál Nezávislých": [1282], "PRO Právo Respekt Odbornost": [1265], "VOK – Volba pro kraj": [1118],
+  "Česká zemědělská strana": [1295], "rEvoluce": [1736], "Sdružení pro Místní Správu": [1202], "Levice": [74], "Naše Město F-M": [799],
+  "Politické hnutí NEZLOMNÍ": [1701], "Srdcem a Rozumem": [1740], "ČSSD – Česká suverenita sociální demokracie": [759], "24/7": [1747],
+  "MÍSTNÍ HNUTÍ NEZÁVISLÝCH ZA HARMONICKÝ ROZVOJ OBCÍ A MĚST": [112], "Aliance pro budoucnost": [1173], "Hnutí Generace": [1291],
+  "Hnutí Hlas regionů": [1715], "Ostravak": [755], "Odvážné Česko": [1732], "ZVUK 12": [775], "GEN": [1297]
+ },
+ "koalice": {
+  "Adéla do Senátu": 1803, "Demokraté pro Hradecko": 1867, "David Smoljak je náš senátor!": 1955, "HELENA PEŠATOVÁ": 1472,
+  "Senátor za Děčínsko": 1164, "Koalice hnutí STAROSTOVÉ A NEZÁVISLÍ, Občanské demokratické strany, TOP 09 a České pirátské strany": 1912,
+  "Kluk od vedle do Senátu": 1531, "Sáblík do Senátu": 1889, "Roman Schulz do Senátu": 687, "Zdenál do Senátu": 1694,
+  "Šimetka do Senátu": 1655, "cernydosenatu.cz": 1946, "Mariam Szyja": 1803, "Koalice za Plzeň": 1948, "Simona Luftová do Senátu": 1066,
+  "Hlas Zlínska": 1327, "Za demokracii": 1648, "Ivana do Senátu": 1066, "Architekt do Senátu": 1852, "ZDENĚK ŠARAPATKA": 1954,
+  "Honza Grulich": 1857, "Znojemsko pohromadě": 1655, "Pro Karvinsko": 1154, "SPD a PRO Právo Respekt Odbornost": 1535,
+  "Starosta Šmarda": 1945, "Váš hlas pro zájmy Prácheňska": 1486, "PRAHA SOBĚ": 1938, "Svobodní s podporou": 1647, "Znovu za Hradecko": 1899
+ }
+}

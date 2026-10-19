@@ -1,0 +1,102 @@
+{
+"bank": "csas",
+"id": "000000-6765275329",
+"url": "https://www.csas.cz/cs/transparentni-ucty#/000000-6765275329",
+"owner": "NAŠE MĚSTO F-M",
+"name": null,
+"number": "000000-6765275329/0800",
+"summary": {
+"Běžný zůstatek": 20137.01,
+"actualizationDate": "2026-10-19T07:11:48.622+00:00"
+},
+"tx": [
+{
+"date": "2026-10-11",
+"amount": -60500.06,
+"type": "Tuzemská odchozí úhrada okamžitá",
+"counterparty": "Naše Město F-M",
+"message": "Senátní kampaň P.Korče",
+"ks": "",
+"vs": "5399085118",
+"ss": "",
+"note": ""
+},
+{
+"date": "2026-10-11",
+"amount": 70000.0,
+"type": "Příchozí úhrada",
+"counterparty": "Naše Město F-M",
+"message": "Převod pro senátní volby",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": ""
+},
+{
+"date": "2026-10-07",
+"amount": -1543.0,
+"type": "Tuzemská odchozí úhrada",
+"counterparty": "Naše Město F-M",
+"message": "Senátní kampaň P.Korče",
+"ks": "",
+"vs": "10272100",
+"ss": "",
+"note": ""
+},
+{
+"date": "2026-10-07",
+"amount": -1037.0,
+"type": "Tuzemská odchozí úhrada",
+"counterparty": "Naše Město F-M",
+"message": "Senátni kampaň P.Korče",
+"ks": "",
+"vs": "10272134",
+"ss": "",
+"note": ""
+},
+{
+"date": "2026-10-04",
+"amount": -58491.4,
+"type": "Tuzemská odchozí úhrada okamžitá",
+"counterparty": "Naše Město F-M",
+"message": "Senátní volby kampaň P.Korče NMF-M plakáty,banery,letákyy",
+"ks": "0308",
+"vs": "260103391",
+"ss": "",
+"note": ""
+},
+{
+"date": "2026-10-04",
+"amount": -128291.53,
+"type": "Tuzemská odchozí úhrada okamžitá",
+"counterparty": "Naše Město F-M",
+"message": "Senátní kampaň P.Korče NMF-M senátní noviny",
+"ks": "0308",
+"vs": "260103393",
+"ss": "",
+"note": ""
+},
+{
+"date": "2026-10-04",
+"amount": 200000.0,
+"type": "Příchozí úhrada",
+"counterparty": "Naše Město F-M",
+"message": "příjem z  účtu Naše Město F-M",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": ""
+},
+{
+"date": "2026-08-04",
+"amount": 0.0,
+"type": "Založení účtu",
+"counterparty": "Naše Město F-M",
+"message": "",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": ""
+}
+]
+}

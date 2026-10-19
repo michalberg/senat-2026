@@ -1,0 +1,150 @@
+{
+"bank": "fio",
+"id": "2703580696",
+"url": "https://ib.fio.cz/ib/transparent?a=2703580696",
+"owner": "ČSSD – Česká suverenita sociální demokracie",
+"name": "Volební účet Senátní volby 2026 ČSSD",
+"number": "2703580696 / 2010",
+"summary": {
+"Stav k: 01.01.26": 0.0,
+"Stav k: 19.10.26": 32096.76,
+"Suma příjmů": 234000.0,
+"Suma výdajů": -201903.24,
+"Suma celkem": 32096.76,
+"Běžný zůstatek": 32096.76
+},
+"tx": [
+{
+"date": "2026-10-14",
+"amount": -3300.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "CSSD CESKA SUVERENITA SOCIALNI DEMOKRACIE",
+"ks": "",
+"vs": "26055",
+"ss": "",
+"note": "CSSD CESKA SUVERENITA SOCIALNI DEMOKRACIE"
+},
+{
+"date": "2026-10-09",
+"amount": -15000.0,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "",
+"ks": "",
+"vs": "2026100002",
+"ss": "",
+"note": "Dryml - Martin Rejchlík"
+},
+{
+"date": "2026-09-29",
+"amount": 50000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "ČSSD – Česká suverenita sociální demokracie",
+"message": "Převod z transparentního na Volby Senát 2026",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "Převod z transparentního na Volby Senát 2026"
+},
+{
+"date": "2026-09-29",
+"amount": -15000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "",
+"message": "Dar senátní volby Dryml od dorsigera S.R.O.",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "Dar senátní volby Dryml od dorsigera S.R.O."
+},
+{
+"date": "2026-09-29",
+"amount": -35000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "",
+"message": "Dar senátní volby Dryml od ROSENTHAL A.S.",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "Dar senátní volby Dryml od ROSENTHAL A.S."
+},
+{
+"date": "2026-09-22",
+"amount": 35000.0,
+"type": "Bezhotovostní příjem",
+"counterparty": "ROSENTHAL A.S.",
+"message": "Mudr. Vladimír Dryml Senát",
+"ks": "0558",
+"vs": "71443240",
+"ss": "60192003",
+"note": "ROSENTHAL A.S."
+},
+{
+"date": "2026-09-22",
+"amount": 15000.0,
+"type": "Bezhotovostní příjem",
+"counterparty": "DORSIGERA S.R.O.",
+"message": "podpora Mudr. Vladimír Dryml senát",
+"ks": "0558",
+"vs": "71443240",
+"ss": "",
+"note": "DORSIGERA S.R.O."
+},
+{
+"date": "2026-09-21",
+"amount": -66603.24,
+"type": "Okamžitá odchozí platba",
+"counterparty": "",
+"message": "Vltava Labe media",
+"ks": "",
+"vs": "2617014994",
+"ss": "",
+"note": "Vltava Labe media"
+},
+{
+"date": "2026-09-21",
+"amount": 67000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "ČSSD – Česká suverenita sociální demokracie",
+"message": "prevod na účet po volby do Senátu",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "prevod na účet po volby do Senátu"
+},
+{
+"date": "2026-09-21",
+"amount": -67000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "",
+"message": "prevod na transparentní zvláštní účet",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "prevod na transparentní zvláštní účet"
+},
+{
+"date": "2026-09-21",
+"amount": 37000.0,
+"type": "Platba převodem uvnitř banky",
+"counterparty": "CEDRAM, s.r.o",
+"message": "",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": ""
+},
+{
+"date": "2026-09-19",
+"amount": 30000.0,
+"type": "Okamžitá příchozí platba",
+"counterparty": "DENISA KELEMANOVÁ",
+"message": "",
+"ks": "",
+"vs": "",
+"ss": "",
+"note": "DENISA KELEMANOVÁ"
+}
+]
+}
