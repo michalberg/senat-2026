@@ -129,7 +129,7 @@
       `Nejdražší kampaň vedl(a) ${cLink(top)} (${vsShort(top)}, ${kc(top.celkem)}). Nejvíc peněz se protočilo v obvodu <a href="#/obvod/${obv[0].obvod}">${esc(obv[0].nazev)}</a> (${mil(obv[0].celkem)} Kč), nejméně v obvodu <a href="#/obvod/${obv[obv.length - 1].obvod}">${esc(obv[obv.length - 1].nazev)}</a> (${mil(obv[obv.length - 1].celkem)} Kč, jen dva kandidáti).`,
       `Podle politických bloků nejvíc utratily ${esc(bl[0].nazev)} (${mil(bl[0].celkem)} Kč) a ${esc(bl[1].nazev)} (${mil(bl[1].celkem)} Kč). ANO vložilo do 24 kampaní ${mil(D.bloky.find(b => b.id === "ano").celkem)} Kč, ale nezískalo žádný mandát; koalice demokratických stran (ODS/TOP 09/STAN/KDU/Piráti v různých kombinacích) mají průměrně dražší, ale úspěšnější kandidáty.`,
       `Mezi koly utratili finalisté v mediánu ${mil(s.po_1kole_finaliste.median)} Kč navíc; některé subjekty platí faktury i po volbách, čísla jsou proto stav k 19. 10. 2026.`,
-      `Ve financování je řada <a href="#/anomalie">nestandardních situací</a>: vítěz s prázdným účtem, 6,66 mil. Kč SPD jedné agentuře bez rozpadu na obvody, „vlastní vklady“ z účtu jiné osoby, hromadné vracení darů nebo zprávy podané ještě před volbami.`,
+      `Ve financování je řada <a href="#/anomalie">nestandardních situací</a>: vítěz s prázdným účtem, 6,66 mil. Kč SPD jedné agentuře bez rozpadu na obvody, „vlastní vklady“ z účtu jiné osoby, strany bez darovacího účtu nebo zprávy podané ještě před volbami.`,
     ];
   }
 
@@ -176,7 +176,7 @@
     </div>
 
     <section class="card" id="s-shrnuti"><h2>Manažerské shrnutí</h2><ul class="find">${findings().map(f => `<li>${f}</li>`).join("")}</ul>
-      <p class="note">Výdaje = odchozí platby z volebních účtů (vč. poplatků) mínus vrácené přeplatky; bez převodů zpět straně a vracení darů. Sdílené účty stran jsou rozpočítány podle symbolů a popisů plateb, zbytek rovným dílem – viz <a href="#/metodika">metodika</a>.</p></section>
+      <p class="note">Výdaje = odchozí platby z volebních účtů (vč. poplatků) mínus vrácené přeplatky; bez převodů zpět straně a bez vrácených darů (dary na volební účet posílat nelze, strany je musí vrátit). Sdílené účty stran jsou rozpočítány podle symbolů a popisů plateb, zbytek rovným dílem – viz <a href="#/metodika">metodika</a>.</p></section>
 
     <section class="card" id="s-obvody"><h2>Kolik se utratilo v jednotlivých obvodech</h2>
       <p class="lead">Každý pruh je součet výdajů všech kandidátů v obvodu, segmenty jsou kandidáti v barvě politického bloku. Klikněte na obvod pro detail.</p>
@@ -314,7 +314,7 @@
     const cnt = t => L.filter(r => r.typ === t).length;
     const subjs = [...new Set(L.flatMap(r => r.subjekty.map(x => x.s)))].sort((a, b) => a.localeCompare(b, "cs"));
     app.innerHTML = `<div class="hero"><div><h1>Dárci</h1><div class="sub">Sloučené seznamy dárců všech kandidujících subjektů zveřejněné ÚDHPSH před 1. a 2. kolem.</div></div></div>
-      <div class="warnbox">Seznamy dárců <b>neobsahují částky</b>. Ty jsou dohledány na transparentních účtech: <b>darovací (zvláštní) účty stran</b> – kam musí chodit všechny dary straně – a volební účty (u koalic chodí dary tam). Platby jsou párovány podle jména plátce nebo textu platby za období 1. 1.–19. 10. 2026; jde o všechny dary straně v tomto období, nejen na senátní kampaň. U častých jmen je možná záměna, KB plátce nezobrazuje (ANO, Naše Česko, rEvoluce – jen podle textu) a ČSOB (KSČM, GEN) byla při stahování mimo provoz. Definitivní částky doplní zprávy o financování kampaně. Data narození fyzických osob neuvádíme.</div>
+      <div class="warnbox">Seznamy dárců <b>neobsahují částky</b>. Ty jsou dohledány na transparentních účtech: <b>darovací (zvláštní) účty stran</b> – kam musí chodit všechny dary straně – a doplňkově volební účty (dary tam posílat nelze; pokud tam přesto přijdou, musí se vrátit). Platby jsou párovány podle jména plátce nebo textu platby za období 1. 1.–19. 10. 2026; jde o všechny dary straně v tomto období, nejen na senátní kampaň. U častých jmen je možná záměna, KB plátce nezobrazuje (ANO, Naše Česko, rEvoluce – jen podle textu) a ČSOB (KSČM, GEN) byla při stahování mimo provoz. Definitivní částky doplní zprávy o financování kampaně. Data narození fyzických osob neuvádíme.</div>
       <div class="tiles">
         <div class="tile ours"><span class="lbl">Dárců celkem</span><span class="val">${nf.format(L.length)}</span><span class="d">po sloučení duplicit</span></div>
         <div class="tile"><span class="lbl">Fyzické osoby</span><span class="val">${nf.format(cnt("fo"))}</span></div>
@@ -450,7 +450,7 @@
       <li>Zprávy o financování kampaně: <a href="https://zpravy.udh.gov.cz/zpravy/s2026">zpravy.udh.gov.cz</a> – zatím 6 zpráv, všechny podané před volbami; použity jen pro nepeněžní plnění a kontrolu.</li>
     </ul></section>
     <section class="card"><h2>Jak se počítají výdaje</h2><ul class="find">
-      <li><b>Výdaj</b> = odchozí platba z volebního účtu (včetně bankovních poplatků) mínus příchozí vratky přeplatků a dobropisy. Nezapočítává se vracení darů, mylných plateb ani převody peněz zpět straně.</li>
+      <li><b>Výdaj</b> = odchozí platba z volebního účtu (včetně bankovních poplatků) mínus příchozí vratky přeplatků a dobropisy. Nezapočítává se vracení darů (dary na volební účet zákon nepřipouští, strany je musí vrátit – typicky s výzvou poslat je na darovací účet), mylných plateb ani převody peněz zpět straně.</li>
       <li><b>Vlastní účet</b> (koalice, nezávislí, strany s jedním kandidátem): všechny výdaje patří kandidátovi – odhad <span class="q vysoka">vysoká</span> kvalita.</li>
       <li><b>Sdílený účet</b> (strana s více kandidáty): každá platba se přiřazuje k obvodu postupně podle (1) specifického symbolu – ANO, STAN a KDU-ČSL dávají do SS číslo obvodu, SPD 100+obvod; (2) čísla obvodu v popisu („24/…“ u ODS, „SS 60“, „VO 81“, „75 - …“); (3) příjmení kandidáta; (4) města v obvodu (např. „SPlzeň_“ u SEN 21). Platby, které takto přiřadit nejdou (centrální kampaň, grafický manuál, průzkumy), se dělí rovným dílem mezi kandidáty účtu. Pokud je takto rozdělena méně než 40 % výdajů kandidáta, je odhad <span class="q stredni">střední</span>, jinak <span class="q nizka">nízký</span>.</li>
       <li>Ruční opravy přiřazení jsou v souboru <code>config/prirazeni.json</code>. Celkem je rovným dílem rozpočítáno ${mil(s.sdilene_celkem)} Kč, z toho 7,1 mil. Kč tvoří centrální platby SPD.</li>
