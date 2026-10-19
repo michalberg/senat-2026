@@ -218,9 +218,9 @@
       <p class="lead">Rozpad příjmů volebních účtů (u sdílených účtů poměrem podle výdajů). Seznamy dárců zveřejněné ÚDHPSH neobsahují částky, proto jsou dary vidět jen tam, kde prošly přímo volebním účtem – u většiny stran posílají dárci peníze na centrální účet strany a na volební účet chodí převody strany.</p>
       ${(() => { const sum = k => Math.round(known.reduce((a, c) => a + (c.prijmy[k] || 0), 0)); const tot = ["strana", "dar", "kandidat", "neurceno"].map(sum); const all = tot.reduce((a, b) => a + b, 0);
         return `<div class="tiles"><div class="tile"><span class="lbl">Převody stran a koaličních partnerů</span><span class="val">${pct(tot[0] / all * 100)}</span><span class="d">${mil(tot[0])} Kč</span></div><div class="tile"><span class="lbl">Dary přímo na volební účet</span><span class="val">${pct(tot[1] / all * 100)}</span><span class="d">${mil(tot[1])} Kč</span></div><div class="tile"><span class="lbl">Vlastní peníze kandidátů</span><span class="val">${pct(tot[2] / all * 100)}</span><span class="d">${mil(tot[2])} Kč</span></div><div class="tile"><span class="lbl">Neidentifikovaný plátce</span><span class="val">${pct(tot[3] / all * 100)}</span><span class="d">${mil(tot[3])} Kč</span></div></div>`; })()}
-      <h3>Největší dárci podle počtu podpořených subjektů</h3>
-      <p class="note">Ze seznamů dárců ÚDHPSH (bez částek). Částka = co je dohledatelné přímo na volebních účtech; většina darů jde na centrální účty stran a doplní se ze zpráv o financování. Úplný přehled na stránce <a href="#/darci">Dárci</a>.</p>
-      ${donorTable(D.darci.seznam.filter(r => r.typ !== "strana").slice(0, 15), false)}
+      <h3>Největší dárci</h3>
+      <p class="note">Dárci ze seznamů ÚDHPSH (kromě stran) s platbami dohledanými na darovacích účtech stran a volebních účtech, 1. 1.–19. 10. 2026 (všechny dary straně v tomto období). Úplný přehled na stránce <a href="#/darci">Dárci</a>.</p>
+      ${donorTable(D.darci.seznam.filter(r => r.typ !== "strana").sort((a, b) => (b.na_darovacich + b.na_uctech) - (a.na_darovacich + a.na_uctech)).slice(0, 15), false)}
       <h3>Kandidáti, kteří platili kampaň ze svého</h3>
       ${table([{ l: "Kandidát", v: c => c.prijmeni, h: c => `${sw(c)} ${cLink(c)} <span class="small">${vsShort(c)}</span>` }, { l: "Vlastní vklad", r: 1, v: c => c.prijmy.kandidat, h: c => kc(c.prijmy.kandidat) }, { l: "Výdaje celkem", r: 1, v: c => c.celkem, h: c => kc(c.celkem) }, { l: "1. kolo", r: 1, v: c => c.k1_proc, h: c => pct(c.k1_proc) }], self, { sort: 1, dir: -1 })}
       <p class="note">Jiří Vosecký vykazuje „vklady“ 640 tis. Kč, které ale přišly z účtu jiné osoby – v tabulce proto nejsou (viz <a href="#/anomalie">anomálie</a>).</p>
@@ -291,7 +291,8 @@
   }
 
   const DTYP = { fo: "fyzická osoba", po: "právnická osoba", strana: "politická strana" };
-  function donorTable(rows, sortable = true) {
+  const stranaShort = n => ({ "STAROSTOVÉ A NEZÁVISLÍ": "STAN", "Občanská demokratická strana": "ODS", "Svoboda a přímá demokracie (SPD)": "SPD", "Česká pirátská strana": "Piráti", "Strana zelených": "Zelení", "Komunistická strana Čech a Moravy": "KSČM" }[n] || n);
+  function donorTable(rows, sortable = true, opt = {}) {
     const subjLinks = r => {
       const cs = r.kandidati.map(k => C[k]);
       const show = cs.slice(0, 6).map(c => `<a href="#/obvod/${c.obvod}#k${c.id}">${sw(c)} ${esc(c.prijmeni)}</a>`).join(", ");
@@ -302,8 +303,9 @@
       { l: "Subjektů", r: 1, v: r => r.n_subj },
       { l: "Záznamů", r: 1, v: r => r.zaznamu },
       { l: "Podpořil(a) kandidáty", v: r => r.kandidati.length, h: subjLinks },
-      { l: "Na vol. účtech", r: 1, v: r => r.na_uctech, h: r => r.na_uctech ? kc(r.na_uctech) : "—" },
-    ], rows, sortable ? { sort: 1, dir: -1 } : {});
+      { l: "Darovací účty stran", r: 1, v: r => r.na_darovacich, h: r => r.na_darovacich ? `<b>${kc(r.na_darovacich)}</b>` + (r.darovaci_ucty.length ? `<span class="small">${r.darovaci_ucty.map(u => `${esc(stranaShort(u.strana))} ${mil(u.castka)} (${u.n}×)`).join("<br>")}</span>` : "") : "—" },
+      { l: "Volební účty", r: 1, v: r => r.na_uctech, h: r => r.na_uctech ? kc(r.na_uctech) : "—" },
+    ], rows, sortable ? { sort: opt.sort ?? 1, dir: -1 } : {});
   }
 
   function pageDarci() {
@@ -312,31 +314,36 @@
     const cnt = t => L.filter(r => r.typ === t).length;
     const subjs = [...new Set(L.flatMap(r => r.subjekty.map(x => x.s)))].sort((a, b) => a.localeCompare(b, "cs"));
     app.innerHTML = `<div class="hero"><div><h1>Dárci</h1><div class="sub">Sloučené seznamy dárců všech kandidujících subjektů zveřejněné ÚDHPSH před 1. a 2. kolem.</div></div></div>
-      <div class="warnbox">Seznamy dárců <b>neobsahují částky</b>. Sloupec „Na vol. účtech“ ukazuje jen dary, které prošly přímo volebním účtem a jdou spárovat podle jména plátce (vč. darů později vrácených). Většina darů jde na centrální účty stran – částky se doplní ze zpráv o financování kampaně, až je subjekty podají. Data narození fyzických osob neuvádíme.</div>
+      <div class="warnbox">Seznamy dárců <b>neobsahují částky</b>. Ty jsou dohledány na transparentních účtech: <b>darovací (zvláštní) účty stran</b> – kam musí chodit všechny dary straně – a volební účty (u koalic chodí dary tam). Platby jsou párovány podle jména plátce nebo textu platby za období 1. 1.–19. 10. 2026; jde o všechny dary straně v tomto období, nejen na senátní kampaň. U častých jmen je možná záměna, KB plátce nezobrazuje (ANO, Naše Česko, rEvoluce – jen podle textu) a ČSOB (KSČM, GEN) byla při stahování mimo provoz. Definitivní částky doplní zprávy o financování kampaně. Data narození fyzických osob neuvádíme.</div>
       <div class="tiles">
         <div class="tile ours"><span class="lbl">Dárců celkem</span><span class="val">${nf.format(L.length)}</span><span class="d">po sloučení duplicit</span></div>
         <div class="tile"><span class="lbl">Fyzické osoby</span><span class="val">${nf.format(cnt("fo"))}</span></div>
         <div class="tile"><span class="lbl">Právnické osoby</span><span class="val">${nf.format(cnt("po"))}</span><span class="d">firmy, spolky</span></div>
         <div class="tile"><span class="lbl">Politické strany</span><span class="val">${nf.format(cnt("strana"))}</span><span class="d">vklady do koalic</span></div>
-        <div class="tile"><span class="lbl">Dárci více subjektů</span><span class="val">${nf.format(L.filter(r => r.n_subj > 1).length)}</span></div>
+        <div class="tile"><span class="lbl">Dohledané dary</span><span class="val">${mil(L.reduce((a, r) => a + r.na_darovacich + r.na_uctech, 0))}<small>Kč</small></span><span class="d">${nf.format(L.filter(r => r.na_darovacich || r.na_uctech).length)} dárců s platbou</span></div>
       </div>
       <div class="ctrl">
         <div class="seg" id="dtyp"><button data-t="" class="on">všichni</button><button data-t="po">právnické osoby</button><button data-t="fo">fyzické osoby</button><button data-t="strana">strany</button></div>
         <label>hledat <input id="dq" type="search" placeholder="jméno, firma, IČO, obec" style="font:inherit;font-size:15px;padding:5px 8px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--fg);min-width:220px"></label>
         <label>subjekt <select id="ds"><option value="">všechny</option>${subjs.map(x => `<option>${esc(x)}</option>`).join("")}</select></label>
         <label class="chk"><input id="dm" type="checkbox"> jen dárci více subjektů</label>
+        <label class="chk"><input id="dp" type="checkbox"> jen s dohledanou platbou</label>
       </div>
-      <p class="note" id="dn"></p><div id="dt"></div>`;
+      <p class="note" id="dn"></p><div id="dt"></div>
+      <section class="card"><h2>Darovací účty stran</h2><p class="lead">Všechny příchozí platby na darovací účty stran, které kandidovaly samostatně nebo v koalici, 1. 1.–19. 10. 2026. „Haléřové“ = platby pod 1 Kč, které slouží jen jako vzkaz.</p>
+      ${table([{ l: "Strana", v: o => o.nazev, h: o => `<a href="${esc(o.url)}" target="_blank" rel="noopener">${esc(o.nazev.slice(0, 60))}</a><span class="small">${esc(o.ucet)}</span>` }, { l: "Příchozích plateb", r: 1, v: o => o.prijmu, h: o => nf.format(o.prijmu) }, { l: "Částka", r: 1, v: o => o.castka, h: o => kc(o.castka) }, { l: "Haléřové", r: 1, v: o => o.halerove, h: o => o.halerove ? nf.format(o.halerove) : "" }], D.darovaci, { sort: 2, dir: -1 })}
+      <p class="note">Bez darovacího účtu v registru ÚDHPSH („dosud nedodán“): Srdcem a Rozumem, Hnutí Hlas regionů. ČSOB (KSČM, GEN) byla 19. 10. 2026 nedostupná.</p></section>`;
     let typ = "";
     const draw = () => {
-      const q = $("#dq").value.trim().toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, ""), sj = $("#ds").value, m = $("#dm").checked;
-      const rows = L.filter(r => (!typ || r.typ === typ) && (!sj || r.subjekty.some(x => x.s === sj)) && (!m || r.n_subj > 1) &&
+      const q = $("#dq").value.trim().toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, ""), sj = $("#ds").value, m = $("#dm").checked, pp = $("#dp").checked;
+      const rows = L.filter(r => (!typ || r.typ === typ) && (!sj || r.subjekty.some(x => x.s === sj)) && (!m || r.n_subj > 1) && (!pp || r.na_darovacich || r.na_uctech) &&
         (!q || (r.jmeno + " " + r.ico + " " + r.misto).toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").includes(q)));
       $("#dn").textContent = `Zobrazeno ${nf.format(rows.length)} dárců` + (rows.length > 400 ? " (prvních 400 – upřesněte filtr)" : "");
-      $("#dt").innerHTML = donorTable(rows.slice(0, 400));
+      rows.sort((a, b) => (b.na_darovacich + b.na_uctech) - (a.na_darovacich + a.na_uctech) || b.n_subj - a.n_subj);
+      $("#dt").innerHTML = donorTable(rows.slice(0, 400), true, { sort: 4 });
     };
     $("#dtyp").addEventListener("click", e => { const b = e.target.closest("button"); if (!b) return; typ = b.dataset.t; $("#dtyp").querySelectorAll("button").forEach(x => x.classList.toggle("on", x === b)); draw(); });
-    $("#dq").addEventListener("input", draw); $("#ds").onchange = draw; $("#dm").onchange = draw;
+    $("#dq").addEventListener("input", draw); $("#ds").onchange = draw; $("#dm").onchange = draw; $("#dp").onchange = draw;
     const pre = decodeURIComponent((location.hash.split("?q=")[1] || ""));
     if (pre) $("#dq").value = pre;
     draw();
@@ -439,6 +446,7 @@
       <li>Výsledky a kandidáti: <a href="https://volby.gov.cz/opendata/se2026/se2026_opendata.htm">otevřená data ČSÚ</a> (registr kandidátů a číselníky stav 17. 10. 2026 po 2. kole).</li>
       <li>Seznamy dárců před 1. a 2. kolem: <a href="https://zpravy.udh.gov.cz/public/report/sponzori.php?volby=s2026&seq=1">ÚDHPSH – 1. kolo</a>, <a href="https://zpravy.udh.gov.cz/public/report/sponzori.php?volby=s2026&seq=2">2. kolo</a>. Neobsahují částky.</li>
       <li>Registr volebních účtů ÚDHPSH (strany a hnutí, koalice, nezávislí) a z něj transparentní účty u Fio (56), KB (8), České spořitelny (4), ČSOB (3), Raiffeisenbank (2), Moneta (2) a UniCredit (1) – pohyby od 1. 1. 2026 do 19. 10. 2026. ČSOB a UniCredit chrání účty proti robotům, jejich data byla stažena ručně přes prohlížeč.</li>
+      <li>Darovací (zvláštní) účty stran: <a href="https://registrace.udh.gov.cz/public/seznam.php?token=eb79c36108cb30b2f4e93702e3b9472135363fc4">registr ÚDHPSH</a> – 62 stran, které kandidovaly samostatně nebo v koalici, pohyby 1. 1.–19. 10. 2026. Slouží k dohledání částek u dárců ze seznamů (strana <a href="#/darci">Dárci</a>).</li>
       <li>Zprávy o financování kampaně: <a href="https://zpravy.udh.gov.cz/zpravy/s2026">zpravy.udh.gov.cz</a> – zatím 6 zpráv, všechny podané před volbami; použity jen pro nepeněžní plnění a kontrolu.</li>
     </ul></section>
     <section class="card"><h2>Jak se počítají výdaje</h2><ul class="find">

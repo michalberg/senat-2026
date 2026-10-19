@@ -114,6 +114,28 @@
    "text": "20 subjektů neoznámilo seznam dárců do půlnoci 6./7. 10. 2026 (3 dny před volbami), mezi nimi ODS, KSČM, TOP 09, PŘÍSAHA a devět koalic s účastí ODS (Šimetka, Sáblík, Zdenál, Schulz, Kluk od vedle, Hlas Zlínska, Koalice za Plzeň, Za demokracii, cernydosenatu.cz). Většina je dodala později."
   },
   {
+   "zavaznost": "stredni",
+   "nazev": "Strany bez darovacího účtu",
+   "kandidati": [
+    "15-1",
+    "54-5"
+   ],
+   "text": "Srdcem a Rozumem (Jaroslav Chalupský, Pelhřimov, 25 %) a Hnutí Hlas regionů (Bohumila Beranová, Znojmo) nemají v registru zvláštních (darovacích) účtů ÚDHPSH uvedený účet – stav „dosud nedodán“. Přitom všechny dary straně mají jít právě na tento účet. Srdcem a Rozumem zároveň uvedlo 12 dárců."
+  },
+  {
+   "zavaznost": "nizka",
+   "nazev": "Kandidáti jako velcí dárci vlastní strany",
+   "kandidati": [
+    "3-4",
+    "21-3",
+    "78-5",
+    "36-3",
+    "66-2",
+    "9-5"
+   ],
+   "text": "Na darovacích účtech stran jsou v roce 2026 velké dary od samotných kandidátů: Sandra Tsoukernik poslala ANO 3 × 500 000 Kč s poznámkou „Senát“ (ANO pak na její kampaň v Chebu utratilo 1,15 mil. Kč), Václav Láska dal SEN 21 1 mil. Kč, Ivo Mitáček STAN 400 tis. Kč, Pavel Jelínek SPD 350 tis. Kč, Jitka Volfová ANO 300 tis. Kč a Karel Řehka STAN 275 tis. Kč. Formálně jde o dar straně, fakticky o samofinancování kampaně přes stranický účet."
+  },
+  {
    "zavaznost": "nizka",
    "nazev": "Jedna osoba jako „dárce“ 18 různých subjektů",
    "kandidati": [],
@@ -165,6 +187,12 @@
     "78-3"
    ],
    "text": "Volební účet KSČM (ČSOB) funguje jako průtokový: okresní a krajské organizace KSČM pošlou přesnou částku a ze stejného účtu ji obratem zaplatí za konkrétní fakturu, obvod je označen specifickým symbolem. Za 8 kandidátů prošlo účtem jen 201 tis. Kč; Prokšanová (Praha 5) utratila 912 Kč. ČSOB i UniCredit chrání účty proti automatickému stahování, data těchto 4 účtů byla stažena ručně přes prohlížeč 19. 10. 2026."
+  },
+  {
+   "zavaznost": "nizka",
+   "nazev": "Haléřové „vzkazy“ na darovacích účtech",
+   "kandidati": [],
+   "text": "Darovací účet ANO dostal od ledna do 19. 10. 2026 1 199 plateb pod 1 Kč, SPD 139 – transparentní účty slouží jako nástěnka pro posměšné vzkazy (např. po senátních volbách). V analýze dárců nejsou započteny."
   }
  ]
 }

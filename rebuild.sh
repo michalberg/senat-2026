@@ -9,6 +9,7 @@ if [ "$1" = "--fetch" ]; then
   python3 -I scripts/fetch_csas.py data/ucty.json data/raw/ucty/tx
   python3 -I scripts/fetch_rb.py data/raw/ucty/tx
   python3 -I scripts/fetch_moneta.py data/ucty.json data/raw/ucty/tx
+  python3 -I scripts/fetch_darovaci.py -f
 fi
 python3 -I scripts/convert_browser.py
 python3 -I scripts/parse_darci.py

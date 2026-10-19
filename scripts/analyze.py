@@ -207,7 +207,9 @@ for nm, s in subj.items():
     for d in s['darci']:
         k = donor_key(d)
         parts = [x.strip() for x in d['dárce'].split(',')]
-        r = donors.setdefault(k, {'k': k, 'po': d['po'], 'jmeno': parts[0] if d['po'] else (parts[1] + ' ' + parts[0] if len(parts) > 1 else parts[0]),
+        TIT = r'\b(Ing|Mgr|Bc|BcA|MgA|JUDr|MUDr|MVDr|PhDr|RNDr|PaedDr|ThDr|doc|prof|DiS|Ph\.D|MBA|CSc|LL\.M|DrSc|arch)\.?(?=\s|,|$)'
+        clean = lambda x: re.sub(r'\s+', ' ', re.sub(TIT, '', x)).strip(' ,')
+        r = donors.setdefault(k, {'k': k, 'po': d['po'], 'jmeno': parts[0] if d['po'] else clean((parts[1] + ' ' + parts[0]) if len(parts) > 1 else parts[0]),
                                   'misto': (parts[-1] if d['po'] and len(parts) > 1 else (parts[2] if len(parts) > 2 else '')),
                                   'ico': d['id'].zfill(8) if d['po'] and re.fullmatch(r'\d{6,8}', d['id']) else '', 'subjekty': {}, 'zaznamu': 0})
         if d['po'] and len(parts) > 2: r['misto'] = re.sub(r'\d{3}\s?\d{2}$', '', parts[-2] if re.fullmatch(r'\d{5}|\d{3} \d{2}', parts[-1]) else parts[-1]).strip()
@@ -227,8 +229,9 @@ for k in [k for k in donors if k.startswith('fo:') and k.endswith('|')]:
 
 
 def tokens(r):
-    t = [x for x in re.split(r'[^a-z0-9]+', norm(r['jmeno'])) if len(x) >= 3 and x not in ('sro', 'spol', 'cesko', 'czech', 'republika', 'cr', 'group')]
-    return t[:3]
+    stop = {'sro', 'spol', 'as', 'cesko', 'czech', 'republika', 'cr', 'group', 'pro', 'ing', 'mgr', 'dis', 'bc', 'judr', 'mudr', 'phdr', 'rndr', 'phd', 'mba', 'zs', 'ops', 'se', 'ks', 'vos', 'zu', 'a', 'o'}
+    t = [x for x in re.split(r'[^a-z0-9]+', norm(r['jmeno'])) if len(x) >= 2 and x not in stop]
+    return t[:3] if r['po'] else [t[0], t[-1]] if len(t) > 1 else t
 
 
 for r in donors.values():
@@ -248,6 +251,45 @@ for r in donors.values():
     r['subjekty'] = [{'s': k, 'n': v} for k, v in sorted(r['subjekty'].items(), key=lambda x: -x[1])]
     r['n_subj'] = len(r['subjekty'])
     del r['k']
+# ---------- darovací (zvláštní) účty stran ----------
+REG = json.load(open(os.path.join(ROOT, 'data', 'ucty.json'), encoding='utf-8'))
+CFG = json.load(open(os.path.join(ROOT, 'config', 'ucty_map.json'), encoding='utf-8'))
+vs2ic = {}
+for e in REG:
+    if e['typ'].startswith('strany'):
+        for v in CFG['strany'].get(e['cells'][0], []): vs2ic[v] = e['cells'][1].zfill(8)
+DAR_TX = {}
+for f in __import__('glob').glob(os.path.join(ROOT, 'data/raw/darovaci/tx/*.json')):
+    d = json.load(open(f, encoding='utf-8'))
+    DAR_TX[d['ico']] = {'nazev': d['nazev'], 'ucet': d['ucet'], 'url': d['url'], 'bank': d['bank'],
+                        'inc': [(t['date'], t['amount'], ' ' + norm(t['counterparty'] + ' ' + t['message']) + ' ') for t in d['tx'] if t['amount'] > 0]}
+subj_ic = {}
+for nm, ids in subj_cands.items():
+    c0 = C[ids[0]]
+    if c0['typ'] == 'S' and c0['vstrana'] in vs2ic: subj_ic[nm] = vs2ic[c0['vstrana']]
+for r in donors.values():
+    tk = tokens(r)
+    if r['po'] and r.get('ico'): tk_ico = r['ico'].lstrip('0')
+    else: tk_ico = None
+    amt = 0.0; n = 0; ucty = {}
+    for nm in (x['s'] for x in r['subjekty']):
+        ic = subj_ic.get(nm)
+        if not ic or ic not in DAR_TX or not tk: continue
+        for dt, a, txt in DAR_TX[ic]['inc']:
+            if a < 1: continue
+            ok = all(re.search(r'(?<![a-z0-9])' + re.escape(x) + r'(?![a-z0-9])', txt) for x in tk)
+            if not ok and tk_ico and len(tk_ico) >= 6 and tk_ico in txt: ok = True
+            if ok:
+                amt += a; n += 1
+                u = ucty.setdefault(ic, [0, 0]); u[0] += a; u[1] += 1
+    r['na_darovacich'] = round(amt); r['plateb_dar'] = n
+    r['darovaci_ucty'] = [{'ico': ic, 'strana': DAR_TX[ic]['nazev'], 'castka': round(v[0]), 'n': v[1]} for ic, v in sorted(ucty.items(), key=lambda x: -x[1][0])]
+darovaci_out = []
+for ic, d in DAR_TX.items():
+    inc = d['inc']
+    darovaci_out.append({'ico': ic, 'nazev': d['nazev'], 'ucet': d['ucet'], 'url': d['url'], 'prijmu': len(inc), 'castka': round(sum(a for _, a, _ in inc)),
+                         'halerove': sum(1 for _, a, _ in inc if a < 1)})
+
 donor_list = sorted(donors.values(), key=lambda r: (-r['n_subj'], -r['zaznamu']))
 print('darcu', len(donor_list), 'po', sum(r['typ'] == 'po' for r in donor_list), 'strany', sum(r['typ'] == 'strana' for r in donor_list), 's castkou', sum(r['na_uctech'] > 0 for r in donor_list), round(sum(r['na_uctech'] for r in donor_list)))
 
@@ -343,7 +385,7 @@ for c in cands:
 out = {'vygenerovano': '2026-10-19', 'souhrn': souhrn, 'obvody': obvody, 'kandidati': cands, 'ucty': acc_out,
        'bloky': [{'id': k, 'nazev': BLOKY[k][0], 'barva': BLOKY[k][1], **{kk: (round(vv) if isinstance(vv, float) else vv) for kk, vv in by_blok[k].items()}} for k in BLOKY if k in by_blok],
        'subjekty': [{'nazev': k, **v} for k, v in by_vs.items()], 'strany': [{'strana': k, **v} for k, v in sorted(by_party.items(), key=lambda x: -x[1]['vydaje_pomerne'])],
-       'duely': duels, 'darci': {'seznam': donor_list, 'subjekty': subjekty_out, 'vice_subjektu': multi, 'kandidati_darci': cand_donors, 'pozde': D['neoznamili_1kolo']},
+       'duely': duels, 'darovaci': darovaci_out, 'darci': {'seznam': donor_list, 'subjekty': subjekty_out, 'vice_subjektu': multi, 'kandidati_darci': cand_donors, 'pozde': D['neoznamili_1kolo']},
        'priznaky': flags, 'anomalie': ANOM['polozky']}
 os.makedirs(os.path.join(ROOT, 'docs'), exist_ok=True)
 json.dump(out, open(os.path.join(ROOT, 'docs', 'data.json'), 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))

@@ -12,6 +12,7 @@ výdaje kandidátů z transparentních volebních účtů, seznamy dárců a zpr
   - `parse_ucty.py` – registr volebních účtů ÚDHPSH → `data/ucty.json`
   - `fetch_fio.py`, `fetch_kb.py`, `fetch_csas.py`, `fetch_rb.py`, `fetch_moneta.py` – pohyby na účtech → `data/raw/ucty/tx/`
   - `parse_darci.py` – seznamy dárců → `data/darci.json`
+  - `fetch_darovaci.py` – darovací (zvláštní) účty stran z registru ÚDHPSH → `data/raw/darovaci/tx/` (výběr stran v `data/darovaci_vyber.json`)
   - `build.py` – klasifikace transakcí a přiřazení k obvodům → `data/model.json`
   - `analyze.py` – výpočty → `docs/data.json`
 - `config/ucty_map.json` – účet → volební strana, `config/prirazeni.json` – ruční opravy přiřazení, `config/anomalie.json` – ručně ověřené anomálie
