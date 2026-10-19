@@ -1,0 +1,100 @@
+{
+"bank": "csob",
+"id": "138388888",
+"url": "https://www.csob.cz/firmy/bezne-ucty/transparentni-ucty/ucet?account=138388888",
+"owner": "GEN",
+"name": "",
+"number": "138388888/0300",
+"summary": {},
+"tx": [
+{
+"date": "2026-09-26",
+"amount": -8,
+"type": "Za vedení účtu, výpisy a transakce",
+"counterparty": "",
+"message": "",
+"note": "",
+"ks": "",
+"vs": "",
+"ss": ""
+},
+{
+"date": "2026-09-23",
+"amount": 35000,
+"type": "Bezhotovostní převod EB",
+"counterparty": "GEN",
+"message": "",
+"note": "",
+"ks": "0968",
+"vs": "",
+"ss": ""
+},
+{
+"date": "2026-09-23",
+"amount": -34609.87,
+"type": "Odchozí úhrada",
+"counterparty": "",
+"message": "",
+"note": "",
+"ks": "",
+"vs": "2697002819",
+"ss": ""
+},
+{
+"date": "2026-09-18",
+"amount": 48000,
+"type": "Bezhotovostní převod EB",
+"counterparty": "GEN",
+"message": "",
+"note": "",
+"ks": "0968",
+"vs": "",
+"ss": ""
+},
+{
+"date": "2026-09-18",
+"amount": -18876,
+"type": "Odchozí úhrada",
+"counterparty": "Reklamix",
+"message": "ZV 2608173 REKLAMIX S.R.O.",
+"note": "",
+"ks": "",
+"vs": "2608173",
+"ss": ""
+},
+{
+"date": "2026-09-18",
+"amount": -28532,
+"type": "Odchozí úhrada",
+"counterparty": "Reklamix",
+"message": "ZV 2608174 REKLAMIX S.R.O.",
+"note": "",
+"ks": "",
+"vs": "2608174",
+"ss": ""
+},
+{
+"date": "2026-09-17",
+"amount": 10000,
+"type": "Bezhotovostní převod EB",
+"counterparty": "GEN",
+"message": "",
+"note": "",
+"ks": "0968",
+"vs": "",
+"ss": ""
+},
+{
+"date": "2026-09-17",
+"amount": -7139,
+"type": "Odchozí úhrada",
+"counterparty": "Reklamix",
+"message": "ZV2608171 REKLAMIX S.R.O.",
+"note": "",
+"ks": "",
+"vs": "2608171",
+"ss": ""
+}
+],
+"zdroj": "staženo přes prohlížeč 19. 10. 2026"
+}

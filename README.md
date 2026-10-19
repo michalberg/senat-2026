@@ -22,7 +22,7 @@ Přegenerování: `./rebuild.sh` (s `--fetch` znovu stáhne účty).
 
 - ČSÚ, otevřená data SE 2026: https://volby.gov.cz/opendata/se2026/se2026_opendata.htm
 - ÚDHPSH: seznamy dárců, registr volebních účtů, zprávy https://zpravy.udh.gov.cz/zpravy/s2026
-- Transparentní účty Fio, KB, ČS, RB, Moneta (stav k 19. 10. 2026). Účty u ČSOB a UniCredit
-  nejdou stáhnout automaticky (ochrana proti robotům).
+- Transparentní účty Fio, KB, ČS, RB, Moneta (skripty) a ČSOB, UniCredit (chráněné proti robotům –
+  staženo ručně přes prohlížeč do `data/raw/ucty/browser/`, převod `scripts/convert_browser.py`). Stav k 19. 10. 2026.
 
 Vizuální styl a barvy stran podle [povolebni-analyza](https://github.com/michalberg/povolebni-analyza).

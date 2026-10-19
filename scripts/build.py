@@ -144,7 +144,7 @@ def party_of(cp):
     return None
 
 
-PARTY_NAMES = re.compile(r'obcanska demokraticka|starostove a nezavisli|top 09|ceska piratska|piratska strana|krestanska a demokraticka|kdu-csl|strana zelenych|svoboda a prima demokracie|ano 2011|komunisticka strana|sen 21|svobodni|trikolora|volt cesko|pro pravo respekt|prazska mestska strana|nase cesko|stacilo|socialni demokracie|hnuti generace|levice|prisaha|naplno|^ods$|^stan$')
+PARTY_NAMES = re.compile(r'komunistic|ksc|ks cech|obcanska demokraticka|starostove a nezavisli|top 09|ceska piratska|piratska strana|krestanska a demokraticka|kdu-csl|strana zelenych|svoboda a prima demokracie|ano 2011|komunisticka strana|sen 21|svobodni|trikolora|volt cesko|pro pravo respekt|prazska mestska strana|nase cesko|stacilo|socialni demokracie|hnuti generace|levice|prisaha|naplno|^ods$|^stan$')
 
 # ---------- přiřazení k obvodu ----------
 TOWN = {}  # klíčová slova pro obvody

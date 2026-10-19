@@ -1,0 +1,177 @@
+{
+"bank": "unicredit",
+"id": "CZ9627000000001780799048",
+"url": "https://www.unicreditbank.cz/cs/ostatni/transparentni-ucet.html?IBAN=CZ9627000000001780799048",
+"owner": "Hnutí Generace",
+"name": "",
+"number": "1780799048/2700",
+"summary": {},
+"tx": [
+{
+"date": "2026-09-08",
+"amount": 80000,
+"type": "Příchozí platba",
+"counterparty": "Hnutí Generace",
+"message": "",
+"note": "",
+"ks": "",
+"vs": "0",
+"ss": ""
+},
+{
+"date": "2026-09-09",
+"amount": -20000,
+"type": "Odchozí platba",
+"counterparty": "Infinite X",
+"message": "",
+"note": "",
+"ks": "",
+"vs": "490260123",
+"ss": ""
+},
+{
+"date": "2026-09-11",
+"amount": -5808,
+"type": "Odchozí platba",
+"counterparty": "REVAG s.r.o.",
+"message": "",
+"note": "",
+"ks": "",
+"vs": "20260269",
+"ss": ""
+},
+{
+"date": "2026-09-11",
+"amount": -10454.4,
+"type": "Odchozí platba",
+"counterparty": "",
+"message": "",
+"note": "",
+"ks": "",
+"vs": "2026000171",
+"ss": ""
+},
+{
+"date": "2026-09-14",
+"amount": -24600,
+"type": "Odchozí platba",
+"counterparty": "",
+"message": "",
+"note": "",
+"ks": "",
+"vs": "410260408",
+"ss": ""
+},
+{
+"date": "2026-09-16",
+"amount": 5000,
+"type": "Příchozí platba",
+"counterparty": "Bee is Life s.r.o.",
+"message": "",
+"note": "",
+"ks": "",
+"vs": "0",
+"ss": ""
+},
+{
+"date": "2026-09-16",
+"amount": 10000,
+"type": "Příchozí platba",
+"counterparty": "DUSAN VYSKOCIL",
+"message": "",
+"note": "",
+"ks": "",
+"vs": "0",
+"ss": ""
+},
+{
+"date": "2026-09-16",
+"amount": 10000,
+"type": "Příchozí platba",
+"counterparty": "KETTNER RICHARD",
+"message": "",
+"note": "",
+"ks": "",
+"vs": "0",
+"ss": ""
+},
+{
+"date": "2026-09-17",
+"amount": 10000,
+"type": "Příchozí platba",
+"counterparty": "Rumlena Václav",
+"message": "",
+"note": "",
+"ks": "",
+"vs": "0",
+"ss": ""
+},
+{
+"date": "2026-09-21",
+"amount": -12705,
+"type": "Odchozí platba",
+"counterparty": "REVAG s.r.o.",
+"message": "",
+"note": "",
+"ks": "",
+"vs": "20260280",
+"ss": ""
+},
+{
+"date": "2026-09-23",
+"amount": -505.68,
+"type": "Odchozí platba",
+"counterparty": "",
+"message": "",
+"note": "",
+"ks": "",
+"vs": "0",
+"ss": ""
+},
+{
+"date": "2026-09-23",
+"amount": -505.68,
+"type": "Odchozí platba",
+"counterparty": "",
+"message": "",
+"note": "",
+"ks": "",
+"vs": "0",
+"ss": ""
+},
+{
+"date": "2026-09-22",
+"amount": 10000,
+"type": "Příchozí platba",
+"counterparty": "DOBROVOLNÝ LIBOR",
+"message": "",
+"note": "",
+"ks": "",
+"vs": "0",
+"ss": ""
+},
+{
+"date": "2026-09-25",
+"amount": 2000,
+"type": "Příchozí platba",
+"counterparty": "KUBÍCEK PETR",
+"message": "",
+"note": "",
+"ks": "",
+"vs": "0",
+"ss": ""
+},
+{
+"date": "2026-10-02",
+"amount": -47948.31,
+"type": "Odchozí platba",
+"counterparty": "",
+"message": "",
+"note": "",
+"ks": "",
+"vs": "420260569",
+"ss": ""
+}
+],
+"zdroj": "staženo přes prohlížeč 19. 10. 2026"
+}

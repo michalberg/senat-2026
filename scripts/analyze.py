@@ -266,7 +266,7 @@ for r in by_party.values():
 flags = []
 for c in cands:
     if c['stav'] == 'prazdny': flags.append({'id': c['id'], 'typ': 'prazdny_ucet', 'text': 'Volební účet bez jediného pohybu.'})
-    if c['stav'] == 'chybi': flags.append({'id': c['id'], 'typ': 'nedostupny', 'text': 'Transparentní účet nebylo možné automaticky stáhnout (ochrana banky proti robotům).'})
+    if c['stav'] == 'chybi': flags.append({'id': c['id'], 'typ': 'nedostupny', 'text': 'Transparentní účet nebylo možné stáhnout.'})
     if c['stav'] == 'sdileny' and c.get('podil_sdilenych', 0) >= 0.5: flags.append({'id': c['id'], 'typ': 'sdilene', 'text': f"{round(c['podil_sdilenych']*100)} % výdajů nejde z účtu přiřadit k obvodu – rozpočítáno rovným dílem."})
     if c['prijmy'].get('kandidat', 0) >= 50000: flags.append({'id': c['id'], 'typ': 'vlastni_zdroje', 'text': f"Kandidát(ka) vložil(a) na účet {c['prijmy']['kandidat']:,} Kč z vlastních zdrojů.".replace(',', ' ')})
     if c['darci'] and c['darci']['pozde']: flags.append({'id': c['id'], 'typ': 'pozde_darci', 'text': 'Seznam dárců před 1. kolem nebyl oznámen včas (do 6. 10. 2026).'})

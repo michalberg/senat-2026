@@ -122,7 +122,7 @@
     const real = cheapW.filter(c => c.celkem > 0);
     const bl = D.bloky.slice().sort((a, b) => b.celkem - a.celkem);
     return [
-      `Kandidáti utratili přes volební účty dohromady nejméně <b>${mil(s.celkem)} Kč</b> (${s.znamych} ze ${s.kandidatu} kandidátů; u ${s.nedostupnych.length} kandidátů banka data nevydala). Průměrný kandidát utratil ${mil(s.vsichni.prumer)} Kč, medián je ${mil(s.vsichni.median)} Kč.`,
+      `Kandidáti utratili přes volební účty dohromady nejméně <b>${mil(s.celkem)} Kč</b> (${s.znamych === s.kandidatu ? `všech ${s.kandidatu} kandidátů` : `${s.znamych} ze ${s.kandidatu} kandidátů`}). Průměrný kandidát utratil ${mil(s.vsichni.prumer)} Kč, medián je ${mil(s.vsichni.median)} Kč.`,
       `Na <b>postup do 2. kola</b> obvykle stačilo kolem ${mil(s.postupujici.median)} Kč (medián finalistů), nejlevněji (s doloženými výdaji) se do finále dostal(a) ${(() => { const f = fin.filter(c => c.celkem > 0).sort((a, b) => a.celkem - b.celkem)[0]; return `${cLink(f)} (${vsShort(f)}) za ${kc(f.celkem)}`; })()}. Kandidáti, kteří nepostoupili, měli medián jen ${mil(s.nepostupujici.median)} Kč.`,
       `<b>Vítězové</b> utratili v mediánu ${mil(s.vitezove.median)} Kč. Nejdražší mandát: ${cLink(richW[0])} (${vsShort(richW[0])}, ${kc(richW[0].celkem)}); nejlevnější s doloženými výdaji: ${cLink(real[0])} (${vsShort(real[0])}, ${kc(real[0].celkem)}). ${cheapW[0].celkem === 0 ? `${cLink(cheapW[0])} vyhrál(a) s volebním účtem bez jediného pohybu.` : ""}`,
       `Kandidát s největším rozpočtem vyhrál ve <b>${s.nejvetsi_vyhral} z ${s.obvodu}</b> obvodů. Ve 2. kole zvítězil bohatší z dvojice v ${s.bohatsi_vyhral_2k} z ${s.duelu} soubojů – peníze pomáhají, ale nerozhodují: ${cLink(loserRich)} utratil(a) ${kc(loserRich.celkem)} a mandát nezískal(a).`,
@@ -167,7 +167,7 @@
       <div class="sub">${s.obvodu} obvodů · ${s.kandidatu} kandidátů · výdaje z transparentních volebních účtů, stav k <b>19. 10. 2026</b></div></div></div>
     <nav class="toc"><a href="#s-shrnuti">Shrnutí</a><a href="#s-obvody">Obvody</a><a href="#s-potreba">Kolik je potřeba</a><a href="#s-postup">Postup do 2. kola</a><a href="#s-vitezove">Vítězové</a><a href="#s-duely">Souboje 2. kola</a><a href="#s-efekt">Peníze a hlasy</a><a href="#s-cas">V čase</a><a href="#s-zdroje">Zdroje peněz</a></nav>
     <div class="tiles">
-      <div class="tile ours"><span class="lbl">Utraceno celkem</span><span class="val">${mil(s.celkem)}<small>Kč</small></span><span class="d">${s.znamych} kandidátů s daty</span></div>
+      <div class="tile ours"><span class="lbl">Utraceno celkem</span><span class="val">${mil(s.celkem)}<small>Kč</small></span><span class="d">${s.znamych === s.kandidatu ? "všichni kandidáti" : s.znamych + " kandidátů s daty"}</span></div>
       <div class="tile"><span class="lbl">Medián vítěze</span><span class="val">${mil(s.vitezove.median)}<small>Kč</small></span><span class="d">průměr ${mil(s.vitezove.prumer)}</span></div>
       <div class="tile"><span class="lbl">Medián finalisty</span><span class="val">${mil(s.postupujici.median)}<small>Kč</small></span><span class="d">postup do 2. kola</span></div>
       <div class="tile"><span class="lbl">Medián nepostupujícího</span><span class="val">${mil(s.nepostupujici.median)}<small>Kč</small></span><span class="d">${s.nepostupujici.n} kandidátů</span></div>
@@ -383,7 +383,7 @@
     <section class="card"><h2>Zdroje</h2><ul class="find">
       <li>Výsledky a kandidáti: <a href="https://volby.gov.cz/opendata/se2026/se2026_opendata.htm">otevřená data ČSÚ</a> (registr kandidátů a číselníky stav 17. 10. 2026 po 2. kole).</li>
       <li>Seznamy dárců před 1. a 2. kolem: <a href="https://zpravy.udh.gov.cz/public/report/sponzori.php?volby=s2026&seq=1">ÚDHPSH – 1. kolo</a>, <a href="https://zpravy.udh.gov.cz/public/report/sponzori.php?volby=s2026&seq=2">2. kolo</a>. Neobsahují částky.</li>
-      <li>Registr volebních účtů ÚDHPSH (strany a hnutí, koalice, nezávislí) a z něj transparentní účty u Fio (56), KB (8), České spořitelny (4), Raiffeisenbank (2) a Moneta (2) – pohyby od 1. 1. 2026 do 19. 10. 2026.</li>
+      <li>Registr volebních účtů ÚDHPSH (strany a hnutí, koalice, nezávislí) a z něj transparentní účty u Fio (56), KB (8), České spořitelny (4), ČSOB (3), Raiffeisenbank (2), Moneta (2) a UniCredit (1) – pohyby od 1. 1. 2026 do 19. 10. 2026. ČSOB a UniCredit chrání účty proti robotům, jejich data byla stažena ručně přes prohlížeč.</li>
       <li>Zprávy o financování kampaně: <a href="https://zpravy.udh.gov.cz/zpravy/s2026">zpravy.udh.gov.cz</a> – zatím 6 zpráv, všechny podané před volbami; použity jen pro nepeněžní plnění a kontrolu.</li>
     </ul></section>
     <section class="card"><h2>Jak se počítají výdaje</h2><ul class="find">
@@ -397,7 +397,7 @@
     <section class="card"><h2>Limity</h2><ul class="find">
       <li>Data jsou stav k 19. 10. 2026, dva dny po 2. kole. Část faktur se proplatí později; konečné zprávy o financování podají subjekty až v zákonné lhůtě.</li>
       <li>Kampaň placená z centrálních účtů stran mimo volební účet (což zákon nepřipouští) v datech není. Stejně tak nejsou vidět dary posílané na centrální účty stran.</li>
-      <li>Nedostupné účty (ČSOB, UniCredit – ochrana proti robotům): ${s.nedostupnych.map(k => esc(name(C[k]))).join(", ")}.</li>
+      ${s.nedostupnych.length ? `<li>Nedostupné účty: ${s.nedostupnych.map(k => esc(name(C[k]))).join(", ")}.</li>` : ""}
       <li>Seznamy dárců v 2. kole jsou kumulativní; použita je vždy novější verze.</li>
     </ul></section>
     <section class="card"><h2>Volební účty</h2>${table([
